@@ -1,0 +1,9 @@
+# Core dependencies. The Algothon 2026 grading sandbox pinned numpy==2.5.1 and pandas==3.0.3;
+# anything recent works for local research. Plus the stack used by the books, eval.py and tests.
+numpy>=2.0
+pandas>=2.2
+scipy
+scikit-learn
+statsmodels
+matplotlib
+pytest

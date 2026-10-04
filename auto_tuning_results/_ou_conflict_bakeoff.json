@@ -1,0 +1,278 @@
+[
+  {
+    "module": "friend_book_latest",
+    "start": 801,
+    "end": 1000,
+    "score": 839.27,
+    "sharpe": 7.34,
+    "returncode": 0,
+    "tail": "2 todayPL: $1356.72 $-traded: 61198862 return: 0.00273\nDay 998 value: 167878.36 todayPL: $669.74 $-traded: 61272960 return: 0.00274\nDay 999 value: 168890.83 todayPL: $1012.47 $-traded: 61503879 return: 0.00275\nDay 1000 value: 170966.18 todayPL: $2075.35 $-traded: 61503879 return: 0.00278\nSaved PnL plot to eval_plots/eval_pl_friend_book_latest.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_friend_book_latest.png\n=====\nmean(PL): 854.8\nreturn: 0.00278\nStdDev(PL): 1840.48\nannSharpe(PL): 7.34\ntotDvolume: 61503879\nScore: 839.27\n----- PnL distribution -----\nn: 200\nskew: +0.009\nexcess kurtosis: +0.041  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9982  p=0.9987\nJarque-Bera:  JB=0.003  p=0.9984\nAnderson-Darling: A2=0.089  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_baseline",
+    "window": "OOS",
+    "env": {}
+  },
+  {
+    "module": "friend_book_latest",
+    "start": 200,
+    "end": 1000,
+    "score": 982.56,
+    "sharpe": 8.98,
+    "returncode": 0,
+    "tail": "ayPL: $1356.72 $-traded: 233310831 return: 0.00340\nDay 998 value: 793698.30 todayPL: $669.74 $-traded: 233384929 return: 0.00340\nDay 999 value: 794710.77 todayPL: $1012.47 $-traded: 233615848 return: 0.00340\nDay 1000 value: 796786.12 todayPL: $2075.35 $-traded: 233615848 return: 0.00341\nSaved PnL plot to eval_plots/eval_pl_friend_book_latest.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_friend_book_latest.png\n=====\nmean(PL): 994.7\nreturn: 0.00341\nStdDev(PL): 1750.87\nannSharpe(PL): 8.98\ntotDvolume: 233615848\nScore: 982.56\n----- PnL distribution -----\nn: 801\nskew: -0.011\nexcess kurtosis: +0.318  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9978  p=0.3977\nJarque-Bera:  JB=3.187  p=0.2032\nAnderson-Darling: A2=0.476  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_baseline",
+    "window": "full",
+    "env": {}
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 842.51,
+    "sharpe": 7.26,
+    "returncode": 0,
+    "tail": ".22 todayPL: $91.77 $-traded: 66117929 return: 0.00251\nDay 998 value: 167227.35 todayPL: $1512.12 $-traded: 66299065 return: 0.00252\nDay 999 value: 169304.65 todayPL: $2077.31 $-traded: 66520665 return: 0.00255\nDay 1000 value: 171698.08 todayPL: $2393.43 $-traded: 66520665 return: 0.00258\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 858.5\nreturn: 0.00258\nStdDev(PL): 1869.59\nannSharpe(PL): 7.26\ntotDvolume: 66520665\nScore: 842.51\n----- PnL distribution -----\nn: 200\nskew: -0.117\nexcess kurtosis: +0.086  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9916  p=0.2978\nJarque-Bera:  JB=0.470  p=0.7905\nAnderson-Darling: A2=0.651  p=0.09096\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_shared",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "shared"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 829.65,
+    "sharpe": 7.51,
+    "returncode": 0,
+    "tail": "0 todayPL: $91.77 $-traded: 253735375 return: 0.00264\nDay 998 value: 671845.52 todayPL: $1512.12 $-traded: 253916511 return: 0.00265\nDay 999 value: 673922.83 todayPL: $2077.31 $-traded: 254138112 return: 0.00265\nDay 1000 value: 676316.26 todayPL: $2393.43 $-traded: 254138112 return: 0.00266\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 844.3\nreturn: 0.00266\nStdDev(PL): 1776.62\nannSharpe(PL): 7.51\ntotDvolume: 254138112\nScore: 829.65\n----- PnL distribution -----\nn: 801\nskew: -0.049\nexcess kurtosis: +0.237  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9982  p=0.5493\nJarque-Bera:  JB=2.053  p=0.3582\nAnderson-Darling: A2=0.359  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_shared",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "shared"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 842.51,
+    "sharpe": 7.26,
+    "returncode": 0,
+    "tail": ".22 todayPL: $91.77 $-traded: 66117929 return: 0.00251\nDay 998 value: 167227.35 todayPL: $1512.12 $-traded: 66299065 return: 0.00252\nDay 999 value: 169304.65 todayPL: $2077.31 $-traded: 66520665 return: 0.00255\nDay 1000 value: 171698.08 todayPL: $2393.43 $-traded: 66520665 return: 0.00258\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 858.5\nreturn: 0.00258\nStdDev(PL): 1869.59\nannSharpe(PL): 7.26\ntotDvolume: 66520665\nScore: 842.51\n----- PnL distribution -----\nn: 200\nskew: -0.117\nexcess kurtosis: +0.086  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9916  p=0.2978\nJarque-Bera:  JB=0.470  p=0.7905\nAnderson-Darling: A2=0.651  p=0.09096\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_shared_m015",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "shared",
+      "MERGED_CONSENSUS_MARGIN": "0.15"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 829.65,
+    "sharpe": 7.51,
+    "returncode": 0,
+    "tail": "0 todayPL: $91.77 $-traded: 253735375 return: 0.00264\nDay 998 value: 671845.52 todayPL: $1512.12 $-traded: 253916511 return: 0.00265\nDay 999 value: 673922.83 todayPL: $2077.31 $-traded: 254138112 return: 0.00265\nDay 1000 value: 676316.26 todayPL: $2393.43 $-traded: 254138112 return: 0.00266\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 844.3\nreturn: 0.00266\nStdDev(PL): 1776.62\nannSharpe(PL): 7.51\ntotDvolume: 254138112\nScore: 829.65\n----- PnL distribution -----\nn: 801\nskew: -0.049\nexcess kurtosis: +0.237  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9982  p=0.5493\nJarque-Bera:  JB=2.053  p=0.3582\nAnderson-Darling: A2=0.359  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_shared_m015",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "shared",
+      "MERGED_CONSENSUS_MARGIN": "0.15"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 832.07,
+    "sharpe": 7.22,
+    "returncode": 0,
+    "tail": ".57 todayPL: $91.77 $-traded: 65423896 return: 0.00250\nDay 998 value: 165349.69 todayPL: $1512.12 $-traded: 65605032 return: 0.00252\nDay 999 value: 167427.00 todayPL: $2077.31 $-traded: 65806665 return: 0.00254\nDay 1000 value: 169606.26 todayPL: $2179.27 $-traded: 65806665 return: 0.00258\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 848.0\nreturn: 0.00258\nStdDev(PL): 1856.81\nannSharpe(PL): 7.22\ntotDvolume: 65806665\nScore: 832.07\n----- PnL distribution -----\nn: 200\nskew: -0.127\nexcess kurtosis: +0.132  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9909  p=0.2445\nJarque-Bera:  JB=0.611  p=0.7366\nAnderson-Darling: A2=0.676  p=0.08032\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_ou_flat",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "ou_flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 831.69,
+    "sharpe": 7.54,
+    "returncode": 0,
+    "tail": "1 todayPL: $91.77 $-traded: 251732918 return: 0.00267\nDay 998 value: 673642.73 todayPL: $1512.12 $-traded: 251914053 return: 0.00267\nDay 999 value: 675720.03 todayPL: $2077.31 $-traded: 252115686 return: 0.00268\nDay 1000 value: 677899.30 todayPL: $2179.27 $-traded: 252115686 return: 0.00269\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 846.3\nreturn: 0.00269\nStdDev(PL): 1774.44\nannSharpe(PL): 7.54\ntotDvolume: 252115686\nScore: 831.69\n----- PnL distribution -----\nn: 801\nskew: -0.031\nexcess kurtosis: +0.207  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9983  p=0.6032\nJarque-Bera:  JB=1.449  p=0.4846\nAnderson-Darling: A2=0.334  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_ou_flat",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "ou_flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 776.25,
+    "sharpe": 6.87,
+    "returncode": 0,
+    "tail": "523.73 todayPL: $734.06 $-traded: 65270313 return: 0.00237\nDay 998 value: 155011.70 todayPL: $487.97 $-traded: 65312142 return: 0.00237\nDay 999 value: 157014.83 todayPL: $2003.13 $-traded: 65483886 return: 0.00240\nDay 1000 value: 158539.54 todayPL: $1524.72 $-traded: 65483886 return: 0.00242\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 792.7\nreturn: 0.00242\nStdDev(PL): 1824.20\nannSharpe(PL): 6.87\ntotDvolume: 65483886\nScore: 776.25\n----- PnL distribution -----\nn: 200\nskew: +0.280\nexcess kurtosis: +0.451  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9892  p=0.1364\nJarque-Bera:  JB=3.982  p=0.1366\nAnderson-Darling: A2=0.377  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_twopass",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "twopass"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 891.4,
+    "sharpe": 8.12,
+    "returncode": 0,
+    "tail": "0 todayPL: $734.06 $-traded: 251355765 return: 0.00287\nDay 998 value: 721325.17 todayPL: $487.97 $-traded: 251397594 return: 0.00287\nDay 999 value: 723328.30 todayPL: $2003.13 $-traded: 251569337 return: 0.00288\nDay 1000 value: 724853.02 todayPL: $1524.72 $-traded: 251569337 return: 0.00288\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 904.9\nreturn: 0.00288\nStdDev(PL): 1762.98\nannSharpe(PL): 8.12\ntotDvolume: 251569337\nScore: 891.40\n----- PnL distribution -----\nn: 801\nskew: -0.040\nexcess kurtosis: +0.357  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9969  p=0.1272\nJarque-Bera:  JB=4.234  p=0.1204\nAnderson-Darling: A2=0.521  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_ou_twopass",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "twopass"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 774.11,
+    "sharpe": 8.25,
+    "returncode": 0,
+    "label": "sleeve_v2",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 775.35,
+    "sharpe": 8.32,
+    "returncode": 0,
+    "label": "sleeve_v2",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 761.41,
+    "sharpe": 7.94,
+    "returncode": 0,
+    "label": "sleeve_demand_v2",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_SPLIT": "demand"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 741.34,
+    "sharpe": 7.82,
+    "returncode": 0,
+    "label": "sleeve_demand_v2",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_SPLIT": "demand"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 781.57,
+    "sharpe": 7.99,
+    "returncode": 0,
+    "label": "sleeve_ou35",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_FRAC": "0.35"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 816.21,
+    "sharpe": 8.48,
+    "returncode": 0,
+    "label": "sleeve_ou35",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_FRAC": "0.35"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 749.12,
+    "sharpe": 7.45,
+    "returncode": 0,
+    "label": "sleeve_stronger",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_OPPOSE": "stronger"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 713.34,
+    "sharpe": 7.26,
+    "returncode": 0,
+    "label": "sleeve_stronger",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_OPPOSE": "stronger"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 774.11,
+    "sharpe": 8.25,
+    "returncode": 0,
+    "label": "sleeve_flat",
+    "window": "OOS",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_OPPOSE": "flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 200,
+    "end": 1000,
+    "score": 775.35,
+    "sharpe": 8.32,
+    "returncode": 0,
+    "label": "sleeve_flat",
+    "window": "full",
+    "env": {
+      "MERGED_OU_CONFLICT": "sleeve",
+      "MERGED_OU_SLEEVE_OPPOSE": "flat"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "params": {
+    "q_beta": 1e-06,
+    "h": 6.0,
+    "cusum_k": 0.45,
+    "min_seg_len": 30,
+    "target_seg": 50,
+    "adapt_bars": 14,
+    "snap_overshoot": 1.15,
+    "snap_window": 8,
+    "cov_inflate": 50.0,
+    "entry_h_mult": 0.3,
+    "exit_h_mult": 0.22,
+    "stop_h_mult": 0.7
+  },
+  "meta": {
+    "label": "trade-only",
+    "tune_objective": 6.213402324170224,
+    "baseline_objective": 3.8563494122074022,
+    "n_trials": 40,
+    "adopt": false
+  }
+}

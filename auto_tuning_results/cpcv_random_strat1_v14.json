@@ -1,0 +1,357 @@
+{
+  "module": "random_strat1",
+  "start": 251,
+  "end": 1000,
+  "method": "combinatorial_purged_cv",
+  "reference": "Lopez de Prado, Advances in Financial Machine Learning, Ch.12",
+  "note": "Parameters are frozen. CPCV scores combinatorial OOS paths on the causal daily PnL series; purge/embargo drop boundary days from each path so adjacent-group serial dependence does not inflate the path-score distribution.",
+  "full_window": {
+    "n_days": 750,
+    "mean": 718.4176571858671,
+    "std": 2312.0265703212876,
+    "sharpe": 4.913083909052286,
+    "score": 689.8391540583502,
+    "total_pnl": 538813.2428894003
+  },
+  "conventional_slices": {
+    "dev_251_750": {
+      "n_days": 500,
+      "mean": 604.6626153651997,
+      "std": 2306.0094882838284,
+      "sharpe": 4.145930643874718,
+      "score": 571.4188290821027,
+      "total_pnl": 302331.3076825999
+    },
+    "val_501_750": {
+      "n_days": 250,
+      "mean": 794.8910866776,
+      "std": 2418.3835218193776,
+      "sharpe": 5.196996884465375,
+      "score": 766.5110150470853,
+      "total_pnl": 198722.7716694
+    },
+    "oos_751_1000": {
+      "n_days": 250,
+      "mean": 945.9277408272019,
+      "std": 2307.2494031350466,
+      "sharpe": 6.4823641494649475,
+      "score": 923.9401823760095,
+      "total_pnl": 236481.93520680047
+    },
+    "all_251_1000": {
+      "n_days": 750,
+      "mean": 718.4176571858671,
+      "std": 2312.0265703212876,
+      "sharpe": 4.913083909052286,
+      "score": 689.8391540583502,
+      "total_pnl": 538813.2428894003
+    }
+  },
+  "cpcv": {
+    "n_groups": 6,
+    "n_test_groups": 2,
+    "n_paths": 15,
+    "purge": 10,
+    "pct_embargo": 0.01,
+    "embargo_days": 8,
+    "group_spans": [
+      {
+        "group": 0,
+        "start": 251,
+        "end": 375,
+        "n": 125
+      },
+      {
+        "group": 1,
+        "start": 376,
+        "end": 500,
+        "n": 125
+      },
+      {
+        "group": 2,
+        "start": 501,
+        "end": 625,
+        "n": 125
+      },
+      {
+        "group": 3,
+        "start": 626,
+        "end": 750,
+        "n": 125
+      },
+      {
+        "group": 4,
+        "start": 751,
+        "end": 875,
+        "n": 125
+      },
+      {
+        "group": 5,
+        "start": 876,
+        "end": 1000,
+        "n": 125
+      }
+    ],
+    "score_summary": {
+      "mean": 673.5424589461992,
+      "median": 742.3513773525467,
+      "std": 238.6338411010376,
+      "p05": 336.09852060527936,
+      "p25": 502.67859035409185,
+      "p75": 838.0626048668873,
+      "p95": 981.0915207747933,
+      "min": 309.25493315626284,
+      "max": 1119.114697812651,
+      "frac_positive": 1.0
+    },
+    "sharpe_summary": {
+      "mean": 4.743330604473114,
+      "median": 5.081900256322737,
+      "std": 1.4395112961222372,
+      "p05": 2.6718802351375204,
+      "p25": 3.8147901256692323,
+      "p75": 5.691892186872927,
+      "p95": 6.680838668482837,
+      "min": 2.588975384369658,
+      "max": 7.410497008847109,
+      "frac_positive": 1.0
+    },
+    "mean_pnl_summary": {
+      "mean": 705.283238564767,
+      "median": 771.0960419199997,
+      "std": 230.56577281410472,
+      "p05": 383.1350185699993,
+      "p25": 537.2265958486385,
+      "p75": 863.7622660756307,
+      "p95": 1003.1190761903782,
+      "min": 355.393148703333,
+      "max": 1139.493559743478,
+      "frac_positive": 1.0
+    },
+    "group_mean_path_score": {
+      "0": 481.36001362533824,
+      "1": 596.9471221050454,
+      "2": 620.9880269685965,
+      "3": 807.6451514190373,
+      "4": 918.157506995801,
+      "5": 616.1569325633764
+    }
+  },
+  "paths": [
+    {
+      "test_groups": [
+        0,
+        1
+      ],
+      "n_scored_days": 240,
+      "mean": 355.393148703333,
+      "std": 2170.456740350729,
+      "sharpe": 2.588975384369658,
+      "score": 309.25493315626284,
+      "total_pnl": 85294.35568879991,
+      "first_day": 251,
+      "last_day": 490
+    },
+    {
+      "test_groups": [
+        0,
+        2
+      ],
+      "n_scored_days": 220,
+      "mean": 395.0243913699992,
+      "std": 2306.9583097943255,
+      "sharpe": 2.7074108854666044,
+      "score": 347.6029152262864,
+      "total_pnl": 86905.36610139982,
+      "first_day": 251,
+      "last_day": 615
+    },
+    {
+      "test_groups": [
+        0,
+        3
+      ],
+      "n_scored_days": 220,
+      "mean": 649.9246287618184,
+      "std": 2455.361753168882,
+      "sharpe": 4.185212487883378,
+      "score": 614.8239318782187,
+      "total_pnl": 142983.41832760005,
+      "first_day": 251,
+      "last_day": 740
+    },
+    {
+      "test_groups": [
+        0,
+        4
+      ],
+      "n_scored_days": 220,
+      "mean": 783.2583328472718,
+      "std": 2381.666244960669,
+      "sharpe": 5.199889643111099,
+      "score": 755.3235827208428,
+      "total_pnl": 172316.83322639982,
+      "first_day": 251,
+      "last_day": 865
+    },
+    {
+      "test_groups": [
+        0,
+        5
+      ],
+      "n_scored_days": 230,
+      "mean": 422.39130923304594,
+      "std": 2236.649921813751,
+      "sharpe": 2.9859804791305247,
+      "score": 379.79470514508034,
+      "total_pnl": 97150.00112360057,
+      "first_day": 251,
+      "last_day": 1000
+    },
+    {
+      "test_groups": [
+        1,
+        2
+      ],
+      "n_scored_days": 230,
+      "mean": 583.6624004278243,
+      "std": 2238.5411599602644,
+      "sharpe": 4.122556696670081,
+      "score": 551.2285556956327,
+      "total_pnl": 134242.3520983996,
+      "first_day": 386,
+      "last_day": 615
+    },
+    {
+      "test_groups": [
+        1,
+        3
+      ],
+      "n_scored_days": 210,
+      "mean": 771.0960419199997,
+      "std": 2399.1220451189215,
+      "sharpe": 5.081900256322737,
+      "score": 742.3513773525467,
+      "total_pnl": 161930.16880319995,
+      "first_day": 386,
+      "last_day": 740
+    },
+    {
+      "test_groups": [
+        1,
+        4
+      ],
+      "n_scored_days": 210,
+      "mean": 910.7789700095223,
+      "std": 2312.489283595349,
+      "sharpe": 6.227349918211035,
+      "score": 887.8835060299103,
+      "total_pnl": 191263.58370199968,
+      "first_day": 386,
+      "last_day": 865
+    },
+    {
+      "test_groups": [
+        1,
+        5
+      ],
+      "n_scored_days": 220,
+      "mean": 527.7125072690928,
+      "std": 2179.118279747097,
+      "sharpe": 3.8290107706364833,
+      "score": 494.0172382908744,
+      "total_pnl": 116096.75159920043,
+      "first_day": 386,
+      "last_day": 1000
+    },
+    {
+      "test_groups": [
+        2,
+        3
+      ],
+      "n_scored_days": 230,
+      "mean": 816.7455621417391,
+      "std": 2455.7203532003127,
+      "sharpe": 5.258693730816283,
+      "score": 788.2417037038645,
+      "total_pnl": 187851.4792926,
+      "first_day": 511,
+      "last_day": 740
+    },
+    {
+      "test_groups": [
+        2,
+        4
+      ],
+      "n_scored_days": 210,
+      "mean": 930.7132508428559,
+      "std": 2403.696560102367,
+      "sharpe": 6.122182329531873,
+      "score": 906.5270177998894,
+      "total_pnl": 195449.78267699975,
+      "first_day": 511,
+      "last_day": 865
+    },
+    {
+      "test_groups": [
+        2,
+        5
+      ],
+      "n_scored_days": 220,
+      "mean": 546.7406844281841,
+      "std": 2274.5878756478787,
+      "sharpe": 3.800569480701981,
+      "score": 511.33994241730926,
+      "total_pnl": 120282.9505742005,
+      "first_day": 511,
+      "last_day": 1000
+    },
+    {
+      "test_groups": [
+        3,
+        4
+      ],
+      "n_scored_days": 230,
+      "mean": 1139.493559743478,
+      "std": 2431.2775672000053,
+      "sharpe": 7.410497008847109,
+      "score": 1119.114697812651,
+      "total_pnl": 262083.51874099995,
+      "first_day": 636,
+      "last_day": 865
+    },
+    {
+      "test_groups": [
+        3,
+        5
+      ],
+      "n_scored_days": 220,
+      "mean": 801.6409218200034,
+      "std": 2408.972739905192,
+      "sharpe": 5.261602044213982,
+      "score": 773.6940463479058,
+      "total_pnl": 176361.00280040075,
+      "first_day": 636,
+      "last_day": 1000
+    },
+    {
+      "test_groups": [
+        4,
+        5
+      ],
+      "n_scored_days": 240,
+      "mean": 944.6728689533358,
+      "std": 2345.5228385470396,
+      "sharpe": 6.368127951183864,
+      "score": 921.9387306157116,
+      "total_pnl": 226721.48854880058,
+      "first_day": 761,
+      "last_day": 1000
+    }
+  ],
+  "plots": {
+    "score_hist": "auto_tuning_results/cpcv_v14/cpcv_score_hist_random_strat1.png",
+    "group_heatmap": "auto_tuning_results/cpcv_v14/cpcv_group_heatmap_random_strat1.png",
+    "cum_pnl": "auto_tuning_results/cpcv_v14/cpcv_cum_pnl_random_strat1.png"
+  }
+}

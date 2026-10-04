@@ -1,0 +1,282 @@
+//@version=6
+// =============================================================================
+// Kalman + CUSUM Beta Filter (pairs) -- online change detection
+//
+// Port of "Kalman + CUSUM Segmentation" with the local-linear-trend price
+// filter replaced by the 2-state pairs Kalman used in this repo:
+//
+//     y_t = alpha_t + beta_t * x_t + eps_t,     eps ~ N(0, R)
+//     [alpha, beta]_t = [alpha, beta]_{t-1} + w_t,   w ~ N(0, Q)
+//
+// Chart symbol = Y (dependent). Hedge leg X is pulled via request.security.
+// Detection / segmentation constants match the sibling price script; keep
+// them in sync manually if you use both.
+//
+// PIPELINE
+//   1. Pairs Kalman (alpha, beta) with H_t = [1, x_t] whitens the residual.
+//   2. Innovations standardized by EWMA variance (CUSUM input).
+//   3. Two-sided mean CUSUM declares cuts, backdated to the winning run
+//      start [Hinkley 1971].
+//   4. Variance CUSUM on (z^2-1)/sqrt(2) always runs; optional cuts.
+//   5. Cuts closing a segment shorter than minSegLen are discarded/merged.
+//   6. Accepted cut -> inflate P so beta/alpha re-adapt faster.
+//   7. Optional adaptive h targeting a desired average segment length.
+//
+// NON-REPAINT: confirmed bars only; divider lines drawn once at the
+// backdated cut and never moved.
+// =============================================================================
+indicator("Kalman + CUSUM Beta (Pairs)", "K+CUSUM β", overlay = false, max_lines_count = 500)
+
+// ---------------------------------------------------------------- inputs ---
+grpP = "Pair"
+hedgeSym   = input.symbol("", "Hedge leg X (blank = none)", group = grpP,
+     tooltip = "Independent leg. Chart ticker is Y. Leave blank to disable the filter.")
+useLog     = input.bool(false, "Log prices", group = grpP,
+     tooltip = "If on, filter log(Y) ~ alpha + beta * log(X).")
+srcY       = input.source(close, "Y source", group = grpP)
+
+grpM = "Detection model"
+qAlpha     = input.float(0.001, "Alpha noise ratio Q_alpha/R", minval = 0.0000001, step = 0.0001, group = grpM,
+     tooltip = "Process noise of the intercept. Higher = alpha tracks faster.")
+qBeta      = input.float(0.0001, "Beta noise ratio Q_beta/R", minval = 0.00000001, step = 0.00001, group = grpM,
+     tooltip = "Process noise of the hedge ratio. Higher = beta drifts freely; lower = more sensitive to beta breaks.")
+obsR       = input.float(1.0, "Observation noise R", minval = 0.000001, step = 0.1, group = grpM,
+     tooltip = "Scalar residual variance. Q diagonals are qAlpha*R and qBeta*R.")
+ewmaLambda = input.float(0.97, "EWMA variance memory (lambda)", minval = 0.8, maxval = 0.999, step = 0.005, group = grpM,
+     tooltip = "Recursive innovation variance for CUSUM standardization (RiskMetrics).")
+warmupBars = input.int(30, "Warm-up / OLS init bars", minval = 10, group = grpM,
+     tooltip = "OLS warm-start of [alpha, beta] and P over the first N bars; CUSUM starts after this.")
+
+grpC = "CUSUM"
+cusumK    = input.float(0.5, "Allowance k (sigma)", minval = 0.0, step = 0.1, group = grpC,
+     tooltip = "Reference value: k = half the target shift in sigma units. 0.5 targets a 1-sigma mean shift.")
+autoH     = input.bool(true, "Derive threshold h from target segment length", group = grpC)
+targetSeg = input.int(30, "Target average segment length (bars)", minval = 5, group = grpC)
+hFixed    = input.float(4.0, "Fixed threshold h", minval = 1.0, step = 0.5, group = grpC)
+hInit     = input.float(4.0, "Auto: starting h", minval = 1.0, step = 0.5, group = grpC)
+hGain     = input.float(0.02, "Auto: controller gain", minval = 0.001, maxval = 0.2, step = 0.005, group = grpC)
+minSegLen = input.int(15, "Minimum segment length (bars)", minval = 3, group = grpC,
+     tooltip = "THE lever for 'no tiny segments'. Raise this (not h) if small segments persist.")
+volCut    = input.bool(false, "Volatility shift also cuts the segment", group = grpC)
+covInflate = input.float(5.0, "Covariance inflation after a cut", minval = 1.0, step = 1.0, group = grpC,
+     tooltip = "Inflate P after an accepted cut so alpha/beta re-adapt faster [Severo & Gama 2010].")
+
+grpD = "Display"
+bandWidth    = input.float(2.0, "Beta band width (sigma of P_beta)", minval = 0.1, step = 0.1, group = grpD)
+showBands    = input.bool(true, "Show beta uncertainty bands", group = grpD)
+showAlpha    = input.bool(false, "Plot alpha", group = grpD)
+showResid    = input.bool(false, "Plot standardized residual z", group = grpD)
+showDividers = input.bool(true, "Segment divider lines", group = grpD)
+showPanel    = input.bool(true, "Status panel", group = grpD)
+
+// -------------------------------------------------------------- series ---
+float rawY = srcY
+float rawX = hedgeSym == "" ? na : request.security(hedgeSym, timeframe.period, close, gaps = barmerge.gaps_off, lookahead = barmerge.lookahead_off)
+float y = useLog ? (rawY > 0 ? math.log(rawY) : na) : rawY
+float x = useLog ? (rawX > 0 ? math.log(rawX) : na) : rawX
+bool pairOk = not na(y) and not na(x)
+
+// ----------------------------------------------------------------- state ---
+var float kAlpha   = na
+var float kBeta    = na
+var float p11      = 1.0   // Var(alpha)
+var float p12      = 0.0   // Cov(alpha, beta)
+var float p22      = 1.0   // Var(beta)
+var float innovVar = na
+var float cmUp = 0.0
+var float cmDn = 0.0
+var float cvUp = 0.0
+var float cvDn = 0.0
+var int runMUp = na
+var int runMDn = na
+var int runVUp = na
+var int runVDn = na
+var int   segStartBar = na
+var float hLive      = na
+var float segLenEwma = na
+var bool  inited     = false
+var float sumY  = 0.0
+var float sumX  = 0.0
+var float sumXX = 0.0
+var float sumXY = 0.0
+var float sumYY = 0.0
+var int   nInit = 0
+bool cutEvent      = false
+bool volShiftEvent = false
+
+float Q_a = qAlpha * obsR
+float Q_b = qBeta * obsR
+
+// ------------------------------------------------------------- main loop ---
+if barstate.isconfirmed and pairOk
+    if na(segStartBar)
+        segStartBar := bar_index
+        hLive := hInit
+
+    // ---- OLS warm-start over the first warmupBars ----
+    if not inited
+        nInit += 1
+        sumY  += y
+        sumX  += x
+        sumXX += x * x
+        sumXY += x * y
+        sumYY += y * y
+        if nInit >= warmupBars
+            float det = nInit * sumXX - sumX * sumX
+            if math.abs(det) > 1e-12
+                kBeta  := (nInit * sumXY - sumX * sumY) / det
+                kAlpha := (sumY - kBeta * sumX) / nInit
+            else
+                kBeta  := 1.0
+                kAlpha := 0.0
+            float rss = sumYY - 2.0 * kAlpha * sumY - 2.0 * kBeta * sumXY + nInit * kAlpha * kAlpha + 2.0 * kAlpha * kBeta * sumX + kBeta * kBeta * sumXX
+            float s2  = math.max(rss / math.max(nInit - 2, 1), 1e-10)
+            // P0 ≈ s2 * (Z'Z)^{-1}
+            p11 := s2 * sumXX / det
+            p12 := s2 * (-sumX) / det
+            p22 := s2 * nInit / det
+            p11 := math.max(p11, 1e-8)
+            p22 := math.max(p22, 1e-8)
+            inited := true
+    else
+        // ---- Kalman predict (F = I) ----
+        float pp11 = p11 + Q_a
+        float pp12 = p12
+        float pp22 = p22 + Q_b
+
+        // H = [1, x], innovation
+        float yhat  = kAlpha + kBeta * x
+        float innov = y - yhat
+        float sPred = pp11 + 2.0 * x * pp12 + x * x * pp22 + obsR
+        sPred := math.max(sPred, 1e-12)
+
+        // Gain K = P H' / S
+        float g1 = (pp11 + pp12 * x) / sPred
+        float g2 = (pp12 + pp22 * x) / sPred
+
+        kAlpha := kAlpha + g1 * innov
+        kBeta  := kBeta  + g2 * innov
+
+        // Joseph-form covariance update (matches kalman_pair.py)
+        float a00 = 1.0 - g1
+        float a01 = -g1 * x
+        float a10 = -g2
+        float a11 = 1.0 - g2 * x
+        float m00 = a00 * pp11 + a01 * pp12
+        float m01 = a00 * pp12 + a01 * pp22
+        float m10 = a10 * pp11 + a11 * pp12
+        float m11 = a10 * pp12 + a11 * pp22
+        float out00 = m00 * a00 + m01 * a01 + g1 * obsR * g1
+        float out01 = m00 * a10 + m01 * a11 + g1 * obsR * g2
+        float out10 = m10 * a00 + m11 * a01 + g2 * obsR * g1
+        float out11 = m10 * a10 + m11 * a11 + g2 * obsR * g2
+        p11 := out00
+        p12 := 0.5 * (out01 + out10)
+        p22 := out11
+
+        innovVar := na(innovVar) ? innov * innov : ewmaLambda * innovVar + (1.0 - ewmaLambda) * innov * innov
+        float zInnov = innovVar > 0 ? innov / math.sqrt(innovVar) : 0.0
+
+        float hWork = autoH ? nz(hLive, hInit) : hFixed
+
+        if bar_index >= warmupBars
+            float prevUp = cmUp
+            float prevDn = cmDn
+            cmUp := math.max(0.0, cmUp + zInnov - cusumK)
+            cmDn := math.max(0.0, cmDn - zInnov - cusumK)
+            runMUp := cmUp > 0 and prevUp == 0 ? bar_index : cmUp == 0 ? int(na) : runMUp
+            runMDn := cmDn > 0 and prevDn == 0 ? bar_index : cmDn == 0 ? int(na) : runMDn
+
+            float dV = (zInnov * zInnov - 1.0) / math.sqrt(2.0)
+            float prevVUp = cvUp
+            float prevVDn = cvDn
+            cvUp := math.max(0.0, cvUp + dV - cusumK)
+            cvDn := math.max(0.0, cvDn - dV - cusumK)
+            runVUp := cvUp > 0 and prevVUp == 0 ? bar_index : cvUp == 0 ? int(na) : runVUp
+            runVDn := cvDn > 0 and prevVDn == 0 ? bar_index : cvDn == 0 ? int(na) : runVDn
+
+            bool meanAlarm = cmUp > hWork or cmDn > hWork
+            bool volAlarm  = cvUp > hWork or cvDn > hWork
+            if volAlarm
+                volShiftEvent := true
+                if not volCut
+                    cvUp := 0.0
+                    cvDn := 0.0
+                    runVUp := int(na)
+                    runVDn := int(na)
+
+            bool wantCut = meanAlarm or (volCut and volAlarm)
+            if wantCut
+                float best = -1.0
+                int cutBar = na
+                if cmUp > hWork and cmUp > best
+                    best := cmUp
+                    cutBar := runMUp
+                if cmDn > hWork and cmDn > best
+                    best := cmDn
+                    cutBar := runMDn
+                if volCut and cvUp > hWork and cvUp > best
+                    best := cvUp
+                    cutBar := runVUp
+                if volCut and cvDn > hWork and cvDn > best
+                    best := cvDn
+                    cutBar := runVDn
+                cutBar := na(cutBar) ? bar_index : cutBar
+                cutBar := math.max(cutBar, segStartBar + 1)
+                int closedLen = cutBar - segStartBar
+
+                cmUp := 0.0
+                cmDn := 0.0
+                cvUp := 0.0
+                cvDn := 0.0
+                runMUp := int(na)
+                runMDn := int(na)
+                runVUp := int(na)
+                runVDn := int(na)
+
+                if closedLen >= minSegLen
+                    cutEvent := true
+                    if showDividers
+                        float half = math.max(bandWidth * math.sqrt(math.max(p22, 0.0)), math.abs(kBeta) * 0.05 + 0.01)
+                        line.new(cutBar, kBeta + half, cutBar, kBeta - half, xloc = xloc.bar_index, extend = extend.both,
+                             color = color.new(chart.fg_color, 40), style = line.style_dashed, width = 1)
+
+                    if autoH
+                        segLenEwma := na(segLenEwma) ? closedLen : 0.1 * closedLen + 0.9 * segLenEwma
+                        float err = (targetSeg - segLenEwma) / targetSeg
+                        hLive := math.max(1.0, nz(hLive, hInit) + hGain * err * nz(hLive, hInit))
+
+                    segStartBar := cutBar
+                    p11 := p11 * covInflate
+                    p22 := p22 * covInflate
+
+// -------------------------------------------------------------- rendering ---
+float betaStd = math.sqrt(math.max(nz(p22, 0.0), 0.0))
+float zChan   = na(innovVar) or innovVar <= 0 or not inited ? na : (y - (kAlpha + kBeta * x)) / math.sqrt(innovVar)
+
+plot(inited ? kBeta : na, "Beta", color = color.orange, linewidth = 2)
+plot(showBands and inited ? kBeta + bandWidth * betaStd : na, "Beta +", color = color.new(color.gray, 55))
+plot(showBands and inited ? kBeta - bandWidth * betaStd : na, "Beta -", color = color.new(color.gray, 55))
+plot(showAlpha and inited ? kAlpha : na, "Alpha", color = color.new(color.teal, 0), linewidth = 1)
+plot(showResid ? zChan : na, "z innov", color = color.new(color.fuchsia, 30), display = display.pane)
+
+hline(0, "Zero", color = color.new(color.gray, 70), linestyle = hline.style_dotted)
+
+var table panel = table.new(position.top_right, 2, 5, border_width = 1)
+if showPanel and barstate.islast
+    color bg = color.new(color.gray, 30)
+    string hShown = autoH ? str.tostring(nz(hLive, hInit), "#.##") + (na(segLenEwma) ? "" : " (~" + str.tostring(segLenEwma, "#") + "b)") : str.tostring(hFixed, "#.#")
+    table.cell(panel, 0, 0, "Beta", text_color = color.white, bgcolor = bg)
+    table.cell(panel, 1, 0, str.tostring(kBeta, "#.####"), text_color = color.white, bgcolor = bg)
+    table.cell(panel, 0, 1, "Segment (bars)", text_color = color.white, bgcolor = bg)
+    table.cell(panel, 1, 1, str.tostring(bar_index - nz(segStartBar, bar_index)), text_color = color.white, bgcolor = bg)
+    table.cell(panel, 0, 2, "CUSUM / h", text_color = color.white, bgcolor = bg)
+    table.cell(panel, 1, 2, str.tostring(math.max(cmUp, cmDn), "#.#") + " / " + hShown, text_color = color.white, bgcolor = bg)
+    table.cell(panel, 0, 3, "CUSUM vol", text_color = color.white, bgcolor = bg)
+    table.cell(panel, 1, 3, str.tostring(math.max(cvUp, cvDn), "#.#") + " / " + str.tostring(autoH ? nz(hLive, hInit) : hFixed, "#.#"), text_color = color.white, bgcolor = bg)
+    table.cell(panel, 0, 4, "z (resid)", text_color = color.white, bgcolor = bg)
+    table.cell(panel, 1, 4, str.tostring(zChan, "#.##"), text_color = color.white, bgcolor = bg)
+
+// ---------------------------------------------------------------- alerts ---
+alertcondition(cutEvent,      "Beta regime cut (backdated)", "K+CUSUM β: new beta segment ({{ticker}} vs hedge, {{interval}})")
+alertcondition(volShiftEvent, "Volatility shift",            "K+CUSUM β: residual volatility shift ({{ticker}} {{interval}})")

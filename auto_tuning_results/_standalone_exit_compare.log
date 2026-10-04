@@ -1,0 +1,42 @@
+targets=39 ou_catalog=35
+  AENO-IHOZ    train zb=11269 opt=4233 mean=2545 best=zband | oos zb=3438 opt=4958 mean=6025
+  SKIP AENO-NWIG: no OU catalog row (cohort=stable)
+  AETS-FCSG    train zb=21386 opt=17107 mean=14978 best=zband | oos zb=-726 opt=4286 mean=8544
+  AETS-ILVX    train zb=2429 opt=9632 mean=11313 best=ou_mean | oos zb=1319 opt=5158 mean=7416
+  ALUT-CCNS    train zb=22156 opt=20241 mean=22533 best=ou_mean | oos zb=7137 opt=5735 mean=6298
+  ALUT-HTRK    train zb=2982 opt=11582 mean=12824 best=ou_mean | oos zb=78 opt=7018 mean=7088
+  AMRP-DUCT    train zb=18197 opt=4545 mean=5860 best=zband | oos zb=2502 opt=6368 mean=6081
+  ANSO-BENI    train zb=2636 opt=7902 mean=4586 best=ou_optimal | oos zb=-809 opt=2254 mean=3161
+  ANSO-IHOZ    train zb=4655 opt=8984 mean=6061 best=ou_optimal | oos zb=1228 opt=2149 mean=1821
+  ANSO-RCRI    train zb=16786 opt=9663 mean=11903 best=zband | oos zb=5884 opt=6040 mean=4855
+  ANSO-RRES    train zb=14983 opt=-74 mean=-4526 best=zband | oos zb=4710 opt=528 mean=1235
+  ANSO-RTTH    train zb=13388 opt=18422 mean=18556 best=ou_mean | oos zb=3701 opt=2621 mean=2865
+  CCNS-NAYO    train zb=18537 opt=1683 mean=1343 best=zband | oos zb=2365 opt=-1225 mean=-475
+  SKIP CTGI-EELT: no OU catalog row (cohort=stable)
+  CUBO-ULXY    train zb=12793 opt=26216 mean=27443 best=ou_mean | oos zb=3560 opt=7608 mean=9040
+  DUCT-HRND    train zb=18816 opt=23668 mean=19949 best=ou_optimal | oos zb=3642 opt=9764 mean=5801
+  ELLT-FCSG    train zb=7318 opt=6252 mean=6004 best=zband | oos zb=623 opt=3335 mean=3805
+  SKIP EORC-NGTE: no OU catalog row (cohort=stable)
+  FWWG-NGTE    train zb=7727 opt=1454 mean=2436 best=zband | oos zb=4951 opt=10865 mean=7244
+  GARI-FWWG    train zb=11018 opt=11737 mean=12082 best=ou_mean | oos zb=2317 opt=5490 mean=6430
+  SKIP HETT-ULXY: no OU catalog row (cohort=stable)
+  HRET-HRND    train zb=13495 opt=6406 mean=3693 best=zband | oos zb=5997 opt=12709 mean=10598
+  HRET-MDGI    train zb=8999 opt=-2528 mean=-1198 best=zband | oos zb=4770 opt=1044 mean=1035
+  HRET-MTNS    train zb=8061 opt=8743 mean=10330 best=ou_mean | oos zb=1342 opt=3867 mean=3827
+  SKIP HUXZ-ACAC: no OU catalog row (cohort=stable)
+  LSST-EAFC    train zb=5914 opt=3345 mean=4874 best=zband | oos zb=1640 opt=-2484 mean=-1425
+  MDGI-ULXY    train zb=17899 opt=17704 mean=17119 best=zband | oos zb=6 opt=9254 mean=8291
+  MSDP-EAFC    train zb=10642 opt=-2427 mean=-86 best=zband | oos zb=3012 opt=3626 mean=3437
+  MTNS-BLBT    train zb=1326 opt=10100 mean=11428 best=ou_mean | oos zb=97 opt=3524 mean=4605
+  NGTE-ILVX    train zb=18231 opt=-7007 mean=-4604 best=zband | oos zb=-3518 opt=3922 mean=2506
+  RTTH-FWWG    train zb=22710 opt=16722 mean=18857 best=zband | oos zb=5176 opt=7189 mean=7606
+  SKIP RTTH-NAYO: no OU catalog row (cohort=stable)
+  RTTH-RCRI    train zb=18164 opt=41 mean=-3836 best=zband | oos zb=3302 opt=-1242 mean=-3584
+  RTTH-RRES    train zb=14360 opt=18905 mean=15937 best=ou_optimal | oos zb=5951 opt=7148 mean=8530
+  RTTH-SPLZ    train zb=22777 opt=-976 mean=6391 best=zband | oos zb=2533 opt=3099 mean=3048
+  SMAH-FWWG    train zb=9769 opt=842 mean=1393 best=zband | oos zb=4145 opt=4899 mean=4998
+  SKIP SMAH-ILVX: no OU catalog row (cohort=stable)
+  SMAH-ULXY    train zb=15123 opt=-7421 mean=789 best=zband | oos zb=4282 opt=4587 mean=1092
+  SRNA-NWIG    train zb=13747 opt=3462 mean=3858 best=zband | oos zb=2897 opt=3736 mean=3702
+wrote auto_tuning_results/_standalone_exit_compare.json
+ENGINE_AHEAD_TRAIN=False sum_train zb=408293 opt=249161 mean=260836

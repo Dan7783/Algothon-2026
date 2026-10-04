@@ -1,0 +1,242 @@
+{
+  "ou_winners_31": [
+    "AENO-IHOZ",
+    "AETS-FCSG",
+    "AETS-ILVX",
+    "ALUT-HTRK",
+    "AMRP-DUCT",
+    "ANSO-BENI",
+    "ANSO-IHOZ",
+    "ANSO-RCRI",
+    "ANSO-RRES",
+    "ANSO-RTTH",
+    "CCNS-NAYO",
+    "CUBO-ULXY",
+    "DUCT-HRND",
+    "ELLT-FCSG",
+    "FWWG-NGTE",
+    "GARI-FWWG",
+    "HRET-HRND",
+    "HRET-MDGI",
+    "HRET-MTNS",
+    "LSST-EAFC",
+    "MDGI-ULXY",
+    "MSDP-EAFC",
+    "MTNS-BLBT",
+    "NGTE-ILVX",
+    "RTTH-FWWG",
+    "RTTH-RCRI",
+    "RTTH-RRES",
+    "RTTH-SPLZ",
+    "SMAH-FWWG",
+    "SMAH-ULXY",
+    "SRNA-NWIG"
+  ],
+  "ou_extra": [
+    "ALUT-CCNS",
+    "MSDP-ULXY",
+    "OTCS-EELT",
+    "LSST-RTTH"
+  ],
+  "ou_applied": [
+    {
+      "pair": "ELLT-FCSG",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ANSO-BENI",
+      "tag": "winner31"
+    },
+    {
+      "pair": "AETS-ILVX",
+      "tag": "winner31"
+    },
+    {
+      "pair": "AETS-FCSG",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ALUT-CCNS",
+      "tag": "extra"
+    },
+    {
+      "pair": "MTNS-BLBT",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ALUT-HTRK",
+      "tag": "winner31"
+    },
+    {
+      "pair": "SRNA-NWIG",
+      "tag": "winner31"
+    },
+    {
+      "pair": "MSDP-ULXY",
+      "tag": "extra"
+    },
+    {
+      "pair": "RTTH-RRES",
+      "tag": "winner31"
+    },
+    {
+      "pair": "HRET-HRND",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ANSO-RCRI",
+      "tag": "winner31"
+    },
+    {
+      "pair": "CUBO-ULXY",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ANSO-RRES",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ANSO-RTTH",
+      "tag": "winner31"
+    },
+    {
+      "pair": "HRET-MTNS",
+      "tag": "winner31"
+    },
+    {
+      "pair": "ANSO-IHOZ",
+      "tag": "winner31"
+    },
+    {
+      "pair": "LSST-EAFC",
+      "tag": "winner31"
+    },
+    {
+      "pair": "FWWG-NGTE",
+      "tag": "winner31"
+    },
+    {
+      "pair": "HRET-MDGI",
+      "tag": "winner31"
+    },
+    {
+      "pair": "SMAH-FWWG",
+      "tag": "winner31"
+    },
+    {
+      "pair": "SMAH-ULXY",
+      "tag": "winner31"
+    },
+    {
+      "pair": "RTTH-FWWG",
+      "tag": "winner31"
+    },
+    {
+      "pair": "OTCS-EELT",
+      "tag": "extra"
+    },
+    {
+      "pair": "AENO-IHOZ",
+      "tag": "winner31"
+    },
+    {
+      "pair": "MSDP-EAFC",
+      "tag": "winner31"
+    },
+    {
+      "pair": "DUCT-HRND",
+      "tag": "winner31"
+    },
+    {
+      "pair": "LSST-RTTH",
+      "tag": "extra"
+    },
+    {
+      "pair": "RTTH-RCRI",
+      "tag": "winner31"
+    },
+    {
+      "pair": "GARI-FWWG",
+      "tag": "winner31"
+    },
+    {
+      "pair": "AMRP-DUCT",
+      "tag": "winner31"
+    },
+    {
+      "pair": "RTTH-SPLZ",
+      "tag": "winner31"
+    },
+    {
+      "pair": "CCNS-NAYO",
+      "tag": "winner31"
+    },
+    {
+      "pair": "MDGI-ULXY",
+      "tag": "winner31"
+    },
+    {
+      "pair": "NGTE-ILVX",
+      "tag": "winner31"
+    }
+  ],
+  "zband_kept": [
+    "AENO-NWIG",
+    "HETT-ULXY",
+    "HUXZ-ACAC",
+    "SMAH-ILVX",
+    "EORC-NGTE",
+    "RTTH-NAYO",
+    "CTGI-EELT",
+    "HUXZ-NWIG",
+    "DUCT-ACAC",
+    "ANSO-CTGI",
+    "FWWG-BLBT",
+    "ULXY-MHRM",
+    "HRET-RTTH",
+    "SMAH-SPLZ",
+    "ACIX-ITPA",
+    "MTNS-BENI",
+    "ACAC-NAYO",
+    "RTTH-ULXY",
+    "AENO-HUXZ",
+    "SRNA-FWWG",
+    "EORC-ILVX",
+    "ANSO-AGVF",
+    "ANSO-AETS",
+    "ANSO-FCSG",
+    "MHRM-EAFC",
+    "AGVF-RCRI",
+    "MSDP-SRTX",
+    "HRET-SRTX",
+    "HRET-NGTE",
+    "MTNS-MHRM",
+    "SMAH-AETS",
+    "HUXZ-DUCT",
+    "HUXZ-RRES",
+    "DUCT-NPCK",
+    "ELLT-AETS",
+    "CUBO-RTTH",
+    "HRET-SPLZ",
+    "NGTE-FCSG",
+    "EORC-FCSG",
+    "MTNS-ULXY",
+    "AGVF-ULXY",
+    "SPLZ-ULXY",
+    "SPLZ-CCNS",
+    "DIHO-FCSG",
+    "OTCS-CTGI",
+    "SPLZ-FCSG",
+    "SPLZ-NGTE",
+    "SPLZ-ALUT",
+    "ULXY-FCSG",
+    "NWIG-MHRM",
+    "SRTX-MHRM",
+    "SMAH-NGTE",
+    "ANSO-MHRM"
+  ],
+  "ou_missing_params": [],
+  "n_ou": 35,
+  "n_zband": 53,
+  "n_total": 88
+}

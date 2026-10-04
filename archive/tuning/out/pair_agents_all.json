@@ -1,0 +1,506 @@
+[
+  {
+    "name": "RTTH/NAYO",
+    "y": 18,
+    "x": 35,
+    "priority": 8.0,
+    "params": {
+      "q_beta": 1.0866530274535e-05,
+      "h": 6.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 9,
+      "snap_overshoot": 1.25,
+      "entry_h_mult": 0.05,
+      "leg_scale": 1.0
+    },
+    "tune_score": 78.80626329409012,
+    "tune_mu": 84.46146092799998,
+    "tune_sharpe": 3.7329869714519317
+  },
+  {
+    "name": "CTGI/EELT",
+    "y": 25,
+    "x": 37,
+    "priority": 9.0,
+    "params": {
+      "q_beta": 1.370014249712959e-05,
+      "h": 5.5,
+      "cusum_k": 0.35,
+      "adapt_bars": 12,
+      "snap_overshoot": 1.4,
+      "entry_h_mult": 0.05,
+      "leg_scale": 1.0
+    },
+    "tune_score": 73.90555962796823,
+    "tune_mu": 79.11542557999998,
+    "tune_sharpe": 3.766389932937233
+  },
+  {
+    "name": "HETT/ULXY",
+    "y": 7,
+    "x": 40,
+    "priority": 10.0,
+    "params": {
+      "q_beta": 4.147987445240695e-06,
+      "h": 7.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 6,
+      "snap_overshoot": 1.2000000000000002,
+      "entry_h_mult": 0.07,
+      "leg_scale": 1.0
+    },
+    "tune_score": 62.67998940963931,
+    "tune_mu": 66.52573581199998,
+    "tune_sharpe": 4.037143029039699
+  },
+  {
+    "name": "AENO/NWIG",
+    "y": 1,
+    "x": 20,
+    "priority": 11.0,
+    "params": {
+      "q_beta": 3.127754005613217e-06,
+      "h": 7.5,
+      "cusum_k": 0.6,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.3,
+      "entry_h_mult": 0.05,
+      "leg_scale": 1.0
+    },
+    "tune_score": 41.73505179104861,
+    "tune_mu": 45.01737274799998,
+    "tune_sharpe": 3.565824425865843
+  },
+  {
+    "name": "ACAC/HUXZ",
+    "y": 27,
+    "x": 8,
+    "priority": 10.0,
+    "params": {
+      "q_beta": 1.1104338677412704e-05,
+      "h": 8.0,
+      "cusum_k": 0.35,
+      "adapt_bars": 15,
+      "snap_overshoot": 1.3,
+      "entry_h_mult": 0.07,
+      "leg_scale": 1.0
+    },
+    "tune_score": 35.1561527143477,
+    "tune_mu": 38.742945276,
+    "tune_sharpe": 3.13074388470055
+  },
+  {
+    "name": "SMAH/ILVX",
+    "y": 10,
+    "x": 46,
+    "priority": 12.0,
+    "params": {
+      "q_beta": 1.1502191579752905e-07,
+      "h": 8.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.2000000000000002,
+      "entry_h_mult": 0.05,
+      "leg_scale": 0.9
+    },
+    "tune_score": 33.478386747790275,
+    "tune_mu": 35.84137972799997,
+    "tune_sharpe": 3.764012398589196
+  },
+  {
+    "name": "MHRM/EAFC",
+    "y": 49,
+    "x": 50,
+    "priority": 9.5,
+    "params": {
+      "q_beta": 5.535337769885027e-07,
+      "h": 5.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 12,
+      "snap_overshoot": 1.4,
+      "entry_h_mult": 0.05,
+      "leg_scale": 0.9
+    },
+    "tune_score": 29.823857504058875,
+    "tune_mu": 33.282698019999984,
+    "tune_sharpe": 2.9364096257993277
+  },
+  {
+    "name": "NAYO/SRTX",
+    "y": 35,
+    "x": 28,
+    "priority": 9.0,
+    "params": {
+      "q_beta": 2.5312550058912713e-06,
+      "h": 8.5,
+      "cusum_k": 0.5,
+      "adapt_bars": 5,
+      "snap_overshoot": 1.1,
+      "entry_h_mult": 0.14,
+      "leg_scale": 1.0
+    },
+    "tune_score": 27.89952307739742,
+    "tune_mu": 31.232215023999977,
+    "tune_sharpe": 2.8933488776354856
+  },
+  {
+    "name": "ALUT/CCNS",
+    "y": 26,
+    "x": 32,
+    "priority": 7.5,
+    "params": {
+      "q_beta": 2.803955515221734e-05,
+      "h": 10.0,
+      "cusum_k": 0.6,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.4,
+      "entry_h_mult": 0.05,
+      "leg_scale": 0.8
+    },
+    "tune_score": 24.598393623806988,
+    "tune_mu": 28.56080144799997,
+    "tune_sharpe": 2.4915739819338807
+  },
+  {
+    "name": "MDGI/HTRK",
+    "y": 22,
+    "x": 44,
+    "priority": 5.5,
+    "params": {
+      "q_beta": 3.289761804618753e-07,
+      "h": 6.5,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.35,
+      "entry_h_mult": 0.08,
+      "leg_scale": 1.0
+    },
+    "tune_score": 23.460840057623113,
+    "tune_mu": 25.97606860399999,
+    "tune_sharpe": 3.054098591339032
+  },
+  {
+    "name": "EORC/NGTE",
+    "y": 13,
+    "x": 45,
+    "priority": 10.5,
+    "params": {
+      "q_beta": 6.504290856128967e-07,
+      "h": 7.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.3,
+      "entry_h_mult": 0.05,
+      "leg_scale": 1.0
+    },
+    "tune_score": 23.26284134541411,
+    "tune_mu": 29.246466640000005,
+    "tune_sharpe": 1.9717379014527652
+  },
+  {
+    "name": "MSDP/ULXY",
+    "y": 12,
+    "x": 40,
+    "priority": 7.5,
+    "params": {
+      "q_beta": 3.098260863505429e-07,
+      "h": 8.0,
+      "cusum_k": 0.6,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.1,
+      "entry_h_mult": 0.13,
+      "leg_scale": 0.9
+    },
+    "tune_score": 21.292947375098564,
+    "tune_mu": 25.044536316000013,
+    "tune_sharpe": 2.382375789016407
+  },
+  {
+    "name": "HUXZ/NWIG",
+    "y": 8,
+    "x": 20,
+    "priority": 6.0,
+    "params": {
+      "q_beta": 2.496252405504137e-05,
+      "h": 5.0,
+      "cusum_k": 0.6,
+      "adapt_bars": 15,
+      "snap_overshoot": 1.4,
+      "entry_h_mult": 0.05,
+      "leg_scale": 1.0
+    },
+    "tune_score": 18.583269897852343,
+    "tune_mu": 24.694757603999953,
+    "tune_sharpe": 1.7437635527242878
+  },
+  {
+    "name": "MTNS/ALUT",
+    "y": 33,
+    "x": 26,
+    "priority": 7.5,
+    "params": {
+      "q_beta": 3.1139822091309686e-07,
+      "h": 6.5,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 7,
+      "snap_overshoot": 1.4,
+      "entry_h_mult": 0.1,
+      "leg_scale": 1.0
+    },
+    "tune_score": 18.546651646048588,
+    "tune_mu": 23.716150680000034,
+    "tune_sharpe": 1.8941245287286301
+  },
+  {
+    "name": "HRET/CTGI",
+    "y": 15,
+    "x": 25,
+    "priority": 7.0,
+    "params": {
+      "q_beta": 5.748603683186747e-06,
+      "h": 10.5,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 6,
+      "snap_overshoot": 1.1500000000000001,
+      "entry_h_mult": 0.08,
+      "leg_scale": 0.8
+    },
+    "tune_score": 16.01841519357403,
+    "tune_mu": 20.72482851999999,
+    "tune_sharpe": 1.8448656325286323
+  },
+  {
+    "name": "FWWG/BLBT",
+    "y": 36,
+    "x": 41,
+    "priority": 8.0,
+    "params": {
+      "q_beta": 4.433199835061566e-06,
+      "h": 5.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.25,
+      "entry_h_mult": 0.1,
+      "leg_scale": 0.9
+    },
+    "tune_score": 15.421198331400243,
+    "tune_mu": 17.921866419999997,
+    "tune_sharpe": 2.483310559852521
+  },
+  {
+    "name": "CCNS/SRTX",
+    "y": 32,
+    "x": 28,
+    "priority": 8.0,
+    "params": {
+      "q_beta": 2.6714674235115967e-06,
+      "h": 9.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 9,
+      "snap_overshoot": 1.1,
+      "entry_h_mult": 0.12000000000000001,
+      "leg_scale": 1.0
+    },
+    "tune_score": 14.0588204425093,
+    "tune_mu": 16.871500452000017,
+    "tune_sharpe": 2.2357038713188477
+  },
+  {
+    "name": "ACIX/ITPA",
+    "y": 31,
+    "x": 43,
+    "priority": 8.5,
+    "params": {
+      "q_beta": 1.2380824974601763e-05,
+      "h": 6.5,
+      "cusum_k": 0.6,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.1500000000000001,
+      "entry_h_mult": 0.11,
+      "leg_scale": 0.9
+    },
+    "tune_score": 13.210407031935535,
+    "tune_mu": 15.949533443999998,
+    "tune_sharpe": 2.1960997460401117
+  },
+  {
+    "name": "BENI/RCRI",
+    "y": 42,
+    "x": 30,
+    "priority": 5.5,
+    "params": {
+      "q_beta": 8.85996216921324e-06,
+      "h": 8.0,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 13,
+      "snap_overshoot": 1.1500000000000001,
+      "entry_h_mult": 0.09,
+      "leg_scale": 0.8
+    },
+    "tune_score": 12.355144618925687,
+    "tune_mu": 17.733071564,
+    "tune_sharpe": 1.5157112268576158
+  },
+  {
+    "name": "MTNS/BENI",
+    "y": 33,
+    "x": 42,
+    "priority": 7.0,
+    "params": {
+      "q_beta": 1.164515970659905e-06,
+      "h": 8.0,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 15,
+      "snap_overshoot": 1.2000000000000002,
+      "entry_h_mult": 0.07,
+      "leg_scale": 0.9
+    },
+    "tune_score": 11.97001453989362,
+    "tune_mu": 15.82040617200003,
+    "tune_sharpe": 1.7631728368432251
+  },
+  {
+    "name": "EAFC/SRTX",
+    "y": 50,
+    "x": 28,
+    "priority": 8.5,
+    "params": {
+      "q_beta": 1.270044259990546e-05,
+      "h": 7.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 10,
+      "snap_overshoot": 1.05,
+      "entry_h_mult": 0.16,
+      "leg_scale": 0.7
+    },
+    "tune_score": 11.33901421875722,
+    "tune_mu": 13.220850915999993,
+    "tune_sharpe": 2.4546901690019283
+  },
+  {
+    "name": "CUBO/ULXY",
+    "y": 14,
+    "x": 40,
+    "priority": 6.5,
+    "params": {
+      "q_beta": 2.8480897854643757e-05,
+      "h": 6.5,
+      "cusum_k": 0.6,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.4,
+      "entry_h_mult": 0.12000000000000001,
+      "leg_scale": 1.0
+    },
+    "tune_score": 7.340894803205143,
+    "tune_mu": 14.421845208,
+    "tune_sharpe": 1.018189757649752
+  },
+  {
+    "name": "ACIX/ULXY",
+    "y": 31,
+    "x": 40,
+    "priority": 6.5,
+    "params": {
+      "q_beta": 6.420861921609493e-06,
+      "h": 8.5,
+      "cusum_k": 0.5,
+      "adapt_bars": 13,
+      "snap_overshoot": 1.25,
+      "entry_h_mult": 0.18,
+      "leg_scale": 0.6
+    },
+    "tune_score": 7.083893946469458,
+    "tune_mu": 8.22317367600001,
+    "tune_sharpe": 2.493565842261868
+  },
+  {
+    "name": "EORC/SMAH",
+    "y": 13,
+    "x": 10,
+    "priority": 6.0,
+    "params": {
+      "q_beta": 2.0734054803461077e-06,
+      "h": 9.5,
+      "cusum_k": 0.55,
+      "adapt_bars": 9,
+      "snap_overshoot": 1.25,
+      "entry_h_mult": 0.12000000000000001,
+      "leg_scale": 0.7
+    },
+    "tune_score": 4.027302285302569,
+    "tune_mu": 7.60650296399998,
+    "tune_sharpe": 1.06075256283581
+  },
+  {
+    "name": "MHRM/SRTX",
+    "y": 49,
+    "x": 28,
+    "priority": 8.5,
+    "params": {
+      "q_beta": 3.5609025500434383e-07,
+      "h": 7.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.25,
+      "entry_h_mult": 0.07,
+      "leg_scale": 0.6
+    },
+    "tune_score": 3.592539898904618,
+    "tune_mu": 6.888480180000014,
+    "tune_sharpe": 1.0440255641521705
+  },
+  {
+    "name": "SMAH/NGTE",
+    "y": 10,
+    "x": 45,
+    "priority": 7.0,
+    "params": {
+      "q_beta": 8.691065339894738e-07,
+      "h": 9.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 9,
+      "snap_overshoot": 1.2000000000000002,
+      "entry_h_mult": 0.11,
+      "leg_scale": 0.7
+    },
+    "tune_score": 2.9013207755841144,
+    "tune_mu": 6.032175556000001,
+    "tune_sharpe": 0.9626455596560552
+  },
+  {
+    "name": "FWWG/SMAH",
+    "y": 36,
+    "x": 10,
+    "priority": 6.0,
+    "params": {
+      "q_beta": 5.6387987742674686e-06,
+      "h": 7.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 7,
+      "snap_overshoot": 1.1,
+      "entry_h_mult": 0.25,
+      "leg_scale": 0.6
+    },
+    "tune_score": 2.0583348126306644,
+    "tune_mu": 3.033328896000008,
+    "tune_sharpe": 1.4529712451952603
+  },
+  {
+    "name": "DIHO/RTTH",
+    "y": 17,
+    "x": 18,
+    "priority": 6.5,
+    "params": {
+      "q_beta": 1.273076765105714e-05,
+      "h": 7.5,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 16,
+      "snap_overshoot": 1.35,
+      "entry_h_mult": 0.16999999999999998,
+      "leg_scale": 1.0
+    },
+    "tune_score": 1.7882058294163174,
+    "tune_mu": 5.492946651999988,
+    "tune_sharpe": 0.6947520512821523
+  }
+]

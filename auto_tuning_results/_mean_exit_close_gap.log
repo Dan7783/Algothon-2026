@@ -1,0 +1,91 @@
+base 88 pairs, 35 OU
+=== knob sweep (OOS 750-1000) ===
+  mean_m015              941.14
+  mean_m010              932.79
+  mean_m000              935.33
+  mean_m020              942.54
+  mean_m030              917.11
+  mean_m025              925.87
+  mean_m015_flipflat     900.5
+  mean_m015_boost2       926.6
+best knob: mean_m020 = 942.54
+LOO base score=942.54 env={'MERGED_OU_EXIT': 'mean', 'MERGED_CONSENSUS_MARGIN': '0.20'}
+=== LOO revert OU->friend zband ===
+  LOO AETS-ILVX    score=952.96 delta=+10.42
+  LOO ELLT-FCSG    score=948.31 delta=+5.77
+  LOO ANSO-BENI    score=942.3 delta=-0.24
+  LOO AETS-FCSG    score=900.86 delta=-41.68
+  LOO ALUT-CCNS    score=943.52 delta=+0.98
+  LOO MTNS-BLBT    score=948.88 delta=+6.34
+  LOO MSDP-ULXY    score=945.34 delta=+2.80
+  LOO SRNA-NWIG    score=947.17 delta=+4.63
+  LOO ALUT-HTRK    score=929.46 delta=-13.08
+  LOO RTTH-RRES    score=914.4 delta=-28.14
+  LOO HRET-HRND    score=940.71 delta=-1.83
+  LOO ANSO-RCRI    score=940.72 delta=-1.82
+  LOO CUBO-ULXY    score=928.77 delta=-13.77
+  LOO ANSO-RTTH    score=947.38 delta=+4.84
+  LOO ANSO-RRES    score=924.37 delta=-18.17
+  LOO ANSO-IHOZ    score=936.09 delta=-6.45
+  LOO HRET-MTNS    score=955.89 delta=+13.35
+  LOO LSST-EAFC    score=956.3 delta=+13.76
+  LOO FWWG-NGTE    score=946.55 delta=+4.01
+  LOO HRET-MDGI    score=940.32 delta=-2.22
+  LOO SMAH-FWWG    score=951.67 delta=+9.13
+  LOO SMAH-ULXY    score=937.87 delta=-4.67
+  LOO OTCS-EELT    score=950.48 delta=+7.94
+  LOO RTTH-FWWG    score=939.13 delta=-3.41
+  LOO AENO-IHOZ    score=935.38 delta=-7.16
+  LOO MSDP-EAFC    score=945.64 delta=+3.10
+  LOO DUCT-HRND    score=946.02 delta=+3.48
+  LOO RTTH-RCRI    score=947.52 delta=+4.98
+  LOO LSST-RTTH    score=944.17 delta=+1.63
+  LOO GARI-FWWG    score=950.96 delta=+8.42
+  LOO AMRP-DUCT    score=942.75 delta=+0.21
+  LOO RTTH-SPLZ    score=951.47 delta=+8.93
+  LOO CCNS-NAYO    score=931.02 delta=-11.52
+  LOO MDGI-ULXY    score=932.97 delta=-9.57
+  LOO NGTE-ILVX    score=939.07 delta=-3.47
+OU pairs whose revert HELPS (delta>+0.5): 18
+  +13.76  LSST-EAFC
+  +13.35  HRET-MTNS
+  +10.42  AETS-ILVX
+  +9.13  SMAH-FWWG
+  +8.93  RTTH-SPLZ
+  +8.42  GARI-FWWG
+  +7.94  OTCS-EELT
+  +6.34  MTNS-BLBT
+  +5.77  ELLT-FCSG
+  +4.98  RTTH-RCRI
+  +4.84  ANSO-RTTH
+  +4.63  SRNA-NWIG
+  +4.01  FWWG-NGTE
+  +3.48  DUCT-HRND
+  +3.10  MSDP-EAFC
+=== greedy multi-revert ===
+  try revert LSST-EAFC: 942.54 -> 956.3 (d=13.759999999999991)
+  try revert HRET-MTNS: 956.3 -> 969.7 (d=13.400000000000091)
+  try revert AETS-ILVX: 969.7 -> 980.1 (d=10.399999999999977)
+  try revert SMAH-FWWG: 980.1 -> 989.26 (d=9.159999999999968)
+  try revert RTTH-SPLZ: 989.26 -> 998.14 (d=8.879999999999995)
+  try revert GARI-FWWG: 998.14 -> 1009.95 (d=11.81000000000006)
+  try revert OTCS-EELT: 1009.95 -> 1017.72 (d=7.769999999999982)
+  try revert MTNS-BLBT: 1017.72 -> 1010.77 (d=-6.9500000000000455)
+  try revert ELLT-FCSG: 1017.72 -> 1023.36 (d=5.639999999999986)
+  try revert RTTH-RCRI: 1023.36 -> 1016.97 (d=-6.389999999999986)
+  try revert ANSO-RTTH: 1023.36 -> 1034.86 (d=11.499999999999886)
+  try revert SRNA-NWIG: 1034.86 -> 1039.41 (d=4.550000000000182)
+  try revert FWWG-NGTE: 1039.41 -> 1036.59 (d=-2.8200000000001637)
+  try revert DUCT-HRND: 1039.41 -> 1042.67 (d=3.259999999999991)
+  try revert MSDP-EAFC: 1042.67 -> 1048.37 (d=5.699999999999818)
+  try revert MSDP-ULXY: 1048.37 -> 1047.16 (d=-1.209999999999809)
+  try revert LSST-RTTH: 1048.37 -> 1056.17 (d=7.800000000000182)
+  try revert ALUT-CCNS: 1056.17 -> 1057.15 (d=0.9800000000000182)
+  try revert AMRP-DUCT: 1057.15 -> 1052.82 (d=-4.330000000000155)
+=== final 3-window scores ===
+  oos750 1057.15
+  train31 830.88
+  val501 929.57
+  oos801 921.2
+wrote auto_tuning_results/_mean_exit_close_gap.json
+BEAT_FRIEND_OOS=True best=1057.15 target=974.45 reverted=['LSST-EAFC', 'HRET-MTNS', 'AETS-ILVX', 'SMAH-FWWG', 'RTTH-SPLZ', 'GARI-FWWG', 'OTCS-EELT', 'ELLT-FCSG', 'ANSO-RTTH', 'SRNA-NWIG', 'DUCT-HRND', 'MSDP-EAFC', 'LSST-RTTH', 'ALUT-CCNS']

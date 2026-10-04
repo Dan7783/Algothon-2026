@@ -1,0 +1,17 @@
+Collecting conflict training rows (shared/mean) ...
+  fit rows=3496 class_counts=[1812   28 1656]
+  val rows=3112 class_counts=[1560   28 1524]
+  hp={'max_depth': 3, 'learning_rate': 0.05, 'max_iter': 100} fit_acc=0.629 val_acc=0.504
+  hp={'max_depth': 4, 'learning_rate': 0.08, 'max_iter': 150} fit_acc=0.709 val_acc=0.498
+  hp={'max_depth': 5, 'learning_rate': 0.1, 'max_iter': 200} fit_acc=0.757 val_acc=0.496
+wrote model auto_tuning_results/_ml_conflict_model.joblib
+=== book bake-off (train primary) ===
+  friend_book_latest           train=926.94 val=1042.37 oos_verify=974.45
+  merged_shared_mean_m015      train=751.01 val=809.47 oos_verify=941.14
+  merged_optimal_m015          train=728.02 val=772.43 oos_verify=906.86
+  flat_conflict_mean_m015      train=704.77 val=787.67 oos_verify=798.26
+  stronger_vote_mean_m015      train=749.57 val=801.85 oos_verify=911.49
+  ml_conflict_mean_m015        train=950.02 val=831.69 oos_verify=806.11
+  REJECTED_oos_prune_1057      train=830.88 val=929.57 oos_verify=1057.15
+wrote auto_tuning_results/_ml_conflict_prototype.json
+BEATS_FRIEND_TRAIN=['ml_conflict_mean_m015']

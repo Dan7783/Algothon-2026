@@ -1,0 +1,152 @@
+[
+    {
+        "pair_name": "RTTH-NAYO",
+        "y_symbol": "RTTH",
+        "x_symbol": "NAYO",
+        "manual_params": {
+            "q_beta": 1.5e-07,
+            "h": 12.5,
+            "cusum_k": 1.43,
+            "max_cov_inflate": 152.0,
+            "cov_decay": 0.0887,
+            "z_entry": 1.08,
+            "z_exit": 0.01,
+            "z_stop": 10.0
+        },
+        "manual_metrics": {
+            "meanpl": 49.957748121276616,
+            "sharpe": 2.683514554508133,
+            "score": 43.866268663582645,
+            "ret": 0.02634417996453499,
+            "total_return": 23480.14161700001
+        },
+        "auto_params": {
+            "q_beta": 5.47e-06,
+            "h": 8.98,
+            "cusum_k": 1.97,
+            "max_cov_inflate": 13.1,
+            "cov_decay": 0.0121,
+            "z_entry": 1.15,
+            "z_exit": 0.001
+        },
+        "auto_metrics": {
+            "meanpl": 58.47017436808508,
+            "sharpe": 3.1767482327987047,
+            "score": 53.198663262441244,
+            "ret": 0.024478008380247305,
+            "total_return": 27480.981952999988
+        },
+        "test_metrics": {
+            "manual": {
+                "meanpl": 56.53172657999998,
+                "sharpe": 2.7515429012258457,
+                "score": 49.936019719208886,
+                "ret": 0.028569641430364907,
+                "total_return": 14132.931644999995
+            },
+            "auto": {
+                "meanpl": 54.45639396399994,
+                "sharpe": 2.798350942786008,
+                "score": 48.28972828212267,
+                "ret": 0.02790831765987392,
+                "total_return": 13614.098490999986
+            }
+        },
+        "perturbation_summary": {
+            "manual": [
+                {
+                    "param": "h",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0.003685674728902847
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0.003685674728902847
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "z_entry",
+                    "drop_5": 1.4309283678087532,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "z_exit",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "z_stop",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ],
+            "auto": [
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.013344261908358496,
+                    "drop_10": 0,
+                    "drop_20": 1.7024455839639439
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.013344261908358496,
+                    "drop_10": 0.15329103879347764,
+                    "drop_20": 1.6591924729472975
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0019156218464772901,
+                    "drop_10": 0.01100713366098208,
+                    "drop_20": 1.6081100585095844
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0.1715842255252387
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "z_entry",
+                    "drop_5": 5.764451051040147,
+                    "drop_10": 3.494890930375273,
+                    "drop_20": 0
+                },
+                {
+                    "param": "z_exit",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ]
+        }
+    }
+]

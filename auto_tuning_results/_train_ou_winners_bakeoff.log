@@ -1,0 +1,7 @@
+catalog 88 rows, 12 OU train-winners: ['ANSO-BENI', 'AETS-ILVX', 'ALUT-CCNS', 'MTNS-BLBT', 'ALUT-HTRK', 'RTTH-RRES', 'CUBO-ULXY', 'ANSO-RTTH', 'HRET-MTNS', 'ANSO-IHOZ', 'DUCT-HRND', 'GARI-FWWG']
+  friend                           {'train_31_750': 926.94, 'val_501_750': 1042.37, 'oos_750_1000_verify': 974.45}
+  full_ou_mean_m015                {'train_31_750': 751.01, 'val_501_750': 809.47, 'oos_750_1000_verify': 941.14}
+  train_ou_winners_mean_m015       {'train_31_750': 861.38, 'val_501_750': 879.12, 'oos_750_1000_verify': 912.1}
+  train_ou_winners_optimal_m015    {'train_31_750': 847.11, 'val_501_750': 874.1, 'oos_750_1000_verify': 860.24}
+  REJECTED_1057_oos_prune          {'train_31_750': 830.88, 'val_501_750': 929.57, 'oos_750_1000_verify': 1057.15}
+wrote auto_tuning_results/_train_ou_winners_bakeoff.json

@@ -1,0 +1,165 @@
+{
+  "shortlist": [
+    {
+      "pair": [
+        "LSST",
+        "RTTH"
+      ],
+      "orient": "B",
+      "screen_score": 34.786318044067734
+    },
+    {
+      "pair": [
+        "HRET",
+        "NAYO"
+      ],
+      "orient": "A",
+      "screen_score": 26.893525592098776
+    },
+    {
+      "pair": [
+        "LSST",
+        "ULXY"
+      ],
+      "orient": "A",
+      "screen_score": 26.197416212903885
+    },
+    {
+      "pair": [
+        "OTCS",
+        "EELT"
+      ],
+      "orient": "B",
+      "screen_score": 25.52621075513529
+    },
+    {
+      "pair": [
+        "MSDP",
+        "ULXY"
+      ],
+      "orient": "B",
+      "screen_score": 24.77791827672671
+    },
+    {
+      "pair": [
+        "HRET",
+        "RTTH"
+      ],
+      "orient": "A",
+      "screen_score": 22.457032821851435
+    },
+    {
+      "pair": [
+        "ULXY",
+        "EAFC"
+      ],
+      "orient": "B",
+      "screen_score": 21.972592034697584
+    },
+    {
+      "pair": [
+        "MMBT",
+        "CCNS"
+      ],
+      "orient": "A",
+      "screen_score": 21.925805351901325
+    },
+    {
+      "pair": [
+        "NAYO",
+        "ULXY"
+      ],
+      "orient": "B",
+      "screen_score": 21.24453630441188
+    },
+    {
+      "pair": [
+        "LSST",
+        "NGTE"
+      ],
+      "orient": "A",
+      "screen_score": 19.763189574237224
+    }
+  ],
+  "placebos": [
+    {
+      "pair": [
+        "ANSO",
+        "DIHO"
+      ],
+      "orient": "B",
+      "screen_score": -14.06326853432208,
+      "failed_gates": [
+        "G1_coint_fdr",
+        "G4_vol_regime",
+        "G5_tradable"
+      ]
+    },
+    {
+      "pair": [
+        "CCNS",
+        "BENI"
+      ],
+      "orient": "A",
+      "screen_score": -6.731315557827375,
+      "failed_gates": [
+        "G1_coint_fdr"
+      ]
+    },
+    {
+      "pair": [
+        "EORC",
+        "BLBT"
+      ],
+      "orient": "A",
+      "screen_score": -18.167753773205366,
+      "failed_gates": [
+        "G1_coint_fdr",
+        "G4_vol_regime",
+        "G5_tradable"
+      ]
+    },
+    {
+      "pair": [
+        "HUXZ",
+        "NPCK"
+      ],
+      "orient": "B",
+      "screen_score": -2.496654218126781,
+      "failed_gates": [
+        "G1_coint_fdr",
+        "G4_vol_regime"
+      ]
+    },
+    {
+      "pair": [
+        "GARI",
+        "BLBT"
+      ],
+      "orient": "B",
+      "screen_score": -3.616887547860882,
+      "failed_gates": [
+        "G1_coint_fdr",
+        "G4_vol_regime"
+      ]
+    },
+    {
+      "pair": [
+        "ELLT",
+        "MTNS"
+      ],
+      "orient": "B",
+      "screen_score": -4.33323918354133,
+      "failed_gates": [
+        "G1_coint_fdr"
+      ]
+    }
+  ],
+  "sanity_gates": [
+    "G2_halflife",
+    "G3_structural",
+    "G4_vol_regime",
+    "G5_tradable"
+  ],
+  "n_eligible": 311
+}

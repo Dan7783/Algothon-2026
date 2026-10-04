@@ -1,0 +1,128 @@
+[
+    {
+        "pair_name": "RTTH-NAYO",
+        "y_symbol": "RTTH",
+        "x_symbol": "NAYO",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_groups": 6,
+            "n_test_groups": 2,
+            "purge": 10,
+            "pct_embargo": 0.01,
+            "std_lambda": 1.0,
+            "trials": 16,
+            "sobol_trials": 16,
+            "batch_size": 8,
+            "z_entry_rule": "new"
+        },
+        "study": "RTTH-NAYO-cpcv-g6k2-p10-e0.01-std1",
+        "best_value": 42.98261844946688,
+        "final_params": {
+            "q_beta": 1.06e-09,
+            "h": 7.72,
+            "cusum_k": 1.98,
+            "max_cov_inflate": 9590000.0,
+            "cov_decay": 0.0957,
+            "kalman_var_ewma_alpha": 0.0677,
+            "ou_window": 107,
+            "kappa_ewma_alpha": 0.000473,
+            "sigma_ewma_alpha": 0.000472,
+            "pair_y": "RTTH",
+            "pair_x": "NAYO"
+        },
+        "selection_source": "jax_cpcv",
+        "cpcv": {
+            "n_paths": 15,
+            "path_score_mean": 56.050006652882296,
+            "path_score_std": 13.067388203415415,
+            "path_score_frac_pos": 1.0,
+            "path_scores": [
+                71.14427081332164,
+                66.94605098231118,
+                47.82447105376246,
+                75.84067429200746,
+                56.73046281796579,
+                54.78092133199858,
+                39.83143774541693,
+                69.81283540856927,
+                49.786219972670324,
+                36.96559408549146,
+                70.775186523096,
+                50.7407002040174,
+                62.482469612830194,
+                31.331671480885888,
+                55.757133468889855
+            ]
+        },
+        "jax_train_score": 56.98206672183552,
+        "train_metrics": {
+            "meanpl": 65.86847613666667,
+            "sharpe": 2.5322462657595084,
+            "score": 56.982066721835515,
+            "ret": 0.014840015354337816,
+            "total_return": 39521.085682000004
+        },
+        "oos_metrics": {
+            "meanpl": 36.276199585,
+            "sharpe": 1.529431520791536,
+            "score": 25.41233228123235,
+            "ret": 0.013285531752442114,
+            "total_return": 7255.239917000001
+        },
+        "windows": [],
+        "global": {
+            "study": "RTTH-NAYO-cpcv-g6k2-p10-e0.01-std1",
+            "norm_mode": "cpcv",
+            "best_value": 42.98261844946688,
+            "best_params": {
+                "q_beta": 1.06e-09,
+                "h": 7.72,
+                "cusum_k": 1.98,
+                "max_cov_inflate": 9590000.0,
+                "cov_decay": 0.0957,
+                "kalman_var_ewma_alpha": 0.0677,
+                "ou_window": 107,
+                "kappa_ewma_alpha": 0.000473,
+                "sigma_ewma_alpha": 0.000472,
+                "pair_y": "RTTH",
+                "pair_x": "NAYO"
+            },
+            "final_params": {
+                "q_beta": 1.06e-09,
+                "h": 7.72,
+                "cusum_k": 1.98,
+                "max_cov_inflate": 9590000.0,
+                "cov_decay": 0.0957,
+                "kalman_var_ewma_alpha": 0.0677,
+                "ou_window": 107,
+                "kappa_ewma_alpha": 0.000473,
+                "sigma_ewma_alpha": 0.000472,
+                "pair_y": "RTTH",
+                "pair_x": "NAYO"
+            },
+            "selection_source": "jax_cpcv",
+            "train_metrics": {
+                "meanpl": 65.86847613666667,
+                "sharpe": 2.5322462657595084,
+                "score": 56.982066721835515,
+                "ret": 0.014840015354337816,
+                "total_return": 39521.085682000004
+            },
+            "oos_metrics": {
+                "meanpl": 36.276199585,
+                "sharpe": 1.529431520791536,
+                "score": 25.41233228123235,
+                "ret": 0.013285531752442114,
+                "total_return": 7255.239917000001
+            },
+            "fragile": false,
+            "sensitivities": [],
+            "cluster": null,
+            "tiebreak": null,
+            "objective_comparison": {}
+        }
+    }
+]

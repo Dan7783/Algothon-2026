@@ -1,0 +1,66 @@
+[
+  {
+    "y": "RTTH",
+    "x": "LSST"
+  },
+  {
+    "y": "HRET",
+    "x": "NAYO"
+  },
+  {
+    "y": "LSST",
+    "x": "ULXY"
+  },
+  {
+    "y": "EELT",
+    "x": "OTCS"
+  },
+  {
+    "y": "ULXY",
+    "x": "MSDP"
+  },
+  {
+    "y": "HRET",
+    "x": "RTTH"
+  },
+  {
+    "y": "EAFC",
+    "x": "ULXY"
+  },
+  {
+    "y": "MMBT",
+    "x": "CCNS"
+  },
+  {
+    "y": "ULXY",
+    "x": "NAYO"
+  },
+  {
+    "y": "LSST",
+    "x": "NGTE"
+  },
+  {
+    "y": "DIHO",
+    "x": "ANSO"
+  },
+  {
+    "y": "CCNS",
+    "x": "BENI"
+  },
+  {
+    "y": "EORC",
+    "x": "BLBT"
+  },
+  {
+    "y": "NPCK",
+    "x": "HUXZ"
+  },
+  {
+    "y": "BLBT",
+    "x": "GARI"
+  },
+  {
+    "y": "MTNS",
+    "x": "ELLT"
+  }
+]

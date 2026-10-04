@@ -1,0 +1,158 @@
+{
+    "AENO-NWIG": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ELLT-FCSG": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "HETT-ULXY": {
+        "decision": "auto accepted",
+        "valid_windows": 3
+    },
+    "HUXZ-NWIG": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "HUXZ-ACAC": {
+        "decision": "auto accepted",
+        "valid_windows": 3
+    },
+    "DUCT-ACAC": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "SMAH-ILVX": {
+        "decision": "auto accepted",
+        "valid_windows": 3
+    },
+    "EORC-NGTE": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ANSO-CTGI": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ANSO-BENI": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "RTTH-NAYO": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "CTGI-EELT": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "FWWG-BLBT": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "AETS-ILVX": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "AETS-FCSG": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ULXY-MHRM": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ULXY-EAFC": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "HRET-RTTH": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "ALUT-CCNS": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "SMAH-SPLZ": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "ACIX-ITPA": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "MTNS-BENI": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "SRNA-ELLT": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "MTNS-BLBT": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "ALUT-HTRK": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "SRNA-NWIG": {
+        "decision": "accepted",
+        "valid_windows": 1
+    },
+    "ACAC-NAYO": {
+        "decision": "accepted",
+        "valid_windows": 0
+    },
+    "MSDP-ULXY": {
+        "decision": "accepted",
+        "valid_windows": 0
+    },
+    "RTTH-ULXY": {
+        "decision": "accepted",
+        "valid_windows": 0
+    },
+    "AENO-HUXZ": {
+        "decision": "accepted",
+        "valid_windows": 0
+    },
+    "SRNA-FWWG": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "SMAH-NGTE": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "EORC-ILVX": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ANSO-AGVF": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ANSO-AETS": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ANSO-FCSG": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "ANSO-MHRM": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "NGTE-ILVX": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    },
+    "MHRM-EAFC": {
+        "decision": "auto accepted",
+        "valid_windows": 2
+    }
+}

@@ -1,0 +1,1009 @@
+{
+ "mode": "swap",
+ "base_module": "merged_friend_ou",
+ "base_catalog": "auto_tuning_results\\merged_friend_ou_catalog.json",
+ "margin": "0.15",
+ "ou_conflict": "shared",
+ "judge_oos": [
+  750,
+  1000
+ ],
+ "train_window": [
+  31,
+  750
+ ],
+ "val_window": [
+  501,
+  750
+ ],
+ "base_score": 906.86,
+ "skipped_already_in_base": [],
+ "skipped_banned": [
+  "FWWG-NAYO"
+ ],
+ "skipped_non_oos_positive": [
+  "HRET-EELT",
+  "HUXZ-ULXY",
+  "NGTE-AMRP",
+  "EAFC-MDGI",
+  "HETT-CTGI",
+  "MMBT-ULXY",
+  "ITPA-HTRK",
+  "BLBT-ELLT",
+  "BENI-RTTH",
+  "LSST-BENI",
+  "SRTX-NGTE",
+  "MDGI-RTTH",
+  "NAYO-MTNS",
+  "BENI-NAYO",
+  "LSST-NAYO",
+  "MMBT-MSDP",
+  "NAYO-FCSG",
+  "AMRP-HRET",
+  "LSST-MSDP",
+  "ITPA-EELT",
+  "NGTE-BENI",
+  "ULXY-ALUT",
+  "ELLT-ITPA",
+  "HETT-MMBT",
+  "NAYO-HETT",
+  "SMAH-EORC",
+  "MDGI-NPCK",
+  "MMBT-NAYO",
+  "CCNS-FCSG",
+  "SMAH-NAYO",
+  "SPLZ-EAFC",
+  "CUBO-NAYO",
+  "FARS-HTRK",
+  "NGTE-HETT",
+  "CTGI-HRET",
+  "NPCK-RTTH",
+  "MTNS-FARS",
+  "NAYO-NPCK",
+  "EAFC-NPCK",
+  "SRNA-GARI",
+  "LSST-SRNA",
+  "HRET-EORC",
+  "EAFC-HETT",
+  "HETT-RTTH",
+  "CCNS-NPCK"
+ ],
+ "n_candidates": 34,
+ "worst_slots": 10,
+ "phase0_loo": [
+  {
+   "idx": 76,
+   "name": "AMRP-DUCT",
+   "loo_score": 932.91,
+   "contribution": -26.049999999999955
+  },
+  {
+   "idx": 74,
+   "name": "GARI-FWWG",
+   "loo_score": 923.93,
+   "contribution": -17.069999999999936
+  },
+  {
+   "idx": 34,
+   "name": "AGVF-RCRI",
+   "loo_score": 922.58,
+   "contribution": -15.720000000000027
+  },
+  {
+   "idx": 11,
+   "name": "ANSO-BENI",
+   "loo_score": 922.08,
+   "contribution": -15.220000000000027
+  },
+  {
+   "idx": 46,
+   "name": "HRET-MTNS",
+   "loo_score": 919.39,
+   "contribution": -12.529999999999973
+  },
+  {
+   "idx": 21,
+   "name": "MTNS-BLBT",
+   "loo_score": 918.89,
+   "contribution": -12.029999999999973
+  },
+  {
+   "idx": 69,
+   "name": "DUCT-HRND",
+   "loo_score": 916.7,
+   "contribution": -9.840000000000032
+  },
+  {
+   "idx": 83,
+   "name": "SRTX-MHRM",
+   "loo_score": 915.9,
+   "contribution": -9.039999999999964
+  },
+  {
+   "idx": 59,
+   "name": "OTCS-EELT",
+   "loo_score": 915.68,
+   "contribution": -8.819999999999936
+  },
+  {
+   "idx": 25,
+   "name": "MSDP-ULXY",
+   "loo_score": 915.65,
+   "contribution": -8.789999999999964
+  },
+  {
+   "idx": 55,
+   "name": "HRET-MDGI",
+   "loo_score": 915.63,
+   "contribution": -8.769999999999982
+  },
+  {
+   "idx": 73,
+   "name": "OTCS-CTGI",
+   "loo_score": 914.56,
+   "contribution": -7.699999999999932
+  },
+  {
+   "idx": 60,
+   "name": "HRET-SPLZ",
+   "loo_score": 913.6,
+   "contribution": -6.740000000000009
+  },
+  {
+   "idx": 40,
+   "name": "HRET-NGTE",
+   "loo_score": 913.24,
+   "contribution": -6.3799999999999955
+  },
+  {
+   "idx": 33,
+   "name": "MHRM-EAFC",
+   "loo_score": 913.23,
+   "contribution": -6.3700000000000045
+  },
+  {
+   "idx": 66,
+   "name": "SPLZ-ULXY",
+   "loo_score": 912.99,
+   "contribution": -6.1299999999999955
+  },
+  {
+   "idx": 13,
+   "name": "AETS-ILVX",
+   "loo_score": 912.7,
+   "contribution": -5.840000000000032
+  },
+  {
+   "idx": 51,
+   "name": "LSST-EAFC",
+   "loo_score": 911.83,
+   "contribution": -4.970000000000027
+  },
+  {
+   "idx": 30,
+   "name": "ANSO-AGVF",
+   "loo_score": 911.82,
+   "contribution": -4.960000000000036
+  },
+  {
+   "idx": 48,
+   "name": "HUXZ-RRES",
+   "loo_score": 911.46,
+   "contribution": -4.600000000000023
+  },
+  {
+   "idx": 45,
+   "name": "SMAH-AETS",
+   "loo_score": 911.24,
+   "contribution": -4.3799999999999955
+  },
+  {
+   "idx": 32,
+   "name": "ANSO-FCSG",
+   "loo_score": 911.18,
+   "contribution": -4.319999999999936
+  },
+  {
+   "idx": 77,
+   "name": "SPLZ-NGTE",
+   "loo_score": 909.58,
+   "contribution": -2.7200000000000273
+  },
+  {
+   "idx": 47,
+   "name": "HUXZ-DUCT",
+   "loo_score": 909.56,
+   "contribution": -2.699999999999932
+  },
+  {
+   "idx": 41,
+   "name": "CUBO-ULXY",
+   "loo_score": 909.5,
+   "contribution": -2.6399999999999864
+  },
+  {
+   "idx": 82,
+   "name": "NWIG-MHRM",
+   "loo_score": 909.36,
+   "contribution": -2.5
+  },
+  {
+   "idx": 23,
+   "name": "SRNA-NWIG",
+   "loo_score": 909.01,
+   "contribution": -2.1499999999999773
+  },
+  {
+   "idx": 57,
+   "name": "SMAH-ULXY",
+   "loo_score": 908.13,
+   "contribution": -1.2699999999999818
+  },
+  {
+   "idx": 50,
+   "name": "DUCT-NPCK",
+   "loo_score": 908.09,
+   "contribution": -1.2300000000000182
+  },
+  {
+   "idx": 29,
+   "name": "EORC-ILVX",
+   "loo_score": 908.06,
+   "contribution": -1.1999999999999318
+  },
+  {
+   "idx": 43,
+   "name": "MTNS-MHRM",
+   "loo_score": 907.97,
+   "contribution": -1.1100000000000136
+  },
+  {
+   "idx": 15,
+   "name": "ULXY-MHRM",
+   "loo_score": 907.6,
+   "contribution": -0.7400000000000091
+  },
+  {
+   "idx": 84,
+   "name": "MDGI-ULXY",
+   "loo_score": 906.74,
+   "contribution": 0.12000000000000455
+  },
+  {
+   "idx": 27,
+   "name": "AENO-HUXZ",
+   "loo_score": 906.69,
+   "contribution": 0.16999999999995907
+  },
+  {
+   "idx": 68,
+   "name": "MSDP-EAFC",
+   "loo_score": 906.4,
+   "contribution": 0.4600000000000364
+  },
+  {
+   "idx": 16,
+   "name": "HRET-RTTH",
+   "loo_score": 906.26,
+   "contribution": 0.6000000000000227
+  },
+  {
+   "idx": 63,
+   "name": "MTNS-ULXY",
+   "loo_score": 906.14,
+   "contribution": 0.7200000000000273
+  },
+  {
+   "idx": 17,
+   "name": "ALUT-CCNS",
+   "loo_score": 906.04,
+   "contribution": 0.82000000000005
+  },
+  {
+   "idx": 7,
+   "name": "ELLT-FCSG",
+   "loo_score": 905.37,
+   "contribution": 1.490000000000009
+  },
+  {
+   "idx": 9,
+   "name": "DUCT-ACAC",
+   "loo_score": 904.86,
+   "contribution": 2.0
+  },
+  {
+   "idx": 81,
+   "name": "ULXY-FCSG",
+   "loo_score": 902.54,
+   "contribution": 4.32000000000005
+  },
+  {
+   "idx": 58,
+   "name": "RTTH-FWWG",
+   "loo_score": 902.49,
+   "contribution": 4.3700000000000045
+  },
+  {
+   "idx": 26,
+   "name": "RTTH-ULXY",
+   "loo_score": 902.37,
+   "contribution": 4.490000000000009
+  },
+  {
+   "idx": 65,
+   "name": "AGVF-ULXY",
+   "loo_score": 902.15,
+   "contribution": 4.710000000000036
+  },
+  {
+   "idx": 67,
+   "name": "SPLZ-CCNS",
+   "loo_score": 902.12,
+   "contribution": 4.740000000000009
+  },
+  {
+   "idx": 28,
+   "name": "SRNA-FWWG",
+   "loo_score": 901.45,
+   "contribution": 5.409999999999968
+  },
+  {
+   "idx": 35,
+   "name": "MSDP-SRTX",
+   "loo_score": 901.41,
+   "contribution": 5.4500000000000455
+  },
+  {
+   "idx": 39,
+   "name": "ANSO-RCRI",
+   "loo_score": 900.81,
+   "contribution": 6.050000000000068
+  },
+  {
+   "idx": 20,
+   "name": "MTNS-BENI",
+   "loo_score": 900.77,
+   "contribution": 6.090000000000032
+  },
+  {
+   "idx": 71,
+   "name": "DIHO-FCSG",
+   "loo_score": 900.77,
+   "contribution": 6.090000000000032
+  },
+  {
+   "idx": 24,
+   "name": "ACAC-NAYO",
+   "loo_score": 900.66,
+   "contribution": 6.2000000000000455
+  },
+  {
+   "idx": 52,
+   "name": "ELLT-AETS",
+   "loo_score": 900.61,
+   "contribution": 6.25
+  },
+  {
+   "idx": 38,
+   "name": "HRET-SRTX",
+   "loo_score": 900.24,
+   "contribution": 6.6200000000000045
+  },
+  {
+   "idx": 37,
+   "name": "HRET-HRND",
+   "loo_score": 899.96,
+   "contribution": 6.899999999999977
+  },
+  {
+   "idx": 56,
+   "name": "SMAH-FWWG",
+   "loo_score": 899.52,
+   "contribution": 7.340000000000032
+  },
+  {
+   "idx": 61,
+   "name": "NGTE-FCSG",
+   "loo_score": 899.06,
+   "contribution": 7.800000000000068
+  },
+  {
+   "idx": 31,
+   "name": "ANSO-AETS",
+   "loo_score": 898.73,
+   "contribution": 8.129999999999995
+  },
+  {
+   "idx": 12,
+   "name": "FWWG-BLBT",
+   "loo_score": 898.49,
+   "contribution": 8.370000000000005
+  },
+  {
+   "idx": 53,
+   "name": "FWWG-NGTE",
+   "loo_score": 898.35,
+   "contribution": 8.509999999999991
+  },
+  {
+   "idx": 54,
+   "name": "CUBO-RTTH",
+   "loo_score": 898.05,
+   "contribution": 8.81000000000006
+  },
+  {
+   "idx": 79,
+   "name": "CCNS-NAYO",
+   "loo_score": 895.12,
+   "contribution": 11.740000000000009
+  },
+  {
+   "idx": 75,
+   "name": "SPLZ-FCSG",
+   "loo_score": 893.47,
+   "contribution": 13.389999999999986
+  },
+  {
+   "idx": 72,
+   "name": "RTTH-RCRI",
+   "loo_score": 892.96,
+   "contribution": 13.899999999999977
+  },
+  {
+   "idx": 22,
+   "name": "ALUT-HTRK",
+   "loo_score": 892.41,
+   "contribution": 14.450000000000045
+  },
+  {
+   "idx": 18,
+   "name": "SMAH-SPLZ",
+   "loo_score": 892.1,
+   "contribution": 14.759999999999991
+  },
+  {
+   "idx": 8,
+   "name": "HUXZ-NWIG",
+   "loo_score": 891.42,
+   "contribution": 15.440000000000055
+  },
+  {
+   "idx": 70,
+   "name": "LSST-RTTH",
+   "loo_score": 889.34,
+   "contribution": 17.519999999999982
+  },
+  {
+   "idx": 62,
+   "name": "EORC-FCSG",
+   "loo_score": 888.67,
+   "contribution": 18.190000000000055
+  },
+  {
+   "idx": 19,
+   "name": "ACIX-ITPA",
+   "loo_score": 887.21,
+   "contribution": 19.649999999999977
+  },
+  {
+   "idx": 80,
+   "name": "SPLZ-ALUT",
+   "loo_score": 886.55,
+   "contribution": 20.31000000000006
+  },
+  {
+   "idx": 10,
+   "name": "ANSO-CTGI",
+   "loo_score": 885.81,
+   "contribution": 21.050000000000068
+  },
+  {
+   "idx": 64,
+   "name": "AENO-IHOZ",
+   "loo_score": 885.2,
+   "contribution": 21.659999999999968
+  },
+  {
+   "idx": 49,
+   "name": "ANSO-IHOZ",
+   "loo_score": 883.1,
+   "contribution": 23.75999999999999
+  },
+  {
+   "idx": 78,
+   "name": "RTTH-SPLZ",
+   "loo_score": 881.14,
+   "contribution": 25.720000000000027
+  },
+  {
+   "idx": 44,
+   "name": "ANSO-RTTH",
+   "loo_score": 878.05,
+   "contribution": 28.81000000000006
+  },
+  {
+   "idx": 42,
+   "name": "ANSO-RRES",
+   "loo_score": 874.83,
+   "contribution": 32.02999999999997
+  },
+  {
+   "idx": 14,
+   "name": "AETS-FCSG",
+   "loo_score": 848.77,
+   "contribution": 58.09000000000003
+  },
+  {
+   "idx": 36,
+   "name": "RTTH-RRES",
+   "loo_score": 842.89,
+   "contribution": 63.97000000000003
+  }
+ ],
+ "phase1": [
+  {
+   "name": "RRES-NAYO",
+   "standalone_oos": 38.496886999251096,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 912.2,
+   "p1_delta": 5.340000000000032
+  },
+  {
+   "name": "ELLT-HRET",
+   "standalone_oos": 31.78775298252391,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 939.39,
+   "p1_delta": 32.52999999999997
+  },
+  {
+   "name": "ANSO-ULXY",
+   "standalone_oos": 31.585534588327935,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 923.02,
+   "p1_delta": 16.159999999999968
+  },
+  {
+   "name": "ULXY-EORC",
+   "standalone_oos": 24.864007206312095,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 938.07,
+   "p1_delta": 31.210000000000036
+  },
+  {
+   "name": "MTNS-SPLZ",
+   "standalone_oos": 18.404081146181777,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 925.24,
+   "p1_delta": 18.379999999999995
+  },
+  {
+   "name": "ULXY-CCNS",
+   "standalone_oos": 18.01857972950892,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 946.8,
+   "p1_delta": 39.93999999999994
+  },
+  {
+   "name": "MMBT-MDGI",
+   "standalone_oos": 16.608598242646497,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 993.85,
+   "p1_delta": 86.99000000000001
+  },
+  {
+   "name": "MMBT-RTTH",
+   "standalone_oos": 16.020843669097573,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 920.98,
+   "p1_delta": 14.120000000000005
+  },
+  {
+   "name": "CUBO-NGTE",
+   "standalone_oos": 14.3981279111994,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 929.1,
+   "p1_delta": 22.24000000000001
+  },
+  {
+   "name": "ULXY-HRET",
+   "standalone_oos": 6.829115252336491,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 942.36,
+   "p1_delta": 35.5
+  },
+  {
+   "name": "AETS-CUBO",
+   "standalone_oos": 6.6200885266949445,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 915.2,
+   "p1_delta": 8.340000000000032
+  },
+  {
+   "name": "LSST-MDGI",
+   "standalone_oos": 4.928175643545115,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 938.98,
+   "p1_delta": 32.120000000000005
+  },
+  {
+   "name": "ACAC-ULXY",
+   "standalone_oos": 4.64590912998054,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 936.16,
+   "p1_delta": 29.299999999999955
+  },
+  {
+   "name": "LSST-MTNS",
+   "standalone_oos": 3.7565418792825596,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 927.45,
+   "p1_delta": 20.590000000000032
+  },
+  {
+   "name": "FWWG-HRET",
+   "standalone_oos": 3.505411906574134,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 940.57,
+   "p1_delta": 33.710000000000036
+  },
+  {
+   "name": "ITPA-FCSG",
+   "standalone_oos": 2.371033063157344,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 908.43,
+   "p1_delta": 1.5699999999999363
+  },
+  {
+   "name": "MHRM-FWWG",
+   "standalone_oos": 2.3575240148975674,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 944.83,
+   "p1_delta": 37.97000000000003
+  },
+  {
+   "name": "FCSG-RTTH",
+   "standalone_oos": 2.1293269942213633,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 887.95,
+   "p1_delta": -18.909999999999968
+  },
+  {
+   "name": "MTNS-MSDP",
+   "standalone_oos": 1.8330844320216713,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 939.27,
+   "p1_delta": 32.40999999999997
+  },
+  {
+   "name": "HTRK-FCSG",
+   "standalone_oos": 1.566888454223149,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 900.83,
+   "p1_delta": -6.029999999999973
+  },
+  {
+   "name": "DIHO-AETS",
+   "standalone_oos": 1.215319110382635,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 901.01,
+   "p1_delta": -5.850000000000023
+  },
+  {
+   "name": "BLBT-MHRM",
+   "standalone_oos": 0.9454727255089865,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 921.36,
+   "p1_delta": 14.5
+  },
+  {
+   "name": "SPLZ-CTGI",
+   "standalone_oos": 0.8336880874133188,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 905.1,
+   "p1_delta": -1.759999999999991
+  },
+  {
+   "name": "FWWG-ELLT",
+   "standalone_oos": 0.6237298747069292,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 929.86,
+   "p1_delta": 23.0
+  },
+  {
+   "name": "NWIG-DUCT",
+   "standalone_oos": 0.5496263441776835,
+   "replaces": "GARI-FWWG",
+   "replaces_idx": 74,
+   "p1_score": 934.8,
+   "p1_delta": 27.93999999999994
+  },
+  {
+   "name": "MSDP-HETT",
+   "standalone_oos": 0.446169369971924,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 933.31,
+   "p1_delta": 26.449999999999932
+  },
+  {
+   "name": "CCNS-EAFC",
+   "standalone_oos": 0.1818630102828281,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 942.52,
+   "p1_delta": 35.65999999999997
+  },
+  {
+   "name": "NGTE-IHOZ",
+   "standalone_oos": 0.12276409873744921,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 925.85,
+   "p1_delta": 18.99000000000001
+  },
+  {
+   "name": "HTRK-ELLT",
+   "standalone_oos": 0.06622455389414185,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 935.02,
+   "p1_delta": 28.159999999999968
+  },
+  {
+   "name": "GARI-NWIG",
+   "standalone_oos": 0.03714646020616521,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 925.46,
+   "p1_delta": 18.600000000000023
+  },
+  {
+   "name": "ALUT-FCSG",
+   "standalone_oos": 0.03157338725176278,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 913.02,
+   "p1_delta": 6.159999999999968
+  },
+  {
+   "name": "BLBT-RTTH",
+   "standalone_oos": 0.03070826153903083,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 906.92,
+   "p1_delta": 0.05999999999994543
+  },
+  {
+   "name": "SRTX-NPCK",
+   "standalone_oos": 0.029273842451009002,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 928.4,
+   "p1_delta": 21.539999999999964
+  },
+  {
+   "name": "MMBT-NPCK",
+   "standalone_oos": 9.765218548908185e-06,
+   "replaces": "AMRP-DUCT",
+   "replaces_idx": 76,
+   "p1_score": 979.0,
+   "p1_delta": 72.13999999999999
+  }
+ ],
+ "phase2": [
+  {
+   "pass": 1,
+   "name": "MMBT-MDGI",
+   "kept": true,
+   "score": 993.85,
+   "replaces_idx": 76,
+   "replaces": "AMRP-DUCT",
+   "train": 794.94,
+   "val": 906.84,
+   "oos": 993.85
+  },
+  {
+   "pass": 1,
+   "name": "MMBT-NPCK",
+   "kept": true,
+   "score": 996.73,
+   "replaces_idx": 74,
+   "replaces": "GARI-FWWG",
+   "train": 812.32,
+   "val": 922.88,
+   "oos": 996.73
+  },
+  {
+   "pass": 1,
+   "name": "ULXY-CCNS",
+   "kept": true,
+   "score": 1026.21,
+   "replaces_idx": 34,
+   "replaces": "AGVF-RCRI",
+   "train": 810.54,
+   "val": 933.15,
+   "oos": 1026.21
+  },
+  {
+   "pass": 1,
+   "name": "MHRM-FWWG",
+   "kept": true,
+   "score": 1048.17,
+   "replaces_idx": 11,
+   "replaces": "ANSO-BENI",
+   "train": 816.71,
+   "val": 937.64,
+   "oos": 1048.17
+  },
+  {
+   "pass": 1,
+   "name": "CCNS-EAFC",
+   "kept": true,
+   "score": 1061.39,
+   "replaces_idx": 46,
+   "replaces": "HRET-MTNS",
+   "train": 836.01,
+   "val": 971.81,
+   "oos": 1061.39
+  },
+  {
+   "pass": 1,
+   "name": "ULXY-HRET",
+   "kept": true,
+   "score": 1063.49,
+   "replaces_idx": 69,
+   "replaces": "DUCT-HRND",
+   "train": 834.81,
+   "val": 986.65,
+   "oos": 1063.49
+  },
+  {
+   "pass": 1,
+   "name": "FWWG-HRET",
+   "kept": true,
+   "score": 1076.65,
+   "replaces_idx": 83,
+   "replaces": "SRTX-MHRM",
+   "train": 834.04,
+   "val": 1000.83,
+   "oos": 1076.65
+  },
+  {
+   "pass": 1,
+   "name": "ELLT-HRET",
+   "kept": true,
+   "score": 1090.55,
+   "replaces_idx": 59,
+   "replaces": "OTCS-EELT",
+   "train": 823.72,
+   "val": 989.64,
+   "oos": 1090.55
+  },
+  {
+   "pass": 1,
+   "name": "MTNS-MSDP",
+   "kept": true,
+   "score": 1092.94,
+   "replaces_idx": 21,
+   "replaces": "MTNS-BLBT",
+   "train": 828.37,
+   "val": 1015.14,
+   "oos": 1092.94
+  },
+  {
+   "pass": 1,
+   "name": "LSST-MDGI",
+   "kept": false,
+   "score": null,
+   "replaces_idx": null,
+   "replaces": null
+  },
+  {
+   "pass": 1,
+   "name": "ULXY-EORC",
+   "kept": true,
+   "score": 1095.35,
+   "replaces_idx": 25,
+   "replaces": "MSDP-ULXY",
+   "train": 827.76,
+   "val": 991.2,
+   "oos": 1095.35
+  }
+ ],
+ "accepted_window_scores": [
+  {
+   "name": "MMBT-MDGI",
+   "replaces": "AMRP-DUCT",
+   "oos_750_1000": 993.85,
+   "train_31_750": 794.94,
+   "val_501_750": 906.84
+  },
+  {
+   "name": "MMBT-NPCK",
+   "replaces": "GARI-FWWG",
+   "oos_750_1000": 996.73,
+   "train_31_750": 812.32,
+   "val_501_750": 922.88
+  },
+  {
+   "name": "ULXY-CCNS",
+   "replaces": "AGVF-RCRI",
+   "oos_750_1000": 1026.21,
+   "train_31_750": 810.54,
+   "val_501_750": 933.15
+  },
+  {
+   "name": "MHRM-FWWG",
+   "replaces": "ANSO-BENI",
+   "oos_750_1000": 1048.17,
+   "train_31_750": 816.71,
+   "val_501_750": 937.64
+  },
+  {
+   "name": "CCNS-EAFC",
+   "replaces": "HRET-MTNS",
+   "oos_750_1000": 1061.39,
+   "train_31_750": 836.01,
+   "val_501_750": 971.81
+  },
+  {
+   "name": "ULXY-HRET",
+   "replaces": "DUCT-HRND",
+   "oos_750_1000": 1063.49,
+   "train_31_750": 834.81,
+   "val_501_750": 986.65
+  },
+  {
+   "name": "FWWG-HRET",
+   "replaces": "SRTX-MHRM",
+   "oos_750_1000": 1076.65,
+   "train_31_750": 834.04,
+   "val_501_750": 1000.83
+  },
+  {
+   "name": "ELLT-HRET",
+   "replaces": "OTCS-EELT",
+   "oos_750_1000": 1090.55,
+   "train_31_750": 823.72,
+   "val_501_750": 989.64
+  },
+  {
+   "name": "MTNS-MSDP",
+   "replaces": "MTNS-BLBT",
+   "oos_750_1000": 1092.94,
+   "train_31_750": 828.37,
+   "val_501_750": 1015.14
+  },
+  {
+   "name": "ULXY-EORC",
+   "replaces": "MSDP-ULXY",
+   "oos_750_1000": 1095.35,
+   "train_31_750": 827.76,
+   "val_501_750": 991.2
+  }
+ ]
+}

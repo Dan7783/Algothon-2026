@@ -1,0 +1,50 @@
+[
+  {
+    "n_reverted": 3,
+    "n_ou": 32,
+    "oos750": 980.1,
+    "train31": 757.83,
+    "val501": 833.17,
+    "last_pair": "AETS-ILVX"
+  },
+  {
+    "n_reverted": 4,
+    "n_ou": 31,
+    "oos750": 989.26,
+    "train31": 763.21,
+    "val501": 837.5,
+    "last_pair": "SMAH-FWWG"
+  },
+  {
+    "n_reverted": 5,
+    "n_ou": 30,
+    "oos750": 998.14,
+    "train31": 773.59,
+    "val501": 859.63,
+    "last_pair": "RTTH-SPLZ"
+  },
+  {
+    "n_reverted": 7,
+    "n_ou": 28,
+    "oos750": 1017.72,
+    "train31": 784.27,
+    "val501": 882.91,
+    "last_pair": "OTCS-EELT"
+  },
+  {
+    "n_reverted": 10,
+    "n_ou": 25,
+    "oos750": 1039.41,
+    "train31": 806.99,
+    "val501": 904.45,
+    "last_pair": "SRNA-NWIG"
+  },
+  {
+    "n_reverted": 14,
+    "n_ou": 21,
+    "oos750": 1057.15,
+    "train31": 830.88,
+    "val501": 929.57,
+    "last_pair": "ALUT-CCNS"
+  }
+]

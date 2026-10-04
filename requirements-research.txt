@@ -1,0 +1,11 @@
+# Optional extras for the tuners, JAX kernel, notebooks and tooling.
+-r requirements.txt
+optuna
+optunahub          # loads the restart (BIPOP/IPOP) CMA-ES sampler at runtime
+cmaes
+jax                # jax_pair_kernel.py / windowed_tuner.py
+networkx           # pair-network plots
+nbformat           # notebook builders in research/
+jupyter
+joblib
+discord.py==2.7.1  # research/discord_pair_review_bot.py only

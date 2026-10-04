@@ -1,0 +1,94 @@
+[
+    {
+        "pair_name": "RTTH-NAYO",
+        "y_symbol": "RTTH",
+        "x_symbol": "NAYO",
+        "auto_params": {
+            "q_beta": 3.26e-05,
+            "h": 37.5,
+            "cusum_k": 1.91,
+            "max_cov_inflate": 232000.0,
+            "cov_decay": 0.00868,
+            "kalman_var_ewma_alpha": 0.463,
+            "ou_window": 62,
+            "kappa_ewma_alpha": 0.00956,
+            "sigma_ewma_alpha": 0.000328,
+            "pair_y": "RTTH",
+            "pair_x": "NAYO"
+        },
+        "auto_metrics": {
+            "meanpl": 69.02864957499997,
+            "sharpe": 2.6528330932284767,
+            "score": 60.44035116971037,
+            "ret": 0.012413726798344505,
+            "total_return": 41417.18974499998
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 56.49174204500003,
+                "sharpe": 2.394132689151758,
+                "score": 48.100057289254565,
+                "ret": 0.01202059491577284,
+                "total_return": 11298.348409000006
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 38.92806641115555
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ]
+        }
+    }
+]

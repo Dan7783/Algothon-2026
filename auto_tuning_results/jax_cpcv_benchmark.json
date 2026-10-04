@@ -1,0 +1,19 @@
+{
+  "pair": "RTTH-NAYO",
+  "official_eval_s": 0.36604998000002525,
+  "legacy_windowed_trial_s_est": 1.464199920000101,
+  "jax_score_s": 0.02027830000015456,
+  "jax_cpcv_s": 0.021818030000031286,
+  "jax_cpcv_batch_s": 0.2990920999996888,
+  "jax_cpcv_per_trial_in_batch_s": 0.009346628124990274,
+  "batch_size": 32,
+  "n_cpcv_paths": 15,
+  "speedup_vs_official_score": 18.0513149523005,
+  "speedup_vs_official_cpcv": 16.777407492770905,
+  "speedup_vs_legacy_windowed_trial": 156.6554163083946,
+  "rank_corr_pearson": 0.9234270828869061,
+  "rank_corr_spearman": 0.8617647058823529,
+  "official_score": 61.572298932155434,
+  "jax_score": 59.370948306845975,
+  "jax_cpcv_obj": 40.295856493665205
+}

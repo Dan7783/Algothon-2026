@@ -1,0 +1,180 @@
+PAIR SCREEN REPORT - days 801-1000 (3 windows)
+universe: 1225 pairs (instrument 0 excluded)
+gate-passing pairs: 0
+G1 noise check: 0 passers observed vs 0.15 expected if every spread were pure noise (binomial tail 1.25e-04 per pair)
+
+pair             orient   score  G1  G2  G3  G4  G5 adfW fdrW  medHL   bCV brk       tag
+----------------------------------------------------------------------------------------
+SMAH-SPLZ             A   37.56   .   Y   Y   Y   Y    0    0    7.8  0.01   1    user89
+SMAH-ILVX             A   37.20   .   Y   Y   Y   Y    0    0    3.4  0.00   0   CURRENT
+AETS-FARS             B   35.26   .   Y   Y   Y   Y    1    0    8.0  0.02   1          
+AENO-NWIG             A   34.02   .   Y   Y   Y   Y    2    0    1.8  0.00   0   CURRENT
+SMAH-ACIX             A   34.00   .   Y   Y   Y   Y    0    0    2.2  0.01   1          
+MSDP-ULXY             B   33.28   .   Y   Y   Y   Y    0    0    5.2  0.01   1    user89
+CTGI-NGTE             A   32.33   .   Y   Y   Y   Y    1    0    3.7  0.02   1          
+SMAH-ANSO             A   31.33   .   Y   Y   Y   Y    0    0    3.7  0.02   1          
+AETS-ITPA             A   29.91   .   Y   Y   Y   Y    0    0    9.6  0.01   0          
+HUXZ-HRET             B   29.87   .   Y   Y   Y   Y    0    0    8.3  0.01   2          
+LSST-AETS             A   29.62   .   Y   Y   Y   Y    0    0   10.4  0.00   3          
+LSST-SPLZ             A   29.34   .   Y   Y   Y   Y    0    0    4.7  0.00   0          
+MTNS-HRND             B   27.35   .   Y   Y   Y   Y    1    0    2.2  0.03   0          
+NWIG-FWWG             A   27.28   .   Y   Y   Y   Y    0    0    4.0  0.00   1          
+DUCT-AETS             A   27.25   .   Y   Y   Y   Y    0    0    6.2  0.02   3          
+RTTH-NAYO             B   25.60   .   Y   Y   Y   Y    1    0    3.9  0.00   1   CURRENT
+HRET-ACAC             A   25.31   .   .   Y   Y   Y    0    0    3.1  0.01   2          
+ANSO-SPLZ             B   23.93   .   Y   Y   Y   Y    0    0    7.9  0.01   1          
+OTCS-MSDP             A   23.90   .   Y   Y   Y   Y    2    0    4.0  0.03   3          
+CUBO-ULXY             A   23.61   .   Y   Y   Y   Y    0    0    5.7  0.00   1    user89
+HUXZ-SMAH             B   23.47   .   Y   Y   Y   Y    0    0    8.0  0.01   1          
+CUBO-ANSO             A   23.22   .   Y   Y   Y   Y    0    0    4.1  0.01   2          
+HRET-NWIG             B   22.89   .   Y   Y   Y   Y    1    0    3.9  0.01   2          
+SPLZ-FARS             B   22.43   .   Y   Y   Y   Y    0    0    5.5  0.02   2          
+CTGI-EELT             A   21.77   .   Y   Y   Y   Y    0    0    7.6  0.00   5   CURRENT
+LSST-FARS             A   21.49   .   Y   Y   Y   Y    0    0    9.5  0.02   2          
+ANSO-MDGI             B   21.24   .   Y   Y   Y   Y    0    0    3.4  0.01   1          
+RTTH-RRES             A   20.64   .   Y   Y   Y   Y    0    0    3.3  0.01   1    user89
+HRET-HRND             B   20.42   .   Y   Y   Y   Y    1    0    4.0  0.05   1    user89
+AENO-AGVF             B   20.41   .   .   Y   Y   Y    1    0    9.3  0.02   3          
+CTGI-HTRK             A   20.13   .   Y   Y   Y   Y    2    0    1.9  0.02   0          
+NWIG-BLBT             A   20.12   .   Y   Y   Y   Y    1    0    2.3  0.00   1          
+CCNS-HTRK             B   20.11   .   Y   Y   Y   Y    1    0    6.3  0.01   2          
+ELLT-SMAH             B   19.85   .   Y   Y   Y   Y    1    0    3.7  0.01   1          
+MDGI-AETS             A   19.58   .   Y   Y   Y   Y    0    0   11.6  0.00   4          
+MDGI-ACAC             A   19.55   .   Y   Y   Y   Y    1    0    2.9  0.01   1          
+SRNA-AGVF             B   19.54   .   .   Y   Y   Y    0    0    7.4  0.02   4          
+SMAH-FARS             A   19.15   .   Y   Y   Y   Y    0    0    4.1  0.02   3          
+SMAH-ULXY             A   18.60   .   Y   Y   Y   Y    0    0    5.1  0.01   2    user89
+RRES-NAYO             A   18.38   .   Y   Y   Y   Y    1    0    6.5  0.01   0          
+ELLT-AGVF             A   18.36   .   Y   Y   Y   Y    0    0   10.2  0.02   3          
+ANSO-ILVX             A   18.06   .   Y   Y   Y   Y    0    0    7.8  0.02   1          
+ANSO-ULXY             B   18.00   .   Y   Y   Y   Y    0    0    4.2  0.01   1          
+ANSO-AETS             B   17.67   .   Y   Y   Y   Y    0    0   11.3  0.02   2    user89
+ACIX-FARS             A   17.67   .   Y   Y   Y   Y    0    0    4.4  0.01   1          
+MHRM-EAFC             B   16.99   .   Y   Y   Y   Y    0    0    6.6  0.00   1    user89
+OTCS-HRND             B   16.79   .   Y   Y   Y   Y    0    0    6.6  0.06   3          
+HRND-BENI             A   16.76   .   Y   Y   Y   Y    0    0    4.4  0.04   0          
+ACAC-AETS             A   16.70   .   Y   Y   .   Y    0    0   10.4  0.01   2          
+HRET-BENI             B   16.57   .   Y   Y   Y   Y    1    0    3.7  0.00   1          
+AENO-MSDP             A   16.17   .   Y   Y   Y   Y    0    0    5.7  0.02   2          
+AGVF-FCSG             A   15.95   .   Y   Y   Y   Y    0    0    7.0  0.02   3          
+MSDP-HTRK             B   15.58   .   Y   Y   Y   Y    0    0    8.4  0.00   3          
+AENO-MTNS             B   15.00   .   Y   Y   Y   Y    0    0    4.4  0.01   1          
+LSST-SRTX             B   14.85   .   Y   Y   Y   Y    0    0    8.0  0.00   3          
+FWWG-BLBT             A   14.82   .   Y   Y   Y   Y    0    0    6.3  0.00   2    user89
+HUXZ-SRTX             A   14.45   .   Y   Y   Y   Y    1    0    4.3  0.01   2          
+EORC-NGTE             B   14.36   .   Y   Y   Y   Y    0    0    6.0  0.00   1   CURRENT
+HRET-IHOZ             A   14.26   .   Y   Y   Y   Y    0    0    8.8  0.00   3          
+AGVF-FWWG             A   14.19   .   .   Y   Y   Y    1    0   15.9  0.02   3          
+
+Legend: G1 traded-spread reversion (>=80% of windows have ADF p<0.05 on the Kalman
+          residual the strategy actually trades; static-OLS ADF counts and pooled
+          BH-FDR are diagnostics, multiplicity is quantified by the binomial null),
+        G2 half-life (Kalman-spread median in [1,40]d and >=80% of windows <=60d),
+        G3 structural (no joint CUSUM+beta-dispersion+breaks red flag),
+        G4 vol regime (positive replica PnL in high AND low market-vol halves),
+        G5 tradable (positive replica score, >=60% of windows positive, >=5 trades).
+
+====================================================================================================
+CURRENT 8 PAIRS - gate readout
+====================================================================================================
+  RTTH-NAYO: rank 16/1225 score 25.60 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  AENO-NWIG: rank 4/1225 score 34.02 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  HETT-ULXY: rank 385/1225 score -3.23 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  HUXZ-ACAC: rank 334/1225 score -1.54 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  SMAH-ILVX: rank 2/1225 score 37.20 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  EORC-NGTE: rank 58/1225 score 14.36 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  CTGI-EELT: rank 25/1225 score 21.77 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=Y G5_tradable=Y
+  ALUT-CCNS: rank 294/1225 score -0.32 pass=False | G1_coint_fdr=N G2_halflife=Y G3_structural=Y G4_vol_regime=N G5_tradable=Y
+
+====================================================================================================
+USER CANDIDATES (88) - how many pass all gates
+====================================================================================================
+  AENO-NWIG   rank     4 score   34.02 pass=N
+  HETT-ULXY   rank   385 score   -3.23 pass=N
+  HUXZ-ACAC   rank   334 score   -1.54 pass=N
+  SMAH-ILVX   rank     2 score   37.20 pass=N
+  EORC-NGTE   rank    58 score   14.36 pass=N
+  RTTH-NAYO   rank    16 score   25.60 pass=N
+  CTGI-EELT   rank    25 score   21.77 pass=N
+  ELLT-FCSG   rank   149 score    6.93 pass=N
+  HUXZ-NWIG   rank   521 score   -7.19 pass=N
+  DUCT-ACAC   rank   665 score  -11.73 pass=N
+  ANSO-CTGI   rank   159 score    6.10 pass=N
+  ANSO-BENI   rank   291 score   -0.25 pass=N
+  FWWG-BLBT   rank    56 score   14.82 pass=N
+  AETS-ILVX   rank   276 score    0.31 pass=N
+  AETS-FCSG   rank  1052 score  -28.34 pass=N
+  ULXY-MHRM   rank   349 score   -2.01 pass=N
+  ULXY-EAFC   rank   407 score   -4.02 pass=N
+  HRET-RTTH   rank   345 score   -1.91 pass=N
+  ALUT-CCNS   rank   294 score   -0.32 pass=N
+  SMAH-SPLZ   rank     1 score   37.56 pass=N
+  ACIX-ITPA   rank    93 score   10.82 pass=N
+  MTNS-BENI   rank    91 score   10.96 pass=N
+  SRNA-ELLT   rank  1028 score  -27.16 pass=N
+  MTNS-BLBT   rank   138 score    7.83 pass=N
+  ALUT-HTRK   rank   379 score   -2.94 pass=N
+  SRNA-NWIG   rank   790 score  -15.37 pass=N
+  ACAC-NAYO   rank  1166 score  -40.29 pass=N
+  MSDP-ULXY   rank     6 score   33.28 pass=N
+  RTTH-ULXY   rank   382 score   -3.03 pass=N
+  AENO-HUXZ   rank   254 score    1.29 pass=N
+  SRNA-FWWG   rank   363 score   -2.56 pass=N
+  EORC-ILVX   rank   981 score  -23.86 pass=N
+  ANSO-AGVF   rank   660 score  -11.65 pass=N
+  ANSO-AETS   rank    44 score   17.67 pass=N
+  ANSO-FCSG   rank   692 score  -12.30 pass=N
+  MHRM-EAFC   rank    46 score   16.99 pass=N
+  AGVF-RCRI   rank   269 score    0.62 pass=N
+  MSDP-SRTX   rank   795 score  -15.60 pass=N
+  RTTH-RRES   rank    28 score   20.64 pass=N
+  HRET-HRND   rank    29 score   20.42 pass=N
+  HRET-SRTX   rank    96 score   10.61 pass=N
+  ANSO-RCRI   rank   408 score   -4.04 pass=N
+  ALGO-HRET: MISSING from universe
+  HRET-NGTE   rank   472 score   -5.83 pass=N
+  CUBO-ULXY   rank    20 score   23.61 pass=N
+  ANSO-RRES   rank   909 score  -20.08 pass=N
+  MTNS-MHRM   rank   309 score   -0.80 pass=N
+  ANSO-RTTH   rank   620 score  -10.27 pass=N
+  SMAH-AETS   rank   207 score    3.47 pass=N
+  HRET-MTNS   rank   662 score  -11.66 pass=N
+  HUXZ-DUCT   rank   477 score   -6.00 pass=N
+  HUXZ-RRES   rank  1046 score  -28.03 pass=N
+  ANSO-IHOZ   rank   972 score  -23.59 pass=N
+  DUCT-NPCK   rank   481 score   -6.15 pass=N
+  LSST-EAFC   rank    94 score   10.72 pass=N
+  ELLT-AETS   rank   134 score    8.28 pass=N
+  FWWG-NGTE   rank   365 score   -2.60 pass=N
+  CUBO-RTTH   rank   953 score  -22.64 pass=N
+  HRET-MDGI   rank    95 score   10.70 pass=N
+  SMAH-FWWG   rank   117 score    9.21 pass=N
+  SMAH-ULXY   rank    39 score   18.60 pass=N
+  RTTH-FWWG   rank  1137 score  -35.37 pass=N
+  OTCS-EELT   rank  1204 score  -52.56 pass=N
+  HRET-SPLZ   rank   323 score   -1.20 pass=N
+  NGTE-FCSG   rank   367 score   -2.66 pass=N
+  EORC-FCSG   rank   168 score    5.72 pass=N
+  MTNS-ULXY   rank   237 score    2.06 pass=N
+  AENO-IHOZ   rank   590 score   -9.62 pass=N
+  AGVF-ULXY   rank   940 score  -21.86 pass=N
+  SPLZ-ULXY   rank   354 score   -2.21 pass=N
+  SPLZ-CCNS   rank   374 score   -2.83 pass=N
+  MSDP-EAFC   rank   936 score  -21.58 pass=N
+  DUCT-HRND   rank  1200 score  -50.52 pass=N
+  LSST-RTTH   rank  1205 score  -52.82 pass=N
+  DIHO-FCSG   rank   862 score  -18.18 pass=N
+  RTTH-RCRI   rank  1213 score  -55.59 pass=N
+  OTCS-CTGI   rank  1190 score  -47.89 pass=N
+  GARI-FWWG   rank   963 score  -23.05 pass=N
+  SPLZ-FCSG   rank   121 score    9.07 pass=N
+  AMRP-DUCT   rank   729 score  -13.42 pass=N
+  SPLZ-NGTE   rank   607 score   -9.98 pass=N
+  RTTH-SPLZ   rank  1074 score  -29.96 pass=N
+  CCNS-NAYO   rank   768 score  -14.60 pass=N
+  SPLZ-ALUT   rank   504 score   -6.76 pass=N
+  ULXY-FCSG   rank   664 score  -11.71 pass=N
+  NWIG-MHRM   rank   563 score   -8.58 pass=N
+  SRTX-MHRM   rank   698 score  -12.39 pass=N
+  MDGI-ULXY   rank   205 score    3.58 pass=N
+  -> 0/88 user candidates pass all gates

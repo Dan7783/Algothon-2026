@@ -1,0 +1,298 @@
+[
+  {
+    "module": "friend_book_latest",
+    "start": 501,
+    "end": 750,
+    "score": 1042.37,
+    "sharpe": 9.62,
+    "returncode": 0,
+    "tail": " 0.00360\nDay 750 value: 263410.83 todayPL: $-914.84 $-traded: 73413900 return: 0.00359\nSaved PnL plot to eval_plots/eval_pl_friend_book_latest.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_friend_book_latest.png\n=====\nmean(PL): 1053.6\nreturn: 0.00359\nStdDev(PL): 1732.53\nannSharpe(PL): 9.62\ntotDvolume: 73413900\nScore: 1042.37\n----- PnL distribution -----\nn: 250\nskew: -0.071\nexcess kurtosis: +0.240  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9965  p=0.8561\nJarque-Bera:  JB=0.675  p=0.7134\nAnderson-Darling: A2=0.189  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_baseline",
+    "window": "val501",
+    "env": {}
+  },
+  {
+    "module": "friend_book_latest",
+    "start": 31,
+    "end": 750,
+    "score": 926.94,
+    "sharpe": 9.35,
+    "returncode": 0,
+    "tail": "y 750 value: 675028.88 todayPL: $-914.84 $-traded: 171557669 return: 0.00393\nSaved PnL plot to eval_plots/eval_pl_friend_book_latest.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_friend_book_latest.png\n=====\nmean(PL): 937.5\nreturn: 0.00393\nStdDev(PL): 1585.25\nannSharpe(PL): 9.35\ntotDvolume: 171557669\nScore: 926.94\n----- PnL distribution -----\nn: 720\nskew: +0.017\nexcess kurtosis: +0.628  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9946  p=0.01208\nJarque-Bera:  JB=11.391  p=0.003361\nAnderson-Darling: A2=0.910  p=0.02147\nNormality: REJECT at 5% (skew / fat tails / outliers matter)\n\n",
+    "label": "friend_baseline",
+    "window": "train31",
+    "env": {}
+  },
+  {
+    "module": "friend_book_latest",
+    "start": 750,
+    "end": 1000,
+    "score": 974.45,
+    "sharpe": 8.4,
+    "returncode": 0,
+    "tail": "n: 0.00321\nDay 1000 value: 248051.45 todayPL: $2075.35 $-traded: 76703292 return: 0.00323\nSaved PnL plot to eval_plots/eval_pl_friend_book_latest.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_friend_book_latest.png\n=====\nmean(PL): 988.3\nreturn: 0.00323\nStdDev(PL): 1859.44\nannSharpe(PL): 8.40\ntotDvolume: 76703292\nScore: 974.45\n----- PnL distribution -----\nn: 251\nskew: +0.083\nexcess kurtosis: +0.069  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9982  p=0.996\nJarque-Bera:  JB=0.304  p=0.8591\nAnderson-Darling: A2=0.117  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_baseline",
+    "window": "oos750",
+    "env": {}
+  },
+  {
+    "module": "friend_book_latest",
+    "start": 801,
+    "end": 1000,
+    "score": 839.27,
+    "sharpe": 7.34,
+    "returncode": 0,
+    "tail": ": 0.00275\nDay 1000 value: 170966.18 todayPL: $2075.35 $-traded: 61503879 return: 0.00278\nSaved PnL plot to eval_plots/eval_pl_friend_book_latest.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_friend_book_latest.png\n=====\nmean(PL): 854.8\nreturn: 0.00278\nStdDev(PL): 1840.48\nannSharpe(PL): 7.34\ntotDvolume: 61503879\nScore: 839.27\n----- PnL distribution -----\nn: 200\nskew: +0.009\nexcess kurtosis: +0.041  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9982  p=0.9987\nJarque-Bera:  JB=0.003  p=0.9984\nAnderson-Darling: A2=0.089  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "friend_baseline",
+    "window": "oos801",
+    "env": {}
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 501,
+    "end": 750,
+    "score": 772.43,
+    "sharpe": 6.89,
+    "returncode": 0,
+    "tail": "turn: 0.00243\nDay 750 value: 197176.77 todayPL: $-1541.64 $-traded: 81679787 return: 0.00241\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 788.7\nreturn: 0.00241\nStdDev(PL): 1810.41\nannSharpe(PL): 6.89\ntotDvolume: 81679787\nScore: 772.43\n----- PnL distribution -----\nn: 250\nskew: -0.031\nexcess kurtosis: +0.427  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9947  p=0.5453\nJarque-Bera:  JB=1.666  p=0.4348\nAnderson-Darling: A2=0.343  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "optimal_m015",
+    "window": "val501",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "optimal"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 31,
+    "end": 750,
+    "score": 728.02,
+    "sharpe": 7.18,
+    "returncode": 0,
+    "tail": "87\nDay 750 value: 534342.30 todayPL: $-1541.64 $-traded: 186633981 return: 0.00286\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 742.1\nreturn: 0.00286\nStdDev(PL): 1634.31\nannSharpe(PL): 7.18\ntotDvolume: 186633981\nScore: 728.02\n----- PnL distribution -----\nn: 720\nskew: +0.055\nexcess kurtosis: +0.502  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9958  p=0.04766\nJarque-Bera:  JB=7.569  p=0.02273\nAnderson-Darling: A2=0.772  p=0.04574\nNormality: REJECT at 5% (skew / fat tails / outliers matter)\n\n",
+    "label": "optimal_m015",
+    "window": "train31",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "optimal"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 750,
+    "end": 1000,
+    "score": 906.86,
+    "sharpe": 7.93,
+    "returncode": 0,
+    "tail": "n: 0.00276\nDay 1000 value: 231244.21 todayPL: $2393.43 $-traded: 82770214 return: 0.00279\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 921.3\nreturn: 0.00279\nStdDev(PL): 1837.65\nannSharpe(PL): 7.93\ntotDvolume: 82770214\nScore: 906.86\n----- PnL distribution -----\nn: 251\nskew: -0.107\nexcess kurtosis: +0.074  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9934  p=0.3304\nJarque-Bera:  JB=0.493  p=0.7815\nAnderson-Darling: A2=0.637  p=0.09664\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "optimal_m015",
+    "window": "oos750",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "optimal"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 842.51,
+    "sharpe": 7.26,
+    "returncode": 0,
+    "tail": "n: 0.00255\nDay 1000 value: 171698.08 todayPL: $2393.43 $-traded: 66520665 return: 0.00258\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 858.5\nreturn: 0.00258\nStdDev(PL): 1869.59\nannSharpe(PL): 7.26\ntotDvolume: 66520665\nScore: 842.51\n----- PnL distribution -----\nn: 200\nskew: -0.117\nexcess kurtosis: +0.086  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9916  p=0.2978\nJarque-Bera:  JB=0.470  p=0.7905\nAnderson-Darling: A2=0.651  p=0.09096\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "optimal_m015",
+    "window": "oos801",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "optimal"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 501,
+    "end": 750,
+    "score": 809.47,
+    "sharpe": 7.18,
+    "returncode": 0,
+    "tail": "eturn: 0.00273\nDay 750 value: 206290.37 todayPL: $-1174.06 $-traded: 76014858 return: 0.00271\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 825.2\nreturn: 0.00271\nStdDev(PL): 1816.33\nannSharpe(PL): 7.18\ntotDvolume: 76014858\nScore: 809.47\n----- PnL distribution -----\nn: 250\nskew: -0.005\nexcess kurtosis: +0.164  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9978  p=0.9843\nJarque-Bera:  JB=0.195  p=0.907\nAnderson-Darling: A2=0.166  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015",
+    "window": "val501",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 31,
+    "end": 750,
+    "score": 751.01,
+    "sharpe": 7.52,
+    "returncode": 0,
+    "tail": "00318\nDay 750 value: 550299.86 todayPL: $-1174.06 $-traded: 173609128 return: 0.00317\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 764.3\nreturn: 0.00317\nStdDev(PL): 1607.91\nannSharpe(PL): 7.52\ntotDvolume: 173609128\nScore: 751.01\n----- PnL distribution -----\nn: 720\nskew: +0.016\nexcess kurtosis: +0.319  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9971  p=0.2356\nJarque-Bera:  JB=2.877  p=0.2373\nAnderson-Darling: A2=0.807  p=0.0384\nNormality: REJECT at 5% (skew / fat tails / outliers matter)\n\n",
+    "label": "mean_m015",
+    "window": "train31",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 750,
+    "end": 1000,
+    "score": 941.14,
+    "sharpe": 8.29,
+    "returncode": 0,
+    "tail": "eturn: 0.00307\nDay 1000 value: 239659.56 todayPL: $2217.92 $-traded: 77234818 return: 0.00310\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 954.8\nreturn: 0.00310\nStdDev(PL): 1820.26\nannSharpe(PL): 8.29\ntotDvolume: 77234818\nScore: 941.14\n----- PnL distribution -----\nn: 251\nskew: +0.063\nexcess kurtosis: +0.059  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9958  p=0.738\nJarque-Bera:  JB=0.177  p=0.9153\nAnderson-Darling: A2=0.355  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015",
+    "window": "oos750",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 863.16,
+    "sharpe": 7.5,
+    "returncode": 0,
+    "tail": "eturn: 0.00279\nDay 1000 value: 175703.64 todayPL: $2217.92 $-traded: 62071276 return: 0.00283\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 878.5\nreturn: 0.00283\nStdDev(PL): 1852.79\nannSharpe(PL): 7.50\ntotDvolume: 62071276\nScore: 863.16\n----- PnL distribution -----\nn: 200\nskew: +0.053\nexcess kurtosis: +0.117  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9949  p=0.742\nJarque-Bera:  JB=0.153  p=0.9263\nAnderson-Darling: A2=0.364  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015",
+    "window": "oos801",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 31,
+    "end": 750,
+    "score": 758.0,
+    "sharpe": 7.6,
+    "returncode": 0,
+    "tail": ".00323\nDay 750 value: 555201.00 todayPL: $-1174.06 $-traded: 172469626 return: 0.00322\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 771.1\nreturn: 0.00322\nStdDev(PL): 1603.34\nannSharpe(PL): 7.60\ntotDvolume: 172469626\nScore: 758.00\n----- PnL distribution -----\nn: 720\nskew: +0.035\nexcess kurtosis: +0.329  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9970  p=0.213\nJarque-Bera:  JB=3.176  p=0.2043\nAnderson-Darling: A2=0.834  p=0.0329\nNormality: REJECT at 5% (skew / fat tails / outliers matter)\n\n",
+    "label": "mean_m015_ouflat",
+    "window": "train31",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "ou_flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 501,
+    "end": 750,
+    "score": 827.84,
+    "sharpe": 7.37,
+    "returncode": 0,
+    "tail": "eturn: 0.00280\nDay 750 value: 210768.62 todayPL: $-1174.06 $-traded: 75615981 return: 0.00279\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 843.1\nreturn: 0.00279\nStdDev(PL): 1808.04\nannSharpe(PL): 7.37\ntotDvolume: 75615981\nScore: 827.84\n----- PnL distribution -----\nn: 250\nskew: +0.000\nexcess kurtosis: +0.189  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9975  p=0.9694\nJarque-Bera:  JB=0.272  p=0.873\nAnderson-Darling: A2=0.173  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015_ouflat",
+    "window": "val501",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "ou_flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 750,
+    "end": 1000,
+    "score": 936.21,
+    "sharpe": 8.27,
+    "returncode": 0,
+    "tail": "eturn: 0.00308\nDay 1000 value: 238422.39 todayPL: $2003.75 $-traded: 76681268 return: 0.00311\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 949.9\nreturn: 0.00311\nStdDev(PL): 1815.80\nannSharpe(PL): 8.27\ntotDvolume: 76681268\nScore: 936.21\n----- PnL distribution -----\nn: 251\nskew: +0.057\nexcess kurtosis: +0.077  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9959  p=0.7561\nJarque-Bera:  JB=0.160  p=0.923\nAnderson-Darling: A2=0.357  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015_ouflat",
+    "window": "oos750",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "ou_flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 854.95,
+    "sharpe": 7.46,
+    "returncode": 0,
+    "tail": "turn: 0.00280\nDay 1000 value: 174063.33 todayPL: $2003.75 $-traded: 61556775 return: 0.00283\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 870.3\nreturn: 0.00283\nStdDev(PL): 1845.06\nannSharpe(PL): 7.46\ntotDvolume: 61556775\nScore: 854.95\n----- PnL distribution -----\nn: 200\nskew: +0.044\nexcess kurtosis: +0.147  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9946  p=0.6966\nJarque-Bera:  JB=0.173  p=0.9173\nAnderson-Darling: A2=0.401  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015_ouflat",
+    "window": "oos801",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "ou_flat"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 31,
+    "end": 750,
+    "score": 682.19,
+    "sharpe": 7.69,
+    "returncode": 0,
+    "tail": "urn: 0.00324\nDay 750 value: 499472.73 todayPL: $-812.43 $-traded: 154280981 return: 0.00324\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 693.7\nreturn: 0.00324\nStdDev(PL): 1425.58\nannSharpe(PL): 7.69\ntotDvolume: 154280981\nScore: 682.19\n----- PnL distribution -----\nn: 720\nskew: -0.064\nexcess kurtosis: +0.159  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9976  p=0.3797\nJarque-Bera:  JB=1.157  p=0.5606\nAnderson-Darling: A2=0.532  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015_sleeve",
+    "window": "train31",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "sleeve"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 501,
+    "end": 750,
+    "score": 789.56,
+    "sharpe": 8.06,
+    "returncode": 0,
+    "tail": "eturn: 0.00304\nDay 750 value: 200428.14 todayPL: $-812.43 $-traded: 66193774 return: 0.00303\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 801.7\nreturn: 0.00303\nStdDev(PL): 1572.50\nannSharpe(PL): 8.06\ntotDvolume: 66193774\nScore: 789.56\n----- PnL distribution -----\nn: 250\nskew: -0.103\nexcess kurtosis: -0.248  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9954  p=0.6652\nJarque-Bera:  JB=1.181  p=0.5541\nAnderson-Darling: A2=0.225  p=0.15\nNormality: FAIL TO REJECT at 5% (looks roughly Gaussian)\n\n",
+    "label": "mean_m015_sleeve",
+    "window": "val501",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "sleeve"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 750,
+    "end": 1000,
+    "score": 846.19,
+    "sharpe": 9.33,
+    "returncode": 0,
+    "tail": ".00321\nDay 1000 value: 214833.25 todayPL: $1254.85 $-traded: 66460949 return: 0.00323\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 855.9\nreturn: 0.00323\nStdDev(PL): 1450.58\nannSharpe(PL): 9.33\ntotDvolume: 66460949\nScore: 846.19\n----- PnL distribution -----\nn: 251\nskew: +0.358\nexcess kurtosis: +0.661  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9896  p=0.06847\nJarque-Bera:  JB=9.373  p=0.009219\nAnderson-Darling: A2=0.283  p=0.15\nNormality: REJECT at 5% (skew / fat tails / outliers matter)\n\n",
+    "label": "mean_m015_sleeve",
+    "window": "oos750",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "sleeve"
+    }
+  },
+  {
+    "module": "merged_friend_ou",
+    "start": 801,
+    "end": 1000,
+    "score": 785.81,
+    "sharpe": 8.58,
+    "returncode": 0,
+    "tail": ".00297\nDay 1000 value: 159298.29 todayPL: $1254.85 $-traded: 53213191 return: 0.00299\nSaved PnL plot to eval_plots/eval_pl_merged_friend_ou.png\nSaved PnL distribution plot to eval_plots/eval_pl_dist_merged_friend_ou.png\n=====\nmean(PL): 796.5\nreturn: 0.00299\nStdDev(PL): 1468.10\nannSharpe(PL): 8.58\ntotDvolume: 53213191\nScore: 785.81\n----- PnL distribution -----\nn: 200\nskew: +0.395\nexcess kurtosis: +0.915  (0 ~ normal; >0 fat tails)\nShapiro-Wilk: W=0.9862  p=0.04847\nJarque-Bera:  JB=11.327  p=0.00347\nAnderson-Darling: A2=0.323  p=0.15\nNormality: REJECT at 5% (skew / fat tails / outliers matter)\n\n",
+    "label": "mean_m015_sleeve",
+    "window": "oos801",
+    "env": {
+      "MERGED_CONSENSUS_MARGIN": "0.15",
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_OU_CONFLICT": "sleeve"
+    }
+  }
+]

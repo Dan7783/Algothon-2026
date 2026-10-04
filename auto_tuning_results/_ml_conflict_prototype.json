@@ -1,0 +1,71 @@
+{
+  "fit_window": [
+    31,
+    500
+  ],
+  "val_window": [
+    501,
+    750
+  ],
+  "n_fit": 3496,
+  "n_val": 3112,
+  "deps": {
+    "sklearn": true,
+    "xgboost": false,
+    "note": "HistGradientBoostingClassifier"
+  },
+  "rejected_oos_overfit": "_mean_exit_best_catalog.json / 1057 path",
+  "model_path": "auto_tuning_results/_ml_conflict_model.joblib",
+  "chosen_hp": {
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "max_iter": 100
+  },
+  "fit_acc": 0.6290045766590389,
+  "val_acc": 0.5041773778920309,
+  "book_scores": {
+    "friend_book_latest": {
+      "train_31_750": 926.94,
+      "val_501_750": 1042.37,
+      "oos_750_1000_verify": 974.45
+    },
+    "merged_shared_mean_m015": {
+      "train_31_750": 751.01,
+      "val_501_750": 809.47,
+      "oos_750_1000_verify": 941.14
+    },
+    "merged_optimal_m015": {
+      "train_31_750": 728.02,
+      "val_501_750": 772.43,
+      "oos_750_1000_verify": 906.86
+    },
+    "flat_conflict_mean_m015": {
+      "train_31_750": 704.77,
+      "val_501_750": 787.67,
+      "oos_750_1000_verify": 798.26
+    },
+    "stronger_vote_mean_m015": {
+      "train_31_750": 749.57,
+      "val_501_750": 801.85,
+      "oos_750_1000_verify": 911.49
+    },
+    "ml_conflict_mean_m015": {
+      "train_31_750": 950.02,
+      "val_501_750": 831.69,
+      "oos_750_1000_verify": 806.11
+    },
+    "REJECTED_oos_prune_1057": {
+      "train_31_750": 830.88,
+      "val_501_750": 929.57,
+      "oos_750_1000_verify": 1057.15
+    }
+  },
+  "beats_friend_train": [
+    "ml_conflict_mean_m015"
+  ],
+  "friend_targets": {
+    "train": 926.94,
+    "val": 1042.37,
+    "oos": 974.45
+  }
+}

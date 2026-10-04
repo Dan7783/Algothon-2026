@@ -1,0 +1,646 @@
+[
+    {
+        "pair_name": "AENO-NWIG",
+        "y_symbol": "AENO",
+        "x_symbol": "NWIG",
+        "auto_params": {
+            "q_beta": 1.02e-08,
+            "h": 24.1,
+            "cusum_k": 1.22,
+            "max_cov_inflate": 2460.0,
+            "cov_decay": 0.000708,
+            "kalman_var_ewma_alpha": 0.00357,
+            "ou_window": 148,
+            "kappa_ewma_alpha": 0.000218,
+            "sigma_ewma_alpha": 0.0107,
+            "pair_y": "AENO",
+            "pair_x": "NWIG"
+        },
+        "auto_metrics": {
+            "meanpl": 39.93428698833334,
+            "sharpe": 2.754892702041896,
+            "score": 35.28505306683412,
+            "ret": 0.0088233781446762,
+            "total_return": 23960.572193000004
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 53.70017595999995,
+                "sharpe": 3.923707549220482,
+                "score": 50.42487246732758,
+                "ret": 0.008820311359584283,
+                "total_return": 10740.03519199999
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "q_beta",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ]
+        }
+    },
+    {
+        "pair_name": "HETT-ULXY",
+        "y_symbol": "HETT",
+        "x_symbol": "ULXY",
+        "auto_params": {
+            "q_beta": 8.85e-09,
+            "h": 29.8,
+            "cusum_k": 1.08,
+            "max_cov_inflate": 8240000.0,
+            "cov_decay": 0.000133,
+            "kalman_var_ewma_alpha": 0.028,
+            "ou_window": 191,
+            "kappa_ewma_alpha": 0.00281,
+            "sigma_ewma_alpha": 0.000231,
+            "pair_y": "HETT",
+            "pair_x": "ULXY"
+        },
+        "auto_metrics": {
+            "meanpl": 58.75580739500001,
+            "sharpe": 3.236371349586399,
+            "score": 53.63507375212184,
+            "ret": 0.012706450972149804,
+            "total_return": 35253.48443700001
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 37.38809781999999,
+                "sharpe": 1.9715524456162035,
+                "score": 29.737606289377553,
+                "ret": 0.01276906402131296,
+                "total_return": 7477.619563999998
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 1.4426854062914867
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ]
+        }
+    },
+    {
+        "pair_name": "HUXZ-ACAC",
+        "y_symbol": "HUXZ",
+        "x_symbol": "ACAC",
+        "auto_params": {
+            "q_beta": 2.02e-06,
+            "h": 27.0,
+            "cusum_k": 1.09,
+            "max_cov_inflate": 174.0,
+            "cov_decay": 0.0293,
+            "kalman_var_ewma_alpha": 0.5,
+            "ou_window": 181,
+            "kappa_ewma_alpha": 0.0298,
+            "sigma_ewma_alpha": 0.0221,
+            "pair_y": "HUXZ",
+            "pair_x": "ACAC"
+        },
+        "auto_metrics": {
+            "meanpl": 48.317874093333316,
+            "sharpe": 3.338030128547365,
+            "score": 44.338620035368955,
+            "ret": 0.009582901355265383,
+            "total_return": 28990.72445599999
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 17.93725645000001,
+                "sharpe": 1.2827029901302605,
+                "score": 11.156523211651589,
+                "ret": 0.006548988265696661,
+                "total_return": 3587.451290000002
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 4.78291382001416,
+                    "drop_10": 0.5948662191595084,
+                    "drop_20": 8.054493664456123
+                },
+                {
+                    "param": "h",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 1.044547059397944,
+                    "drop_10": 1.044547059397944,
+                    "drop_20": 1.044547059397944
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 1.0266266473614944,
+                    "drop_10": 1.010488651741082,
+                    "drop_20": 0.21155890833716423
+                }
+            ]
+        }
+    },
+    {
+        "pair_name": "SMAH-ILVX",
+        "y_symbol": "SMAH",
+        "x_symbol": "ILVX",
+        "auto_params": {
+            "q_beta": 1.3e-05,
+            "h": 18.5,
+            "cusum_k": 1.52,
+            "max_cov_inflate": 3370.0,
+            "cov_decay": 0.00192,
+            "kalman_var_ewma_alpha": 0.16,
+            "ou_window": 154,
+            "kappa_ewma_alpha": 0.000617,
+            "sigma_ewma_alpha": 0.0379,
+            "pair_y": "SMAH",
+            "pair_x": "ILVX"
+        },
+        "auto_metrics": {
+            "meanpl": 41.697007716666675,
+            "sharpe": 3.3175475784393416,
+            "score": 38.22402885290989,
+            "ret": 0.009413643557097003,
+            "total_return": 25018.204630000004
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 51.155177720000005,
+                "sharpe": 4.007371949472233,
+                "score": 48.15646220712066,
+                "ret": 0.009261834905519293,
+                "total_return": 10231.035544
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.839320052800306,
+                    "drop_10": 4.5937130233895545,
+                    "drop_20": 6.997406730815205
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 0.06337405169655971,
+                    "drop_10": 0.06337405169655971,
+                    "drop_20": 3.4520190357893816
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 1.8771862746749552
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 0.8268888642089735
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 0.8268888642089735
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 0.8268888642089735
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 0.8268888642089735
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 0.8268888642089735
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.8268888642089735,
+                    "drop_10": 0.8268888642089735,
+                    "drop_20": 0.8268888642089735
+                }
+            ]
+        }
+    },
+    {
+        "pair_name": "EORC-NGTE",
+        "y_symbol": "EORC",
+        "x_symbol": "NGTE",
+        "auto_params": {
+            "q_beta": 2.54e-07,
+            "h": 19.0,
+            "cusum_k": 0.385,
+            "max_cov_inflate": 961.0,
+            "cov_decay": 0.0604,
+            "kalman_var_ewma_alpha": 0.00584,
+            "ou_window": 166,
+            "kappa_ewma_alpha": 0.0148,
+            "sigma_ewma_alpha": 0.027,
+            "pair_y": "EORC",
+            "pair_x": "NGTE"
+        },
+        "auto_metrics": {
+            "meanpl": 48.039530241666654,
+            "sharpe": 3.008189118035807,
+            "score": 43.25909779123008,
+            "ret": 0.010037097174791024,
+            "total_return": 28823.71814499999
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 27.244056105,
+                "sharpe": 1.649136831218475,
+                "score": 19.919700494585367,
+                "ret": 0.008589085898075059,
+                "total_return": 5448.811221
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "q_beta",
+                    "drop_5": 3.715467760593014,
+                    "drop_10": 8.117577113397164,
+                    "drop_20": 11.43313577007657
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 3.715467760593014,
+                    "drop_10": 8.117577113397164,
+                    "drop_20": 8.937691920483722
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 3.011412677851089,
+                    "drop_10": 3.015197148293105,
+                    "drop_20": 6.88242226721013
+                },
+                {
+                    "param": "h",
+                    "drop_5": 10.514679156670544,
+                    "drop_10": 9.188433350739542,
+                    "drop_20": 5.595765389197474
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 2.732919156507107,
+                    "drop_10": 0,
+                    "drop_20": 2.6645357866393975
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 1.9676641958134282,
+                    "drop_10": 2.2976536674935004,
+                    "drop_20": 1.880562059902019
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 1.1453920373326976,
+                    "drop_10": 3.2318938793188234,
+                    "drop_20": 1.235897852684375
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ]
+        }
+    },
+    {
+        "pair_name": "CTGI-EELT",
+        "y_symbol": "CTGI",
+        "x_symbol": "EELT",
+        "auto_params": {
+            "q_beta": 9.37e-09,
+            "h": 29.3,
+            "cusum_k": 1.36,
+            "max_cov_inflate": 13800.0,
+            "cov_decay": 0.00133,
+            "kalman_var_ewma_alpha": 0.0286,
+            "ou_window": 96,
+            "kappa_ewma_alpha": 0.273,
+            "sigma_ewma_alpha": 0.00278,
+            "pair_y": "CTGI",
+            "pair_x": "EELT"
+        },
+        "auto_metrics": {
+            "meanpl": 75.98501413666669,
+            "sharpe": 3.11766517843419,
+            "score": 68.89675150201711,
+            "ret": 0.015283019840353605,
+            "total_return": 45591.00848200002
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 44.15519999999996,
+                "sharpe": 1.851315250063743,
+                "score": 34.18196116984956,
+                "ret": 0.01124114052953155,
+                "total_return": 8831.039999999992
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 3.7181580475660363,
+                    "drop_10": 3.7181580475660363,
+                    "drop_20": 4.051755719851422
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9719370310351383
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9719370310351383
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9719370310351383
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9719370310351383
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9719370310351383
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9719370310351383
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.9719370310351383,
+                    "drop_10": 0.9719370310351383,
+                    "drop_20": 0.9641074569306811
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 7.789994999058564,
+                    "drop_10": 0,
+                    "drop_20": 0
+                }
+            ]
+        }
+    },
+    {
+        "pair_name": "ALUT-CCNS",
+        "y_symbol": "ALUT",
+        "x_symbol": "CCNS",
+        "auto_params": {
+            "q_beta": 8.21e-09,
+            "h": 21.0,
+            "cusum_k": 0.975,
+            "max_cov_inflate": 17600.0,
+            "cov_decay": 0.0226,
+            "kalman_var_ewma_alpha": 0.00234,
+            "ou_window": 69,
+            "kappa_ewma_alpha": 0.00234,
+            "sigma_ewma_alpha": 0.36,
+            "pair_y": "ALUT",
+            "pair_x": "CCNS"
+        },
+        "auto_metrics": {
+            "meanpl": 33.29671687166666,
+            "sharpe": 2.0812740844312065,
+            "score": 27.05167203795941,
+            "ret": 0.0092886561037972,
+            "total_return": 19978.030122999997
+        },
+        "test_metrics": {
+            "auto": {
+                "meanpl": 1.54277333999995,
+                "sharpe": 0.09546252133895518,
+                "score": 0.013932469009556612,
+                "ret": 0.0009725813681003892,
+                "total_return": 308.55466799999
+            }
+        },
+        "perturbation_summary": {
+            "auto": [
+                {
+                    "param": "cusum_k",
+                    "drop_5": 2.1692766251362063,
+                    "drop_10": 2.169493708148847,
+                    "drop_20": 9.490487198234643
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 2.7332238768382973,
+                    "drop_10": 7.276371457913595,
+                    "drop_20": 3.1931312740720244
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 2.1625580725731655,
+                    "drop_10": 2.16310691834961,
+                    "drop_20": 2.307578205569465
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 2.1686846217363533,
+                    "drop_10": 2.1686846217363533,
+                    "drop_20": 2.1686846217363533
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 2.1686846217363533,
+                    "drop_10": 2.1686846217363533,
+                    "drop_20": 2.1686846217363533
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 2.172045966432565,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 2.1631241328658075,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 2.172045966432565,
+                    "drop_10": 0,
+                    "drop_20": 0
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 2.1686846217363533,
+                    "drop_10": 1.2309332389249348,
+                    "drop_20": 0
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,230 @@
+{
+    "AGVF-RCRI": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "MSDP-SRTX": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "RTTH-RRES": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "HRET-HRND": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "HRET-SRTX": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "ANSO-RCRI": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "ALGO-HRET": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "HRET-NGTE": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "CUBO-ULXY": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "ANSO-RRES": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "MTNS-MHRM": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "ANSO-RTTH": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "SMAH-AETS": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "NAYO-FWWG": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "HRET-MTNS": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "HUXZ-DUCT": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "HUXZ-RRES": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "ANSO-IHOZ": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "DUCT-NPCK": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "LSST-EAFC": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "ELLT-AETS": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "FWWG-NGTE": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "CUBO-RTTH": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "HRET-MDGI": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SMAH-FWWG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SMAH-ULXY": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "CCNS-FARS": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "RTTH-FWWG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "OTCS-EELT": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "HRET-SPLZ": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "NGTE-FCSG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "EORC-FCSG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "MTNS-ULXY": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "AENO-IHOZ": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "AGVF-ULXY": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SPLZ-ULXY": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SPLZ-CCNS": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "MSDP-EAFC": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "DUCT-HRND": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "LSST-RTTH": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "DIHO-FCSG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "RTTH-RCRI": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "OTCS-CTGI": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "GARI-FWWG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SPLZ-FCSG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "AMRP-DUCT": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SPLZ-NGTE": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "RTTH-SPLZ": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "CCNS-NAYO": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SPLZ-ALUT": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "ULXY-FCSG": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "NWIG-MHRM": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "SRTX-MHRM": {
+        "decision": "flagged",
+        "valid_windows": 1
+    },
+    "MDGI-ULXY": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "SPLZ-FWWG": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "DIHO-RTTH": {
+        "decision": "flagged",
+        "valid_windows": 0
+    },
+    "EORC-SPLZ": {
+        "decision": "flagged",
+        "valid_windows": 0
+    }
+}

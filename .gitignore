@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.env
+.DS_Store
+Thumbs.db
+
+# local tuning state and regenerated outputs
+*.db
+*.db-wal
+*.db-shm
+*.joblib
+eval_plots/
+cusum_output/
+auto_tuning_results/screen_train.json
+auto_tuning_results/screen_oos.json
+auto_tuning_results/optuna_*
+_tmp_*.py

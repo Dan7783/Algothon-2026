@@ -1,0 +1,31 @@
+[supervisor] attempt 1/2 starting
+base: merged_friend_ou catalog (88 rows) margin=0.15 conflict=shared [SWAP mode] judge OOS 750-1000
+[base] OOS 750-1000 score 906.86 (expect ~906.86) (12s)
+candidates: 34 OOS-positive (skip exist=0 banned=1 nonpos=45); removable slots=78; catalog_cap=88
+[phase0] LOO done; worst 10 slots: [('AMRP-DUCT', -26.05), ('GARI-FWWG', -17.07), ('AGVF-RCRI', -15.72), ('ANSO-BENI', -15.22), ('HRET-MTNS', -12.53), ('MTNS-BLBT', -12.03), ('DUCT-HRND', -9.84), ('SRTX-MHRM', -9.04), ('OTCS-EELT', -8.82), ('MSDP-ULXY', -8.79)] (429s)
+[phase1] 340 swap probes with 2 workers
+[phase1] 30/34 improving swaps (2171s)
+  +86.99  MMBT-MDGI replaces AMRP-DUCT -> 993.85
+  +72.14  MMBT-NPCK replaces AMRP-DUCT -> 979.00
+  +39.94  ULXY-CCNS replaces AMRP-DUCT -> 946.80
+  +37.97  MHRM-FWWG replaces AMRP-DUCT -> 944.83
+  +35.66  CCNS-EAFC replaces AMRP-DUCT -> 942.52
+  +35.50  ULXY-HRET replaces AMRP-DUCT -> 942.36
+  +33.71  FWWG-HRET replaces AMRP-DUCT -> 940.57
+  +32.53  ELLT-HRET replaces AMRP-DUCT -> 939.39
+  +32.41  MTNS-MSDP replaces AMRP-DUCT -> 939.27
+  +32.12  LSST-MDGI replaces AMRP-DUCT -> 938.98
+[phase2.1] + MMBT-MDGI for AMRP-DUCT: oos=993.85 train=794.94 val=906.84 (2289s)
+[phase2.1] + MMBT-NPCK for GARI-FWWG: oos=996.73 train=812.32 val=922.88 (2397s)
+[phase2.1] + ULXY-CCNS for AGVF-RCRI: oos=1026.21 train=810.54 val=933.15 (2497s)
+[phase2.1] + MHRM-FWWG for ANSO-BENI: oos=1048.17 train=816.71 val=937.64 (2587s)
+[phase2.1] + CCNS-EAFC for HRET-MTNS: oos=1061.39 train=836.01 val=971.81 (2668s)
+[phase2.1] + ULXY-HRET for DUCT-HRND: oos=1063.49 train=834.81 val=986.65 (2740s)
+[phase2.1] + FWWG-HRET for SRTX-MHRM: oos=1076.65 train=834.04 val=1000.83 (2803s)
+[phase2.1] + ELLT-HRET for OTCS-EELT: oos=1090.55 train=823.72 val=989.64 (2857s)
+[phase2.1] + MTNS-MSDP for MTNS-BLBT: oos=1092.94 train=828.37 val=1015.14 (2901s)
+[phase2.1] + ULXY-EORC for MSDP-ULXY: oos=1095.35 train=827.76 val=991.20 (2946s)
+[done] final 88 rows | OOS 750-1000 1095.35 (base 906.86, +188.49) accepted=['MMBT-MDGI<-AMRP-DUCT', 'MMBT-NPCK<-GARI-FWWG', 'ULXY-CCNS<-AGVF-RCRI', 'MHRM-FWWG<-ANSO-BENI', 'CCNS-EAFC<-HRET-MTNS', 'ULXY-HRET<-DUCT-HRND', 'FWWG-HRET<-SRTX-MHRM', 'ELLT-HRET<-OTCS-EELT', 'MTNS-MSDP<-MTNS-BLBT', 'ULXY-EORC<-MSDP-ULXY']
+GREEDY COMPLETE
+[supervisor] exited code=0 after 2946s
+[supervisor] GREEDY COMPLETE

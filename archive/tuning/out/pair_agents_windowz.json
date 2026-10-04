@@ -1,0 +1,452 @@
+[
+  {
+    "name": "RTTH/NAYO",
+    "y": 18,
+    "x": 35,
+    "priority": 88.16553167150757,
+    "params": {
+      "q_beta": 2.5586050641265726e-05,
+      "h": 5.5,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.45,
+      "leg_scale": 1.0
+    },
+    "tune_score": 88.16553167150757,
+    "tune_mu": 92.73254131600002,
+    "tune_sharpe": 4.393730865531803
+  },
+  {
+    "name": "CTGI/EELT",
+    "y": 25,
+    "x": 37,
+    "priority": 83.17059249490525,
+    "params": {
+      "q_beta": 2.711787309799664e-06,
+      "h": 9.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.3,
+      "z_dead": 0.2,
+      "leg_scale": 1.0
+    },
+    "tune_score": 83.17059249490525,
+    "tune_mu": 88.45936812399998,
+    "tune_sharpe": 3.9655855757581775
+  },
+  {
+    "name": "HETT/ULXY",
+    "y": 7,
+    "x": 40,
+    "priority": 69.75656722352646,
+    "params": {
+      "q_beta": 2.3887951788435955e-07,
+      "h": 7.5,
+      "cusum_k": 0.55,
+      "adapt_bars": 13,
+      "snap_overshoot": 1.3,
+      "z_dead": 0.33999999999999997,
+      "leg_scale": 1.0
+    },
+    "tune_score": 69.75656722352646,
+    "tune_mu": 73.50950252399997,
+    "tune_sharpe": 4.311287764311931
+  },
+  {
+    "name": "AENO/NWIG",
+    "y": 1,
+    "x": 20,
+    "priority": 43.614970581080904,
+    "params": {
+      "q_beta": 1.733204235221412e-06,
+      "h": 6.0,
+      "cusum_k": 0.35,
+      "adapt_bars": 6,
+      "snap_overshoot": 1.2000000000000002,
+      "z_dead": 0.41000000000000003,
+      "leg_scale": 1.0
+    },
+    "tune_score": 43.614970581080904,
+    "tune_mu": 46.626720315999975,
+    "tune_sharpe": 3.805470429041992
+  },
+  {
+    "name": "HUXZ/ACAC",
+    "y": 8,
+    "x": 27,
+    "priority": 38.27099960939016,
+    "params": {
+      "q_beta": 4.629409408025279e-06,
+      "h": 5.0,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 8,
+      "snap_overshoot": 1.2000000000000002,
+      "z_dead": 0.41000000000000003,
+      "leg_scale": 1.0
+    },
+    "tune_score": 38.27099960939016,
+    "tune_mu": 41.99401929200001,
+    "tune_sharpe": 3.2061750988778495
+  },
+  {
+    "name": "HRET/CTGI",
+    "y": 15,
+    "x": 25,
+    "priority": 38.12307945791127,
+    "params": {
+      "q_beta": 1.022750718275126e-06,
+      "h": 5.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 16,
+      "snap_overshoot": 1.05,
+      "z_dead": 0.30000000000000004,
+      "leg_scale": 1.0
+    },
+    "tune_score": 38.12307945791127,
+    "tune_mu": 46.505506572,
+    "tune_sharpe": 2.132598474411795
+  },
+  {
+    "name": "NAYO/SRTX",
+    "y": 35,
+    "x": 28,
+    "priority": 37.767592593182016,
+    "params": {
+      "q_beta": 4.5206686514337124e-07,
+      "h": 6.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 15,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.14,
+      "leg_scale": 1.0
+    },
+    "tune_score": 37.767592593182016,
+    "tune_mu": 45.97525716800003,
+    "tune_sharpe": 2.1451114028065685
+  },
+  {
+    "name": "MDGI/HTRK",
+    "y": 22,
+    "x": 44,
+    "priority": 35.459432008997574,
+    "params": {
+      "q_beta": 7.026728979964923e-06,
+      "h": 6.5,
+      "cusum_k": 0.6,
+      "adapt_bars": 16,
+      "snap_overshoot": 1.2000000000000002,
+      "z_dead": 0.1,
+      "leg_scale": 1.0
+    },
+    "tune_score": 35.459432008997574,
+    "tune_mu": 40.389226396000005,
+    "tune_sharpe": 2.681954986104866
+  },
+  {
+    "name": "EORC/NGTE",
+    "y": 13,
+    "x": 45,
+    "priority": 34.78466317826198,
+    "params": {
+      "q_beta": 9.062043641004232e-07,
+      "h": 11.5,
+      "cusum_k": 0.6,
+      "adapt_bars": 9,
+      "snap_overshoot": 1.2000000000000002,
+      "z_dead": 0.38,
+      "leg_scale": 1.0
+    },
+    "tune_score": 34.78466317826198,
+    "tune_mu": 40.400691452000004,
+    "tune_sharpe": 2.48873845517417
+  },
+  {
+    "name": "MTNS/ALUT",
+    "y": 33,
+    "x": 26,
+    "priority": 33.46428180671451,
+    "params": {
+      "q_beta": 1.7146469748525414e-06,
+      "h": 9.5,
+      "cusum_k": 0.55,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.23,
+      "leg_scale": 1.0
+    },
+    "tune_score": 33.46428180671451,
+    "tune_mu": 38.43981172800007,
+    "tune_sharpe": 2.593409415680169
+  },
+  {
+    "name": "SMAH/ILVX",
+    "y": 10,
+    "x": 46,
+    "priority": 32.094854032197404,
+    "params": {
+      "q_beta": 3.610489417303408e-06,
+      "h": 10.0,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 10,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.30000000000000004,
+      "leg_scale": 1.0
+    },
+    "tune_score": 32.094854032197404,
+    "tune_mu": 35.672104967999985,
+    "tune_sharpe": 2.995318435179521
+  },
+  {
+    "name": "BENI/RCRI",
+    "y": 42,
+    "x": 30,
+    "priority": 31.945687670703823,
+    "params": {
+      "q_beta": 5.846755050994701e-07,
+      "h": 11.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.35,
+      "z_dead": 0.1,
+      "leg_scale": 0.8999999999999999
+    },
+    "tune_score": 31.945687670703823,
+    "tune_mu": 39.335489344,
+    "tune_sharpe": 2.0791687024675545
+  },
+  {
+    "name": "DIHO/RTTH",
+    "y": 17,
+    "x": 18,
+    "priority": 31.09999446291817,
+    "params": {
+      "q_beta": 6.1295508903004105e-06,
+      "h": 7.5,
+      "cusum_k": 0.55,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.11,
+      "leg_scale": 1.0
+    },
+    "tune_score": 31.09999446291817,
+    "tune_mu": 39.766863612,
+    "tune_sharpe": 1.8943012070518628
+  },
+  {
+    "name": "ALUT/CCNS",
+    "y": 26,
+    "x": 32,
+    "priority": 29.248461865421216,
+    "params": {
+      "q_beta": 1.0401026420128553e-07,
+      "h": 7.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 12,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.45,
+      "leg_scale": 1.0
+    },
+    "tune_score": 29.248461865421216,
+    "tune_mu": 34.82373958800001,
+    "tune_sharpe": 2.2904365379884335
+  },
+  {
+    "name": "MSDP/ULXY",
+    "y": 12,
+    "x": 40,
+    "priority": 27.937283606922797,
+    "params": {
+      "q_beta": 2.0848784517977123e-07,
+      "h": 5.0,
+      "cusum_k": 0.5,
+      "adapt_bars": 7,
+      "snap_overshoot": 1.35,
+      "z_dead": 0.29000000000000004,
+      "leg_scale": 1.0
+    },
+    "tune_score": 27.937283606922797,
+    "tune_mu": 36.43445462399999,
+    "tune_sharpe": 1.8132384039669291
+  },
+  {
+    "name": "MHRM/EAFC",
+    "y": 49,
+    "x": 50,
+    "priority": 27.804337374836305,
+    "params": {
+      "q_beta": 1.2809797715514793e-06,
+      "h": 11.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.05,
+      "z_dead": 0.1,
+      "leg_scale": 0.8999999999999999
+    },
+    "tune_score": 27.804337374836305,
+    "tune_mu": 32.48958889599998,
+    "tune_sharpe": 2.4360703146670475
+  },
+  {
+    "name": "HUXZ/NWIG",
+    "y": 8,
+    "x": 20,
+    "priority": 20.5903706736594,
+    "params": {
+      "q_beta": 2.3048408424182394e-05,
+      "h": 11.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.1500000000000001,
+      "z_dead": 0.4,
+      "leg_scale": 1.0
+    },
+    "tune_score": 20.5903706736594,
+    "tune_mu": 26.125613131999966,
+    "tune_sharpe": 1.9286959034812958
+  },
+  {
+    "name": "FWWG/BLBT",
+    "y": 36,
+    "x": 41,
+    "priority": 19.698257330843397,
+    "params": {
+      "q_beta": 9.989538262148051e-07,
+      "h": 7.5,
+      "cusum_k": 0.55,
+      "adapt_bars": 11,
+      "snap_overshoot": 1.05,
+      "z_dead": 0.11,
+      "leg_scale": 1.0
+    },
+    "tune_score": 19.698257330843397,
+    "tune_mu": 23.11620054800002,
+    "tune_sharpe": 2.4006645621003235
+  },
+  {
+    "name": "CCNS/SRTX",
+    "y": 32,
+    "x": 28,
+    "priority": 14.267694966714062,
+    "params": {
+      "q_beta": 1.7798306864495306e-06,
+      "h": 5.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 10,
+      "snap_overshoot": 1.25,
+      "z_dead": 0.45,
+      "leg_scale": 1.0
+    },
+    "tune_score": 14.267694966714062,
+    "tune_mu": 20.985005987999987,
+    "tune_sharpe": 1.4574013897093845
+  },
+  {
+    "name": "MTNS/BENI",
+    "y": 33,
+    "x": 42,
+    "priority": 13.703246551839557,
+    "params": {
+      "q_beta": 2.2548623985507527e-06,
+      "h": 6.0,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 5,
+      "snap_overshoot": 1.4,
+      "z_dead": 0.41000000000000003,
+      "leg_scale": 1.0
+    },
+    "tune_score": 13.703246551839557,
+    "tune_mu": 18.355448428000038,
+    "tune_sharpe": 1.7162575462550984
+  },
+  {
+    "name": "ACIX/ITPA",
+    "y": 31,
+    "x": 43,
+    "priority": 10.58397768123904,
+    "params": {
+      "q_beta": 7.251581422982332e-07,
+      "h": 7.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.35,
+      "z_dead": 0.4,
+      "leg_scale": 1.0
+    },
+    "tune_score": 10.58397768123904,
+    "tune_mu": 15.160307468000019,
+    "tune_sharpe": 1.5207779283593426
+  },
+  {
+    "name": "MHRM/SRTX",
+    "y": 49,
+    "x": 28,
+    "priority": 8.5,
+    "params": {
+      "q_beta": 3.3935939870482846e-06,
+      "h": 12.0,
+      "cusum_k": 0.39999999999999997,
+      "adapt_bars": 12,
+      "snap_overshoot": 1.4,
+      "z_dead": 0.45,
+      "leg_scale": 0.7999999999999999
+    },
+    "tune_score": 5.295249759995967,
+    "tune_mu": 11.284002219999993,
+    "tune_sharpe": 0.9403186361689408
+  },
+  {
+    "name": "EAFC/SRTX",
+    "y": 50,
+    "x": 28,
+    "priority": 8.5,
+    "params": {
+      "q_beta": 2.715501016677165e-05,
+      "h": 5.0,
+      "cusum_k": 0.35,
+      "adapt_bars": 4,
+      "snap_overshoot": 1.05,
+      "z_dead": 0.45,
+      "leg_scale": 1.0
+    },
+    "tune_score": 2.416426293438158,
+    "tune_mu": 9.121274024000009,
+    "tune_sharpe": 0.600333137857118
+  },
+  {
+    "name": "CUBO/ULXY",
+    "y": 14,
+    "x": 40,
+    "priority": 5.5,
+    "params": {
+      "q_beta": 1.6167073891372968e-06,
+      "h": 11.0,
+      "cusum_k": 0.44999999999999996,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.35,
+      "z_dead": 0.33999999999999997,
+      "leg_scale": 1.0
+    },
+    "tune_score": 0.8162078912608972,
+    "tune_mu": 6.443720995999999,
+    "tune_sharpe": 0.3808396322749455
+  },
+  {
+    "name": "SMAH/NGTE",
+    "y": 10,
+    "x": 45,
+    "priority": 5.0,
+    "params": {
+      "q_beta": 3.2107787530098885e-07,
+      "h": 5.0,
+      "cusum_k": 0.55,
+      "adapt_bars": 16,
+      "snap_overshoot": 1.35,
+      "z_dead": 0.39,
+      "leg_scale": 0.7
+    },
+    "tune_score": -4.343280396000005,
+    "tune_mu": -4.343280396000005,
+    "tune_sharpe": -0.39955662244871143
+  }
+]

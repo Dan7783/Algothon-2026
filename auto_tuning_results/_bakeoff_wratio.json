@@ -1,0 +1,4800 @@
+[
+    {
+        "pair_name": "RTTH-NAYO",
+        "y_symbol": "RTTH",
+        "x_symbol": "NAYO",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "RTTH-NAYO-w0-emb10",
+                "best_value": 115.3312287418512,
+                "best_params": {
+                    "q_beta": 8.87e-08,
+                    "h": 27.6,
+                    "cusum_k": 1.74,
+                    "max_cov_inflate": 95100.0,
+                    "cov_decay": 0.0003,
+                    "kalman_var_ewma_alpha": 0.345,
+                    "ou_window": 115,
+                    "kappa_ewma_alpha": 0.00789,
+                    "sigma_ewma_alpha": 0.00219,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "chosen_params": {
+                    "q_beta": 8.87e-08,
+                    "h": 27.6,
+                    "cusum_k": 1.74,
+                    "max_cov_inflate": 95100.0,
+                    "cov_decay": 0.0003,
+                    "kalman_var_ewma_alpha": 0.345,
+                    "ou_window": 115,
+                    "kappa_ewma_alpha": 0.00789,
+                    "sigma_ewma_alpha": 0.00219,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "source": "best_trial",
+                "denominator_raw": 115.3312287418512,
+                "denominator": 115.3312287418512,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 115.3312287418512,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 19.717645744985496,
+                            "drop_20": 22.444393740624875
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 3.351396150574817,
+                            "drop_20": 3.4523921728120097
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "RTTH-NAYO-w1-emb10",
+                "best_value": 81.18715529763178,
+                "best_params": {
+                    "q_beta": 4.83e-07,
+                    "h": 19.4,
+                    "cusum_k": 1.17,
+                    "max_cov_inflate": 2380000.0,
+                    "cov_decay": 0.0187,
+                    "kalman_var_ewma_alpha": 0.104,
+                    "ou_window": 199,
+                    "kappa_ewma_alpha": 0.00367,
+                    "sigma_ewma_alpha": 0.00015,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "chosen_params": {
+                    "q_beta": 4.83e-07,
+                    "h": 19.4,
+                    "cusum_k": 1.17,
+                    "max_cov_inflate": 2380000.0,
+                    "cov_decay": 0.0187,
+                    "kalman_var_ewma_alpha": 0.104,
+                    "ou_window": 199,
+                    "kappa_ewma_alpha": 0.00367,
+                    "sigma_ewma_alpha": 0.00015,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "source": "best_trial",
+                "denominator_raw": 81.18715529763178,
+                "denominator": 81.18715529763178,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 81.18715529763178,
+                    "sensitivities": [
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 10.609805242739412
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "RTTH-NAYO-w2-emb10",
+                "best_value": 77.2509990220112,
+                "best_params": {
+                    "q_beta": 6.45e-09,
+                    "h": 33.9,
+                    "cusum_k": 1.25,
+                    "max_cov_inflate": 1870.0,
+                    "cov_decay": 0.0457,
+                    "kalman_var_ewma_alpha": 0.0189,
+                    "ou_window": 63,
+                    "kappa_ewma_alpha": 0.00191,
+                    "sigma_ewma_alpha": 0.0375,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "chosen_params": {
+                    "q_beta": 1.0371469158596309e-06,
+                    "h": 20.171950941654845,
+                    "cusum_k": 1.0936089159871705,
+                    "max_cov_inflate": 158619.92987358218,
+                    "cov_decay": 0.00010746514366107936,
+                    "kalman_var_ewma_alpha": 0.0021994115109509886,
+                    "ou_window": 79,
+                    "kappa_ewma_alpha": 0.21969077543762072,
+                    "sigma_ewma_alpha": 0.0010009653078248636,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "source": "cluster_medoid",
+                "denominator_raw": 57.11517694994686,
+                "denominator": 57.11517694994686,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": true,
+                    "base_score": 77.2509990220112,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 41.21585944593894,
+                            "drop_20": 31.000352791633816
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.010712101272968256,
+                            "drop_10": 0.02977607517823271,
+                            "drop_20": 0.047709724015207615
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.014522831564362026,
+                            "drop_10": 0.02977607517823271,
+                            "drop_20": 0.043016297052377486
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.010712101272968256,
+                            "drop_10": 0.02977607517823271,
+                            "drop_20": 0.043016297052377486
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.00813117725009908
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.00813117725009908
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": {
+                        "study": "RTTH-NAYO-w2-emb10",
+                        "method": "hdbscan(min_cluster_size=5)",
+                        "n_trials": 300,
+                        "n_augmented": 0,
+                        "n_noise": 225,
+                        "global_best_trial_number": 69,
+                        "global_best_value": 77.2509990220112,
+                        "global_best_is_noise": true,
+                        "best_cluster_id": 1,
+                        "best_cluster_size": 68,
+                        "best_cluster_mean_value": 41.509288469656454,
+                        "medoid_trial_number": 256,
+                        "medoid_ref": "256",
+                        "medoid_source": "trial",
+                        "medoid_value": 57.11517694994686,
+                        "medoid_params": {
+                            "q_beta": 1.0371469158596309e-06,
+                            "h": 20.171950941654845,
+                            "cusum_k": 1.0936089159871705,
+                            "max_cov_inflate": 158619.92987358218,
+                            "cov_decay": 0.00010746514366107936,
+                            "kalman_var_ewma_alpha": 0.0021994115109509886,
+                            "ou_window": 79,
+                            "kappa_ewma_alpha": 0.21969077543762072,
+                            "sigma_ewma_alpha": 0.0010009653078248636
+                        },
+                        "cluster_table": [
+                            {
+                                "cluster_id": 1,
+                                "size": 68,
+                                "mean_value": 41.509288469656454,
+                                "max_value": 73.53548342289214,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": 0,
+                                "size": 7,
+                                "mean_value": 30.781531079970367,
+                                "max_value": 63.105944535891126,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": -1,
+                                "size": 225,
+                                "mean_value": 30.59601638942278,
+                                "max_value": 77.2509990220112,
+                                "is_noise": true,
+                                "n_augmented": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "RTTH-NAYO-w3-emb10",
+                "best_value": 89.31350144727318,
+                "best_params": {
+                    "q_beta": 0.000222,
+                    "h": 29.3,
+                    "cusum_k": 1.45,
+                    "max_cov_inflate": 7260.0,
+                    "cov_decay": 0.00131,
+                    "kalman_var_ewma_alpha": 0.196,
+                    "ou_window": 134,
+                    "kappa_ewma_alpha": 0.00234,
+                    "sigma_ewma_alpha": 0.00105,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "chosen_params": {
+                    "q_beta": 0.000222,
+                    "h": 29.3,
+                    "cusum_k": 1.45,
+                    "max_cov_inflate": 7260.0,
+                    "cov_decay": 0.00131,
+                    "kalman_var_ewma_alpha": 0.196,
+                    "ou_window": 134,
+                    "kappa_ewma_alpha": 0.00234,
+                    "sigma_ewma_alpha": 0.00105,
+                    "pair_y": "RTTH",
+                    "pair_x": "NAYO"
+                },
+                "source": "best_trial",
+                "denominator_raw": 89.31350144727318,
+                "denominator": 89.31350144727318,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 89.31350144727318,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 5.781937359287758
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "RTTH-NAYO-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.7802286760081035,
+            "best_params": {
+                "q_beta": 2.18e-08,
+                "h": 24.2,
+                "cusum_k": 1.69,
+                "max_cov_inflate": 1510.0,
+                "cov_decay": 0.04,
+                "kalman_var_ewma_alpha": 0.0148,
+                "ou_window": 128,
+                "kappa_ewma_alpha": 0.000146,
+                "sigma_ewma_alpha": 0.0197,
+                "pair_y": "RTTH",
+                "pair_x": "NAYO"
+            },
+            "final_params": {
+                "q_beta": 2.18e-08,
+                "h": 24.2,
+                "cusum_k": 1.69,
+                "max_cov_inflate": 1510.0,
+                "cov_decay": 0.04,
+                "kalman_var_ewma_alpha": 0.0148,
+                "ou_window": 128,
+                "kappa_ewma_alpha": 0.000146,
+                "sigma_ewma_alpha": 0.0197,
+                "pair_y": "RTTH",
+                "pair_x": "NAYO"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 323,
+                    "params": {
+                        "q_beta": 2.18e-08,
+                        "h": 24.2,
+                        "cusum_k": 1.69,
+                        "max_cov_inflate": 1510.0,
+                        "cov_decay": 0.04,
+                        "kalman_var_ewma_alpha": 0.0148,
+                        "ou_window": 128,
+                        "kappa_ewma_alpha": 0.000146,
+                        "sigma_ewma_alpha": 0.0197,
+                        "pair_y": "RTTH",
+                        "pair_x": "NAYO"
+                    },
+                    "ratio_objective": 0.8604644211317629,
+                    "percentile_objective": 0.8205980066445183,
+                    "train_score": 70.51341838102195,
+                    "oos_score": 25.43787637230233,
+                    "train_sharpe": 3.0197142856637638,
+                    "oos_sharpe": 1.5293494994389158
+                },
+                "percentile": {
+                    "trial_number": 323,
+                    "params": {
+                        "q_beta": 2.18e-08,
+                        "h": 24.2,
+                        "cusum_k": 1.69,
+                        "max_cov_inflate": 1510.0,
+                        "cov_decay": 0.04,
+                        "kalman_var_ewma_alpha": 0.0148,
+                        "ou_window": 128,
+                        "kappa_ewma_alpha": 0.000146,
+                        "sigma_ewma_alpha": 0.0197,
+                        "pair_y": "RTTH",
+                        "pair_x": "NAYO"
+                    },
+                    "ratio_objective": 0.8604644211317629,
+                    "percentile_objective": 0.8205980066445183,
+                    "train_score": 70.51341838102195,
+                    "oos_score": 25.43787637230233,
+                    "train_sharpe": 3.0197142856637638,
+                    "oos_sharpe": 1.5293494994389158
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 78.2462768583334,
+                "sharpe": 3.0197142856637638,
+                "score": 70.51341838102195,
+                "ret": 0.017106508354157727,
+                "total_return": 46947.76611500004
+            },
+            "oos_metrics": {
+                "meanpl": 36.31383036499999,
+                "sharpe": 1.5293494994389158,
+                "score": 25.43787637230233,
+                "ret": 0.013278925963754603,
+                "total_return": 7262.766072999998
+            }
+        }
+    },
+    {
+        "pair_name": "AENO-NWIG",
+        "y_symbol": "AENO",
+        "x_symbol": "NWIG",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "AENO-NWIG-w0-emb10",
+                "best_value": 67.46158581430522,
+                "best_params": {
+                    "q_beta": 5.38e-09,
+                    "h": 10.6,
+                    "cusum_k": 0.633,
+                    "max_cov_inflate": 546000.0,
+                    "cov_decay": 3.06e-05,
+                    "kalman_var_ewma_alpha": 0.00874,
+                    "ou_window": 171,
+                    "kappa_ewma_alpha": 0.0534,
+                    "sigma_ewma_alpha": 0.0538,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "chosen_params": {
+                    "q_beta": 5.38e-09,
+                    "h": 10.6,
+                    "cusum_k": 0.633,
+                    "max_cov_inflate": 546000.0,
+                    "cov_decay": 3.06e-05,
+                    "kalman_var_ewma_alpha": 0.00874,
+                    "ou_window": 171,
+                    "kappa_ewma_alpha": 0.0534,
+                    "sigma_ewma_alpha": 0.0538,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "source": "best_trial",
+                "denominator_raw": 67.46158581430522,
+                "denominator": 67.46158581430522,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 67.46158581430522,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.037077232056034484,
+                            "drop_10": 5.905480259207347,
+                            "drop_20": 6.146951747221533
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.037077232056034484,
+                            "drop_10": 5.905480259207347,
+                            "drop_20": 6.146951747221533
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 6.179282256523553,
+                            "drop_10": 6.179282256523553,
+                            "drop_20": 2.2297693186005647
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "AENO-NWIG-w1-emb10",
+                "best_value": 47.94002328493141,
+                "best_params": {
+                    "q_beta": 0.000324,
+                    "h": 23.7,
+                    "cusum_k": 1.25,
+                    "max_cov_inflate": 4740.0,
+                    "cov_decay": 0.00388,
+                    "kalman_var_ewma_alpha": 0.0424,
+                    "ou_window": 87,
+                    "kappa_ewma_alpha": 0.0797,
+                    "sigma_ewma_alpha": 0.0115,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "chosen_params": {
+                    "q_beta": 0.00010707874485023427,
+                    "h": 25.663953802574216,
+                    "cusum_k": 1.1796730252149152,
+                    "max_cov_inflate": 36961.59161473053,
+                    "cov_decay": 0.0010832753262128392,
+                    "kalman_var_ewma_alpha": 0.0365251766423678,
+                    "ou_window": 86,
+                    "kappa_ewma_alpha": 0.045639740951105304,
+                    "sigma_ewma_alpha": 0.005903048105643115,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "source": "cluster_medoid",
+                "denominator_raw": 34.18735626895687,
+                "denominator": 34.18735626895687,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": true,
+                    "base_score": 47.94002328493141,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 10.346655504387233,
+                            "drop_20": 26.88525721382308
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 8.090291885023756
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": {
+                        "study": "AENO-NWIG-w1-emb10",
+                        "method": "dbscan(eps=0.8554)",
+                        "n_trials": 300,
+                        "n_augmented": 0,
+                        "n_noise": 0,
+                        "global_best_trial_number": 257,
+                        "global_best_value": 47.94002328493141,
+                        "global_best_is_noise": false,
+                        "best_cluster_id": 0,
+                        "best_cluster_size": 300,
+                        "best_cluster_mean_value": 20.436963360906176,
+                        "medoid_trial_number": 288,
+                        "medoid_ref": "288",
+                        "medoid_source": "trial",
+                        "medoid_value": 34.18735626895687,
+                        "medoid_params": {
+                            "q_beta": 0.00010707874485023427,
+                            "h": 25.663953802574216,
+                            "cusum_k": 1.1796730252149152,
+                            "max_cov_inflate": 36961.59161473053,
+                            "cov_decay": 0.0010832753262128392,
+                            "kalman_var_ewma_alpha": 0.0365251766423678,
+                            "ou_window": 86,
+                            "kappa_ewma_alpha": 0.045639740951105304,
+                            "sigma_ewma_alpha": 0.005903048105643115
+                        },
+                        "cluster_table": [
+                            {
+                                "cluster_id": 0,
+                                "size": 300,
+                                "mean_value": 20.436963360906176,
+                                "max_value": 47.94002328493141,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "AENO-NWIG-w2-emb10",
+                "best_value": 46.014901448757136,
+                "best_params": {
+                    "q_beta": 1.65e-05,
+                    "h": 14.1,
+                    "cusum_k": 1.22,
+                    "max_cov_inflate": 530.0,
+                    "cov_decay": 0.0118,
+                    "kalman_var_ewma_alpha": 0.255,
+                    "ou_window": 159,
+                    "kappa_ewma_alpha": 0.00691,
+                    "sigma_ewma_alpha": 0.0177,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "chosen_params": {
+                    "q_beta": 1.65e-05,
+                    "h": 14.1,
+                    "cusum_k": 1.22,
+                    "max_cov_inflate": 530.0,
+                    "cov_decay": 0.0118,
+                    "kalman_var_ewma_alpha": 0.255,
+                    "ou_window": 159,
+                    "kappa_ewma_alpha": 0.00691,
+                    "sigma_ewma_alpha": 0.0177,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "source": "best_trial",
+                "denominator_raw": 46.014901448757136,
+                "denominator": 46.014901448757136,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 46.014901448757136,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 8.274231577043654
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "AENO-NWIG-w3-emb10",
+                "best_value": 46.73192696658476,
+                "best_params": {
+                    "q_beta": 2.41e-05,
+                    "h": 17.9,
+                    "cusum_k": 1.26,
+                    "max_cov_inflate": 37400.0,
+                    "cov_decay": 0.000216,
+                    "kalman_var_ewma_alpha": 0.0559,
+                    "ou_window": 110,
+                    "kappa_ewma_alpha": 0.222,
+                    "sigma_ewma_alpha": 0.000241,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "chosen_params": {
+                    "q_beta": 2.41e-05,
+                    "h": 17.9,
+                    "cusum_k": 1.26,
+                    "max_cov_inflate": 37400.0,
+                    "cov_decay": 0.000216,
+                    "kalman_var_ewma_alpha": 0.0559,
+                    "ou_window": 110,
+                    "kappa_ewma_alpha": 0.222,
+                    "sigma_ewma_alpha": 0.000241,
+                    "pair_y": "AENO",
+                    "pair_x": "NWIG"
+                },
+                "source": "best_trial",
+                "denominator_raw": 46.73192696658476,
+                "denominator": 46.73192696658476,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 46.73192696658476,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 14.35688385038126,
+                            "drop_10": 16.682620958745233,
+                            "drop_20": 18.469537780559254
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 13.332107335637325,
+                            "drop_20": 13.363051648572439
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "AENO-NWIG-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.753712475033981,
+            "best_params": {
+                "q_beta": 4.29e-08,
+                "h": 31.4,
+                "cusum_k": 0.868,
+                "max_cov_inflate": 124.0,
+                "cov_decay": 0.0013,
+                "kalman_var_ewma_alpha": 0.196,
+                "ou_window": 53,
+                "kappa_ewma_alpha": 0.232,
+                "sigma_ewma_alpha": 0.0126,
+                "pair_y": "AENO",
+                "pair_x": "NWIG"
+            },
+            "final_params": {
+                "q_beta": 4.29e-08,
+                "h": 31.4,
+                "cusum_k": 0.868,
+                "max_cov_inflate": 124.0,
+                "cov_decay": 0.0013,
+                "kalman_var_ewma_alpha": 0.196,
+                "ou_window": 53,
+                "kappa_ewma_alpha": 0.232,
+                "sigma_ewma_alpha": 0.0126,
+                "pair_y": "AENO",
+                "pair_x": "NWIG"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 687,
+                    "params": {
+                        "q_beta": 4.29e-08,
+                        "h": 31.4,
+                        "cusum_k": 0.868,
+                        "max_cov_inflate": 124.0,
+                        "cov_decay": 0.0013,
+                        "kalman_var_ewma_alpha": 0.196,
+                        "ou_window": 53,
+                        "kappa_ewma_alpha": 0.232,
+                        "sigma_ewma_alpha": 0.0126,
+                        "pair_y": "AENO",
+                        "pair_x": "NWIG"
+                    },
+                    "ratio_objective": 0.7891427816558609,
+                    "percentile_objective": 0.7300664451827242,
+                    "train_score": 39.008145504231756,
+                    "oos_score": 60.2798850592694,
+                    "train_sharpe": 2.9967297025215713,
+                    "oos_sharpe": 4.66052753836008
+                },
+                "percentile": {
+                    "trial_number": 556,
+                    "params": {
+                        "q_beta": 4.23e-07,
+                        "h": 28.1,
+                        "cusum_k": 1.01,
+                        "max_cov_inflate": 143.0,
+                        "cov_decay": 0.00155,
+                        "kalman_var_ewma_alpha": 0.245,
+                        "ou_window": 51,
+                        "kappa_ewma_alpha": 0.128,
+                        "sigma_ewma_alpha": 0.0238,
+                        "pair_y": "AENO",
+                        "pair_x": "NWIG"
+                    },
+                    "ratio_objective": 0.7974490712932878,
+                    "percentile_objective": 0.7367109634551494,
+                    "train_score": 39.409773186088486,
+                    "oos_score": 56.25707159769525,
+                    "train_sharpe": 3.023806157629271,
+                    "oos_sharpe": 4.355343701256342
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 10.360051751052584,
+                    "drop_10": 9.82330037051678,
+                    "drop_20": 13.037672766139183
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 1.497187247744594,
+                    "drop_20": 1.2747287275922954
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 43.35184886666667,
+                "sharpe": 2.9967297025215713,
+                "score": 39.008145504231756,
+                "ret": 0.007693075332610019,
+                "total_return": 26011.109320000003
+            },
+            "oos_metrics": {
+                "meanpl": 63.05513600000001,
+                "sharpe": 4.66052753836008,
+                "score": 60.2798850592694,
+                "ret": 0.009732773545065018,
+                "total_return": 12611.027200000002
+            }
+        }
+    },
+    {
+        "pair_name": "HETT-ULXY",
+        "y_symbol": "HETT",
+        "x_symbol": "ULXY",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "HETT-ULXY-w0-emb10",
+                "best_value": 57.501953406316545,
+                "best_params": {
+                    "q_beta": 2.52e-07,
+                    "h": 21.7,
+                    "cusum_k": 1.91,
+                    "max_cov_inflate": 11600.0,
+                    "cov_decay": 0.0124,
+                    "kalman_var_ewma_alpha": 0.0115,
+                    "ou_window": 131,
+                    "kappa_ewma_alpha": 0.00024,
+                    "sigma_ewma_alpha": 0.0123,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "chosen_params": {
+                    "q_beta": 2.52e-07,
+                    "h": 21.7,
+                    "cusum_k": 1.91,
+                    "max_cov_inflate": 11600.0,
+                    "cov_decay": 0.0124,
+                    "kalman_var_ewma_alpha": 0.0115,
+                    "ou_window": 131,
+                    "kappa_ewma_alpha": 0.00024,
+                    "sigma_ewma_alpha": 0.0123,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "source": "best_trial",
+                "denominator_raw": 57.501953406316545,
+                "denominator": 57.501953406316545,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 57.501953406316545,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "HETT-ULXY-w1-emb10",
+                "best_value": 94.36735922180834,
+                "best_params": {
+                    "q_beta": 0.000201,
+                    "h": 25.8,
+                    "cusum_k": 0.915,
+                    "max_cov_inflate": 1240000.0,
+                    "cov_decay": 0.00176,
+                    "kalman_var_ewma_alpha": 0.0236,
+                    "ou_window": 122,
+                    "kappa_ewma_alpha": 0.00093,
+                    "sigma_ewma_alpha": 0.0517,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "chosen_params": {
+                    "q_beta": 0.000201,
+                    "h": 25.8,
+                    "cusum_k": 0.915,
+                    "max_cov_inflate": 1240000.0,
+                    "cov_decay": 0.00176,
+                    "kalman_var_ewma_alpha": 0.0236,
+                    "ou_window": 122,
+                    "kappa_ewma_alpha": 0.00093,
+                    "sigma_ewma_alpha": 0.0517,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "source": "best_trial",
+                "denominator_raw": 94.36735922180834,
+                "denominator": 94.36735922180834,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 94.36735922180834,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 5.486882577694507,
+                            "drop_10": 5.486882577694507,
+                            "drop_20": 5.486882577694507
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.020047416281746538,
+                            "drop_10": 0.020047416281746538,
+                            "drop_20": 0.014832464921224302
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "HETT-ULXY-w2-emb10",
+                "best_value": 61.975084078497126,
+                "best_params": {
+                    "q_beta": 4.74e-08,
+                    "h": 22.5,
+                    "cusum_k": 0.927,
+                    "max_cov_inflate": 1760000.0,
+                    "cov_decay": 0.000153,
+                    "kalman_var_ewma_alpha": 0.175,
+                    "ou_window": 70,
+                    "kappa_ewma_alpha": 0.0127,
+                    "sigma_ewma_alpha": 0.0014,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "chosen_params": {
+                    "q_beta": 4.74e-08,
+                    "h": 22.5,
+                    "cusum_k": 0.927,
+                    "max_cov_inflate": 1760000.0,
+                    "cov_decay": 0.000153,
+                    "kalman_var_ewma_alpha": 0.175,
+                    "ou_window": 70,
+                    "kappa_ewma_alpha": 0.0127,
+                    "sigma_ewma_alpha": 0.0014,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "source": "best_trial",
+                "denominator_raw": 61.975084078497126,
+                "denominator": 61.975084078497126,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 61.975084078497126,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 10.251935891568834,
+                            "drop_20": 10.251935891568834
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 5.560193773851093
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "HETT-ULXY-w3-emb10",
+                "best_value": 42.536772191857835,
+                "best_params": {
+                    "q_beta": 4.19e-05,
+                    "h": 11.0,
+                    "cusum_k": 0.843,
+                    "max_cov_inflate": 337000.0,
+                    "cov_decay": 0.00608,
+                    "kalman_var_ewma_alpha": 0.00271,
+                    "ou_window": 122,
+                    "kappa_ewma_alpha": 0.0424,
+                    "sigma_ewma_alpha": 0.00647,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "chosen_params": {
+                    "q_beta": 4.19e-05,
+                    "h": 11.0,
+                    "cusum_k": 0.843,
+                    "max_cov_inflate": 337000.0,
+                    "cov_decay": 0.00608,
+                    "kalman_var_ewma_alpha": 0.00271,
+                    "ou_window": 122,
+                    "kappa_ewma_alpha": 0.0424,
+                    "sigma_ewma_alpha": 0.00647,
+                    "pair_y": "HETT",
+                    "pair_x": "ULXY"
+                },
+                "source": "best_trial",
+                "denominator_raw": 42.536772191857835,
+                "denominator": 42.536772191857835,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 42.536772191857835,
+                    "sensitivities": [
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.002575506484139432,
+                            "drop_10": 0.037512371851319525,
+                            "drop_20": 13.798875006886702
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.002575506484139432,
+                            "drop_20": 0.015421791081850173
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.015421791081850173
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.002575506484139432,
+                            "drop_10": 0.002575506484139432,
+                            "drop_20": 0.002575506484139432
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.002575506484139432,
+                            "drop_10": 0.002575506484139432,
+                            "drop_20": 0.002575506484139432
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.002575506484139432,
+                            "drop_10": 0.002575506484139432,
+                            "drop_20": 0.002575506484139432
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "HETT-ULXY-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.7807065296505407,
+            "best_params": {
+                "q_beta": 1.26e-05,
+                "h": 30.2,
+                "cusum_k": 1.72,
+                "max_cov_inflate": 1680000.0,
+                "cov_decay": 7.02e-05,
+                "kalman_var_ewma_alpha": 0.0512,
+                "ou_window": 152,
+                "kappa_ewma_alpha": 0.00192,
+                "sigma_ewma_alpha": 0.00154,
+                "pair_y": "HETT",
+                "pair_x": "ULXY"
+            },
+            "final_params": {
+                "q_beta": 1.26e-05,
+                "h": 30.2,
+                "cusum_k": 1.72,
+                "max_cov_inflate": 1680000.0,
+                "cov_decay": 7.02e-05,
+                "kalman_var_ewma_alpha": 0.0512,
+                "ou_window": 152,
+                "kappa_ewma_alpha": 0.00192,
+                "sigma_ewma_alpha": 0.00154,
+                "pair_y": "HETT",
+                "pair_x": "ULXY"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 569,
+                    "params": {
+                        "q_beta": 1.26e-05,
+                        "h": 30.2,
+                        "cusum_k": 1.72,
+                        "max_cov_inflate": 1680000.0,
+                        "cov_decay": 7.02e-05,
+                        "kalman_var_ewma_alpha": 0.0512,
+                        "ou_window": 152,
+                        "kappa_ewma_alpha": 0.00192,
+                        "sigma_ewma_alpha": 0.00154,
+                        "pair_y": "HETT",
+                        "pair_x": "ULXY"
+                    },
+                    "ratio_objective": 0.8492507724393759,
+                    "percentile_objective": 0.8471760797342192,
+                    "train_score": 55.44963620059437,
+                    "oos_score": 29.60040806833812,
+                    "train_sharpe": 3.3323292131783124,
+                    "oos_sharpe": 1.9650458181901853
+                },
+                "percentile": {
+                    "trial_number": 569,
+                    "params": {
+                        "q_beta": 1.26e-05,
+                        "h": 30.2,
+                        "cusum_k": 1.72,
+                        "max_cov_inflate": 1680000.0,
+                        "cov_decay": 7.02e-05,
+                        "kalman_var_ewma_alpha": 0.0512,
+                        "ou_window": 152,
+                        "kappa_ewma_alpha": 0.00192,
+                        "sigma_ewma_alpha": 0.00154,
+                        "pair_y": "HETT",
+                        "pair_x": "ULXY"
+                    },
+                    "ratio_objective": 0.8492507724393759,
+                    "percentile_objective": 0.8471760797342192,
+                    "train_score": 55.44963620059437,
+                    "oos_score": 29.60040806833812,
+                    "train_sharpe": 3.3323292131783124,
+                    "oos_sharpe": 1.9650458181901853
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "q_beta",
+                    "drop_5": 1.4129393386488596,
+                    "drop_10": 2.311983022530822,
+                    "drop_20": 2.3045123144926105
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 1.961238731190084
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 1.4217114344602928,
+                    "drop_10": 1.4217114344602928,
+                    "drop_20": 1.4217114344602928
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 1.4217114344602928,
+                    "drop_10": 1.4217114344602928,
+                    "drop_20": 1.4217114344602928
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 60.44311143500004,
+                "sharpe": 3.3323292131783124,
+                "score": 55.44963620059437,
+                "ret": 0.01270778189211803,
+                "total_return": 36265.866861000024
+            },
+            "oos_metrics": {
+                "meanpl": 37.266117195000014,
+                "sharpe": 1.9650458181901853,
+                "score": 29.60040806833812,
+                "ret": 0.008373791050077765,
+                "total_return": 7453.223439000003
+            }
+        }
+    },
+    {
+        "pair_name": "HUXZ-ACAC",
+        "y_symbol": "HUXZ",
+        "x_symbol": "ACAC",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "HUXZ-ACAC-w0-emb10",
+                "best_value": 55.86800843102685,
+                "best_params": {
+                    "q_beta": 7.18e-08,
+                    "h": 21.6,
+                    "cusum_k": 1.28,
+                    "max_cov_inflate": 21600.0,
+                    "cov_decay": 0.000365,
+                    "kalman_var_ewma_alpha": 0.0682,
+                    "ou_window": 77,
+                    "kappa_ewma_alpha": 0.134,
+                    "sigma_ewma_alpha": 0.265,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "chosen_params": {
+                    "q_beta": 7.657779220879721e-07,
+                    "h": 31.63808015141397,
+                    "cusum_k": 0.8980132872324937,
+                    "max_cov_inflate": 16617663.847095175,
+                    "cov_decay": 3.675769354276795e-05,
+                    "kalman_var_ewma_alpha": 0.056078347936362155,
+                    "ou_window": 180,
+                    "kappa_ewma_alpha": 0.024371761423227185,
+                    "sigma_ewma_alpha": 0.002176558535659898,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "source": "cluster_medoid",
+                "denominator_raw": 54.08799311294764,
+                "denominator": 54.08799311294764,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": true,
+                    "base_score": 55.86800843102685,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 16.844689575293373,
+                            "drop_10": 21.857383039874883,
+                            "drop_20": 28.028462918918596
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 3.1016892507847444
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": {
+                        "study": "HUXZ-ACAC-w0-emb10",
+                        "method": "hdbscan(min_cluster_size=5)",
+                        "n_trials": 300,
+                        "n_augmented": 0,
+                        "n_noise": 279,
+                        "global_best_trial_number": 125,
+                        "global_best_value": 55.86800843102685,
+                        "global_best_is_noise": true,
+                        "best_cluster_id": 1,
+                        "best_cluster_size": 11,
+                        "best_cluster_mean_value": 54.941245761985556,
+                        "medoid_trial_number": 286,
+                        "medoid_ref": "286",
+                        "medoid_source": "trial",
+                        "medoid_value": 54.08799311294764,
+                        "medoid_params": {
+                            "q_beta": 7.657779220879721e-07,
+                            "h": 31.63808015141397,
+                            "cusum_k": 0.8980132872324937,
+                            "max_cov_inflate": 16617663.847095175,
+                            "cov_decay": 3.675769354276795e-05,
+                            "kalman_var_ewma_alpha": 0.056078347936362155,
+                            "ou_window": 180,
+                            "kappa_ewma_alpha": 0.024371761423227185,
+                            "sigma_ewma_alpha": 0.002176558535659898
+                        },
+                        "cluster_table": [
+                            {
+                                "cluster_id": 1,
+                                "size": 11,
+                                "mean_value": 54.941245761985556,
+                                "max_value": 55.82410687363191,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": 0,
+                                "size": 10,
+                                "mean_value": 51.07072349704835,
+                                "max_value": 55.82410687363191,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": -1,
+                                "size": 279,
+                                "mean_value": 28.885521386350973,
+                                "max_value": 55.86800843102685,
+                                "is_noise": true,
+                                "n_augmented": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "HUXZ-ACAC-w1-emb10",
+                "best_value": 58.3697307444923,
+                "best_params": {
+                    "q_beta": 1.64e-08,
+                    "h": 27.4,
+                    "cusum_k": 1.06,
+                    "max_cov_inflate": 7080.0,
+                    "cov_decay": 0.00578,
+                    "kalman_var_ewma_alpha": 0.0286,
+                    "ou_window": 93,
+                    "kappa_ewma_alpha": 0.0248,
+                    "sigma_ewma_alpha": 0.0297,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "chosen_params": {
+                    "q_beta": 1.64e-08,
+                    "h": 27.4,
+                    "cusum_k": 1.06,
+                    "max_cov_inflate": 7080.0,
+                    "cov_decay": 0.00578,
+                    "kalman_var_ewma_alpha": 0.0286,
+                    "ou_window": 93,
+                    "kappa_ewma_alpha": 0.0248,
+                    "sigma_ewma_alpha": 0.0297,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "source": "best_trial",
+                "denominator_raw": 58.3697307444923,
+                "denominator": 58.3697307444923,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 58.3697307444923,
+                    "sensitivities": [
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 6.573916440662996
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 6.097900251028731,
+                            "drop_10": 6.097900251028731,
+                            "drop_20": 6.097900251028731
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "HUXZ-ACAC-w2-emb10",
+                "best_value": 57.80505399704991,
+                "best_params": {
+                    "q_beta": 3.62e-05,
+                    "h": 16.4,
+                    "cusum_k": 1.43,
+                    "max_cov_inflate": 10900.0,
+                    "cov_decay": 0.00492,
+                    "kalman_var_ewma_alpha": 0.0865,
+                    "ou_window": 123,
+                    "kappa_ewma_alpha": 0.0524,
+                    "sigma_ewma_alpha": 0.102,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "chosen_params": {
+                    "q_beta": 3.62e-05,
+                    "h": 16.4,
+                    "cusum_k": 1.43,
+                    "max_cov_inflate": 10900.0,
+                    "cov_decay": 0.00492,
+                    "kalman_var_ewma_alpha": 0.0865,
+                    "ou_window": 123,
+                    "kappa_ewma_alpha": 0.0524,
+                    "sigma_ewma_alpha": 0.102,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "source": "best_trial",
+                "denominator_raw": 57.80505399704991,
+                "denominator": 57.80505399704991,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 57.80505399704991,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 13.810830447490435,
+                            "drop_10": 17.229297301384282,
+                            "drop_20": 15.967733531160288
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 3.420400669770698
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "HUXZ-ACAC-w3-emb10",
+                "best_value": 56.640930623178775,
+                "best_params": {
+                    "q_beta": 0.000436,
+                    "h": 31.2,
+                    "cusum_k": 1.5,
+                    "max_cov_inflate": 2170.0,
+                    "cov_decay": 0.00114,
+                    "kalman_var_ewma_alpha": 0.0535,
+                    "ou_window": 107,
+                    "kappa_ewma_alpha": 0.00117,
+                    "sigma_ewma_alpha": 0.00285,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "chosen_params": {
+                    "q_beta": 0.000436,
+                    "h": 31.2,
+                    "cusum_k": 1.5,
+                    "max_cov_inflate": 2170.0,
+                    "cov_decay": 0.00114,
+                    "kalman_var_ewma_alpha": 0.0535,
+                    "ou_window": 107,
+                    "kappa_ewma_alpha": 0.00117,
+                    "sigma_ewma_alpha": 0.00285,
+                    "pair_y": "HUXZ",
+                    "pair_x": "ACAC"
+                },
+                "source": "best_trial",
+                "denominator_raw": 56.640930623178775,
+                "denominator": 56.640930623178775,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 56.640930623178775,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 1.9275516190571638,
+                            "drop_10": 1.9640939029200282,
+                            "drop_20": 1.9589114741482931
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "HUXZ-ACAC-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.8258732717192954,
+            "best_params": {
+                "q_beta": 3.24e-07,
+                "h": 22.2,
+                "cusum_k": 1.32,
+                "max_cov_inflate": 47700.0,
+                "cov_decay": 0.000803,
+                "kalman_var_ewma_alpha": 0.0842,
+                "ou_window": 187,
+                "kappa_ewma_alpha": 0.039,
+                "sigma_ewma_alpha": 0.00952,
+                "pair_y": "HUXZ",
+                "pair_x": "ACAC"
+            },
+            "final_params": {
+                "q_beta": 3.24e-07,
+                "h": 22.2,
+                "cusum_k": 1.32,
+                "max_cov_inflate": 47700.0,
+                "cov_decay": 0.000803,
+                "kalman_var_ewma_alpha": 0.0842,
+                "ou_window": 187,
+                "kappa_ewma_alpha": 0.039,
+                "sigma_ewma_alpha": 0.00952,
+                "pair_y": "HUXZ",
+                "pair_x": "ACAC"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 650,
+                    "params": {
+                        "q_beta": 3.24e-07,
+                        "h": 22.2,
+                        "cusum_k": 1.32,
+                        "max_cov_inflate": 47700.0,
+                        "cov_decay": 0.000803,
+                        "kalman_var_ewma_alpha": 0.0842,
+                        "ou_window": 187,
+                        "kappa_ewma_alpha": 0.039,
+                        "sigma_ewma_alpha": 0.00952,
+                        "pair_y": "HUXZ",
+                        "pair_x": "ACAC"
+                    },
+                    "ratio_objective": 0.9178566806196579,
+                    "percentile_objective": 0.9186046511627907,
+                    "train_score": 47.51677390682798,
+                    "oos_score": 29.246581500915998,
+                    "train_sharpe": 3.552956306152933,
+                    "oos_sharpe": 2.4580803959558093
+                },
+                "percentile": {
+                    "trial_number": 549,
+                    "params": {
+                        "q_beta": 2.72e-07,
+                        "h": 20.9,
+                        "cusum_k": 1.29,
+                        "max_cov_inflate": 59700.0,
+                        "cov_decay": 0.000734,
+                        "kalman_var_ewma_alpha": 0.0967,
+                        "ou_window": 186,
+                        "kappa_ewma_alpha": 0.0423,
+                        "sigma_ewma_alpha": 0.021,
+                        "pair_y": "HUXZ",
+                        "pair_x": "ACAC"
+                    },
+                    "ratio_objective": 0.9177243090752248,
+                    "percentile_objective": 0.9186046511627907,
+                    "train_score": 47.50949663269777,
+                    "oos_score": 29.23563425442301,
+                    "train_sharpe": 3.5526615189879447,
+                    "oos_sharpe": 2.4571264067085172
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 7.664318313646764,
+                    "drop_10": 9.946167348164167,
+                    "drop_20": 12.313348530406714
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 1.9459820777819694,
+                    "drop_20": 3.1565684394203597
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.011538447778756384,
+                    "drop_10": 0.010762162284725723,
+                    "drop_20": 0.01865155106483101
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 51.28092644000001,
+                "sharpe": 3.552956306152933,
+                "score": 47.51677390682798,
+                "ret": 0.009914973504993506,
+                "total_return": 30768.555864000005
+            },
+            "oos_metrics": {
+                "meanpl": 34.08700036000002,
+                "sharpe": 2.4580803959558093,
+                "score": 29.246581500915998,
+                "ret": 0.010888688567091152,
+                "total_return": 6817.400072000004
+            }
+        }
+    },
+    {
+        "pair_name": "SMAH-ILVX",
+        "y_symbol": "SMAH",
+        "x_symbol": "ILVX",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "SMAH-ILVX-w0-emb10",
+                "best_value": 38.39983400849348,
+                "best_params": {
+                    "q_beta": 1.82e-06,
+                    "h": 11.8,
+                    "cusum_k": 1.4,
+                    "max_cov_inflate": 45700.0,
+                    "cov_decay": 0.0623,
+                    "kalman_var_ewma_alpha": 0.204,
+                    "ou_window": 90,
+                    "kappa_ewma_alpha": 0.0454,
+                    "sigma_ewma_alpha": 0.00339,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "chosen_params": {
+                    "q_beta": 1.82e-06,
+                    "h": 11.8,
+                    "cusum_k": 1.4,
+                    "max_cov_inflate": 45700.0,
+                    "cov_decay": 0.0623,
+                    "kalman_var_ewma_alpha": 0.204,
+                    "ou_window": 90,
+                    "kappa_ewma_alpha": 0.0454,
+                    "sigma_ewma_alpha": 0.00339,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "source": "best_trial",
+                "denominator_raw": 38.39983400849348,
+                "denominator": 38.39983400849348,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 38.39983400849348,
+                    "sensitivities": [
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 3.829642560431376
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 5.958721884274642,
+                            "drop_10": 5.330882700196787,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "SMAH-ILVX-w1-emb10",
+                "best_value": 37.34167506537611,
+                "best_params": {
+                    "q_beta": 2.22e-06,
+                    "h": 35.6,
+                    "cusum_k": 1.39,
+                    "max_cov_inflate": 500000.0,
+                    "cov_decay": 0.000665,
+                    "kalman_var_ewma_alpha": 0.244,
+                    "ou_window": 178,
+                    "kappa_ewma_alpha": 0.173,
+                    "sigma_ewma_alpha": 0.00583,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "chosen_params": {
+                    "q_beta": 2.22e-06,
+                    "h": 35.6,
+                    "cusum_k": 1.39,
+                    "max_cov_inflate": 500000.0,
+                    "cov_decay": 0.000665,
+                    "kalman_var_ewma_alpha": 0.244,
+                    "ou_window": 178,
+                    "kappa_ewma_alpha": 0.173,
+                    "sigma_ewma_alpha": 0.00583,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "source": "best_trial",
+                "denominator_raw": 37.34167506537611,
+                "denominator": 37.34167506537611,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 37.34167506537611,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 10.728422593630919,
+                            "drop_20": 10.728422593630919
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.03260550895167472,
+                            "drop_10": 0.02184354201750605,
+                            "drop_20": 0.02184354201750605
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "SMAH-ILVX-w2-emb10",
+                "best_value": 61.52822050959761,
+                "best_params": {
+                    "q_beta": 1.63e-09,
+                    "h": 29.2,
+                    "cusum_k": 1.05,
+                    "max_cov_inflate": 883000.0,
+                    "cov_decay": 0.000101,
+                    "kalman_var_ewma_alpha": 0.313,
+                    "ou_window": 134,
+                    "kappa_ewma_alpha": 0.000113,
+                    "sigma_ewma_alpha": 0.00959,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "chosen_params": {
+                    "q_beta": 1.63e-09,
+                    "h": 29.2,
+                    "cusum_k": 1.05,
+                    "max_cov_inflate": 883000.0,
+                    "cov_decay": 0.000101,
+                    "kalman_var_ewma_alpha": 0.313,
+                    "ou_window": 134,
+                    "kappa_ewma_alpha": 0.000113,
+                    "sigma_ewma_alpha": 0.00959,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "source": "best_trial",
+                "denominator_raw": 61.52822050959761,
+                "denominator": 61.52822050959761,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 61.52822050959761,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "SMAH-ILVX-w3-emb10",
+                "best_value": 49.9858904931491,
+                "best_params": {
+                    "q_beta": 2.69e-06,
+                    "h": 26.9,
+                    "cusum_k": 1.37,
+                    "max_cov_inflate": 3190.0,
+                    "cov_decay": 0.000953,
+                    "kalman_var_ewma_alpha": 0.0848,
+                    "ou_window": 176,
+                    "kappa_ewma_alpha": 0.0247,
+                    "sigma_ewma_alpha": 0.077,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "chosen_params": {
+                    "q_beta": 2.69e-06,
+                    "h": 26.9,
+                    "cusum_k": 1.37,
+                    "max_cov_inflate": 3190.0,
+                    "cov_decay": 0.000953,
+                    "kalman_var_ewma_alpha": 0.0848,
+                    "ou_window": 176,
+                    "kappa_ewma_alpha": 0.0247,
+                    "sigma_ewma_alpha": 0.077,
+                    "pair_y": "SMAH",
+                    "pair_x": "ILVX"
+                },
+                "source": "best_trial",
+                "denominator_raw": 49.9858904931491,
+                "denominator": 49.9858904931491,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 49.9858904931491,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 11.859800536672845
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0030619140017286318,
+                            "drop_20": 0.033912103548119986
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "SMAH-ILVX-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.8339499907372357,
+            "best_params": {
+                "q_beta": 2.36e-05,
+                "h": 20.1,
+                "cusum_k": 0.984,
+                "max_cov_inflate": 876000.0,
+                "cov_decay": 0.000569,
+                "kalman_var_ewma_alpha": 0.0647,
+                "ou_window": 166,
+                "kappa_ewma_alpha": 0.00625,
+                "sigma_ewma_alpha": 0.0716,
+                "pair_y": "SMAH",
+                "pair_x": "ILVX"
+            },
+            "final_params": {
+                "q_beta": 2.36e-05,
+                "h": 20.1,
+                "cusum_k": 0.984,
+                "max_cov_inflate": 876000.0,
+                "cov_decay": 0.000569,
+                "kalman_var_ewma_alpha": 0.0647,
+                "ou_window": 166,
+                "kappa_ewma_alpha": 0.00625,
+                "sigma_ewma_alpha": 0.0716,
+                "pair_y": "SMAH",
+                "pair_x": "ILVX"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 667,
+                    "params": {
+                        "q_beta": 2.36e-05,
+                        "h": 20.1,
+                        "cusum_k": 0.984,
+                        "max_cov_inflate": 876000.0,
+                        "cov_decay": 0.000569,
+                        "kalman_var_ewma_alpha": 0.0647,
+                        "ou_window": 166,
+                        "kappa_ewma_alpha": 0.00625,
+                        "sigma_ewma_alpha": 0.0716,
+                        "pair_y": "SMAH",
+                        "pair_x": "ILVX"
+                    },
+                    "ratio_objective": 0.8952447066842257,
+                    "percentile_objective": 0.7699335548172758,
+                    "train_score": 38.373880758896455,
+                    "oos_score": 53.041603486744286,
+                    "train_sharpe": 3.3288263868625902,
+                    "oos_sharpe": 4.395649226989013
+                },
+                "percentile": {
+                    "trial_number": 53,
+                    "params": {
+                        "q_beta": 1.63e-09,
+                        "h": 29.2,
+                        "cusum_k": 1.05,
+                        "max_cov_inflate": 883000.0,
+                        "cov_decay": 0.000101,
+                        "kalman_var_ewma_alpha": 0.313,
+                        "ou_window": 134,
+                        "kappa_ewma_alpha": 0.000113,
+                        "sigma_ewma_alpha": 0.00959,
+                        "pair_y": "SMAH",
+                        "pair_x": "ILVX"
+                    },
+                    "ratio_objective": 0.8031921532028785,
+                    "percentile_objective": 0.787375415282392,
+                    "train_score": 36.76157673691783,
+                    "oos_score": 20.91829965968037,
+                    "train_sharpe": 3.2091241838929414,
+                    "oos_sharpe": 2.0054561765697922
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.0,
+                    "drop_10": 1.5678190605485407,
+                    "drop_20": 5.226363745642561
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 2.1782465121835486,
+                    "drop_10": 4.443555190944027,
+                    "drop_20": 4.443555190944027
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 2.749619744918667
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 41.83688824999996,
+                "sharpe": 3.3288263868625902,
+                "score": 38.373880758896455,
+                "ret": 0.00893705375715103,
+                "total_return": 25102.132949999974
+            },
+            "oos_metrics": {
+                "meanpl": 55.78678197999997,
+                "sharpe": 4.395649226989013,
+                "score": 53.041603486744286,
+                "ret": 0.008868868650217684,
+                "total_return": 11157.356395999994
+            }
+        }
+    },
+    {
+        "pair_name": "EORC-NGTE",
+        "y_symbol": "EORC",
+        "x_symbol": "NGTE",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "EORC-NGTE-w0-emb10",
+                "best_value": 62.65918703177714,
+                "best_params": {
+                    "q_beta": 9.44e-07,
+                    "h": 24.6,
+                    "cusum_k": 0.402,
+                    "max_cov_inflate": 1220.0,
+                    "cov_decay": 0.000293,
+                    "kalman_var_ewma_alpha": 0.00112,
+                    "ou_window": 152,
+                    "kappa_ewma_alpha": 0.183,
+                    "sigma_ewma_alpha": 0.000437,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "chosen_params": {
+                    "q_beta": 0.0020653521147170565,
+                    "h": 28.405131754985202,
+                    "cusum_k": 1.2634699768679016,
+                    "max_cov_inflate": 2138837.067861147,
+                    "cov_decay": 0.000316580498117646,
+                    "kalman_var_ewma_alpha": 0.11494275898377256,
+                    "ou_window": 150,
+                    "kappa_ewma_alpha": 0.11104483869112063,
+                    "sigma_ewma_alpha": 0.008286641762095983,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "source": "cluster_medoid",
+                "denominator_raw": 46.63985471229153,
+                "denominator": 46.63985471229153,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": true,
+                    "base_score": 62.65918703177714,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 13.577908003657893,
+                            "drop_10": 5.828554607485361,
+                            "drop_20": 26.089632097539077
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 5.828554607485361,
+                            "drop_10": 5.818944290554677,
+                            "drop_20": 5.312816259135777
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 5.828554607485361,
+                            "drop_10": 5.818944290554677,
+                            "drop_20": 5.312816259135777
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": {
+                        "study": "EORC-NGTE-w0-emb10",
+                        "method": "hdbscan(min_cluster_size=5)",
+                        "n_trials": 300,
+                        "n_augmented": 0,
+                        "n_noise": 185,
+                        "global_best_trial_number": 105,
+                        "global_best_value": 62.65918703177714,
+                        "global_best_is_noise": true,
+                        "best_cluster_id": 1,
+                        "best_cluster_size": 110,
+                        "best_cluster_mean_value": 37.819425112683156,
+                        "medoid_trial_number": 276,
+                        "medoid_ref": "276",
+                        "medoid_source": "trial",
+                        "medoid_value": 46.63985471229153,
+                        "medoid_params": {
+                            "q_beta": 0.0020653521147170565,
+                            "h": 28.405131754985202,
+                            "cusum_k": 1.2634699768679016,
+                            "max_cov_inflate": 2138837.067861147,
+                            "cov_decay": 0.000316580498117646,
+                            "kalman_var_ewma_alpha": 0.11494275898377256,
+                            "ou_window": 150,
+                            "kappa_ewma_alpha": 0.11104483869112063,
+                            "sigma_ewma_alpha": 0.008286641762095983
+                        },
+                        "cluster_table": [
+                            {
+                                "cluster_id": 1,
+                                "size": 110,
+                                "mean_value": 37.819425112683156,
+                                "max_value": 57.906968013042736,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": -1,
+                                "size": 185,
+                                "mean_value": 22.733179477487727,
+                                "max_value": 62.65918703177714,
+                                "is_noise": true,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": 0,
+                                "size": 5,
+                                "mean_value": 14.141566566539842,
+                                "max_value": 37.53978142996327,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "EORC-NGTE-w1-emb10",
+                "best_value": 61.13190964385278,
+                "best_params": {
+                    "q_beta": 3.57e-08,
+                    "h": 18.4,
+                    "cusum_k": 0.276,
+                    "max_cov_inflate": 63000000.0,
+                    "cov_decay": 0.0549,
+                    "kalman_var_ewma_alpha": 0.00216,
+                    "ou_window": 124,
+                    "kappa_ewma_alpha": 0.00174,
+                    "sigma_ewma_alpha": 0.0902,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "chosen_params": {
+                    "q_beta": 1.8184294288013544e-06,
+                    "h": 15.187338003408348,
+                    "cusum_k": 1.0604118650433925,
+                    "max_cov_inflate": 3715.711825476688,
+                    "cov_decay": 0.0008028652856890013,
+                    "kalman_var_ewma_alpha": 0.0004628217461284902,
+                    "ou_window": 129,
+                    "kappa_ewma_alpha": 0.013176785158941625,
+                    "sigma_ewma_alpha": 0.00090267909564022,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "source": "cluster_medoid",
+                "denominator_raw": 55.747845118718004,
+                "denominator": 55.747845118718004,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": true,
+                    "base_score": 61.13190964385278,
+                    "sensitivities": [
+                        {
+                            "param": "h",
+                            "drop_5": 29.432964789195214,
+                            "drop_10": 50.43356977105228,
+                            "drop_20": 52.76709608110156
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.02018206386369077,
+                            "drop_10": 52.47317180563778,
+                            "drop_20": 52.4348807535483
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 17.43408251740934,
+                            "drop_10": 49.18336378324451,
+                            "drop_20": 22.796951110845953
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 17.43408251740934,
+                            "drop_10": 17.43408251740934,
+                            "drop_20": 21.24607280654109
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": {
+                        "study": "EORC-NGTE-w1-emb10",
+                        "method": "hdbscan(min_cluster_size=5)",
+                        "n_trials": 300,
+                        "n_augmented": 0,
+                        "n_noise": 184,
+                        "global_best_trial_number": 100,
+                        "global_best_value": 61.13190964385278,
+                        "global_best_is_noise": true,
+                        "best_cluster_id": 1,
+                        "best_cluster_size": 111,
+                        "best_cluster_mean_value": 42.56802852173831,
+                        "medoid_trial_number": 263,
+                        "medoid_ref": "263",
+                        "medoid_source": "trial",
+                        "medoid_value": 55.747845118718004,
+                        "medoid_params": {
+                            "q_beta": 1.8184294288013544e-06,
+                            "h": 15.187338003408348,
+                            "cusum_k": 1.0604118650433925,
+                            "max_cov_inflate": 3715.711825476688,
+                            "cov_decay": 0.0008028652856890013,
+                            "kalman_var_ewma_alpha": 0.0004628217461284902,
+                            "ou_window": 129,
+                            "kappa_ewma_alpha": 0.013176785158941625,
+                            "sigma_ewma_alpha": 0.00090267909564022
+                        },
+                        "cluster_table": [
+                            {
+                                "cluster_id": 1,
+                                "size": 111,
+                                "mean_value": 42.56802852173831,
+                                "max_value": 59.94612368806858,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": -1,
+                                "size": 184,
+                                "mean_value": 26.54183545044495,
+                                "max_value": 61.13190964385278,
+                                "is_noise": true,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": 0,
+                                "size": 5,
+                                "mean_value": 21.27062769450337,
+                                "max_value": 39.889444797370246,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "EORC-NGTE-w2-emb10",
+                "best_value": 66.32008519848408,
+                "best_params": {
+                    "q_beta": 1e-06,
+                    "h": 29.7,
+                    "cusum_k": 1.88,
+                    "max_cov_inflate": 343000.0,
+                    "cov_decay": 0.00023,
+                    "kalman_var_ewma_alpha": 0.236,
+                    "ou_window": 151,
+                    "kappa_ewma_alpha": 0.00033,
+                    "sigma_ewma_alpha": 0.114,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "chosen_params": {
+                    "q_beta": 1e-06,
+                    "h": 29.7,
+                    "cusum_k": 1.88,
+                    "max_cov_inflate": 343000.0,
+                    "cov_decay": 0.00023,
+                    "kalman_var_ewma_alpha": 0.236,
+                    "ou_window": 151,
+                    "kappa_ewma_alpha": 0.00033,
+                    "sigma_ewma_alpha": 0.114,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "source": "best_trial",
+                "denominator_raw": 66.32008519848408,
+                "denominator": 66.32008519848408,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 66.32008519848408,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.01746949792837249,
+                            "drop_10": 0.008017415453216766,
+                            "drop_20": 0.0704088275458936
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "EORC-NGTE-w3-emb10",
+                "best_value": 65.28249947407056,
+                "best_params": {
+                    "q_beta": 1.09e-05,
+                    "h": 22.3,
+                    "cusum_k": 1.72,
+                    "max_cov_inflate": 71500.0,
+                    "cov_decay": 0.00993,
+                    "kalman_var_ewma_alpha": 0.00812,
+                    "ou_window": 140,
+                    "kappa_ewma_alpha": 0.00258,
+                    "sigma_ewma_alpha": 0.133,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "chosen_params": {
+                    "q_beta": 1.09e-05,
+                    "h": 22.3,
+                    "cusum_k": 1.72,
+                    "max_cov_inflate": 71500.0,
+                    "cov_decay": 0.00993,
+                    "kalman_var_ewma_alpha": 0.00812,
+                    "ou_window": 140,
+                    "kappa_ewma_alpha": 0.00258,
+                    "sigma_ewma_alpha": 0.133,
+                    "pair_y": "EORC",
+                    "pair_x": "NGTE"
+                },
+                "source": "best_trial",
+                "denominator_raw": 65.28249947407056,
+                "denominator": 65.28249947407056,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 65.28939559706535,
+                    "sensitivities": [
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 2.2313248991335737,
+                            "drop_20": 20.25282716012692
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "EORC-NGTE-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.7423519837234678,
+            "best_params": {
+                "q_beta": 6.29e-06,
+                "h": 24.8,
+                "cusum_k": 0.984,
+                "max_cov_inflate": 59000000.0,
+                "cov_decay": 0.000568,
+                "kalman_var_ewma_alpha": 0.232,
+                "ou_window": 114,
+                "kappa_ewma_alpha": 0.101,
+                "sigma_ewma_alpha": 0.000565,
+                "pair_y": "EORC",
+                "pair_x": "NGTE"
+            },
+            "final_params": {
+                "q_beta": 6.29e-06,
+                "h": 24.8,
+                "cusum_k": 0.984,
+                "max_cov_inflate": 59000000.0,
+                "cov_decay": 0.000568,
+                "kalman_var_ewma_alpha": 0.232,
+                "ou_window": 114,
+                "kappa_ewma_alpha": 0.101,
+                "sigma_ewma_alpha": 0.000565,
+                "pair_y": "EORC",
+                "pair_x": "NGTE"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 193,
+                    "params": {
+                        "q_beta": 6.29e-06,
+                        "h": 24.8,
+                        "cusum_k": 0.984,
+                        "max_cov_inflate": 59000000.0,
+                        "cov_decay": 0.000568,
+                        "kalman_var_ewma_alpha": 0.232,
+                        "ou_window": 114,
+                        "kappa_ewma_alpha": 0.101,
+                        "sigma_ewma_alpha": 0.000565,
+                        "pair_y": "EORC",
+                        "pair_x": "NGTE"
+                    },
+                    "ratio_objective": 0.8712656432966747,
+                    "percentile_objective": 0.7616279069767442,
+                    "train_score": 49.32675223446443,
+                    "oos_score": 20.04060726217719,
+                    "train_sharpe": 3.3737143193072527,
+                    "oos_sharpe": 1.655139298539306
+                },
+                "percentile": {
+                    "trial_number": 193,
+                    "params": {
+                        "q_beta": 6.29e-06,
+                        "h": 24.8,
+                        "cusum_k": 0.984,
+                        "max_cov_inflate": 59000000.0,
+                        "cov_decay": 0.000568,
+                        "kalman_var_ewma_alpha": 0.232,
+                        "ou_window": 114,
+                        "kappa_ewma_alpha": 0.101,
+                        "sigma_ewma_alpha": 0.000565,
+                        "pair_y": "EORC",
+                        "pair_x": "NGTE"
+                    },
+                    "ratio_objective": 0.8712656432966747,
+                    "percentile_objective": 0.7616279069767442,
+                    "train_score": 49.32675223446443,
+                    "oos_score": 20.04060726217719,
+                    "train_sharpe": 3.3737143193072527,
+                    "oos_sharpe": 1.655139298539306
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 0.0,
+                    "drop_10": 5.216050769488066,
+                    "drop_20": 5.403693894964567
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 2.209313138715166
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.0,
+                    "drop_10": 1.401776996632346,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 53.660522771666685,
+                "sharpe": 3.3737143193072527,
+                "score": 49.32675223446443,
+                "ret": 0.010037623563147255,
+                "total_return": 32196.31366300001
+            },
+            "oos_metrics": {
+                "meanpl": 27.356069560000023,
+                "sharpe": 1.655139298539306,
+                "score": 20.04060726217719,
+                "ret": 0.008600362084509204,
+                "total_return": 5471.213912000005
+            }
+        }
+    },
+    {
+        "pair_name": "CTGI-EELT",
+        "y_symbol": "CTGI",
+        "x_symbol": "EELT",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "CTGI-EELT-w0-emb10",
+                "best_value": 125.65702161556781,
+                "best_params": {
+                    "q_beta": 1.82e-06,
+                    "h": 11.8,
+                    "cusum_k": 1.4,
+                    "max_cov_inflate": 45700.0,
+                    "cov_decay": 0.0623,
+                    "kalman_var_ewma_alpha": 0.204,
+                    "ou_window": 90,
+                    "kappa_ewma_alpha": 0.0454,
+                    "sigma_ewma_alpha": 0.00339,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "chosen_params": {
+                    "q_beta": 1.82e-06,
+                    "h": 11.8,
+                    "cusum_k": 1.4,
+                    "max_cov_inflate": 45700.0,
+                    "cov_decay": 0.0623,
+                    "kalman_var_ewma_alpha": 0.204,
+                    "ou_window": 90,
+                    "kappa_ewma_alpha": 0.0454,
+                    "sigma_ewma_alpha": 0.00339,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "source": "best_trial",
+                "denominator_raw": 125.65702161556781,
+                "denominator": 125.65702161556781,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 125.65702161556781,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 9.562576409068898,
+                            "drop_10": 8.701275560067515,
+                            "drop_20": 3.792334860028253
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "CTGI-EELT-w1-emb10",
+                "best_value": 116.34646866803293,
+                "best_params": {
+                    "q_beta": 9.97e-09,
+                    "h": 12.5,
+                    "cusum_k": 1.79,
+                    "max_cov_inflate": 5700.0,
+                    "cov_decay": 0.000212,
+                    "kalman_var_ewma_alpha": 0.0344,
+                    "ou_window": 186,
+                    "kappa_ewma_alpha": 0.00504,
+                    "sigma_ewma_alpha": 0.000205,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "chosen_params": {
+                    "q_beta": 9.97e-09,
+                    "h": 12.5,
+                    "cusum_k": 1.79,
+                    "max_cov_inflate": 5700.0,
+                    "cov_decay": 0.000212,
+                    "kalman_var_ewma_alpha": 0.0344,
+                    "ou_window": 186,
+                    "kappa_ewma_alpha": 0.00504,
+                    "sigma_ewma_alpha": 0.000205,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "source": "best_trial",
+                "denominator_raw": 116.34646866803293,
+                "denominator": 116.34646866803293,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 116.34646866803293,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 6.300518822982497
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "CTGI-EELT-w2-emb10",
+                "best_value": 70.50682098867921,
+                "best_params": {
+                    "q_beta": 0.0508,
+                    "h": 11.3,
+                    "cusum_k": 1.04,
+                    "max_cov_inflate": 223.0,
+                    "cov_decay": 0.0694,
+                    "kalman_var_ewma_alpha": 0.000815,
+                    "ou_window": 144,
+                    "kappa_ewma_alpha": 0.0293,
+                    "sigma_ewma_alpha": 0.0333,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "chosen_params": {
+                    "q_beta": 0.0508,
+                    "h": 11.3,
+                    "cusum_k": 1.04,
+                    "max_cov_inflate": 223.0,
+                    "cov_decay": 0.0694,
+                    "kalman_var_ewma_alpha": 0.000815,
+                    "ou_window": 144,
+                    "kappa_ewma_alpha": 0.0293,
+                    "sigma_ewma_alpha": 0.0333,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "source": "best_trial",
+                "denominator_raw": 70.50682098867921,
+                "denominator": 70.50682098867921,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 70.50682098867921,
+                    "sensitivities": [
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 9.824222316894181
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 6.6684279682821215,
+                            "drop_10": 6.6684279682821215,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 6.6684279682821215,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "CTGI-EELT-w3-emb10",
+                "best_value": 92.99361381651839,
+                "best_params": {
+                    "q_beta": 8.85e-09,
+                    "h": 25.8,
+                    "cusum_k": 0.875,
+                    "max_cov_inflate": 1420.0,
+                    "cov_decay": 0.000123,
+                    "kalman_var_ewma_alpha": 0.108,
+                    "ou_window": 136,
+                    "kappa_ewma_alpha": 0.0183,
+                    "sigma_ewma_alpha": 0.0168,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "chosen_params": {
+                    "q_beta": 8.85e-09,
+                    "h": 25.8,
+                    "cusum_k": 0.875,
+                    "max_cov_inflate": 1420.0,
+                    "cov_decay": 0.000123,
+                    "kalman_var_ewma_alpha": 0.108,
+                    "ou_window": 136,
+                    "kappa_ewma_alpha": 0.0183,
+                    "sigma_ewma_alpha": 0.0168,
+                    "pair_y": "CTGI",
+                    "pair_x": "EELT"
+                },
+                "source": "best_trial",
+                "denominator_raw": 92.99361381651839,
+                "denominator": 92.99361381651839,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 92.99361381651839,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 8.790672075405555,
+                            "drop_10": 8.790672075405555,
+                            "drop_20": 15.573020078911343
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 14.406323432354085
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "CTGI-EELT-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.7124454211646492,
+            "best_params": {
+                "q_beta": 6.04e-08,
+                "h": 21.3,
+                "cusum_k": 1.15,
+                "max_cov_inflate": 143000.0,
+                "cov_decay": 0.00147,
+                "kalman_var_ewma_alpha": 0.0686,
+                "ou_window": 123,
+                "kappa_ewma_alpha": 0.00462,
+                "sigma_ewma_alpha": 0.011,
+                "pair_y": "CTGI",
+                "pair_x": "EELT"
+            },
+            "final_params": {
+                "q_beta": 6.04e-08,
+                "h": 21.3,
+                "cusum_k": 1.15,
+                "max_cov_inflate": 143000.0,
+                "cov_decay": 0.00147,
+                "kalman_var_ewma_alpha": 0.0686,
+                "ou_window": 123,
+                "kappa_ewma_alpha": 0.00462,
+                "sigma_ewma_alpha": 0.011,
+                "pair_y": "CTGI",
+                "pair_x": "EELT"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 677,
+                    "params": {
+                        "q_beta": 6.04e-08,
+                        "h": 21.3,
+                        "cusum_k": 1.15,
+                        "max_cov_inflate": 143000.0,
+                        "cov_decay": 0.00147,
+                        "kalman_var_ewma_alpha": 0.0686,
+                        "ou_window": 123,
+                        "kappa_ewma_alpha": 0.00462,
+                        "sigma_ewma_alpha": 0.011,
+                        "pair_y": "CTGI",
+                        "pair_x": "EELT"
+                    },
+                    "ratio_objective": 0.8271027608301365,
+                    "percentile_objective": 0.8637873754152824,
+                    "train_score": 76.3898072761855,
+                    "oos_score": 36.06260925230548,
+                    "train_sharpe": 3.4158108450151703,
+                    "oos_sharpe": 1.9228435431697453
+                },
+                "percentile": {
+                    "trial_number": 250,
+                    "params": {
+                        "q_beta": 1.94e-09,
+                        "h": 29.9,
+                        "cusum_k": 1.68,
+                        "max_cov_inflate": 118000.0,
+                        "cov_decay": 0.00612,
+                        "kalman_var_ewma_alpha": 0.0444,
+                        "ou_window": 125,
+                        "kappa_ewma_alpha": 0.00499,
+                        "sigma_ewma_alpha": 0.0157,
+                        "pair_y": "CTGI",
+                        "pair_x": "EELT"
+                    },
+                    "ratio_objective": 0.8420358784635306,
+                    "percentile_objective": 0.8679401993355482,
+                    "train_score": 77.74556354341458,
+                    "oos_score": 37.748439929125986,
+                    "train_sharpe": 3.4702142320502123,
+                    "oos_sharpe": 1.986152315569738
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "ou_window",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 6.402737552576478
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 1.7325603290036504,
+                    "drop_20": 4.661739608407467
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0001099329691397493,
+                    "drop_20": 0.0001099329691397493
+                },
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 82.93688939499997,
+                "sharpe": 3.4158108450151703,
+                "score": 76.3898072761855,
+                "ret": 0.01758153373282288,
+                "total_return": 49762.13363699998
+            },
+            "oos_metrics": {
+                "meanpl": 45.816306019999935,
+                "sharpe": 1.9228435431697453,
+                "score": 36.06260925230548,
+                "ret": 0.014591460008245996,
+                "total_return": 9163.261203999988
+            }
+        }
+    },
+    {
+        "pair_name": "ALUT-CCNS",
+        "y_symbol": "ALUT",
+        "x_symbol": "CCNS",
+        "config": {
+            "start": 201,
+            "end": 800,
+            "oos_start": 801,
+            "oos_end": 1000,
+            "n_windows": 4,
+            "embargo": 10,
+            "window_trials": 300,
+            "global_trials": 700,
+            "z_entry_rule": "new",
+            "norm_mode": "ratio",
+            "std_lambda": 1.0
+        },
+        "windows": [
+            {
+                "index": 0,
+                "start": 201,
+                "end": 342,
+                "study": "ALUT-CCNS-w0-emb10",
+                "best_value": 44.59108342071139,
+                "best_params": {
+                    "q_beta": 1.55e-07,
+                    "h": 17.6,
+                    "cusum_k": 0.653,
+                    "max_cov_inflate": 6340000.0,
+                    "cov_decay": 0.00014,
+                    "kalman_var_ewma_alpha": 0.000214,
+                    "ou_window": 179,
+                    "kappa_ewma_alpha": 0.0156,
+                    "sigma_ewma_alpha": 0.0361,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "chosen_params": {
+                    "q_beta": 4.400537635057745e-08,
+                    "h": 16.839954117485405,
+                    "cusum_k": 0.5184203619201824,
+                    "max_cov_inflate": 299507.505770704,
+                    "cov_decay": 0.00012019662100549509,
+                    "kalman_var_ewma_alpha": 0.013111152214468966,
+                    "ou_window": 120,
+                    "kappa_ewma_alpha": 0.0008822664640027114,
+                    "sigma_ewma_alpha": 0.007374514922512082,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "source": "cluster_medoid",
+                "denominator_raw": 15.011150067031794,
+                "denominator": 15.011150067031794,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": true,
+                    "base_score": 44.59108342071139,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 8.204151448340326,
+                            "drop_10": 23.73441875073061,
+                            "drop_20": 56.504550317905164
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 2.348019025897157,
+                            "drop_20": 8.502965309056137
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 2.348019025897157,
+                            "drop_20": 8.502965309056137
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": {
+                        "study": "ALUT-CCNS-w0-emb10",
+                        "method": "hdbscan(min_cluster_size=5)",
+                        "n_trials": 300,
+                        "n_augmented": 0,
+                        "n_noise": 281,
+                        "global_best_trial_number": 40,
+                        "global_best_value": 44.59108342071139,
+                        "global_best_is_noise": true,
+                        "best_cluster_id": 1,
+                        "best_cluster_size": 12,
+                        "best_cluster_mean_value": 21.932867737133126,
+                        "medoid_trial_number": 256,
+                        "medoid_ref": "256",
+                        "medoid_source": "trial",
+                        "medoid_value": 15.011150067031794,
+                        "medoid_params": {
+                            "q_beta": 4.400537635057745e-08,
+                            "h": 16.839954117485405,
+                            "cusum_k": 0.5184203619201824,
+                            "max_cov_inflate": 299507.505770704,
+                            "cov_decay": 0.00012019662100549509,
+                            "kalman_var_ewma_alpha": 0.013111152214468966,
+                            "ou_window": 120,
+                            "kappa_ewma_alpha": 0.0008822664640027114,
+                            "sigma_ewma_alpha": 0.007374514922512082
+                        },
+                        "cluster_table": [
+                            {
+                                "cluster_id": 1,
+                                "size": 12,
+                                "mean_value": 21.932867737133126,
+                                "max_value": 33.98553679558149,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": 0,
+                                "size": 7,
+                                "mean_value": 18.412910709829013,
+                                "max_value": 31.457554693053382,
+                                "is_noise": false,
+                                "n_augmented": 0
+                            },
+                            {
+                                "cluster_id": -1,
+                                "size": 281,
+                                "mean_value": 10.948048063759344,
+                                "max_value": 44.59108342071139,
+                                "is_noise": true,
+                                "n_augmented": 0
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "index": 1,
+                "start": 353,
+                "end": 494,
+                "study": "ALUT-CCNS-w1-emb10",
+                "best_value": 66.96117157524506,
+                "best_params": {
+                    "q_beta": 2.16e-07,
+                    "h": 6.94,
+                    "cusum_k": 1.91,
+                    "max_cov_inflate": 1960000.0,
+                    "cov_decay": 0.00152,
+                    "kalman_var_ewma_alpha": 0.0942,
+                    "ou_window": 194,
+                    "kappa_ewma_alpha": 0.0126,
+                    "sigma_ewma_alpha": 0.00266,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "chosen_params": {
+                    "q_beta": 2.16e-07,
+                    "h": 6.94,
+                    "cusum_k": 1.91,
+                    "max_cov_inflate": 1960000.0,
+                    "cov_decay": 0.00152,
+                    "kalman_var_ewma_alpha": 0.0942,
+                    "ou_window": 194,
+                    "kappa_ewma_alpha": 0.0126,
+                    "sigma_ewma_alpha": 0.00266,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "source": "best_trial",
+                "denominator_raw": 66.96117157524506,
+                "denominator": 66.96117157524506,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 66.96117157524506,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 5.5737476739621705,
+                            "drop_10": 12.099471184341173,
+                            "drop_20": 8.632007519457343
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 2.017369383188872,
+                            "drop_20": 2.017369383188872
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 2,
+                "start": 505,
+                "end": 646,
+                "study": "ALUT-CCNS-w2-emb10",
+                "best_value": 39.685973853738496,
+                "best_params": {
+                    "q_beta": 2.21e-06,
+                    "h": 30.7,
+                    "cusum_k": 1.72,
+                    "max_cov_inflate": 1970000.0,
+                    "cov_decay": 0.000188,
+                    "kalman_var_ewma_alpha": 0.185,
+                    "ou_window": 136,
+                    "kappa_ewma_alpha": 0.000823,
+                    "sigma_ewma_alpha": 0.146,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "chosen_params": {
+                    "q_beta": 2.21e-06,
+                    "h": 30.7,
+                    "cusum_k": 1.72,
+                    "max_cov_inflate": 1970000.0,
+                    "cov_decay": 0.000188,
+                    "kalman_var_ewma_alpha": 0.185,
+                    "ou_window": 136,
+                    "kappa_ewma_alpha": 0.000823,
+                    "sigma_ewma_alpha": 0.146,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "source": "best_trial",
+                "denominator_raw": 39.685973853738496,
+                "denominator": 39.685973853738496,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 39.685973853738496,
+                    "sensitivities": [
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 9.38327777828946
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            },
+            {
+                "index": 3,
+                "start": 657,
+                "end": 800,
+                "study": "ALUT-CCNS-w3-emb10",
+                "best_value": 30.27548652110544,
+                "best_params": {
+                    "q_beta": 1.52e-07,
+                    "h": 16.9,
+                    "cusum_k": 1.42,
+                    "max_cov_inflate": 2810000.0,
+                    "cov_decay": 0.00084,
+                    "kalman_var_ewma_alpha": 0.0719,
+                    "ou_window": 156,
+                    "kappa_ewma_alpha": 0.00247,
+                    "sigma_ewma_alpha": 0.00628,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "chosen_params": {
+                    "q_beta": 1.52e-07,
+                    "h": 16.9,
+                    "cusum_k": 1.42,
+                    "max_cov_inflate": 2810000.0,
+                    "cov_decay": 0.00084,
+                    "kalman_var_ewma_alpha": 0.0719,
+                    "ou_window": 156,
+                    "kappa_ewma_alpha": 0.00247,
+                    "sigma_ewma_alpha": 0.00628,
+                    "pair_y": "ALUT",
+                    "pair_x": "CCNS"
+                },
+                "source": "best_trial",
+                "denominator_raw": 30.27548652110544,
+                "denominator": 30.27548652110544,
+                "denominator_clamped": false,
+                "stability": {
+                    "fragile": false,
+                    "base_score": 30.27548652110544,
+                    "sensitivities": [
+                        {
+                            "param": "ou_window",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 24.088128101604838
+                        },
+                        {
+                            "param": "kappa_ewma_alpha",
+                            "drop_5": 18.545180663250086,
+                            "drop_10": 18.545180663250086,
+                            "drop_20": 18.545180663250086
+                        },
+                        {
+                            "param": "q_beta",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "h",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cusum_k",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "max_cov_inflate",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "cov_decay",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "kalman_var_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        },
+                        {
+                            "param": "sigma_ewma_alpha",
+                            "drop_5": 0.0,
+                            "drop_10": 0.0,
+                            "drop_20": 0.0
+                        }
+                    ],
+                    "cluster": null
+                }
+            }
+        ],
+        "global": {
+            "study": "ALUT-CCNS-globalnorm-ratio-std1",
+            "norm_mode": "ratio",
+            "best_value": 0.5858029879385016,
+            "best_params": {
+                "q_beta": 1.01e-05,
+                "h": 19.3,
+                "cusum_k": 1.89,
+                "max_cov_inflate": 7160.0,
+                "cov_decay": 0.0244,
+                "kalman_var_ewma_alpha": 0.0115,
+                "ou_window": 74,
+                "kappa_ewma_alpha": 0.000173,
+                "sigma_ewma_alpha": 0.00661,
+                "pair_y": "ALUT",
+                "pair_x": "CCNS"
+            },
+            "final_params": {
+                "q_beta": 1.01e-05,
+                "h": 19.3,
+                "cusum_k": 1.89,
+                "max_cov_inflate": 7160.0,
+                "cov_decay": 0.0244,
+                "kalman_var_ewma_alpha": 0.0115,
+                "ou_window": 74,
+                "kappa_ewma_alpha": 0.000173,
+                "sigma_ewma_alpha": 0.00661,
+                "pair_y": "ALUT",
+                "pair_x": "CCNS"
+            },
+            "selection_source": "best_trial",
+            "objective_comparison": {
+                "ratio": {
+                    "trial_number": 168,
+                    "params": {
+                        "q_beta": 1.01e-05,
+                        "h": 19.3,
+                        "cusum_k": 1.89,
+                        "max_cov_inflate": 7160.0,
+                        "cov_decay": 0.0244,
+                        "kalman_var_ewma_alpha": 0.0115,
+                        "ou_window": 74,
+                        "kappa_ewma_alpha": 0.000173,
+                        "sigma_ewma_alpha": 0.00661,
+                        "pair_y": "ALUT",
+                        "pair_x": "CCNS"
+                    },
+                    "ratio_objective": 0.7718001790497568,
+                    "percentile_objective": 0.6561461794019934,
+                    "train_score": 26.607713598477066,
+                    "oos_score": 8.381370681304455,
+                    "train_sharpe": 2.053862144976992,
+                    "oos_sharpe": 1.0217272940414326
+                },
+                "percentile": {
+                    "trial_number": 221,
+                    "params": {
+                        "q_beta": 2.39e-08,
+                        "h": 37.3,
+                        "cusum_k": 1.22,
+                        "max_cov_inflate": 10300.0,
+                        "cov_decay": 0.00437,
+                        "kalman_var_ewma_alpha": 0.239,
+                        "ou_window": 191,
+                        "kappa_ewma_alpha": 0.0037,
+                        "sigma_ewma_alpha": 0.00532,
+                        "pair_y": "ALUT",
+                        "pair_x": "CCNS"
+                    },
+                    "ratio_objective": 0.8058613827072834,
+                    "percentile_objective": 0.798172757475083,
+                    "train_score": 33.81036037088242,
+                    "oos_score": 17.231820612003162,
+                    "train_sharpe": 2.470260411511813,
+                    "oos_sharpe": 1.539595774050361
+                }
+            },
+            "fragile": false,
+            "sensitivities": [
+                {
+                    "param": "h",
+                    "drop_5": 0.0,
+                    "drop_10": 5.175017266744809,
+                    "drop_20": 23.711709900137436
+                },
+                {
+                    "param": "cusum_k",
+                    "drop_5": 5.169387849522971,
+                    "drop_10": 23.711709900137436,
+                    "drop_20": 23.711709900137436
+                },
+                {
+                    "param": "kalman_var_ewma_alpha",
+                    "drop_5": 5.169387849522971,
+                    "drop_10": 2.3706410205397566,
+                    "drop_20": 23.711709900137436
+                },
+                {
+                    "param": "ou_window",
+                    "drop_5": 0.0,
+                    "drop_10": 5.1557462750525955,
+                    "drop_20": 5.1557462750525955
+                },
+                {
+                    "param": "kappa_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 5.1557462750525955,
+                    "drop_20": 5.1557462750525955
+                },
+                {
+                    "param": "max_cov_inflate",
+                    "drop_5": 5.175017266744809,
+                    "drop_10": 2.373549802900053,
+                    "drop_20": 3.085379880183926
+                },
+                {
+                    "param": "q_beta",
+                    "drop_5": 5.167814203166181,
+                    "drop_10": 3.0861537978018925,
+                    "drop_20": 1.777500707392215
+                },
+                {
+                    "param": "cov_decay",
+                    "drop_5": 2.3638016213539834,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                },
+                {
+                    "param": "sigma_ewma_alpha",
+                    "drop_5": 0.0,
+                    "drop_10": 0.0,
+                    "drop_20": 0.0
+                }
+            ],
+            "cluster": null,
+            "train_metrics": {
+                "meanpl": 32.915325680000045,
+                "sharpe": 2.053862144976992,
+                "score": 26.607713598477066,
+                "ret": 0.007587539184032854,
+                "total_return": 19749.19540800003
+            },
+            "oos_metrics": {
+                "meanpl": 16.410067499999904,
+                "sharpe": 1.0217272940414326,
+                "score": 8.381370681304455,
+                "ret": 0.008345551981488265,
+                "total_return": 3282.013499999981
+            }
+        }
+    }
+]

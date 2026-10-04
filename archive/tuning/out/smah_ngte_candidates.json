@@ -1,0 +1,78 @@
+{
+  "filter-only": {
+    "obj": 3.8563494122074022,
+    "adopt": false,
+    "cliff": true,
+    "params": {
+      "q_beta": 1e-06,
+      "h": 6.0,
+      "cusum_k": 0.45,
+      "min_seg_len": 30,
+      "target_seg": 50,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.15,
+      "snap_window": 8,
+      "cov_inflate": 50.0,
+      "entry_h_mult": 0.3,
+      "exit_h_mult": 0.13,
+      "stop_h_mult": 0.45
+    }
+  },
+  "trade-only": {
+    "obj": 6.213402324170224,
+    "adopt": false,
+    "cliff": true,
+    "params": {
+      "q_beta": 1e-06,
+      "h": 6.0,
+      "cusum_k": 0.45,
+      "min_seg_len": 30,
+      "target_seg": 50,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.15,
+      "snap_window": 8,
+      "cov_inflate": 50.0,
+      "entry_h_mult": 0.3,
+      "exit_h_mult": 0.22,
+      "stop_h_mult": 0.7
+    }
+  },
+  "combined": {
+    "obj": 6.213402324170224,
+    "adopt": false,
+    "cliff": true,
+    "params": {
+      "q_beta": 1e-06,
+      "h": 6.0,
+      "cusum_k": 0.45,
+      "min_seg_len": 30,
+      "target_seg": 50,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.15,
+      "snap_window": 8,
+      "cov_inflate": 50.0,
+      "entry_h_mult": 0.3,
+      "exit_h_mult": 0.22,
+      "stop_h_mult": 0.7
+    }
+  },
+  "trade@filter": {
+    "obj": 4.269939221488563,
+    "adopt": false,
+    "cliff": true,
+    "params": {
+      "q_beta": 1e-06,
+      "h": 6.0,
+      "cusum_k": 0.45,
+      "min_seg_len": 30,
+      "target_seg": 50,
+      "adapt_bars": 14,
+      "snap_overshoot": 1.15,
+      "snap_window": 8,
+      "cov_inflate": 50.0,
+      "entry_h_mult": 0.32999999999999996,
+      "exit_h_mult": 0.17,
+      "stop_h_mult": 0.8500000000000001
+    }
+  }
+}

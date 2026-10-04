@@ -1,0 +1,984 @@
+{
+ "old_window": [
+  31,
+  1000
+ ],
+ "new_window": [
+  1001,
+  1500
+ ],
+ "records": [
+  {
+   "pair": "AENO-NWIG",
+   "old_pnl": 41009.0,
+   "old_per_day": 42.27731958762887,
+   "new_pnl": 23836.22,
+   "new_per_day": 47.67244,
+   "delta_per_day": 5.395120412371135,
+   "old_active_days": 646,
+   "new_active_days": 357
+  },
+  {
+   "pair": "HETT-ULXY",
+   "old_pnl": 49193.35,
+   "old_per_day": 50.71479381443299,
+   "new_pnl": 30985.89,
+   "new_per_day": 61.971779999999995,
+   "delta_per_day": 11.256986185567008,
+   "old_active_days": 710,
+   "new_active_days": 309
+  },
+  {
+   "pair": "HUXZ-ACAC",
+   "old_pnl": 33942.3,
+   "old_per_day": 34.99206185567011,
+   "new_pnl": 18478.9,
+   "new_per_day": 36.957800000000006,
+   "delta_per_day": 1.9657381443298974,
+   "old_active_days": 647,
+   "new_active_days": 337
+  },
+  {
+   "pair": "SMAH-ILVX",
+   "old_pnl": 33342.82,
+   "old_per_day": 34.3740412371134,
+   "new_pnl": 9901.08,
+   "new_per_day": 19.80216,
+   "delta_per_day": -14.571881237113402,
+   "old_active_days": 624,
+   "new_active_days": 343
+  },
+  {
+   "pair": "EORC-NGTE",
+   "old_pnl": 38204.93,
+   "old_per_day": 39.38652577319588,
+   "new_pnl": 18150.23,
+   "new_per_day": 36.30046,
+   "delta_per_day": -3.0860657731958767,
+   "old_active_days": 673,
+   "new_active_days": 347
+  },
+  {
+   "pair": "RTTH-NAYO",
+   "old_pnl": 53379.28,
+   "old_per_day": 55.03018556701031,
+   "new_pnl": 26767.1,
+   "new_per_day": 53.5342,
+   "delta_per_day": -1.4959855670103082,
+   "old_active_days": 651,
+   "new_active_days": 325
+  },
+  {
+   "pair": "CTGI-EELT",
+   "old_pnl": 56862.49,
+   "old_per_day": 58.6211237113402,
+   "new_pnl": 23261.32,
+   "new_per_day": 46.52264,
+   "delta_per_day": -12.0984837113402,
+   "old_active_days": 683,
+   "new_active_days": 369
+  },
+  {
+   "pair": "ELLT-FCSG",
+   "old_pnl": 7767.77,
+   "old_per_day": 8.008010309278351,
+   "new_pnl": -3480.62,
+   "new_per_day": -6.96124,
+   "delta_per_day": -14.969250309278351,
+   "old_active_days": 165,
+   "new_active_days": 110
+  },
+  {
+   "pair": "HUXZ-NWIG",
+   "old_pnl": 23405.29,
+   "old_per_day": 24.12916494845361,
+   "new_pnl": 4981.79,
+   "new_per_day": 9.96358,
+   "delta_per_day": -14.16558494845361,
+   "old_active_days": 774,
+   "new_active_days": 401
+  },
+  {
+   "pair": "DUCT-ACAC",
+   "old_pnl": 16956.69,
+   "old_per_day": 17.481123711340206,
+   "new_pnl": 1149.5,
+   "new_per_day": 2.299,
+   "delta_per_day": -15.182123711340207,
+   "old_active_days": 513,
+   "new_active_days": 308
+  },
+  {
+   "pair": "ANSO-CTGI",
+   "old_pnl": 15745.54,
+   "old_per_day": 16.232515463917526,
+   "new_pnl": 6040.77,
+   "new_per_day": 12.08154,
+   "delta_per_day": -4.150975463917526,
+   "old_active_days": 379,
+   "new_active_days": 209
+  },
+  {
+   "pair": "ANSO-BENI",
+   "old_pnl": 1923.97,
+   "old_per_day": 1.9834742268041237,
+   "new_pnl": 1721.46,
+   "new_per_day": 3.44292,
+   "delta_per_day": 1.4594457731958763,
+   "old_active_days": 231,
+   "new_active_days": 47
+  },
+  {
+   "pair": "FWWG-BLBT",
+   "old_pnl": 19585.71,
+   "old_per_day": 20.19145360824742,
+   "new_pnl": 8429.95,
+   "new_per_day": 16.859900000000003,
+   "delta_per_day": -3.331553608247418,
+   "old_active_days": 634,
+   "new_active_days": 347
+  },
+  {
+   "pair": "AETS-ILVX",
+   "old_pnl": 3522.38,
+   "old_per_day": 3.631319587628866,
+   "new_pnl": 593.62,
+   "new_per_day": 1.18724,
+   "delta_per_day": -2.444079587628866,
+   "old_active_days": 34,
+   "new_active_days": 23
+  },
+  {
+   "pair": "AETS-FCSG",
+   "old_pnl": 19187.83,
+   "old_per_day": 19.781268041237116,
+   "new_pnl": 5447.66,
+   "new_per_day": 10.89532,
+   "delta_per_day": -8.885948041237116,
+   "old_active_days": 418,
+   "new_active_days": 234
+  },
+  {
+   "pair": "ULXY-MHRM",
+   "old_pnl": 10376.52,
+   "old_per_day": 10.697443298969073,
+   "new_pnl": 2057.17,
+   "new_per_day": 4.11434,
+   "delta_per_day": -6.583103298969073,
+   "old_active_days": 176,
+   "new_active_days": 141
+  },
+  {
+   "pair": "HRET-RTTH",
+   "old_pnl": 32756.1,
+   "old_per_day": 33.76917525773196,
+   "new_pnl": 4923.21,
+   "new_per_day": 9.84642,
+   "delta_per_day": -23.922755257731957,
+   "old_active_days": 527,
+   "new_active_days": 258
+  },
+  {
+   "pair": "ALUT-CCNS",
+   "old_pnl": 27949.75,
+   "old_per_day": 28.814175257731957,
+   "new_pnl": 7192.79,
+   "new_per_day": 14.38558,
+   "delta_per_day": -14.428595257731958,
+   "old_active_days": 504,
+   "new_active_days": 250
+  },
+  {
+   "pair": "SMAH-SPLZ",
+   "old_pnl": 27362.91,
+   "old_per_day": 28.20918556701031,
+   "new_pnl": 748.02,
+   "new_per_day": 1.49604,
+   "delta_per_day": -26.713145567010308,
+   "old_active_days": 560,
+   "new_active_days": 307
+  },
+  {
+   "pair": "ACIX-ITPA",
+   "old_pnl": 19151.32,
+   "old_per_day": 19.74362886597938,
+   "new_pnl": 11885.01,
+   "new_per_day": 23.77002,
+   "delta_per_day": 4.026391134020617,
+   "old_active_days": 641,
+   "new_active_days": 309
+  },
+  {
+   "pair": "MTNS-BENI",
+   "old_pnl": 21662.33,
+   "old_per_day": 22.332298969072166,
+   "new_pnl": 8247.36,
+   "new_per_day": 16.49472,
+   "delta_per_day": -5.837578969072165,
+   "old_active_days": 445,
+   "new_active_days": 273
+  },
+  {
+   "pair": "MTNS-BLBT",
+   "old_pnl": 1431.06,
+   "old_per_day": 1.4753195876288658,
+   "new_pnl": 31.68,
+   "new_per_day": 0.06336,
+   "delta_per_day": -1.4119595876288658,
+   "old_active_days": 18,
+   "new_active_days": 27
+  },
+  {
+   "pair": "ALUT-HTRK",
+   "old_pnl": 2638.56,
+   "old_per_day": 2.720164948453608,
+   "new_pnl": -1330.36,
+   "new_per_day": -2.66072,
+   "delta_per_day": -5.380884948453608,
+   "old_active_days": 32,
+   "new_active_days": 28
+  },
+  {
+   "pair": "SRNA-NWIG",
+   "old_pnl": 16699.74,
+   "old_per_day": 17.216226804123714,
+   "new_pnl": -1787.38,
+   "new_per_day": -3.5747600000000004,
+   "delta_per_day": -20.790986804123715,
+   "old_active_days": 387,
+   "new_active_days": 221
+  },
+  {
+   "pair": "ACAC-NAYO",
+   "old_pnl": 13740.85,
+   "old_per_day": 14.165824742268041,
+   "new_pnl": 4857.83,
+   "new_per_day": 9.71566,
+   "delta_per_day": -4.450164742268042,
+   "old_active_days": 690,
+   "new_active_days": 352
+  },
+  {
+   "pair": "MSDP-ULXY",
+   "old_pnl": 32527.95,
+   "old_per_day": 33.53396907216495,
+   "new_pnl": 2586.84,
+   "new_per_day": 5.17368,
+   "delta_per_day": -28.36028907216495,
+   "old_active_days": 604,
+   "new_active_days": 315
+  },
+  {
+   "pair": "RTTH-ULXY",
+   "old_pnl": 33392.16,
+   "old_per_day": 34.42490721649485,
+   "new_pnl": 16788.11,
+   "new_per_day": 33.57622,
+   "delta_per_day": -0.8486872164948522,
+   "old_active_days": 500,
+   "new_active_days": 293
+  },
+  {
+   "pair": "AENO-HUXZ",
+   "old_pnl": 19796.03,
+   "old_per_day": 20.408278350515463,
+   "new_pnl": 6431.8,
+   "new_per_day": 12.8636,
+   "delta_per_day": -7.544678350515463,
+   "old_active_days": 555,
+   "new_active_days": 269
+  },
+  {
+   "pair": "SRNA-FWWG",
+   "old_pnl": 12686.54,
+   "old_per_day": 13.078907216494846,
+   "new_pnl": -791.69,
+   "new_per_day": -1.58338,
+   "delta_per_day": -14.662287216494846,
+   "old_active_days": 653,
+   "new_active_days": 400
+  },
+  {
+   "pair": "EORC-ILVX",
+   "old_pnl": 5019.01,
+   "old_per_day": 5.174237113402062,
+   "new_pnl": 193.15,
+   "new_per_day": 0.38630000000000003,
+   "delta_per_day": -4.787937113402061,
+   "old_active_days": 381,
+   "new_active_days": 206
+  },
+  {
+   "pair": "ANSO-AGVF",
+   "old_pnl": 5516.34,
+   "old_per_day": 5.686948453608248,
+   "new_pnl": 372.26,
+   "new_per_day": 0.74452,
+   "delta_per_day": -4.942428453608248,
+   "old_active_days": 118,
+   "new_active_days": 60
+  },
+  {
+   "pair": "ANSO-AETS",
+   "old_pnl": 6620.46,
+   "old_per_day": 6.825216494845361,
+   "new_pnl": 6369.38,
+   "new_per_day": 12.738760000000001,
+   "delta_per_day": 5.91354350515464,
+   "old_active_days": 123,
+   "new_active_days": 50
+  },
+  {
+   "pair": "ANSO-FCSG",
+   "old_pnl": 10096.44,
+   "old_per_day": 10.408701030927835,
+   "new_pnl": -469.07,
+   "new_per_day": -0.93814,
+   "delta_per_day": -11.346841030927836,
+   "old_active_days": 213,
+   "new_active_days": 104
+  },
+  {
+   "pair": "MHRM-EAFC",
+   "old_pnl": 26709.42,
+   "old_per_day": 27.53548453608247,
+   "new_pnl": 11759.28,
+   "new_per_day": 23.51856,
+   "delta_per_day": -4.01692453608247,
+   "old_active_days": 592,
+   "new_active_days": 336
+  },
+  {
+   "pair": "AGVF-RCRI",
+   "old_pnl": 18296.16,
+   "old_per_day": 18.862020618556702,
+   "new_pnl": -6286.15,
+   "new_per_day": -12.572299999999998,
+   "delta_per_day": -31.4343206185567,
+   "old_active_days": 484,
+   "new_active_days": 381
+  },
+  {
+   "pair": "MSDP-SRTX",
+   "old_pnl": 16563.47,
+   "old_per_day": 17.07574226804124,
+   "new_pnl": -2517.19,
+   "new_per_day": -5.0343800000000005,
+   "delta_per_day": -22.110122268041238,
+   "old_active_days": 573,
+   "new_active_days": 376
+  },
+  {
+   "pair": "RTTH-RRES",
+   "old_pnl": 20049.72,
+   "old_per_day": 20.669814432989693,
+   "new_pnl": -345.15,
+   "new_per_day": -0.6902999999999999,
+   "delta_per_day": -21.360114432989693,
+   "old_active_days": 439,
+   "new_active_days": 239
+  },
+  {
+   "pair": "HRET-HRND",
+   "old_pnl": 18641.79,
+   "old_per_day": 19.21834020618557,
+   "new_pnl": 2875.02,
+   "new_per_day": 5.75004,
+   "delta_per_day": -13.46830020618557,
+   "old_active_days": 368,
+   "new_active_days": 151
+  },
+  {
+   "pair": "HRET-SRTX",
+   "old_pnl": 11606.19,
+   "old_per_day": 11.965144329896908,
+   "new_pnl": -86.95,
+   "new_per_day": -0.1739,
+   "delta_per_day": -12.139044329896908,
+   "old_active_days": 284,
+   "new_active_days": 131
+  },
+  {
+   "pair": "ANSO-RCRI",
+   "old_pnl": 22015.01,
+   "old_per_day": 22.69588659793814,
+   "new_pnl": -2512.28,
+   "new_per_day": -5.02456,
+   "delta_per_day": -27.720446597938142,
+   "old_active_days": 618,
+   "new_active_days": 354
+  },
+  {
+   "pair": "HRET-NGTE",
+   "old_pnl": 16257.68,
+   "old_per_day": 16.760494845360824,
+   "new_pnl": -2316.72,
+   "new_per_day": -4.633439999999999,
+   "delta_per_day": -21.393934845360825,
+   "old_active_days": 541,
+   "new_active_days": 313
+  },
+  {
+   "pair": "CUBO-ULXY",
+   "old_pnl": 16355.8,
+   "old_per_day": 16.86164948453608,
+   "new_pnl": 3445.45,
+   "new_per_day": 6.890899999999999,
+   "delta_per_day": -9.970749484536082,
+   "old_active_days": 267,
+   "new_active_days": 150
+  },
+  {
+   "pair": "ANSO-RRES",
+   "old_pnl": 20005.04,
+   "old_per_day": 20.62375257731959,
+   "new_pnl": 563.09,
+   "new_per_day": 1.12618,
+   "delta_per_day": -19.497572577319588,
+   "old_active_days": 646,
+   "new_active_days": 357
+  },
+  {
+   "pair": "MTNS-MHRM",
+   "old_pnl": 11250.3,
+   "old_per_day": 11.598247422680412,
+   "new_pnl": 4258.61,
+   "new_per_day": 8.51722,
+   "delta_per_day": -3.081027422680412,
+   "old_active_days": 567,
+   "new_active_days": 305
+  },
+  {
+   "pair": "ANSO-RTTH",
+   "old_pnl": 15867.98,
+   "old_per_day": 16.358742268041237,
+   "new_pnl": 9952.16,
+   "new_per_day": 19.90432,
+   "delta_per_day": 3.545577731958762,
+   "old_active_days": 413,
+   "new_active_days": 195
+  },
+  {
+   "pair": "SMAH-AETS",
+   "old_pnl": 6791.77,
+   "old_per_day": 7.001824742268042,
+   "new_pnl": 997.18,
+   "new_per_day": 1.99436,
+   "delta_per_day": -5.007464742268041,
+   "old_active_days": 96,
+   "new_active_days": 40
+  },
+  {
+   "pair": "HRET-MTNS",
+   "old_pnl": 9236.44,
+   "old_per_day": 9.522103092783505,
+   "new_pnl": 1587.47,
+   "new_per_day": 3.17494,
+   "delta_per_day": -6.347163092783505,
+   "old_active_days": 192,
+   "new_active_days": 28
+  },
+  {
+   "pair": "HUXZ-DUCT",
+   "old_pnl": 7020.76,
+   "old_per_day": 7.237896907216495,
+   "new_pnl": 3668.34,
+   "new_per_day": 7.33668,
+   "delta_per_day": 0.09878309278350539,
+   "old_active_days": 309,
+   "new_active_days": 185
+  },
+  {
+   "pair": "HUXZ-RRES",
+   "old_pnl": 6094.25,
+   "old_per_day": 6.282731958762887,
+   "new_pnl": 1875.27,
+   "new_per_day": 3.75054,
+   "delta_per_day": -2.532191958762887,
+   "old_active_days": 127,
+   "new_active_days": 28
+  },
+  {
+   "pair": "ANSO-IHOZ",
+   "old_pnl": 5506.95,
+   "old_per_day": 5.677268041237113,
+   "new_pnl": 102.29,
+   "new_per_day": 0.20458,
+   "delta_per_day": -5.472688041237113,
+   "old_active_days": 86,
+   "new_active_days": 28
+  },
+  {
+   "pair": "DUCT-NPCK",
+   "old_pnl": 12235.72,
+   "old_per_day": 12.614144329896906,
+   "new_pnl": -1474.49,
+   "new_per_day": -2.94898,
+   "delta_per_day": -15.563124329896906,
+   "old_active_days": 387,
+   "new_active_days": 490
+  },
+  {
+   "pair": "LSST-EAFC",
+   "old_pnl": 7724.57,
+   "old_per_day": 7.963474226804124,
+   "new_pnl": -4052.12,
+   "new_per_day": -8.104239999999999,
+   "delta_per_day": -16.06771422680412,
+   "old_active_days": 301,
+   "new_active_days": 141
+  },
+  {
+   "pair": "ELLT-AETS",
+   "old_pnl": 24461.76,
+   "old_per_day": 25.218309278350514,
+   "new_pnl": -1051.5,
+   "new_per_day": -2.103,
+   "delta_per_day": -27.321309278350515,
+   "old_active_days": 701,
+   "new_active_days": 396
+  },
+  {
+   "pair": "FWWG-NGTE",
+   "old_pnl": 14107.93,
+   "old_per_day": 14.544257731958764,
+   "new_pnl": 7135.54,
+   "new_per_day": 14.27108,
+   "delta_per_day": -0.27317773195876427,
+   "old_active_days": 415,
+   "new_active_days": 252
+  },
+  {
+   "pair": "CUBO-RTTH",
+   "old_pnl": 20303.99,
+   "old_per_day": 20.93194845360825,
+   "new_pnl": 951.83,
+   "new_per_day": 1.9036600000000001,
+   "delta_per_day": -19.02828845360825,
+   "old_active_days": 544,
+   "new_active_days": 143
+  },
+  {
+   "pair": "HRET-MDGI",
+   "old_pnl": 15002.02,
+   "old_per_day": 15.466000000000001,
+   "new_pnl": 2498.29,
+   "new_per_day": 4.99658,
+   "delta_per_day": -10.469420000000001,
+   "old_active_days": 349,
+   "new_active_days": 162
+  },
+  {
+   "pair": "SMAH-FWWG",
+   "old_pnl": 15803.73,
+   "old_per_day": 16.292505154639176,
+   "new_pnl": 1989.83,
+   "new_per_day": 3.97966,
+   "delta_per_day": -12.312845154639177,
+   "old_active_days": 504,
+   "new_active_days": 272
+  },
+  {
+   "pair": "SMAH-ULXY",
+   "old_pnl": 19424.18,
+   "old_per_day": 20.024927835051546,
+   "new_pnl": 1390.79,
+   "new_per_day": 2.78158,
+   "delta_per_day": -17.243347835051544,
+   "old_active_days": 258,
+   "new_active_days": 48
+  },
+  {
+   "pair": "RTTH-FWWG",
+   "old_pnl": 27714.09,
+   "old_per_day": 28.57122680412371,
+   "new_pnl": 7340.61,
+   "new_per_day": 14.68122,
+   "delta_per_day": -13.890006804123711,
+   "old_active_days": 588,
+   "new_active_days": 374
+  },
+  {
+   "pair": "OTCS-EELT",
+   "old_pnl": 18243.69,
+   "old_per_day": 18.807927835051544,
+   "new_pnl": 1818.18,
+   "new_per_day": 3.6363600000000003,
+   "delta_per_day": -15.171567835051544,
+   "old_active_days": 474,
+   "new_active_days": 300
+  },
+  {
+   "pair": "HRET-SPLZ",
+   "old_pnl": 18086.66,
+   "old_per_day": 18.6460412371134,
+   "new_pnl": 7859.46,
+   "new_per_day": 15.71892,
+   "delta_per_day": -2.9271212371134006,
+   "old_active_days": 444,
+   "new_active_days": 225
+  },
+  {
+   "pair": "NGTE-FCSG",
+   "old_pnl": 13977.25,
+   "old_per_day": 14.409536082474228,
+   "new_pnl": 3854.67,
+   "new_per_day": 7.70934,
+   "delta_per_day": -6.7001960824742275,
+   "old_active_days": 589,
+   "new_active_days": 330
+  },
+  {
+   "pair": "EORC-FCSG",
+   "old_pnl": 12181.62,
+   "old_per_day": 12.55837113402062,
+   "new_pnl": 1059.48,
+   "new_per_day": 2.11896,
+   "delta_per_day": -10.43941113402062,
+   "old_active_days": 247,
+   "new_active_days": 130
+  },
+  {
+   "pair": "MTNS-ULXY",
+   "old_pnl": 21767.85,
+   "old_per_day": 22.441082474226803,
+   "new_pnl": 4869.43,
+   "new_per_day": 9.73886,
+   "delta_per_day": -12.702222474226803,
+   "old_active_days": 647,
+   "new_active_days": 352
+  },
+  {
+   "pair": "AENO-IHOZ",
+   "old_pnl": 14508.92,
+   "old_per_day": 14.957649484536082,
+   "new_pnl": 1036.19,
+   "new_per_day": 2.07238,
+   "delta_per_day": -12.885269484536082,
+   "old_active_days": 511,
+   "new_active_days": 260
+  },
+  {
+   "pair": "AGVF-ULXY",
+   "old_pnl": 12602.36,
+   "old_per_day": 12.992123711340207,
+   "new_pnl": 4349.63,
+   "new_per_day": 8.69926,
+   "delta_per_day": -4.292863711340207,
+   "old_active_days": 149,
+   "new_active_days": 93
+  },
+  {
+   "pair": "SPLZ-ULXY",
+   "old_pnl": 16323.31,
+   "old_per_day": 16.828154639175256,
+   "new_pnl": 14851.61,
+   "new_per_day": 29.70322,
+   "delta_per_day": 12.875065360824745,
+   "old_active_days": 556,
+   "new_active_days": 295
+  },
+  {
+   "pair": "SPLZ-CCNS",
+   "old_pnl": 18742.44,
+   "old_per_day": 19.322103092783504,
+   "new_pnl": 6559.67,
+   "new_per_day": 13.11934,
+   "delta_per_day": -6.2027630927835045,
+   "old_active_days": 640,
+   "new_active_days": 408
+  },
+  {
+   "pair": "MSDP-EAFC",
+   "old_pnl": 13921.18,
+   "old_per_day": 14.351731958762887,
+   "new_pnl": 770.24,
+   "new_per_day": 1.54048,
+   "delta_per_day": -12.811251958762886,
+   "old_active_days": 565,
+   "new_active_days": 374
+  },
+  {
+   "pair": "DUCT-HRND",
+   "old_pnl": 21359.49,
+   "old_per_day": 22.020092783505156,
+   "new_pnl": 574.55,
+   "new_per_day": 1.1491,
+   "delta_per_day": -20.870992783505155,
+   "old_active_days": 376,
+   "new_active_days": 197
+  },
+  {
+   "pair": "LSST-RTTH",
+   "old_pnl": 24419.17,
+   "old_per_day": 25.17440206185567,
+   "new_pnl": 9431.14,
+   "new_per_day": 18.86228,
+   "delta_per_day": -6.312122061855671,
+   "old_active_days": 583,
+   "new_active_days": 294
+  },
+  {
+   "pair": "DIHO-FCSG",
+   "old_pnl": 16487.64,
+   "old_per_day": 16.99756701030928,
+   "new_pnl": 4288.08,
+   "new_per_day": 8.57616,
+   "delta_per_day": -8.421407010309279,
+   "old_active_days": 473,
+   "new_active_days": 303
+  },
+  {
+   "pair": "RTTH-RCRI",
+   "old_pnl": 19450.81,
+   "old_per_day": 20.05238144329897,
+   "new_pnl": 864.74,
+   "new_per_day": 1.7294800000000001,
+   "delta_per_day": -18.32290144329897,
+   "old_active_days": 504,
+   "new_active_days": 317
+  },
+  {
+   "pair": "OTCS-CTGI",
+   "old_pnl": 17370.22,
+   "old_per_day": 17.907443298969074,
+   "new_pnl": -64.77,
+   "new_per_day": -0.12954,
+   "delta_per_day": -18.036983298969073,
+   "old_active_days": 365,
+   "new_active_days": 205
+  },
+  {
+   "pair": "GARI-FWWG",
+   "old_pnl": 14534.04,
+   "old_per_day": 14.983546391752578,
+   "new_pnl": -6194.01,
+   "new_per_day": -12.388020000000001,
+   "delta_per_day": -27.37156639175258,
+   "old_active_days": 435,
+   "new_active_days": 265
+  },
+  {
+   "pair": "SPLZ-FCSG",
+   "old_pnl": 13053.2,
+   "old_per_day": 13.456907216494846,
+   "new_pnl": -1039.79,
+   "new_per_day": -2.07958,
+   "delta_per_day": -15.536487216494846,
+   "old_active_days": 426,
+   "new_active_days": 214
+  },
+  {
+   "pair": "AMRP-DUCT",
+   "old_pnl": 19082.9,
+   "old_per_day": 19.673092783505155,
+   "new_pnl": -4672.96,
+   "new_per_day": -9.34592,
+   "delta_per_day": -29.019012783505154,
+   "old_active_days": 493,
+   "new_active_days": 261
+  },
+  {
+   "pair": "SPLZ-NGTE",
+   "old_pnl": 11517.64,
+   "old_per_day": 11.873855670103092,
+   "new_pnl": -3453.31,
+   "new_per_day": -6.90662,
+   "delta_per_day": -18.780475670103094,
+   "old_active_days": 355,
+   "new_active_days": 222
+  },
+  {
+   "pair": "RTTH-SPLZ",
+   "old_pnl": 24852.46,
+   "old_per_day": 25.621092783505155,
+   "new_pnl": 5090.13,
+   "new_per_day": 10.18026,
+   "delta_per_day": -15.440832783505154,
+   "old_active_days": 671,
+   "new_active_days": 387
+  },
+  {
+   "pair": "CCNS-NAYO",
+   "old_pnl": 20071.13,
+   "old_per_day": 20.691886597938144,
+   "new_pnl": -605.93,
+   "new_per_day": -1.21186,
+   "delta_per_day": -21.903746597938145,
+   "old_active_days": 486,
+   "new_active_days": 283
+  },
+  {
+   "pair": "SPLZ-ALUT",
+   "old_pnl": 14395.95,
+   "old_per_day": 14.84118556701031,
+   "new_pnl": 1035.18,
+   "new_per_day": 2.07036,
+   "delta_per_day": -12.77082556701031,
+   "old_active_days": 482,
+   "new_active_days": 386
+  },
+  {
+   "pair": "ULXY-FCSG",
+   "old_pnl": 13379.78,
+   "old_per_day": 13.79358762886598,
+   "new_pnl": -3954.28,
+   "new_per_day": -7.9085600000000005,
+   "delta_per_day": -21.70214762886598,
+   "old_active_days": 111,
+   "new_active_days": 93
+  },
+  {
+   "pair": "NWIG-MHRM",
+   "old_pnl": 14023.07,
+   "old_per_day": 14.456773195876288,
+   "new_pnl": -985.03,
+   "new_per_day": -1.97006,
+   "delta_per_day": -16.426833195876288,
+   "old_active_days": 446,
+   "new_active_days": 311
+  },
+  {
+   "pair": "SRTX-MHRM",
+   "old_pnl": 13104.92,
+   "old_per_day": 13.510226804123711,
+   "new_pnl": 1636.8,
+   "new_per_day": 3.2736,
+   "delta_per_day": -10.236626804123711,
+   "old_active_days": 426,
+   "new_active_days": 210
+  },
+  {
+   "pair": "MDGI-ULXY",
+   "old_pnl": 17934.75,
+   "old_per_day": 18.489432989690723,
+   "new_pnl": 3125.66,
+   "new_per_day": 6.25132,
+   "delta_per_day": -12.238112989690723,
+   "old_active_days": 320,
+   "new_active_days": 76
+  },
+  {
+   "pair": "SMAH-NGTE",
+   "old_pnl": 23502.94,
+   "old_per_day": 24.22983505154639,
+   "new_pnl": 11198.75,
+   "new_per_day": 22.3975,
+   "delta_per_day": -1.8323350515463908,
+   "old_active_days": 454,
+   "new_active_days": 254
+  },
+  {
+   "pair": "ANSO-MHRM",
+   "old_pnl": 3820.64,
+   "old_per_day": 3.93880412371134,
+   "new_pnl": 1218.97,
+   "new_per_day": 2.43794,
+   "delta_per_day": -1.5008641237113398,
+   "old_active_days": 101,
+   "new_active_days": 38
+  },
+  {
+   "pair": "NGTE-ILVX",
+   "old_pnl": 14325.86,
+   "old_per_day": 14.768927835051548,
+   "new_pnl": 5646.44,
+   "new_per_day": 11.292879999999998,
+   "delta_per_day": -3.476047835051549,
+   "old_active_days": 567,
+   "new_active_days": 258
+  }
+ ],
+ "algo_residual_old": [
+  {
+   "pair": "ALGO-ACIX",
+   "pnl": 10074.9
+  },
+  {
+   "pair": "ALGO-AETS",
+   "pnl": 10078.59
+  },
+  {
+   "pair": "ALGO-ANSO",
+   "pnl": 8868.69
+  },
+  {
+   "pair": "ALGO-CUBO",
+   "pnl": 4163.5
+  },
+  {
+   "pair": "ALGO-FCSG",
+   "pnl": 10091.56
+  },
+  {
+   "pair": "ALGO-LSST",
+   "pnl": 10808.44
+  },
+  {
+   "pair": "ALGO-MHRM",
+   "pnl": 6091.27
+  },
+  {
+   "pair": "ALGO-NGTE",
+   "pnl": 11061.16
+  },
+  {
+   "pair": "ALGO-NPCK",
+   "pnl": 3720.13
+  },
+  {
+   "pair": "ALGO-OTCS",
+   "pnl": 10654.62
+  },
+  {
+   "pair": "ALGO-SPLZ",
+   "pnl": 7691.99
+  }
+ ],
+ "algo_residual_new": [
+  {
+   "pair": "ALGO-ACIX",
+   "pnl": 706.46
+  },
+  {
+   "pair": "ALGO-AETS",
+   "pnl": -1854.42
+  },
+  {
+   "pair": "ALGO-ANSO",
+   "pnl": 1850.81
+  },
+  {
+   "pair": "ALGO-CUBO",
+   "pnl": -1156.13
+  },
+  {
+   "pair": "ALGO-FCSG",
+   "pnl": 1495.68
+  },
+  {
+   "pair": "ALGO-LSST",
+   "pnl": 106.85
+  },
+  {
+   "pair": "ALGO-MHRM",
+   "pnl": -2954.99
+  },
+  {
+   "pair": "ALGO-NGTE",
+   "pnl": 2057.65
+  },
+  {
+   "pair": "ALGO-NPCK",
+   "pnl": 640.82
+  },
+  {
+   "pair": "ALGO-OTCS",
+   "pnl": -1592.4
+  },
+  {
+   "pair": "ALGO-SPLZ",
+   "pnl": 1612.32
+  }
+ ]
+}

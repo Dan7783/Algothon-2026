@@ -1,0 +1,87 @@
+{
+  "kept_ou": [
+    {
+      "pair": "ANSO-BENI",
+      "best_exit": "ou_optimal"
+    },
+    {
+      "pair": "AETS-ILVX",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "ALUT-CCNS",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "MTNS-BLBT",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "ALUT-HTRK",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "RTTH-RRES",
+      "best_exit": "ou_optimal"
+    },
+    {
+      "pair": "CUBO-ULXY",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "ANSO-RTTH",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "HRET-MTNS",
+      "best_exit": "ou_mean"
+    },
+    {
+      "pair": "ANSO-IHOZ",
+      "best_exit": "ou_optimal"
+    },
+    {
+      "pair": "DUCT-HRND",
+      "best_exit": "ou_optimal"
+    },
+    {
+      "pair": "GARI-FWWG",
+      "best_exit": "ou_mean"
+    }
+  ],
+  "n_ou": 12,
+  "catalog": "auto_tuning_results/_train_ou_winners_catalog.json",
+  "scores": {
+    "friend": {
+      "train_31_750": 926.94,
+      "val_501_750": 1042.37,
+      "oos_750_1000_verify": 974.45
+    },
+    "full_ou_mean_m015": {
+      "train_31_750": 751.01,
+      "val_501_750": 809.47,
+      "oos_750_1000_verify": 941.14
+    },
+    "train_ou_winners_mean_m015": {
+      "train_31_750": 861.38,
+      "val_501_750": 879.12,
+      "oos_750_1000_verify": 912.1
+    },
+    "train_ou_winners_optimal_m015": {
+      "train_31_750": 847.11,
+      "val_501_750": 874.1,
+      "oos_750_1000_verify": 860.24
+    },
+    "REJECTED_1057_oos_prune": {
+      "train_31_750": 830.88,
+      "val_501_750": 929.57,
+      "oos_750_1000_verify": 1057.15
+    }
+  },
+  "friend_targets": {
+    "train": 926.94,
+    "val": 1042.37,
+    "oos": 974.45
+  },
+  "note": "OU sleeve selected by train standalone only; OOS verify only"
+}

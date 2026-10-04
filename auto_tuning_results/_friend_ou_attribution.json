@@ -1,0 +1,3587 @@
+{
+  "friend": {
+    "module": "friend_book_latest",
+    "days": 799,
+    "book_pnl": 795753.8616629998,
+    "book_pnl_oos": 170400.09218000015,
+    "desired_pnl": 1314077.8833673266,
+    "desired_pnl_oos": 249442.43188252533,
+    "realized_gap_oos": 79042.33970252518,
+    "total_flips": 13513,
+    "total_suppressions": 210,
+    "records": [
+      {
+        "pair": "AENO-NWIG",
+        "engine": "zband",
+        "pnl": 34495.93099645422,
+        "pnl_oos": 8768.353443507704,
+        "flips": 128,
+        "suppressions": 0
+      },
+      {
+        "pair": "HETT-ULXY",
+        "engine": "zband",
+        "pnl": 42017.331021035025,
+        "pnl_oos": 8572.99976135326,
+        "flips": 113,
+        "suppressions": 0
+      },
+      {
+        "pair": "HUXZ-ACAC",
+        "engine": "zband",
+        "pnl": 29050.74531078607,
+        "pnl_oos": 5895.857841502909,
+        "flips": 153,
+        "suppressions": 0
+      },
+      {
+        "pair": "SMAH-ILVX",
+        "engine": "zband",
+        "pnl": 26834.027495493254,
+        "pnl_oos": 5009.567109883166,
+        "flips": 102,
+        "suppressions": 0
+      },
+      {
+        "pair": "EORC-NGTE",
+        "engine": "zband",
+        "pnl": 29656.337413195237,
+        "pnl_oos": 4048.3866349241457,
+        "flips": 142,
+        "suppressions": 0
+      },
+      {
+        "pair": "RTTH-NAYO",
+        "engine": "zband",
+        "pnl": 47099.83305500161,
+        "pnl_oos": 6259.304070825796,
+        "flips": 178,
+        "suppressions": 0
+      },
+      {
+        "pair": "CTGI-EELT",
+        "engine": "zband",
+        "pnl": 43166.493107960974,
+        "pnl_oos": 7613.275986981409,
+        "flips": 113,
+        "suppressions": 0
+      },
+      {
+        "pair": "ELLT-FCSG",
+        "engine": "zband",
+        "pnl": 5371.283415673887,
+        "pnl_oos": 739.8468749156584,
+        "flips": 54,
+        "suppressions": 4
+      },
+      {
+        "pair": "HUXZ-NWIG",
+        "engine": "zband",
+        "pnl": 23430.910703898422,
+        "pnl_oos": 2392.329389268484,
+        "flips": 431,
+        "suppressions": 3
+      },
+      {
+        "pair": "DUCT-ACAC",
+        "engine": "zband",
+        "pnl": 14647.482606479905,
+        "pnl_oos": 2823.2593436626426,
+        "flips": 229,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-CTGI",
+        "engine": "zband",
+        "pnl": 11558.046307013734,
+        "pnl_oos": 3997.040183317608,
+        "flips": 164,
+        "suppressions": 1
+      },
+      {
+        "pair": "ANSO-BENI",
+        "engine": "zband",
+        "pnl": 1061.152483202677,
+        "pnl_oos": -802.7006223847451,
+        "flips": 90,
+        "suppressions": 0
+      },
+      {
+        "pair": "FWWG-BLBT",
+        "engine": "zband",
+        "pnl": 16126.33033828018,
+        "pnl_oos": 3322.948920923417,
+        "flips": 184,
+        "suppressions": 4
+      },
+      {
+        "pair": "AETS-ILVX",
+        "engine": "zband",
+        "pnl": 3588.045841669071,
+        "pnl_oos": 498.81418369194546,
+        "flips": 22,
+        "suppressions": 0
+      },
+      {
+        "pair": "AETS-FCSG",
+        "engine": "zband",
+        "pnl": 11894.597813915047,
+        "pnl_oos": -387.97328194820756,
+        "flips": 169,
+        "suppressions": 15
+      },
+      {
+        "pair": "ULXY-MHRM",
+        "engine": "zband",
+        "pnl": 7695.000894590661,
+        "pnl_oos": 2532.9225421885985,
+        "flips": 50,
+        "suppressions": 0
+      },
+      {
+        "pair": "HRET-RTTH",
+        "engine": "zband",
+        "pnl": 28604.170940695003,
+        "pnl_oos": 1795.943669047436,
+        "flips": 213,
+        "suppressions": 0
+      },
+      {
+        "pair": "ALUT-CCNS",
+        "engine": "zband",
+        "pnl": 24503.593442316534,
+        "pnl_oos": 4020.632032603525,
+        "flips": 176,
+        "suppressions": 0
+      },
+      {
+        "pair": "SMAH-SPLZ",
+        "engine": "zband",
+        "pnl": 22866.4665455853,
+        "pnl_oos": 4425.082752708505,
+        "flips": 214,
+        "suppressions": 2
+      },
+      {
+        "pair": "ACIX-ITPA",
+        "engine": "zband",
+        "pnl": 14023.89361785187,
+        "pnl_oos": 3397.859038228802,
+        "flips": 99,
+        "suppressions": 0
+      },
+      {
+        "pair": "MTNS-BENI",
+        "engine": "zband",
+        "pnl": 17982.83932150536,
+        "pnl_oos": 4595.282431974176,
+        "flips": 129,
+        "suppressions": 0
+      },
+      {
+        "pair": "MTNS-BLBT",
+        "engine": "zband",
+        "pnl": 979.2524874709374,
+        "pnl_oos": 100.92754520499398,
+        "flips": 10,
+        "suppressions": 0
+      },
+      {
+        "pair": "ALUT-HTRK",
+        "engine": "zband",
+        "pnl": 2178.3983185461766,
+        "pnl_oos": 521.0561145096382,
+        "flips": 8,
+        "suppressions": 0
+      },
+      {
+        "pair": "SRNA-NWIG",
+        "engine": "zband",
+        "pnl": 15805.890205099144,
+        "pnl_oos": 2067.1145204468794,
+        "flips": 134,
+        "suppressions": 5
+      },
+      {
+        "pair": "ACAC-NAYO",
+        "engine": "zband",
+        "pnl": 9680.341526842558,
+        "pnl_oos": 1915.10954583567,
+        "flips": 405,
+        "suppressions": 3
+      },
+      {
+        "pair": "MSDP-ULXY",
+        "engine": "zband",
+        "pnl": 27886.46527075821,
+        "pnl_oos": 7337.4693889079845,
+        "flips": 212,
+        "suppressions": 2
+      },
+      {
+        "pair": "RTTH-ULXY",
+        "engine": "zband",
+        "pnl": 26780.125438954205,
+        "pnl_oos": 5242.251097674526,
+        "flips": 200,
+        "suppressions": 2
+      },
+      {
+        "pair": "AENO-HUXZ",
+        "engine": "zband",
+        "pnl": 18187.153023555224,
+        "pnl_oos": 1669.0834772827627,
+        "flips": 241,
+        "suppressions": 0
+      },
+      {
+        "pair": "SRNA-FWWG",
+        "engine": "zband",
+        "pnl": 10555.579402907213,
+        "pnl_oos": 1141.5996045735078,
+        "flips": 220,
+        "suppressions": 13
+      },
+      {
+        "pair": "EORC-ILVX",
+        "engine": "zband",
+        "pnl": 2369.6780390310305,
+        "pnl_oos": -464.9181744313331,
+        "flips": 178,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-AGVF",
+        "engine": "zband",
+        "pnl": 3768.9472458513255,
+        "pnl_oos": 1251.9594600604123,
+        "flips": 40,
+        "suppressions": 2
+      },
+      {
+        "pair": "ANSO-AETS",
+        "engine": "zband",
+        "pnl": 5623.133719126343,
+        "pnl_oos": -1092.5994393726046,
+        "flips": 36,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-FCSG",
+        "engine": "zband",
+        "pnl": 8141.066377396388,
+        "pnl_oos": 1108.741525135529,
+        "flips": 91,
+        "suppressions": 1
+      },
+      {
+        "pair": "MHRM-EAFC",
+        "engine": "zband",
+        "pnl": 22265.873653672013,
+        "pnl_oos": 3533.825159673955,
+        "flips": 168,
+        "suppressions": 3
+      },
+      {
+        "pair": "AGVF-RCRI",
+        "engine": "zband",
+        "pnl": 15502.018397254087,
+        "pnl_oos": 5553.403446920061,
+        "flips": 111,
+        "suppressions": 0
+      },
+      {
+        "pair": "MSDP-SRTX",
+        "engine": "zband",
+        "pnl": 14192.677881714691,
+        "pnl_oos": 4843.612128938511,
+        "flips": 124,
+        "suppressions": 0
+      },
+      {
+        "pair": "RTTH-RRES",
+        "engine": "zband",
+        "pnl": 13910.11630260932,
+        "pnl_oos": 5061.364582278606,
+        "flips": 203,
+        "suppressions": 1
+      },
+      {
+        "pair": "HRET-HRND",
+        "engine": "zband",
+        "pnl": 14990.685997376962,
+        "pnl_oos": 5999.287373481862,
+        "flips": 92,
+        "suppressions": 0
+      },
+      {
+        "pair": "HRET-SRTX",
+        "engine": "zband",
+        "pnl": 10769.221760175686,
+        "pnl_oos": 3815.425073211119,
+        "flips": 110,
+        "suppressions": 6
+      },
+      {
+        "pair": "ANSO-RCRI",
+        "engine": "zband",
+        "pnl": 12688.828986636261,
+        "pnl_oos": 2197.5179520625097,
+        "flips": 229,
+        "suppressions": 0
+      },
+      {
+        "pair": "HRET-NGTE",
+        "engine": "zband",
+        "pnl": 15425.104532588733,
+        "pnl_oos": 2618.5011199600403,
+        "flips": 273,
+        "suppressions": 3
+      },
+      {
+        "pair": "CUBO-ULXY",
+        "engine": "zband",
+        "pnl": 12244.735218856642,
+        "pnl_oos": 3570.068375369886,
+        "flips": 95,
+        "suppressions": 4
+      },
+      {
+        "pair": "ANSO-RRES",
+        "engine": "zband",
+        "pnl": 14950.940480924863,
+        "pnl_oos": 2867.1394952691717,
+        "flips": 270,
+        "suppressions": 3
+      },
+      {
+        "pair": "MTNS-MHRM",
+        "engine": "zband",
+        "pnl": 9200.076990197156,
+        "pnl_oos": 3194.643080604633,
+        "flips": 184,
+        "suppressions": 12
+      },
+      {
+        "pair": "ANSO-RTTH",
+        "engine": "zband",
+        "pnl": 12475.557624291496,
+        "pnl_oos": 2222.707906400065,
+        "flips": 183,
+        "suppressions": 0
+      },
+      {
+        "pair": "SMAH-AETS",
+        "engine": "zband",
+        "pnl": 5261.316181557891,
+        "pnl_oos": 2024.7979064216802,
+        "flips": 33,
+        "suppressions": 1
+      },
+      {
+        "pair": "HRET-MTNS",
+        "engine": "zband",
+        "pnl": 7750.732954168964,
+        "pnl_oos": 1345.9976640203627,
+        "flips": 109,
+        "suppressions": 0
+      },
+      {
+        "pair": "HUXZ-DUCT",
+        "engine": "zband",
+        "pnl": 7005.5531458586165,
+        "pnl_oos": 2808.6039398845796,
+        "flips": 124,
+        "suppressions": 3
+      },
+      {
+        "pair": "HUXZ-RRES",
+        "engine": "zband",
+        "pnl": 4497.3570259760845,
+        "pnl_oos": 1753.2800687219253,
+        "flips": 59,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-IHOZ",
+        "engine": "zband",
+        "pnl": 4277.622653427963,
+        "pnl_oos": 979.9575446556754,
+        "flips": 27,
+        "suppressions": 0
+      },
+      {
+        "pair": "DUCT-NPCK",
+        "engine": "zband",
+        "pnl": 12831.453979810227,
+        "pnl_oos": 1071.0480604572078,
+        "flips": 140,
+        "suppressions": 1
+      },
+      {
+        "pair": "LSST-EAFC",
+        "engine": "zband",
+        "pnl": 7454.007538961886,
+        "pnl_oos": 892.5050369255758,
+        "flips": 86,
+        "suppressions": 1
+      },
+      {
+        "pair": "ELLT-AETS",
+        "engine": "zband",
+        "pnl": 25416.40414808358,
+        "pnl_oos": 12315.4653818113,
+        "flips": 191,
+        "suppressions": 13
+      },
+      {
+        "pair": "FWWG-NGTE",
+        "engine": "zband",
+        "pnl": 12724.816750653925,
+        "pnl_oos": 3996.2159414210932,
+        "flips": 169,
+        "suppressions": 5
+      },
+      {
+        "pair": "CUBO-RTTH",
+        "engine": "zband",
+        "pnl": 18907.7980296133,
+        "pnl_oos": 2631.263414318918,
+        "flips": 130,
+        "suppressions": 4
+      },
+      {
+        "pair": "HRET-MDGI",
+        "engine": "zband",
+        "pnl": 13111.650602855823,
+        "pnl_oos": 4745.358984735484,
+        "flips": 78,
+        "suppressions": 3
+      },
+      {
+        "pair": "SMAH-FWWG",
+        "engine": "zband",
+        "pnl": 13136.58916633898,
+        "pnl_oos": 5167.131902125804,
+        "flips": 220,
+        "suppressions": 2
+      },
+      {
+        "pair": "SMAH-ULXY",
+        "engine": "zband",
+        "pnl": 17158.858718587635,
+        "pnl_oos": 5403.99960101521,
+        "flips": 103,
+        "suppressions": 2
+      },
+      {
+        "pair": "RTTH-FWWG",
+        "engine": "zband",
+        "pnl": 24885.63258204334,
+        "pnl_oos": 3265.8676861643535,
+        "flips": 233,
+        "suppressions": 3
+      },
+      {
+        "pair": "OTCS-EELT",
+        "engine": "zband",
+        "pnl": 14649.593401901764,
+        "pnl_oos": 2052.4791747231475,
+        "flips": 139,
+        "suppressions": 3
+      },
+      {
+        "pair": "HRET-SPLZ",
+        "engine": "zband",
+        "pnl": 15642.627461930793,
+        "pnl_oos": 2608.799007297845,
+        "flips": 137,
+        "suppressions": 2
+      },
+      {
+        "pair": "NGTE-FCSG",
+        "engine": "zband",
+        "pnl": 11428.187469970402,
+        "pnl_oos": 2435.7745881019428,
+        "flips": 346,
+        "suppressions": 8
+      },
+      {
+        "pair": "EORC-FCSG",
+        "engine": "zband",
+        "pnl": 8424.83267867992,
+        "pnl_oos": 2371.5344294524407,
+        "flips": 100,
+        "suppressions": 3
+      },
+      {
+        "pair": "MTNS-ULXY",
+        "engine": "zband",
+        "pnl": 17273.67424445013,
+        "pnl_oos": 3401.112914481619,
+        "flips": 283,
+        "suppressions": 11
+      },
+      {
+        "pair": "AENO-IHOZ",
+        "engine": "zband",
+        "pnl": 10894.128943153244,
+        "pnl_oos": 2383.924829575801,
+        "flips": 146,
+        "suppressions": 0
+      },
+      {
+        "pair": "AGVF-ULXY",
+        "engine": "zband",
+        "pnl": 10312.334186883578,
+        "pnl_oos": 2592.0761063720497,
+        "flips": 57,
+        "suppressions": 0
+      },
+      {
+        "pair": "SPLZ-ULXY",
+        "engine": "zband",
+        "pnl": 12038.584089966249,
+        "pnl_oos": 3433.645163817167,
+        "flips": 193,
+        "suppressions": 2
+      },
+      {
+        "pair": "SPLZ-CCNS",
+        "engine": "zband",
+        "pnl": 13881.361350252604,
+        "pnl_oos": 1129.0986383807026,
+        "flips": 257,
+        "suppressions": 1
+      },
+      {
+        "pair": "MSDP-EAFC",
+        "engine": "zband",
+        "pnl": 13147.225898191798,
+        "pnl_oos": 1386.1034718020662,
+        "flips": 162,
+        "suppressions": 1
+      },
+      {
+        "pair": "DUCT-HRND",
+        "engine": "zband",
+        "pnl": 18701.163962949464,
+        "pnl_oos": 1638.776154305367,
+        "flips": 75,
+        "suppressions": 0
+      },
+      {
+        "pair": "LSST-RTTH",
+        "engine": "zband",
+        "pnl": 19782.578478380594,
+        "pnl_oos": 2184.95634493549,
+        "flips": 192,
+        "suppressions": 0
+      },
+      {
+        "pair": "DIHO-FCSG",
+        "engine": "zband",
+        "pnl": 14546.845856667807,
+        "pnl_oos": 3079.204471697233,
+        "flips": 152,
+        "suppressions": 6
+      },
+      {
+        "pair": "RTTH-RCRI",
+        "engine": "zband",
+        "pnl": 14152.92816964237,
+        "pnl_oos": 632.4886407013695,
+        "flips": 167,
+        "suppressions": 0
+      },
+      {
+        "pair": "OTCS-CTGI",
+        "engine": "zband",
+        "pnl": 14671.133353441559,
+        "pnl_oos": 1596.1584750918628,
+        "flips": 125,
+        "suppressions": 4
+      },
+      {
+        "pair": "GARI-FWWG",
+        "engine": "zband",
+        "pnl": 10699.82166266541,
+        "pnl_oos": 2176.034577250245,
+        "flips": 175,
+        "suppressions": 7
+      },
+      {
+        "pair": "SPLZ-FCSG",
+        "engine": "zband",
+        "pnl": 10853.984178562556,
+        "pnl_oos": 2739.5007347382616,
+        "flips": 208,
+        "suppressions": 6
+      },
+      {
+        "pair": "AMRP-DUCT",
+        "engine": "zband",
+        "pnl": 15935.96143390789,
+        "pnl_oos": 5359.091233994709,
+        "flips": 126,
+        "suppressions": 1
+      },
+      {
+        "pair": "SPLZ-NGTE",
+        "engine": "zband",
+        "pnl": 11955.07946479315,
+        "pnl_oos": 2286.4862705521527,
+        "flips": 154,
+        "suppressions": 4
+      },
+      {
+        "pair": "RTTH-SPLZ",
+        "engine": "zband",
+        "pnl": 23171.52555796746,
+        "pnl_oos": 969.3318980457434,
+        "flips": 369,
+        "suppressions": 5
+      },
+      {
+        "pair": "CCNS-NAYO",
+        "engine": "zband",
+        "pnl": 14155.547151626912,
+        "pnl_oos": 1068.436607926054,
+        "flips": 146,
+        "suppressions": 3
+      },
+      {
+        "pair": "SPLZ-ALUT",
+        "engine": "zband",
+        "pnl": 13100.680031271098,
+        "pnl_oos": 1725.708386215833,
+        "flips": 199,
+        "suppressions": 2
+      },
+      {
+        "pair": "ULXY-FCSG",
+        "engine": "zband",
+        "pnl": 11554.589749832458,
+        "pnl_oos": 2444.5208014198756,
+        "flips": 55,
+        "suppressions": 2
+      },
+      {
+        "pair": "NWIG-MHRM",
+        "engine": "zband",
+        "pnl": 11021.501356722594,
+        "pnl_oos": 1123.3474753302828,
+        "flips": 184,
+        "suppressions": 0
+      },
+      {
+        "pair": "SRTX-MHRM",
+        "engine": "zband",
+        "pnl": 8090.496060658018,
+        "pnl_oos": 1020.935481148595,
+        "flips": 80,
+        "suppressions": 6
+      },
+      {
+        "pair": "MDGI-ULXY",
+        "engine": "zband",
+        "pnl": 12223.592717057913,
+        "pnl_oos": -196.97188793224876,
+        "flips": 91,
+        "suppressions": 2
+      },
+      {
+        "pair": "SMAH-NGTE",
+        "engine": "zband",
+        "pnl": 19242.87222383604,
+        "pnl_oos": 3224.244916477705,
+        "flips": 197,
+        "suppressions": 3
+      },
+      {
+        "pair": "ANSO-MHRM",
+        "engine": "zband",
+        "pnl": 2131.5845640407356,
+        "pnl_oos": 0.0,
+        "flips": 29,
+        "suppressions": 0
+      },
+      {
+        "pair": "NGTE-ILVX",
+        "engine": "zband",
+        "pnl": 9727.272635543164,
+        "pnl_oos": -1620.1828232317544,
+        "flips": 297,
+        "suppressions": 1
+      }
+    ]
+  },
+  "friend_ou": {
+    "module": "merged_friend_ou",
+    "days": 799,
+    "book_pnl": 668518.9468530003,
+    "book_pnl_oos": 164805.50143299997,
+    "desired_pnl": 1295970.3775213195,
+    "desired_pnl_oos": 300545.6474600322,
+    "realized_gap_oos": 135740.14602703223,
+    "total_flips": 26151,
+    "total_suppressions": 606,
+    "records": [
+      {
+        "pair": "AENO-NWIG",
+        "engine": "zband",
+        "pnl": 34495.93099645422,
+        "pnl_oos": 8768.353443507704,
+        "flips": 141,
+        "suppressions": 0
+      },
+      {
+        "pair": "HETT-ULXY",
+        "engine": "zband",
+        "pnl": 42017.331021035025,
+        "pnl_oos": 8572.99976135326,
+        "flips": 129,
+        "suppressions": 0
+      },
+      {
+        "pair": "HUXZ-ACAC",
+        "engine": "zband",
+        "pnl": 29050.74531078607,
+        "pnl_oos": 5895.857841502909,
+        "flips": 153,
+        "suppressions": 0
+      },
+      {
+        "pair": "SMAH-ILVX",
+        "engine": "zband",
+        "pnl": 26834.027495493254,
+        "pnl_oos": 5009.567109883166,
+        "flips": 130,
+        "suppressions": 0
+      },
+      {
+        "pair": "EORC-NGTE",
+        "engine": "zband",
+        "pnl": 29656.337413195237,
+        "pnl_oos": 4048.3866349241457,
+        "flips": 163,
+        "suppressions": 0
+      },
+      {
+        "pair": "RTTH-NAYO",
+        "engine": "zband",
+        "pnl": 47099.83305500161,
+        "pnl_oos": 6259.304070825796,
+        "flips": 202,
+        "suppressions": 0
+      },
+      {
+        "pair": "CTGI-EELT",
+        "engine": "zband",
+        "pnl": 43166.493107960974,
+        "pnl_oos": 7613.275986981409,
+        "flips": 135,
+        "suppressions": 0
+      },
+      {
+        "pair": "ELLT-FCSG",
+        "engine": "ou",
+        "pnl": 11893.796912792548,
+        "pnl_oos": 2769.2447195330437,
+        "flips": 374,
+        "suppressions": 22
+      },
+      {
+        "pair": "HUXZ-NWIG",
+        "engine": "zband",
+        "pnl": 23430.910703898422,
+        "pnl_oos": 2392.329389268484,
+        "flips": 464,
+        "suppressions": 3
+      },
+      {
+        "pair": "DUCT-ACAC",
+        "engine": "zband",
+        "pnl": 14647.482606479905,
+        "pnl_oos": 2823.2593436626426,
+        "flips": 247,
+        "suppressions": 2
+      },
+      {
+        "pair": "ANSO-CTGI",
+        "engine": "zband",
+        "pnl": 11558.046307013734,
+        "pnl_oos": 3997.040183317608,
+        "flips": 199,
+        "suppressions": 7
+      },
+      {
+        "pair": "ANSO-BENI",
+        "engine": "ou",
+        "pnl": 9618.480127042756,
+        "pnl_oos": 3068.0850565858136,
+        "flips": 351,
+        "suppressions": 13
+      },
+      {
+        "pair": "FWWG-BLBT",
+        "engine": "zband",
+        "pnl": 16126.33033828018,
+        "pnl_oos": 3322.948920923417,
+        "flips": 334,
+        "suppressions": 9
+      },
+      {
+        "pair": "AETS-ILVX",
+        "engine": "ou",
+        "pnl": 14154.616715174523,
+        "pnl_oos": 2963.994941400171,
+        "flips": 457,
+        "suppressions": 20
+      },
+      {
+        "pair": "AETS-FCSG",
+        "engine": "ou",
+        "pnl": 14448.125941175584,
+        "pnl_oos": 3448.1963969836565,
+        "flips": 466,
+        "suppressions": 30
+      },
+      {
+        "pair": "ULXY-MHRM",
+        "engine": "zband",
+        "pnl": 7695.000894590661,
+        "pnl_oos": 2532.9225421885985,
+        "flips": 54,
+        "suppressions": 0
+      },
+      {
+        "pair": "HRET-RTTH",
+        "engine": "zband",
+        "pnl": 28604.170940695003,
+        "pnl_oos": 1795.943669047436,
+        "flips": 261,
+        "suppressions": 1
+      },
+      {
+        "pair": "ALUT-CCNS",
+        "engine": "ou",
+        "pnl": 19822.386204296505,
+        "pnl_oos": 5305.330774451601,
+        "flips": 437,
+        "suppressions": 11
+      },
+      {
+        "pair": "SMAH-SPLZ",
+        "engine": "zband",
+        "pnl": 22866.4665455853,
+        "pnl_oos": 4425.082752708505,
+        "flips": 233,
+        "suppressions": 2
+      },
+      {
+        "pair": "ACIX-ITPA",
+        "engine": "zband",
+        "pnl": 14023.89361785187,
+        "pnl_oos": 3397.859038228802,
+        "flips": 99,
+        "suppressions": 0
+      },
+      {
+        "pair": "MTNS-BENI",
+        "engine": "zband",
+        "pnl": 17982.83932150536,
+        "pnl_oos": 4595.282431974176,
+        "flips": 198,
+        "suppressions": 4
+      },
+      {
+        "pair": "MTNS-BLBT",
+        "engine": "ou",
+        "pnl": 10697.711880125093,
+        "pnl_oos": 2274.0002548339467,
+        "flips": 412,
+        "suppressions": 17
+      },
+      {
+        "pair": "ALUT-HTRK",
+        "engine": "ou",
+        "pnl": 20144.294995559292,
+        "pnl_oos": 4695.75057534099,
+        "flips": 251,
+        "suppressions": 5
+      },
+      {
+        "pair": "SRNA-NWIG",
+        "engine": "ou",
+        "pnl": 6019.136713274362,
+        "pnl_oos": 1944.1483642254373,
+        "flips": 386,
+        "suppressions": 7
+      },
+      {
+        "pair": "ACAC-NAYO",
+        "engine": "zband",
+        "pnl": 9680.341526842558,
+        "pnl_oos": 1915.10954583567,
+        "flips": 449,
+        "suppressions": 1
+      },
+      {
+        "pair": "MSDP-ULXY",
+        "engine": "ou",
+        "pnl": 22694.733174130495,
+        "pnl_oos": 7311.983854253023,
+        "flips": 452,
+        "suppressions": 12
+      },
+      {
+        "pair": "RTTH-ULXY",
+        "engine": "zband",
+        "pnl": 26780.125438954205,
+        "pnl_oos": 5242.251097674526,
+        "flips": 230,
+        "suppressions": 0
+      },
+      {
+        "pair": "AENO-HUXZ",
+        "engine": "zband",
+        "pnl": 18187.153023555224,
+        "pnl_oos": 1669.0834772827627,
+        "flips": 263,
+        "suppressions": 0
+      },
+      {
+        "pair": "SRNA-FWWG",
+        "engine": "zband",
+        "pnl": 10555.579402907213,
+        "pnl_oos": 1141.5996045735078,
+        "flips": 293,
+        "suppressions": 10
+      },
+      {
+        "pair": "EORC-ILVX",
+        "engine": "zband",
+        "pnl": 2369.6780390310305,
+        "pnl_oos": -464.9181744313331,
+        "flips": 182,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-AGVF",
+        "engine": "zband",
+        "pnl": 3768.9472458513255,
+        "pnl_oos": 1251.9594600604123,
+        "flips": 31,
+        "suppressions": 1
+      },
+      {
+        "pair": "ANSO-AETS",
+        "engine": "zband",
+        "pnl": 5623.133719126343,
+        "pnl_oos": -1092.5994393726046,
+        "flips": 56,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-FCSG",
+        "engine": "zband",
+        "pnl": 8141.066377396388,
+        "pnl_oos": 1108.741525135529,
+        "flips": 116,
+        "suppressions": 3
+      },
+      {
+        "pair": "MHRM-EAFC",
+        "engine": "zband",
+        "pnl": 22265.873653672013,
+        "pnl_oos": 3533.825159673955,
+        "flips": 194,
+        "suppressions": 3
+      },
+      {
+        "pair": "AGVF-RCRI",
+        "engine": "zband",
+        "pnl": 15502.018397254087,
+        "pnl_oos": 5553.403446920061,
+        "flips": 154,
+        "suppressions": 0
+      },
+      {
+        "pair": "MSDP-SRTX",
+        "engine": "zband",
+        "pnl": 14192.677881714691,
+        "pnl_oos": 4843.612128938511,
+        "flips": 173,
+        "suppressions": 1
+      },
+      {
+        "pair": "RTTH-RRES",
+        "engine": "ou",
+        "pnl": 22432.901450120644,
+        "pnl_oos": 6368.018862439663,
+        "flips": 418,
+        "suppressions": 8
+      },
+      {
+        "pair": "HRET-HRND",
+        "engine": "ou",
+        "pnl": 20089.778038688302,
+        "pnl_oos": 11799.577188270128,
+        "flips": 396,
+        "suppressions": 20
+      },
+      {
+        "pair": "HRET-SRTX",
+        "engine": "zband",
+        "pnl": 10769.221760175686,
+        "pnl_oos": 3815.425073211119,
+        "flips": 134,
+        "suppressions": 4
+      },
+      {
+        "pair": "ANSO-RCRI",
+        "engine": "ou",
+        "pnl": 6805.621946576076,
+        "pnl_oos": 4830.966897008674,
+        "flips": 486,
+        "suppressions": 14
+      },
+      {
+        "pair": "HRET-NGTE",
+        "engine": "zband",
+        "pnl": 15425.104532588733,
+        "pnl_oos": 2618.5011199600403,
+        "flips": 308,
+        "suppressions": 2
+      },
+      {
+        "pair": "CUBO-ULXY",
+        "engine": "ou",
+        "pnl": 22363.222361983742,
+        "pnl_oos": 6853.667367739437,
+        "flips": 376,
+        "suppressions": 31
+      },
+      {
+        "pair": "ANSO-RRES",
+        "engine": "ou",
+        "pnl": -429.2838836618449,
+        "pnl_oos": 5210.278296849836,
+        "flips": 498,
+        "suppressions": 17
+      },
+      {
+        "pair": "MTNS-MHRM",
+        "engine": "zband",
+        "pnl": 9200.076990197156,
+        "pnl_oos": 3194.643080604633,
+        "flips": 237,
+        "suppressions": 11
+      },
+      {
+        "pair": "ANSO-RTTH",
+        "engine": "ou",
+        "pnl": 13554.818435907944,
+        "pnl_oos": 1917.9676349086437,
+        "flips": 508,
+        "suppressions": 9
+      },
+      {
+        "pair": "SMAH-AETS",
+        "engine": "zband",
+        "pnl": 5261.316181557891,
+        "pnl_oos": 2024.7979064216802,
+        "flips": 43,
+        "suppressions": 0
+      },
+      {
+        "pair": "HRET-MTNS",
+        "engine": "ou",
+        "pnl": 13418.274566413496,
+        "pnl_oos": 2488.249808295035,
+        "flips": 502,
+        "suppressions": 14
+      },
+      {
+        "pair": "HUXZ-DUCT",
+        "engine": "zband",
+        "pnl": 7005.5531458586165,
+        "pnl_oos": 2808.6039398845796,
+        "flips": 125,
+        "suppressions": 3
+      },
+      {
+        "pair": "HUXZ-RRES",
+        "engine": "zband",
+        "pnl": 4497.3570259760845,
+        "pnl_oos": 1753.2800687219253,
+        "flips": 69,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-IHOZ",
+        "engine": "ou",
+        "pnl": 8189.024651896671,
+        "pnl_oos": 1077.1400667137805,
+        "flips": 523,
+        "suppressions": 18
+      },
+      {
+        "pair": "DUCT-NPCK",
+        "engine": "zband",
+        "pnl": 12831.453979810227,
+        "pnl_oos": 1071.0480604572078,
+        "flips": 160,
+        "suppressions": 2
+      },
+      {
+        "pair": "LSST-EAFC",
+        "engine": "ou",
+        "pnl": 4448.331278914995,
+        "pnl_oos": -1779.243136252319,
+        "flips": 490,
+        "suppressions": 23
+      },
+      {
+        "pair": "ELLT-AETS",
+        "engine": "zband",
+        "pnl": 25416.40414808358,
+        "pnl_oos": 12315.4653818113,
+        "flips": 254,
+        "suppressions": 5
+      },
+      {
+        "pair": "FWWG-NGTE",
+        "engine": "ou",
+        "pnl": 14837.049825148288,
+        "pnl_oos": 6413.244209774903,
+        "flips": 554,
+        "suppressions": 4
+      },
+      {
+        "pair": "CUBO-RTTH",
+        "engine": "zband",
+        "pnl": 18907.7980296133,
+        "pnl_oos": 2631.263414318918,
+        "flips": 197,
+        "suppressions": 30
+      },
+      {
+        "pair": "HRET-MDGI",
+        "engine": "ou",
+        "pnl": 1624.9437417989395,
+        "pnl_oos": 864.5829671690748,
+        "flips": 462,
+        "suppressions": 8
+      },
+      {
+        "pair": "SMAH-FWWG",
+        "engine": "ou",
+        "pnl": 7881.803692235317,
+        "pnl_oos": 1903.3677100508437,
+        "flips": 559,
+        "suppressions": 3
+      },
+      {
+        "pair": "SMAH-ULXY",
+        "engine": "ou",
+        "pnl": 3431.595286356638,
+        "pnl_oos": 3938.6178097945403,
+        "flips": 595,
+        "suppressions": 1
+      },
+      {
+        "pair": "RTTH-FWWG",
+        "engine": "ou",
+        "pnl": 21653.055866878476,
+        "pnl_oos": 5315.576828538675,
+        "flips": 572,
+        "suppressions": 3
+      },
+      {
+        "pair": "OTCS-EELT",
+        "engine": "ou",
+        "pnl": 17232.685458311826,
+        "pnl_oos": 8686.533079716417,
+        "flips": 414,
+        "suppressions": 12
+      },
+      {
+        "pair": "HRET-SPLZ",
+        "engine": "zband",
+        "pnl": 15642.627461930793,
+        "pnl_oos": 2608.799007297845,
+        "flips": 155,
+        "suppressions": 4
+      },
+      {
+        "pair": "NGTE-FCSG",
+        "engine": "zband",
+        "pnl": 11428.187469970402,
+        "pnl_oos": 2435.7745881019428,
+        "flips": 414,
+        "suppressions": 12
+      },
+      {
+        "pair": "EORC-FCSG",
+        "engine": "zband",
+        "pnl": 8424.83267867992,
+        "pnl_oos": 2371.5344294524407,
+        "flips": 117,
+        "suppressions": 2
+      },
+      {
+        "pair": "MTNS-ULXY",
+        "engine": "zband",
+        "pnl": 17273.67424445013,
+        "pnl_oos": 3401.112914481619,
+        "flips": 349,
+        "suppressions": 8
+      },
+      {
+        "pair": "AENO-IHOZ",
+        "engine": "ou",
+        "pnl": 7250.224911404215,
+        "pnl_oos": 3808.1308356501104,
+        "flips": 477,
+        "suppressions": 9
+      },
+      {
+        "pair": "AGVF-ULXY",
+        "engine": "zband",
+        "pnl": 10312.334186883578,
+        "pnl_oos": 2592.0761063720497,
+        "flips": 55,
+        "suppressions": 1
+      },
+      {
+        "pair": "SPLZ-ULXY",
+        "engine": "zband",
+        "pnl": 12038.584089966249,
+        "pnl_oos": 3433.645163817167,
+        "flips": 214,
+        "suppressions": 3
+      },
+      {
+        "pair": "SPLZ-CCNS",
+        "engine": "zband",
+        "pnl": 13881.361350252604,
+        "pnl_oos": 1129.0986383807026,
+        "flips": 343,
+        "suppressions": 4
+      },
+      {
+        "pair": "MSDP-EAFC",
+        "engine": "ou",
+        "pnl": 5527.436165245604,
+        "pnl_oos": 2371.1344112945535,
+        "flips": 458,
+        "suppressions": 17
+      },
+      {
+        "pair": "DUCT-HRND",
+        "engine": "ou",
+        "pnl": 32581.84045778441,
+        "pnl_oos": 5531.7181627511645,
+        "flips": 350,
+        "suppressions": 20
+      },
+      {
+        "pair": "LSST-RTTH",
+        "engine": "ou",
+        "pnl": 25731.74961934331,
+        "pnl_oos": 3040.0998946554446,
+        "flips": 479,
+        "suppressions": 17
+      },
+      {
+        "pair": "DIHO-FCSG",
+        "engine": "zband",
+        "pnl": 14546.845856667807,
+        "pnl_oos": 3079.204471697233,
+        "flips": 154,
+        "suppressions": 14
+      },
+      {
+        "pair": "RTTH-RCRI",
+        "engine": "ou",
+        "pnl": 3662.1409879635294,
+        "pnl_oos": -3173.1018837111833,
+        "flips": 569,
+        "suppressions": 5
+      },
+      {
+        "pair": "OTCS-CTGI",
+        "engine": "zband",
+        "pnl": 14671.133353441559,
+        "pnl_oos": 1596.1584750918628,
+        "flips": 152,
+        "suppressions": 14
+      },
+      {
+        "pair": "GARI-FWWG",
+        "engine": "ou",
+        "pnl": 15056.60523302455,
+        "pnl_oos": 2590.775934555165,
+        "flips": 388,
+        "suppressions": 3
+      },
+      {
+        "pair": "SPLZ-FCSG",
+        "engine": "zband",
+        "pnl": 10853.984178562556,
+        "pnl_oos": 2739.5007347382616,
+        "flips": 211,
+        "suppressions": 6
+      },
+      {
+        "pair": "AMRP-DUCT",
+        "engine": "ou",
+        "pnl": 10359.028346207537,
+        "pnl_oos": 5863.212136450457,
+        "flips": 289,
+        "suppressions": 3
+      },
+      {
+        "pair": "SPLZ-NGTE",
+        "engine": "zband",
+        "pnl": 11955.07946479315,
+        "pnl_oos": 2286.4862705521527,
+        "flips": 156,
+        "suppressions": 3
+      },
+      {
+        "pair": "RTTH-SPLZ",
+        "engine": "ou",
+        "pnl": -47.06306716233999,
+        "pnl_oos": 1859.4038846413016,
+        "flips": 546,
+        "suppressions": 6
+      },
+      {
+        "pair": "CCNS-NAYO",
+        "engine": "ou",
+        "pnl": 3199.953544503915,
+        "pnl_oos": 622.5878220840347,
+        "flips": 580,
+        "suppressions": 7
+      },
+      {
+        "pair": "SPLZ-ALUT",
+        "engine": "zband",
+        "pnl": 13100.680031271098,
+        "pnl_oos": 1725.708386215833,
+        "flips": 238,
+        "suppressions": 2
+      },
+      {
+        "pair": "ULXY-FCSG",
+        "engine": "zband",
+        "pnl": 11554.589749832458,
+        "pnl_oos": 2444.5208014198756,
+        "flips": 58,
+        "suppressions": 0
+      },
+      {
+        "pair": "NWIG-MHRM",
+        "engine": "zband",
+        "pnl": 11021.501356722594,
+        "pnl_oos": 1123.3474753302828,
+        "flips": 190,
+        "suppressions": 0
+      },
+      {
+        "pair": "SRTX-MHRM",
+        "engine": "zband",
+        "pnl": 8090.496060658018,
+        "pnl_oos": 1020.935481148595,
+        "flips": 81,
+        "suppressions": 5
+      },
+      {
+        "pair": "MDGI-ULXY",
+        "engine": "ou",
+        "pnl": 27053.95881561978,
+        "pnl_oos": 6219.808989670745,
+        "flips": 485,
+        "suppressions": 6
+      },
+      {
+        "pair": "SMAH-NGTE",
+        "engine": "zband",
+        "pnl": 19242.87222383604,
+        "pnl_oos": 3224.244916477705,
+        "flips": 224,
+        "suppressions": 1
+      },
+      {
+        "pair": "ANSO-MHRM",
+        "engine": "zband",
+        "pnl": 2131.5845640407356,
+        "pnl_oos": 0.0,
+        "flips": 28,
+        "suppressions": 0
+      },
+      {
+        "pair": "NGTE-ILVX",
+        "engine": "ou",
+        "pnl": -3239.691371708506,
+        "pnl_oos": 2544.9398848093792,
+        "flips": 642,
+        "suppressions": 8
+      }
+    ]
+  },
+  "friend_ou_m030": {
+    "module": "merged_friend_ou",
+    "days": 799,
+    "book_pnl": 662871.7201669993,
+    "book_pnl_oos": 165194.68005000008,
+    "desired_pnl": 1295970.3775213195,
+    "desired_pnl_oos": 300545.6474600322,
+    "realized_gap_oos": 135350.9674100321,
+    "total_flips": 24256,
+    "total_suppressions": 4744,
+    "records": [
+      {
+        "pair": "AENO-NWIG",
+        "engine": "zband",
+        "pnl": 34495.93099645422,
+        "pnl_oos": 8768.353443507704,
+        "flips": 145,
+        "suppressions": 1
+      },
+      {
+        "pair": "HETT-ULXY",
+        "engine": "zband",
+        "pnl": 42017.331021035025,
+        "pnl_oos": 8572.99976135326,
+        "flips": 144,
+        "suppressions": 13
+      },
+      {
+        "pair": "HUXZ-ACAC",
+        "engine": "zband",
+        "pnl": 29050.74531078607,
+        "pnl_oos": 5895.857841502909,
+        "flips": 153,
+        "suppressions": 2
+      },
+      {
+        "pair": "SMAH-ILVX",
+        "engine": "zband",
+        "pnl": 26834.027495493254,
+        "pnl_oos": 5009.567109883166,
+        "flips": 141,
+        "suppressions": 17
+      },
+      {
+        "pair": "EORC-NGTE",
+        "engine": "zband",
+        "pnl": 29656.337413195237,
+        "pnl_oos": 4048.3866349241457,
+        "flips": 166,
+        "suppressions": 76
+      },
+      {
+        "pair": "RTTH-NAYO",
+        "engine": "zband",
+        "pnl": 47099.83305500161,
+        "pnl_oos": 6259.304070825796,
+        "flips": 204,
+        "suppressions": 40
+      },
+      {
+        "pair": "CTGI-EELT",
+        "engine": "zband",
+        "pnl": 43166.493107960974,
+        "pnl_oos": 7613.275986981409,
+        "flips": 135,
+        "suppressions": 0
+      },
+      {
+        "pair": "ELLT-FCSG",
+        "engine": "ou",
+        "pnl": 11893.796912792548,
+        "pnl_oos": 2769.2447195330437,
+        "flips": 334,
+        "suppressions": 103
+      },
+      {
+        "pair": "HUXZ-NWIG",
+        "engine": "zband",
+        "pnl": 23430.910703898422,
+        "pnl_oos": 2392.329389268484,
+        "flips": 457,
+        "suppressions": 6
+      },
+      {
+        "pair": "DUCT-ACAC",
+        "engine": "zband",
+        "pnl": 14647.482606479905,
+        "pnl_oos": 2823.2593436626426,
+        "flips": 243,
+        "suppressions": 15
+      },
+      {
+        "pair": "ANSO-CTGI",
+        "engine": "zband",
+        "pnl": 11558.046307013734,
+        "pnl_oos": 3997.040183317608,
+        "flips": 169,
+        "suppressions": 74
+      },
+      {
+        "pair": "ANSO-BENI",
+        "engine": "ou",
+        "pnl": 9618.480127042756,
+        "pnl_oos": 3068.0850565858136,
+        "flips": 295,
+        "suppressions": 190
+      },
+      {
+        "pair": "FWWG-BLBT",
+        "engine": "zband",
+        "pnl": 16126.33033828018,
+        "pnl_oos": 3322.948920923417,
+        "flips": 336,
+        "suppressions": 29
+      },
+      {
+        "pair": "AETS-ILVX",
+        "engine": "ou",
+        "pnl": 14154.616715174523,
+        "pnl_oos": 2963.994941400171,
+        "flips": 442,
+        "suppressions": 27
+      },
+      {
+        "pair": "AETS-FCSG",
+        "engine": "ou",
+        "pnl": 14448.125941175584,
+        "pnl_oos": 3448.1963969836565,
+        "flips": 448,
+        "suppressions": 111
+      },
+      {
+        "pair": "ULXY-MHRM",
+        "engine": "zband",
+        "pnl": 7695.000894590661,
+        "pnl_oos": 2532.9225421885985,
+        "flips": 51,
+        "suppressions": 3
+      },
+      {
+        "pair": "HRET-RTTH",
+        "engine": "zband",
+        "pnl": 28604.170940695003,
+        "pnl_oos": 1795.943669047436,
+        "flips": 193,
+        "suppressions": 107
+      },
+      {
+        "pair": "ALUT-CCNS",
+        "engine": "ou",
+        "pnl": 19822.386204296505,
+        "pnl_oos": 5305.330774451601,
+        "flips": 438,
+        "suppressions": 10
+      },
+      {
+        "pair": "SMAH-SPLZ",
+        "engine": "zband",
+        "pnl": 22866.4665455853,
+        "pnl_oos": 4425.082752708505,
+        "flips": 198,
+        "suppressions": 76
+      },
+      {
+        "pair": "ACIX-ITPA",
+        "engine": "zband",
+        "pnl": 14023.89361785187,
+        "pnl_oos": 3397.859038228802,
+        "flips": 99,
+        "suppressions": 0
+      },
+      {
+        "pair": "MTNS-BENI",
+        "engine": "zband",
+        "pnl": 17982.83932150536,
+        "pnl_oos": 4595.282431974176,
+        "flips": 211,
+        "suppressions": 16
+      },
+      {
+        "pair": "MTNS-BLBT",
+        "engine": "ou",
+        "pnl": 10697.711880125093,
+        "pnl_oos": 2274.0002548339467,
+        "flips": 409,
+        "suppressions": 29
+      },
+      {
+        "pair": "ALUT-HTRK",
+        "engine": "ou",
+        "pnl": 20144.294995559292,
+        "pnl_oos": 4695.75057534099,
+        "flips": 251,
+        "suppressions": 4
+      },
+      {
+        "pair": "SRNA-NWIG",
+        "engine": "ou",
+        "pnl": 6019.136713274362,
+        "pnl_oos": 1944.1483642254373,
+        "flips": 381,
+        "suppressions": 8
+      },
+      {
+        "pair": "ACAC-NAYO",
+        "engine": "zband",
+        "pnl": 9680.341526842558,
+        "pnl_oos": 1915.10954583567,
+        "flips": 450,
+        "suppressions": 1
+      },
+      {
+        "pair": "MSDP-ULXY",
+        "engine": "ou",
+        "pnl": 22694.733174130495,
+        "pnl_oos": 7311.983854253023,
+        "flips": 431,
+        "suppressions": 39
+      },
+      {
+        "pair": "RTTH-ULXY",
+        "engine": "zband",
+        "pnl": 26780.125438954205,
+        "pnl_oos": 5242.251097674526,
+        "flips": 204,
+        "suppressions": 37
+      },
+      {
+        "pair": "AENO-HUXZ",
+        "engine": "zband",
+        "pnl": 18187.153023555224,
+        "pnl_oos": 1669.0834772827627,
+        "flips": 261,
+        "suppressions": 2
+      },
+      {
+        "pair": "SRNA-FWWG",
+        "engine": "zband",
+        "pnl": 10555.579402907213,
+        "pnl_oos": 1141.5996045735078,
+        "flips": 270,
+        "suppressions": 41
+      },
+      {
+        "pair": "EORC-ILVX",
+        "engine": "zband",
+        "pnl": 2369.6780390310305,
+        "pnl_oos": -464.9181744313331,
+        "flips": 168,
+        "suppressions": 7
+      },
+      {
+        "pair": "ANSO-AGVF",
+        "engine": "zband",
+        "pnl": 3768.9472458513255,
+        "pnl_oos": 1251.9594600604123,
+        "flips": 27,
+        "suppressions": 13
+      },
+      {
+        "pair": "ANSO-AETS",
+        "engine": "zband",
+        "pnl": 5623.133719126343,
+        "pnl_oos": -1092.5994393726046,
+        "flips": 44,
+        "suppressions": 26
+      },
+      {
+        "pair": "ANSO-FCSG",
+        "engine": "zband",
+        "pnl": 8141.066377396388,
+        "pnl_oos": 1108.741525135529,
+        "flips": 87,
+        "suppressions": 71
+      },
+      {
+        "pair": "MHRM-EAFC",
+        "engine": "zband",
+        "pnl": 22265.873653672013,
+        "pnl_oos": 3533.825159673955,
+        "flips": 194,
+        "suppressions": 3
+      },
+      {
+        "pair": "AGVF-RCRI",
+        "engine": "zband",
+        "pnl": 15502.018397254087,
+        "pnl_oos": 5553.403446920061,
+        "flips": 154,
+        "suppressions": 0
+      },
+      {
+        "pair": "MSDP-SRTX",
+        "engine": "zband",
+        "pnl": 14192.677881714691,
+        "pnl_oos": 4843.612128938511,
+        "flips": 173,
+        "suppressions": 1
+      },
+      {
+        "pair": "RTTH-RRES",
+        "engine": "ou",
+        "pnl": 22432.901450120644,
+        "pnl_oos": 6368.018862439663,
+        "flips": 410,
+        "suppressions": 63
+      },
+      {
+        "pair": "HRET-HRND",
+        "engine": "ou",
+        "pnl": 20089.778038688302,
+        "pnl_oos": 11799.577188270128,
+        "flips": 341,
+        "suppressions": 138
+      },
+      {
+        "pair": "HRET-SRTX",
+        "engine": "zband",
+        "pnl": 10769.221760175686,
+        "pnl_oos": 3815.425073211119,
+        "flips": 117,
+        "suppressions": 51
+      },
+      {
+        "pair": "ANSO-RCRI",
+        "engine": "ou",
+        "pnl": 6805.621946576076,
+        "pnl_oos": 4830.966897008674,
+        "flips": 413,
+        "suppressions": 192
+      },
+      {
+        "pair": "HRET-NGTE",
+        "engine": "zband",
+        "pnl": 15425.104532588733,
+        "pnl_oos": 2618.5011199600403,
+        "flips": 225,
+        "suppressions": 137
+      },
+      {
+        "pair": "CUBO-ULXY",
+        "engine": "ou",
+        "pnl": 22363.222361983742,
+        "pnl_oos": 6853.667367739437,
+        "flips": 359,
+        "suppressions": 58
+      },
+      {
+        "pair": "ANSO-RRES",
+        "engine": "ou",
+        "pnl": -429.2838836618449,
+        "pnl_oos": 5210.278296849836,
+        "flips": 410,
+        "suppressions": 195
+      },
+      {
+        "pair": "MTNS-MHRM",
+        "engine": "zband",
+        "pnl": 9200.076990197156,
+        "pnl_oos": 3194.643080604633,
+        "flips": 219,
+        "suppressions": 24
+      },
+      {
+        "pair": "ANSO-RTTH",
+        "engine": "ou",
+        "pnl": 13554.818435907944,
+        "pnl_oos": 1917.9676349086437,
+        "flips": 412,
+        "suppressions": 242
+      },
+      {
+        "pair": "SMAH-AETS",
+        "engine": "zband",
+        "pnl": 5261.316181557891,
+        "pnl_oos": 2024.7979064216802,
+        "flips": 39,
+        "suppressions": 3
+      },
+      {
+        "pair": "HRET-MTNS",
+        "engine": "ou",
+        "pnl": 13418.274566413496,
+        "pnl_oos": 2488.249808295035,
+        "flips": 460,
+        "suppressions": 146
+      },
+      {
+        "pair": "HUXZ-DUCT",
+        "engine": "zband",
+        "pnl": 7005.5531458586165,
+        "pnl_oos": 2808.6039398845796,
+        "flips": 120,
+        "suppressions": 18
+      },
+      {
+        "pair": "HUXZ-RRES",
+        "engine": "zband",
+        "pnl": 4497.3570259760845,
+        "pnl_oos": 1753.2800687219253,
+        "flips": 69,
+        "suppressions": 0
+      },
+      {
+        "pair": "ANSO-IHOZ",
+        "engine": "ou",
+        "pnl": 8189.024651896671,
+        "pnl_oos": 1077.1400667137805,
+        "flips": 432,
+        "suppressions": 197
+      },
+      {
+        "pair": "DUCT-NPCK",
+        "engine": "zband",
+        "pnl": 12831.453979810227,
+        "pnl_oos": 1071.0480604572078,
+        "flips": 152,
+        "suppressions": 15
+      },
+      {
+        "pair": "LSST-EAFC",
+        "engine": "ou",
+        "pnl": 4448.331278914995,
+        "pnl_oos": -1779.243136252319,
+        "flips": 490,
+        "suppressions": 22
+      },
+      {
+        "pair": "ELLT-AETS",
+        "engine": "zband",
+        "pnl": 25416.40414808358,
+        "pnl_oos": 12315.4653818113,
+        "flips": 254,
+        "suppressions": 5
+      },
+      {
+        "pair": "FWWG-NGTE",
+        "engine": "ou",
+        "pnl": 14837.049825148288,
+        "pnl_oos": 6413.244209774903,
+        "flips": 470,
+        "suppressions": 148
+      },
+      {
+        "pair": "CUBO-RTTH",
+        "engine": "zband",
+        "pnl": 18907.7980296133,
+        "pnl_oos": 2631.263414318918,
+        "flips": 203,
+        "suppressions": 49
+      },
+      {
+        "pair": "HRET-MDGI",
+        "engine": "ou",
+        "pnl": 1624.9437417989395,
+        "pnl_oos": 864.5829671690748,
+        "flips": 411,
+        "suppressions": 126
+      },
+      {
+        "pair": "SMAH-FWWG",
+        "engine": "ou",
+        "pnl": 7881.803692235317,
+        "pnl_oos": 1903.3677100508437,
+        "flips": 537,
+        "suppressions": 66
+      },
+      {
+        "pair": "SMAH-ULXY",
+        "engine": "ou",
+        "pnl": 3431.595286356638,
+        "pnl_oos": 3938.6178097945403,
+        "flips": 566,
+        "suppressions": 39
+      },
+      {
+        "pair": "RTTH-FWWG",
+        "engine": "ou",
+        "pnl": 21653.055866878476,
+        "pnl_oos": 5315.576828538675,
+        "flips": 514,
+        "suppressions": 110
+      },
+      {
+        "pair": "OTCS-EELT",
+        "engine": "ou",
+        "pnl": 17232.685458311826,
+        "pnl_oos": 8686.533079716417,
+        "flips": 414,
+        "suppressions": 12
+      },
+      {
+        "pair": "HRET-SPLZ",
+        "engine": "zband",
+        "pnl": 15642.627461930793,
+        "pnl_oos": 2608.799007297845,
+        "flips": 118,
+        "suppressions": 109
+      },
+      {
+        "pair": "NGTE-FCSG",
+        "engine": "zband",
+        "pnl": 11428.187469970402,
+        "pnl_oos": 2435.7745881019428,
+        "flips": 347,
+        "suppressions": 152
+      },
+      {
+        "pair": "EORC-FCSG",
+        "engine": "zband",
+        "pnl": 8424.83267867992,
+        "pnl_oos": 2371.5344294524407,
+        "flips": 106,
+        "suppressions": 31
+      },
+      {
+        "pair": "MTNS-ULXY",
+        "engine": "zband",
+        "pnl": 17273.67424445013,
+        "pnl_oos": 3401.112914481619,
+        "flips": 327,
+        "suppressions": 39
+      },
+      {
+        "pair": "AENO-IHOZ",
+        "engine": "ou",
+        "pnl": 7250.224911404215,
+        "pnl_oos": 3808.1308356501104,
+        "flips": 476,
+        "suppressions": 10
+      },
+      {
+        "pair": "AGVF-ULXY",
+        "engine": "zband",
+        "pnl": 10312.334186883578,
+        "pnl_oos": 2592.0761063720497,
+        "flips": 55,
+        "suppressions": 3
+      },
+      {
+        "pair": "SPLZ-ULXY",
+        "engine": "zband",
+        "pnl": 12038.584089966249,
+        "pnl_oos": 3433.645163817167,
+        "flips": 181,
+        "suppressions": 66
+      },
+      {
+        "pair": "SPLZ-CCNS",
+        "engine": "zband",
+        "pnl": 13881.361350252604,
+        "pnl_oos": 1129.0986383807026,
+        "flips": 295,
+        "suppressions": 89
+      },
+      {
+        "pair": "MSDP-EAFC",
+        "engine": "ou",
+        "pnl": 5527.436165245604,
+        "pnl_oos": 2371.1344112945535,
+        "flips": 458,
+        "suppressions": 16
+      },
+      {
+        "pair": "DUCT-HRND",
+        "engine": "ou",
+        "pnl": 32581.84045778441,
+        "pnl_oos": 5531.7181627511645,
+        "flips": 342,
+        "suppressions": 32
+      },
+      {
+        "pair": "LSST-RTTH",
+        "engine": "ou",
+        "pnl": 25731.74961934331,
+        "pnl_oos": 3040.0998946554446,
+        "flips": 455,
+        "suppressions": 72
+      },
+      {
+        "pair": "DIHO-FCSG",
+        "engine": "zband",
+        "pnl": 14546.845856667807,
+        "pnl_oos": 3079.204471697233,
+        "flips": 127,
+        "suppressions": 68
+      },
+      {
+        "pair": "RTTH-RCRI",
+        "engine": "ou",
+        "pnl": 3662.1409879635294,
+        "pnl_oos": -3173.1018837111833,
+        "flips": 538,
+        "suppressions": 60
+      },
+      {
+        "pair": "OTCS-CTGI",
+        "engine": "zband",
+        "pnl": 14671.133353441559,
+        "pnl_oos": 1596.1584750918628,
+        "flips": 152,
+        "suppressions": 14
+      },
+      {
+        "pair": "GARI-FWWG",
+        "engine": "ou",
+        "pnl": 15056.60523302455,
+        "pnl_oos": 2590.775934555165,
+        "flips": 372,
+        "suppressions": 55
+      },
+      {
+        "pair": "SPLZ-FCSG",
+        "engine": "zband",
+        "pnl": 10853.984178562556,
+        "pnl_oos": 2739.5007347382616,
+        "flips": 145,
+        "suppressions": 120
+      },
+      {
+        "pair": "AMRP-DUCT",
+        "engine": "ou",
+        "pnl": 10359.028346207537,
+        "pnl_oos": 5863.212136450457,
+        "flips": 284,
+        "suppressions": 16
+      },
+      {
+        "pair": "SPLZ-NGTE",
+        "engine": "zband",
+        "pnl": 11955.07946479315,
+        "pnl_oos": 2286.4862705521527,
+        "flips": 117,
+        "suppressions": 83
+      },
+      {
+        "pair": "RTTH-SPLZ",
+        "engine": "ou",
+        "pnl": -47.06306716233999,
+        "pnl_oos": 1859.4038846413016,
+        "flips": 477,
+        "suppressions": 157
+      },
+      {
+        "pair": "CCNS-NAYO",
+        "engine": "ou",
+        "pnl": 3199.953544503915,
+        "pnl_oos": 622.5878220840347,
+        "flips": 579,
+        "suppressions": 7
+      },
+      {
+        "pair": "SPLZ-ALUT",
+        "engine": "zband",
+        "pnl": 13100.680031271098,
+        "pnl_oos": 1725.708386215833,
+        "flips": 215,
+        "suppressions": 66
+      },
+      {
+        "pair": "ULXY-FCSG",
+        "engine": "zband",
+        "pnl": 11554.589749832458,
+        "pnl_oos": 2444.5208014198756,
+        "flips": 44,
+        "suppressions": 28
+      },
+      {
+        "pair": "NWIG-MHRM",
+        "engine": "zband",
+        "pnl": 11021.501356722594,
+        "pnl_oos": 1123.3474753302828,
+        "flips": 185,
+        "suppressions": 1
+      },
+      {
+        "pair": "SRTX-MHRM",
+        "engine": "zband",
+        "pnl": 8090.496060658018,
+        "pnl_oos": 1020.935481148595,
+        "flips": 80,
+        "suppressions": 6
+      },
+      {
+        "pair": "MDGI-ULXY",
+        "engine": "ou",
+        "pnl": 27053.95881561978,
+        "pnl_oos": 6219.808989670745,
+        "flips": 469,
+        "suppressions": 32
+      },
+      {
+        "pair": "SMAH-NGTE",
+        "engine": "zband",
+        "pnl": 19242.87222383604,
+        "pnl_oos": 3224.244916477705,
+        "flips": 197,
+        "suppressions": 41
+      },
+      {
+        "pair": "ANSO-MHRM",
+        "engine": "zband",
+        "pnl": 2131.5845640407356,
+        "pnl_oos": 0.0,
+        "flips": 26,
+        "suppressions": 10
+      },
+      {
+        "pair": "NGTE-ILVX",
+        "engine": "ou",
+        "pnl": -3239.691371708506,
+        "pnl_oos": 2544.9398848093792,
+        "flips": 546,
+        "suppressions": 107
+      }
+    ]
+  },
+  "friend_ou_flipflat": {
+    "module": "merged_friend_ou",
+    "days": 799,
+    "book_pnl": 669510.0936410006,
+    "book_pnl_oos": 166305.27152100013,
+    "desired_pnl": 1295970.3775213195,
+    "desired_pnl_oos": 300545.6474600322,
+    "realized_gap_oos": 134240.37593903206,
+    "total_flips": 20933,
+    "total_suppressions": 5417,
+    "records": [
+      {
+        "pair": "AENO-NWIG",
+        "engine": "zband",
+        "pnl": 34495.93099645422,
+        "pnl_oos": 8768.353443507704,
+        "flips": 47,
+        "suppressions": 46
+      },
+      {
+        "pair": "HETT-ULXY",
+        "engine": "zband",
+        "pnl": 42017.331021035025,
+        "pnl_oos": 8572.99976135326,
+        "flips": 61,
+        "suppressions": 32
+      },
+      {
+        "pair": "HUXZ-ACAC",
+        "engine": "zband",
+        "pnl": 29050.74531078607,
+        "pnl_oos": 5895.857841502909,
+        "flips": 60,
+        "suppressions": 45
+      },
+      {
+        "pair": "SMAH-ILVX",
+        "engine": "zband",
+        "pnl": 26834.027495493254,
+        "pnl_oos": 5009.567109883166,
+        "flips": 65,
+        "suppressions": 32
+      },
+      {
+        "pair": "EORC-NGTE",
+        "engine": "zband",
+        "pnl": 29656.337413195237,
+        "pnl_oos": 4048.3866349241457,
+        "flips": 52,
+        "suppressions": 82
+      },
+      {
+        "pair": "RTTH-NAYO",
+        "engine": "zband",
+        "pnl": 47099.83305500161,
+        "pnl_oos": 6259.304070825796,
+        "flips": 112,
+        "suppressions": 41
+      },
+      {
+        "pair": "CTGI-EELT",
+        "engine": "zband",
+        "pnl": 43166.493107960974,
+        "pnl_oos": 7613.275986981409,
+        "flips": 44,
+        "suppressions": 44
+      },
+      {
+        "pair": "ELLT-FCSG",
+        "engine": "ou",
+        "pnl": 11893.796912792548,
+        "pnl_oos": 2769.2447195330437,
+        "flips": 263,
+        "suppressions": 136
+      },
+      {
+        "pair": "HUXZ-NWIG",
+        "engine": "zband",
+        "pnl": 23430.910703898422,
+        "pnl_oos": 2392.329389268484,
+        "flips": 435,
+        "suppressions": 50
+      },
+      {
+        "pair": "DUCT-ACAC",
+        "engine": "zband",
+        "pnl": 14647.482606479905,
+        "pnl_oos": 2823.2593436626426,
+        "flips": 215,
+        "suppressions": 23
+      },
+      {
+        "pair": "ANSO-CTGI",
+        "engine": "zband",
+        "pnl": 11558.046307013734,
+        "pnl_oos": 3997.040183317608,
+        "flips": 163,
+        "suppressions": 54
+      },
+      {
+        "pair": "ANSO-BENI",
+        "engine": "ou",
+        "pnl": 9618.480127042756,
+        "pnl_oos": 3068.0850565858136,
+        "flips": 269,
+        "suppressions": 108
+      },
+      {
+        "pair": "FWWG-BLBT",
+        "engine": "zband",
+        "pnl": 16126.33033828018,
+        "pnl_oos": 3322.948920923417,
+        "flips": 312,
+        "suppressions": 30
+      },
+      {
+        "pair": "AETS-ILVX",
+        "engine": "ou",
+        "pnl": 14154.616715174523,
+        "pnl_oos": 2963.994941400171,
+        "flips": 359,
+        "suppressions": 105
+      },
+      {
+        "pair": "AETS-FCSG",
+        "engine": "ou",
+        "pnl": 14448.125941175584,
+        "pnl_oos": 3448.1963969836565,
+        "flips": 384,
+        "suppressions": 173
+      },
+      {
+        "pair": "ULXY-MHRM",
+        "engine": "zband",
+        "pnl": 7695.000894590661,
+        "pnl_oos": 2532.9225421885985,
+        "flips": 42,
+        "suppressions": 14
+      },
+      {
+        "pair": "HRET-RTTH",
+        "engine": "zband",
+        "pnl": 28604.170940695003,
+        "pnl_oos": 1795.943669047436,
+        "flips": 196,
+        "suppressions": 60
+      },
+      {
+        "pair": "ALUT-CCNS",
+        "engine": "ou",
+        "pnl": 19822.386204296505,
+        "pnl_oos": 5305.330774451601,
+        "flips": 372,
+        "suppressions": 64
+      },
+      {
+        "pair": "SMAH-SPLZ",
+        "engine": "zband",
+        "pnl": 22866.4665455853,
+        "pnl_oos": 4425.082752708505,
+        "flips": 176,
+        "suppressions": 50
+      },
+      {
+        "pair": "ACIX-ITPA",
+        "engine": "zband",
+        "pnl": 14023.89361785187,
+        "pnl_oos": 3397.859038228802,
+        "flips": 26,
+        "suppressions": 46
+      },
+      {
+        "pair": "MTNS-BENI",
+        "engine": "zband",
+        "pnl": 17982.83932150536,
+        "pnl_oos": 4595.282431974176,
+        "flips": 169,
+        "suppressions": 19
+      },
+      {
+        "pair": "MTNS-BLBT",
+        "engine": "ou",
+        "pnl": 10697.711880125093,
+        "pnl_oos": 2274.0002548339467,
+        "flips": 332,
+        "suppressions": 55
+      },
+      {
+        "pair": "ALUT-HTRK",
+        "engine": "ou",
+        "pnl": 20144.294995559292,
+        "pnl_oos": 4695.75057534099,
+        "flips": 184,
+        "suppressions": 51
+      },
+      {
+        "pair": "SRNA-NWIG",
+        "engine": "ou",
+        "pnl": 6019.136713274362,
+        "pnl_oos": 1944.1483642254373,
+        "flips": 312,
+        "suppressions": 55
+      },
+      {
+        "pair": "ACAC-NAYO",
+        "engine": "zband",
+        "pnl": 9680.341526842558,
+        "pnl_oos": 1915.10954583567,
+        "flips": 405,
+        "suppressions": 48
+      },
+      {
+        "pair": "MSDP-ULXY",
+        "engine": "ou",
+        "pnl": 22694.733174130495,
+        "pnl_oos": 7311.983854253023,
+        "flips": 371,
+        "suppressions": 71
+      },
+      {
+        "pair": "RTTH-ULXY",
+        "engine": "zband",
+        "pnl": 26780.125438954205,
+        "pnl_oos": 5242.251097674526,
+        "flips": 186,
+        "suppressions": 28
+      },
+      {
+        "pair": "AENO-HUXZ",
+        "engine": "zband",
+        "pnl": 18187.153023555224,
+        "pnl_oos": 1669.0834772827627,
+        "flips": 238,
+        "suppressions": 29
+      },
+      {
+        "pair": "SRNA-FWWG",
+        "engine": "zband",
+        "pnl": 10555.579402907213,
+        "pnl_oos": 1141.5996045735078,
+        "flips": 254,
+        "suppressions": 32
+      },
+      {
+        "pair": "EORC-ILVX",
+        "engine": "zband",
+        "pnl": 2369.6780390310305,
+        "pnl_oos": -464.9181744313331,
+        "flips": 176,
+        "suppressions": 26
+      },
+      {
+        "pair": "ANSO-AGVF",
+        "engine": "zband",
+        "pnl": 3768.9472458513255,
+        "pnl_oos": 1251.9594600604123,
+        "flips": 23,
+        "suppressions": 8
+      },
+      {
+        "pair": "ANSO-AETS",
+        "engine": "zband",
+        "pnl": 5623.133719126343,
+        "pnl_oos": -1092.5994393726046,
+        "flips": 35,
+        "suppressions": 24
+      },
+      {
+        "pair": "ANSO-FCSG",
+        "engine": "zband",
+        "pnl": 8141.066377396388,
+        "pnl_oos": 1108.741525135529,
+        "flips": 79,
+        "suppressions": 45
+      },
+      {
+        "pair": "MHRM-EAFC",
+        "engine": "zband",
+        "pnl": 22265.873653672013,
+        "pnl_oos": 3533.825159673955,
+        "flips": 129,
+        "suppressions": 66
+      },
+      {
+        "pair": "AGVF-RCRI",
+        "engine": "zband",
+        "pnl": 15502.018397254087,
+        "pnl_oos": 5553.403446920061,
+        "flips": 108,
+        "suppressions": 39
+      },
+      {
+        "pair": "MSDP-SRTX",
+        "engine": "zband",
+        "pnl": 14192.677881714691,
+        "pnl_oos": 4843.612128938511,
+        "flips": 132,
+        "suppressions": 37
+      },
+      {
+        "pair": "RTTH-RRES",
+        "engine": "ou",
+        "pnl": 22432.901450120644,
+        "pnl_oos": 6368.018862439663,
+        "flips": 345,
+        "suppressions": 60
+      },
+      {
+        "pair": "HRET-HRND",
+        "engine": "ou",
+        "pnl": 20089.778038688302,
+        "pnl_oos": 11799.577188270128,
+        "flips": 294,
+        "suppressions": 116
+      },
+      {
+        "pair": "HRET-SRTX",
+        "engine": "zband",
+        "pnl": 10769.221760175686,
+        "pnl_oos": 3815.425073211119,
+        "flips": 113,
+        "suppressions": 30
+      },
+      {
+        "pair": "ANSO-RCRI",
+        "engine": "ou",
+        "pnl": 6805.621946576076,
+        "pnl_oos": 4830.966897008674,
+        "flips": 366,
+        "suppressions": 132
+      },
+      {
+        "pair": "HRET-NGTE",
+        "engine": "zband",
+        "pnl": 15425.104532588733,
+        "pnl_oos": 2618.5011199600403,
+        "flips": 211,
+        "suppressions": 98
+      },
+      {
+        "pair": "CUBO-ULXY",
+        "engine": "ou",
+        "pnl": 22363.222361983742,
+        "pnl_oos": 6853.667367739437,
+        "flips": 284,
+        "suppressions": 118
+      },
+      {
+        "pair": "ANSO-RRES",
+        "engine": "ou",
+        "pnl": -429.2838836618449,
+        "pnl_oos": 5210.278296849836,
+        "flips": 400,
+        "suppressions": 120
+      },
+      {
+        "pair": "MTNS-MHRM",
+        "engine": "zband",
+        "pnl": 9200.076990197156,
+        "pnl_oos": 3194.643080604633,
+        "flips": 197,
+        "suppressions": 76
+      },
+      {
+        "pair": "ANSO-RTTH",
+        "engine": "ou",
+        "pnl": 13554.818435907944,
+        "pnl_oos": 1917.9676349086437,
+        "flips": 394,
+        "suppressions": 128
+      },
+      {
+        "pair": "SMAH-AETS",
+        "engine": "zband",
+        "pnl": 5261.316181557891,
+        "pnl_oos": 2024.7979064216802,
+        "flips": 26,
+        "suppressions": 15
+      },
+      {
+        "pair": "HRET-MTNS",
+        "engine": "ou",
+        "pnl": 13418.274566413496,
+        "pnl_oos": 2488.249808295035,
+        "flips": 383,
+        "suppressions": 132
+      },
+      {
+        "pair": "HUXZ-DUCT",
+        "engine": "zband",
+        "pnl": 7005.5531458586165,
+        "pnl_oos": 2808.6039398845796,
+        "flips": 116,
+        "suppressions": 20
+      },
+      {
+        "pair": "HUXZ-RRES",
+        "engine": "zband",
+        "pnl": 4497.3570259760845,
+        "pnl_oos": 1753.2800687219253,
+        "flips": 62,
+        "suppressions": 7
+      },
+      {
+        "pair": "ANSO-IHOZ",
+        "engine": "ou",
+        "pnl": 8189.024651896671,
+        "pnl_oos": 1077.1400667137805,
+        "flips": 436,
+        "suppressions": 114
+      },
+      {
+        "pair": "DUCT-NPCK",
+        "engine": "zband",
+        "pnl": 12831.453979810227,
+        "pnl_oos": 1071.0480604572078,
+        "flips": 131,
+        "suppressions": 38
+      },
+      {
+        "pair": "LSST-EAFC",
+        "engine": "ou",
+        "pnl": 4448.331278914995,
+        "pnl_oos": -1779.243136252319,
+        "flips": 452,
+        "suppressions": 55
+      },
+      {
+        "pair": "ELLT-AETS",
+        "engine": "zband",
+        "pnl": 25416.40414808358,
+        "pnl_oos": 12315.4653818113,
+        "flips": 153,
+        "suppressions": 74
+      },
+      {
+        "pair": "FWWG-NGTE",
+        "engine": "ou",
+        "pnl": 14837.049825148288,
+        "pnl_oos": 6413.244209774903,
+        "flips": 427,
+        "suppressions": 137
+      },
+      {
+        "pair": "CUBO-RTTH",
+        "engine": "zband",
+        "pnl": 18907.7980296133,
+        "pnl_oos": 2631.263414318918,
+        "flips": 150,
+        "suppressions": 70
+      },
+      {
+        "pair": "HRET-MDGI",
+        "engine": "ou",
+        "pnl": 1624.9437417989395,
+        "pnl_oos": 864.5829671690748,
+        "flips": 366,
+        "suppressions": 115
+      },
+      {
+        "pair": "SMAH-FWWG",
+        "engine": "ou",
+        "pnl": 7881.803692235317,
+        "pnl_oos": 1903.3677100508437,
+        "flips": 502,
+        "suppressions": 65
+      },
+      {
+        "pair": "SMAH-ULXY",
+        "engine": "ou",
+        "pnl": 3431.595286356638,
+        "pnl_oos": 3938.6178097945403,
+        "flips": 547,
+        "suppressions": 62
+      },
+      {
+        "pair": "RTTH-FWWG",
+        "engine": "ou",
+        "pnl": 21653.055866878476,
+        "pnl_oos": 5315.576828538675,
+        "flips": 486,
+        "suppressions": 72
+      },
+      {
+        "pair": "OTCS-EELT",
+        "engine": "ou",
+        "pnl": 17232.685458311826,
+        "pnl_oos": 8686.533079716417,
+        "flips": 355,
+        "suppressions": 76
+      },
+      {
+        "pair": "HRET-SPLZ",
+        "engine": "zband",
+        "pnl": 15642.627461930793,
+        "pnl_oos": 2608.799007297845,
+        "flips": 87,
+        "suppressions": 69
+      },
+      {
+        "pair": "NGTE-FCSG",
+        "engine": "zband",
+        "pnl": 11428.187469970402,
+        "pnl_oos": 2435.7745881019428,
+        "flips": 328,
+        "suppressions": 135
+      },
+      {
+        "pair": "EORC-FCSG",
+        "engine": "zband",
+        "pnl": 8424.83267867992,
+        "pnl_oos": 2371.5344294524407,
+        "flips": 104,
+        "suppressions": 20
+      },
+      {
+        "pair": "MTNS-ULXY",
+        "engine": "zband",
+        "pnl": 17273.67424445013,
+        "pnl_oos": 3401.112914481619,
+        "flips": 303,
+        "suppressions": 52
+      },
+      {
+        "pair": "AENO-IHOZ",
+        "engine": "ou",
+        "pnl": 7250.224911404215,
+        "pnl_oos": 3808.1308356501104,
+        "flips": 440,
+        "suppressions": 50
+      },
+      {
+        "pair": "AGVF-ULXY",
+        "engine": "zband",
+        "pnl": 10312.334186883578,
+        "pnl_oos": 2592.0761063720497,
+        "flips": 48,
+        "suppressions": 4
+      },
+      {
+        "pair": "SPLZ-ULXY",
+        "engine": "zband",
+        "pnl": 12038.584089966249,
+        "pnl_oos": 3433.645163817167,
+        "flips": 142,
+        "suppressions": 58
+      },
+      {
+        "pair": "SPLZ-CCNS",
+        "engine": "zband",
+        "pnl": 13881.361350252604,
+        "pnl_oos": 1129.0986383807026,
+        "flips": 242,
+        "suppressions": 78
+      },
+      {
+        "pair": "MSDP-EAFC",
+        "engine": "ou",
+        "pnl": 5527.436165245604,
+        "pnl_oos": 2371.1344112945535,
+        "flips": 396,
+        "suppressions": 66
+      },
+      {
+        "pair": "DUCT-HRND",
+        "engine": "ou",
+        "pnl": 32581.84045778441,
+        "pnl_oos": 5531.7181627511645,
+        "flips": 301,
+        "suppressions": 48
+      },
+      {
+        "pair": "LSST-RTTH",
+        "engine": "ou",
+        "pnl": 25731.74961934331,
+        "pnl_oos": 3040.0998946554446,
+        "flips": 410,
+        "suppressions": 59
+      },
+      {
+        "pair": "DIHO-FCSG",
+        "engine": "zband",
+        "pnl": 14546.845856667807,
+        "pnl_oos": 3079.204471697233,
+        "flips": 99,
+        "suppressions": 59
+      },
+      {
+        "pair": "RTTH-RCRI",
+        "engine": "ou",
+        "pnl": 3662.1409879635294,
+        "pnl_oos": -3173.1018837111833,
+        "flips": 528,
+        "suppressions": 72
+      },
+      {
+        "pair": "OTCS-CTGI",
+        "engine": "zband",
+        "pnl": 14671.133353441559,
+        "pnl_oos": 1596.1584750918628,
+        "flips": 129,
+        "suppressions": 33
+      },
+      {
+        "pair": "GARI-FWWG",
+        "engine": "ou",
+        "pnl": 15056.60523302455,
+        "pnl_oos": 2590.775934555165,
+        "flips": 284,
+        "suppressions": 59
+      },
+      {
+        "pair": "SPLZ-FCSG",
+        "engine": "zband",
+        "pnl": 10853.984178562556,
+        "pnl_oos": 2739.5007347382616,
+        "flips": 154,
+        "suppressions": 67
+      },
+      {
+        "pair": "AMRP-DUCT",
+        "engine": "ou",
+        "pnl": 10359.028346207537,
+        "pnl_oos": 5863.212136450457,
+        "flips": 235,
+        "suppressions": 36
+      },
+      {
+        "pair": "SPLZ-NGTE",
+        "engine": "zband",
+        "pnl": 11955.07946479315,
+        "pnl_oos": 2286.4862705521527,
+        "flips": 112,
+        "suppressions": 54
+      },
+      {
+        "pair": "RTTH-SPLZ",
+        "engine": "ou",
+        "pnl": -47.06306716233999,
+        "pnl_oos": 1859.4038846413016,
+        "flips": 459,
+        "suppressions": 102
+      },
+      {
+        "pair": "CCNS-NAYO",
+        "engine": "ou",
+        "pnl": 3199.953544503915,
+        "pnl_oos": 622.5878220840347,
+        "flips": 560,
+        "suppressions": 56
+      },
+      {
+        "pair": "SPLZ-ALUT",
+        "engine": "zband",
+        "pnl": 13100.680031271098,
+        "pnl_oos": 1725.708386215833,
+        "flips": 169,
+        "suppressions": 60
+      },
+      {
+        "pair": "ULXY-FCSG",
+        "engine": "zband",
+        "pnl": 11554.589749832458,
+        "pnl_oos": 2444.5208014198756,
+        "flips": 38,
+        "suppressions": 20
+      },
+      {
+        "pair": "NWIG-MHRM",
+        "engine": "zband",
+        "pnl": 11021.501356722594,
+        "pnl_oos": 1123.3474753302828,
+        "flips": 135,
+        "suppressions": 59
+      },
+      {
+        "pair": "SRTX-MHRM",
+        "engine": "zband",
+        "pnl": 8090.496060658018,
+        "pnl_oos": 1020.935481148595,
+        "flips": 37,
+        "suppressions": 45
+      },
+      {
+        "pair": "MDGI-ULXY",
+        "engine": "ou",
+        "pnl": 27053.95881561978,
+        "pnl_oos": 6219.808989670745,
+        "flips": 439,
+        "suppressions": 59
+      },
+      {
+        "pair": "SMAH-NGTE",
+        "engine": "zband",
+        "pnl": 19242.87222383604,
+        "pnl_oos": 3224.244916477705,
+        "flips": 188,
+        "suppressions": 51
+      },
+      {
+        "pair": "ANSO-MHRM",
+        "engine": "zband",
+        "pnl": 2131.5845640407356,
+        "pnl_oos": 0.0,
+        "flips": 15,
+        "suppressions": 16
+      },
+      {
+        "pair": "NGTE-ILVX",
+        "engine": "ou",
+        "pnl": -3239.691371708506,
+        "pnl_oos": 2544.9398848093792,
+        "flips": 569,
+        "suppressions": 132
+      }
+    ]
+  },
+  "friend_ou_flipflat_m030": {
+    "module": "merged_friend_ou",
+    "days": 799,
+    "book_pnl": 659329.9198090002,
+    "book_pnl_oos": 165504.1327770001,
+    "desired_pnl": 1295970.3775213195,
+    "desired_pnl_oos": 300545.6474600322,
+    "realized_gap_oos": 135041.5146830321,
+    "total_flips": 19617,
+    "total_suppressions": 8650,
+    "records": [
+      {
+        "pair": "AENO-NWIG",
+        "engine": "zband",
+        "pnl": 34495.93099645422,
+        "pnl_oos": 8768.353443507704,
+        "flips": 50,
+        "suppressions": 46
+      },
+      {
+        "pair": "HETT-ULXY",
+        "engine": "zband",
+        "pnl": 42017.331021035025,
+        "pnl_oos": 8572.99976135326,
+        "flips": 84,
+        "suppressions": 39
+      },
+      {
+        "pair": "HUXZ-ACAC",
+        "engine": "zband",
+        "pnl": 29050.74531078607,
+        "pnl_oos": 5895.857841502909,
+        "flips": 67,
+        "suppressions": 43
+      },
+      {
+        "pair": "SMAH-ILVX",
+        "engine": "zband",
+        "pnl": 26834.027495493254,
+        "pnl_oos": 5009.567109883166,
+        "flips": 80,
+        "suppressions": 48
+      },
+      {
+        "pair": "EORC-NGTE",
+        "engine": "zband",
+        "pnl": 29656.337413195237,
+        "pnl_oos": 4048.3866349241457,
+        "flips": 73,
+        "suppressions": 139
+      },
+      {
+        "pair": "RTTH-NAYO",
+        "engine": "zband",
+        "pnl": 47099.83305500161,
+        "pnl_oos": 6259.304070825796,
+        "flips": 117,
+        "suppressions": 74
+      },
+      {
+        "pair": "CTGI-EELT",
+        "engine": "zband",
+        "pnl": 43166.493107960974,
+        "pnl_oos": 7613.275986981409,
+        "flips": 45,
+        "suppressions": 42
+      },
+      {
+        "pair": "ELLT-FCSG",
+        "engine": "ou",
+        "pnl": 11893.796912792548,
+        "pnl_oos": 2769.2447195330437,
+        "flips": 232,
+        "suppressions": 202
+      },
+      {
+        "pair": "HUXZ-NWIG",
+        "engine": "zband",
+        "pnl": 23430.910703898422,
+        "pnl_oos": 2392.329389268484,
+        "flips": 427,
+        "suppressions": 50
+      },
+      {
+        "pair": "DUCT-ACAC",
+        "engine": "zband",
+        "pnl": 14647.482606479905,
+        "pnl_oos": 2823.2593436626426,
+        "flips": 219,
+        "suppressions": 31
+      },
+      {
+        "pair": "ANSO-CTGI",
+        "engine": "zband",
+        "pnl": 11558.046307013734,
+        "pnl_oos": 3997.040183317608,
+        "flips": 141,
+        "suppressions": 106
+      },
+      {
+        "pair": "ANSO-BENI",
+        "engine": "ou",
+        "pnl": 9618.480127042756,
+        "pnl_oos": 3068.0850565858136,
+        "flips": 237,
+        "suppressions": 253
+      },
+      {
+        "pair": "FWWG-BLBT",
+        "engine": "zband",
+        "pnl": 16126.33033828018,
+        "pnl_oos": 3322.948920923417,
+        "flips": 322,
+        "suppressions": 39
+      },
+      {
+        "pair": "AETS-ILVX",
+        "engine": "ou",
+        "pnl": 14154.616715174523,
+        "pnl_oos": 2963.994941400171,
+        "flips": 345,
+        "suppressions": 110
+      },
+      {
+        "pair": "AETS-FCSG",
+        "engine": "ou",
+        "pnl": 14448.125941175584,
+        "pnl_oos": 3448.1963969836565,
+        "flips": 376,
+        "suppressions": 238
+      },
+      {
+        "pair": "ULXY-MHRM",
+        "engine": "zband",
+        "pnl": 7695.000894590661,
+        "pnl_oos": 2532.9225421885985,
+        "flips": 39,
+        "suppressions": 15
+      },
+      {
+        "pair": "HRET-RTTH",
+        "engine": "zband",
+        "pnl": 28604.170940695003,
+        "pnl_oos": 1795.943669047436,
+        "flips": 145,
+        "suppressions": 145
+      },
+      {
+        "pair": "ALUT-CCNS",
+        "engine": "ou",
+        "pnl": 19822.386204296505,
+        "pnl_oos": 5305.330774451601,
+        "flips": 374,
+        "suppressions": 63
+      },
+      {
+        "pair": "SMAH-SPLZ",
+        "engine": "zband",
+        "pnl": 22866.4665455853,
+        "pnl_oos": 4425.082752708505,
+        "flips": 143,
+        "suppressions": 117
+      },
+      {
+        "pair": "ACIX-ITPA",
+        "engine": "zband",
+        "pnl": 14023.89361785187,
+        "pnl_oos": 3397.859038228802,
+        "flips": 27,
+        "suppressions": 45
+      },
+      {
+        "pair": "MTNS-BENI",
+        "engine": "zband",
+        "pnl": 17982.83932150536,
+        "pnl_oos": 4595.282431974176,
+        "flips": 191,
+        "suppressions": 27
+      },
+      {
+        "pair": "MTNS-BLBT",
+        "engine": "ou",
+        "pnl": 10697.711880125093,
+        "pnl_oos": 2274.0002548339467,
+        "flips": 344,
+        "suppressions": 60
+      },
+      {
+        "pair": "ALUT-HTRK",
+        "engine": "ou",
+        "pnl": 20144.294995559292,
+        "pnl_oos": 4695.75057534099,
+        "flips": 184,
+        "suppressions": 48
+      },
+      {
+        "pair": "SRNA-NWIG",
+        "engine": "ou",
+        "pnl": 6019.136713274362,
+        "pnl_oos": 1944.1483642254373,
+        "flips": 308,
+        "suppressions": 56
+      },
+      {
+        "pair": "ACAC-NAYO",
+        "engine": "zband",
+        "pnl": 9680.341526842558,
+        "pnl_oos": 1915.10954583567,
+        "flips": 406,
+        "suppressions": 47
+      },
+      {
+        "pair": "MSDP-ULXY",
+        "engine": "ou",
+        "pnl": 22694.733174130495,
+        "pnl_oos": 7311.983854253023,
+        "flips": 363,
+        "suppressions": 86
+      },
+      {
+        "pair": "RTTH-ULXY",
+        "engine": "zband",
+        "pnl": 26780.125438954205,
+        "pnl_oos": 5242.251097674526,
+        "flips": 166,
+        "suppressions": 54
+      },
+      {
+        "pair": "AENO-HUXZ",
+        "engine": "zband",
+        "pnl": 18187.153023555224,
+        "pnl_oos": 1669.0834772827627,
+        "flips": 235,
+        "suppressions": 28
+      },
+      {
+        "pair": "SRNA-FWWG",
+        "engine": "zband",
+        "pnl": 10555.579402907213,
+        "pnl_oos": 1141.5996045735078,
+        "flips": 240,
+        "suppressions": 57
+      },
+      {
+        "pair": "EORC-ILVX",
+        "engine": "zband",
+        "pnl": 2369.6780390310305,
+        "pnl_oos": -464.9181744313331,
+        "flips": 161,
+        "suppressions": 32
+      },
+      {
+        "pair": "ANSO-AGVF",
+        "engine": "zband",
+        "pnl": 3768.9472458513255,
+        "pnl_oos": 1251.9594600604123,
+        "flips": 19,
+        "suppressions": 19
+      },
+      {
+        "pair": "ANSO-AETS",
+        "engine": "zband",
+        "pnl": 5623.133719126343,
+        "pnl_oos": -1092.5994393726046,
+        "flips": 28,
+        "suppressions": 42
+      },
+      {
+        "pair": "ANSO-FCSG",
+        "engine": "zband",
+        "pnl": 8141.066377396388,
+        "pnl_oos": 1108.741525135529,
+        "flips": 57,
+        "suppressions": 100
+      },
+      {
+        "pair": "MHRM-EAFC",
+        "engine": "zband",
+        "pnl": 22265.873653672013,
+        "pnl_oos": 3533.825159673955,
+        "flips": 128,
+        "suppressions": 64
+      },
+      {
+        "pair": "AGVF-RCRI",
+        "engine": "zband",
+        "pnl": 15502.018397254087,
+        "pnl_oos": 5553.403446920061,
+        "flips": 109,
+        "suppressions": 36
+      },
+      {
+        "pair": "MSDP-SRTX",
+        "engine": "zband",
+        "pnl": 14192.677881714691,
+        "pnl_oos": 4843.612128938511,
+        "flips": 134,
+        "suppressions": 34
+      },
+      {
+        "pair": "RTTH-RRES",
+        "engine": "ou",
+        "pnl": 22432.901450120644,
+        "pnl_oos": 6368.018862439663,
+        "flips": 341,
+        "suppressions": 105
+      },
+      {
+        "pair": "HRET-HRND",
+        "engine": "ou",
+        "pnl": 20089.778038688302,
+        "pnl_oos": 11799.577188270128,
+        "flips": 254,
+        "suppressions": 211
+      },
+      {
+        "pair": "HRET-SRTX",
+        "engine": "zband",
+        "pnl": 10769.221760175686,
+        "pnl_oos": 3815.425073211119,
+        "flips": 99,
+        "suppressions": 66
+      },
+      {
+        "pair": "ANSO-RCRI",
+        "engine": "ou",
+        "pnl": 6805.621946576076,
+        "pnl_oos": 4830.966897008674,
+        "flips": 315,
+        "suppressions": 275
+      },
+      {
+        "pair": "HRET-NGTE",
+        "engine": "zband",
+        "pnl": 15425.104532588733,
+        "pnl_oos": 2618.5011199600403,
+        "flips": 147,
+        "suppressions": 206
+      },
+      {
+        "pair": "CUBO-ULXY",
+        "engine": "ou",
+        "pnl": 22363.222361983742,
+        "pnl_oos": 6853.667367739437,
+        "flips": 274,
+        "suppressions": 135
+      },
+      {
+        "pair": "ANSO-RRES",
+        "engine": "ou",
+        "pnl": -429.2838836618449,
+        "pnl_oos": 5210.278296849836,
+        "flips": 335,
+        "suppressions": 266
+      },
+      {
+        "pair": "MTNS-MHRM",
+        "engine": "zband",
+        "pnl": 9200.076990197156,
+        "pnl_oos": 3194.643080604633,
+        "flips": 173,
+        "suppressions": 84
+      },
+      {
+        "pair": "ANSO-RTTH",
+        "engine": "ou",
+        "pnl": 13554.818435907944,
+        "pnl_oos": 1917.9676349086437,
+        "flips": 329,
+        "suppressions": 319
+      },
+      {
+        "pair": "SMAH-AETS",
+        "engine": "zband",
+        "pnl": 5261.316181557891,
+        "pnl_oos": 2024.7979064216802,
+        "flips": 22,
+        "suppressions": 18
+      },
+      {
+        "pair": "HRET-MTNS",
+        "engine": "ou",
+        "pnl": 13418.274566413496,
+        "pnl_oos": 2488.249808295035,
+        "flips": 355,
+        "suppressions": 236
+      },
+      {
+        "pair": "HUXZ-DUCT",
+        "engine": "zband",
+        "pnl": 7005.5531458586165,
+        "pnl_oos": 2808.6039398845796,
+        "flips": 115,
+        "suppressions": 31
+      },
+      {
+        "pair": "HUXZ-RRES",
+        "engine": "zband",
+        "pnl": 4497.3570259760845,
+        "pnl_oos": 1753.2800687219253,
+        "flips": 62,
+        "suppressions": 7
+      },
+      {
+        "pair": "ANSO-IHOZ",
+        "engine": "ou",
+        "pnl": 8189.024651896671,
+        "pnl_oos": 1077.1400667137805,
+        "flips": 364,
+        "suppressions": 261
+      },
+      {
+        "pair": "DUCT-NPCK",
+        "engine": "zband",
+        "pnl": 12831.453979810227,
+        "pnl_oos": 1071.0480604572078,
+        "flips": 121,
+        "suppressions": 48
+      },
+      {
+        "pair": "LSST-EAFC",
+        "engine": "ou",
+        "pnl": 4448.331278914995,
+        "pnl_oos": -1779.243136252319,
+        "flips": 457,
+        "suppressions": 51
+      },
+      {
+        "pair": "ELLT-AETS",
+        "engine": "zband",
+        "pnl": 25416.40414808358,
+        "pnl_oos": 12315.4653818113,
+        "flips": 153,
+        "suppressions": 75
+      },
+      {
+        "pair": "FWWG-NGTE",
+        "engine": "ou",
+        "pnl": 14837.049825148288,
+        "pnl_oos": 6413.244209774903,
+        "flips": 363,
+        "suppressions": 244
+      },
+      {
+        "pair": "CUBO-RTTH",
+        "engine": "zband",
+        "pnl": 18907.7980296133,
+        "pnl_oos": 2631.263414318918,
+        "flips": 159,
+        "suppressions": 86
+      },
+      {
+        "pair": "HRET-MDGI",
+        "engine": "ou",
+        "pnl": 1624.9437417989395,
+        "pnl_oos": 864.5829671690748,
+        "flips": 327,
+        "suppressions": 211
+      },
+      {
+        "pair": "SMAH-FWWG",
+        "engine": "ou",
+        "pnl": 7881.803692235317,
+        "pnl_oos": 1903.3677100508437,
+        "flips": 487,
+        "suppressions": 113
+      },
+      {
+        "pair": "SMAH-ULXY",
+        "engine": "ou",
+        "pnl": 3431.595286356638,
+        "pnl_oos": 3938.6178097945403,
+        "flips": 522,
+        "suppressions": 90
+      },
+      {
+        "pair": "RTTH-FWWG",
+        "engine": "ou",
+        "pnl": 21653.055866878476,
+        "pnl_oos": 5315.576828538675,
+        "flips": 450,
+        "suppressions": 154
+      },
+      {
+        "pair": "OTCS-EELT",
+        "engine": "ou",
+        "pnl": 17232.685458311826,
+        "pnl_oos": 8686.533079716417,
+        "flips": 357,
+        "suppressions": 75
+      },
+      {
+        "pair": "HRET-SPLZ",
+        "engine": "zband",
+        "pnl": 15642.627461930793,
+        "pnl_oos": 2608.799007297845,
+        "flips": 60,
+        "suppressions": 155
+      },
+      {
+        "pair": "NGTE-FCSG",
+        "engine": "zband",
+        "pnl": 11428.187469970402,
+        "pnl_oos": 2435.7745881019428,
+        "flips": 280,
+        "suppressions": 244
+      },
+      {
+        "pair": "EORC-FCSG",
+        "engine": "zband",
+        "pnl": 8424.83267867992,
+        "pnl_oos": 2371.5344294524407,
+        "flips": 97,
+        "suppressions": 43
+      },
+      {
+        "pair": "MTNS-ULXY",
+        "engine": "zband",
+        "pnl": 17273.67424445013,
+        "pnl_oos": 3401.112914481619,
+        "flips": 291,
+        "suppressions": 72
+      },
+      {
+        "pair": "AENO-IHOZ",
+        "engine": "ou",
+        "pnl": 7250.224911404215,
+        "pnl_oos": 3808.1308356501104,
+        "flips": 441,
+        "suppressions": 48
+      },
+      {
+        "pair": "AGVF-ULXY",
+        "engine": "zband",
+        "pnl": 10312.334186883578,
+        "pnl_oos": 2592.0761063720497,
+        "flips": 50,
+        "suppressions": 6
+      },
+      {
+        "pair": "SPLZ-ULXY",
+        "engine": "zband",
+        "pnl": 12038.584089966249,
+        "pnl_oos": 3433.645163817167,
+        "flips": 120,
+        "suppressions": 107
+      },
+      {
+        "pair": "SPLZ-CCNS",
+        "engine": "zband",
+        "pnl": 13881.361350252604,
+        "pnl_oos": 1129.0986383807026,
+        "flips": 203,
+        "suppressions": 150
+      },
+      {
+        "pair": "MSDP-EAFC",
+        "engine": "ou",
+        "pnl": 5527.436165245604,
+        "pnl_oos": 2371.1344112945535,
+        "flips": 398,
+        "suppressions": 60
+      },
+      {
+        "pair": "DUCT-HRND",
+        "engine": "ou",
+        "pnl": 32581.84045778441,
+        "pnl_oos": 5531.7181627511645,
+        "flips": 297,
+        "suppressions": 56
+      },
+      {
+        "pair": "LSST-RTTH",
+        "engine": "ou",
+        "pnl": 25731.74961934331,
+        "pnl_oos": 3040.0998946554446,
+        "flips": 398,
+        "suppressions": 104
+      },
+      {
+        "pair": "DIHO-FCSG",
+        "engine": "zband",
+        "pnl": 14546.845856667807,
+        "pnl_oos": 3079.204471697233,
+        "flips": 77,
+        "suppressions": 101
+      },
+      {
+        "pair": "RTTH-RCRI",
+        "engine": "ou",
+        "pnl": 3662.1409879635294,
+        "pnl_oos": -3173.1018837111833,
+        "flips": 502,
+        "suppressions": 114
+      },
+      {
+        "pair": "OTCS-CTGI",
+        "engine": "zband",
+        "pnl": 14671.133353441559,
+        "pnl_oos": 1596.1584750918628,
+        "flips": 129,
+        "suppressions": 32
+      },
+      {
+        "pair": "GARI-FWWG",
+        "engine": "ou",
+        "pnl": 15056.60523302455,
+        "pnl_oos": 2590.775934555165,
+        "flips": 286,
+        "suppressions": 96
+      },
+      {
+        "pair": "SPLZ-FCSG",
+        "engine": "zband",
+        "pnl": 10853.984178562556,
+        "pnl_oos": 2739.5007347382616,
+        "flips": 102,
+        "suppressions": 163
+      },
+      {
+        "pair": "AMRP-DUCT",
+        "engine": "ou",
+        "pnl": 10359.028346207537,
+        "pnl_oos": 5863.212136450457,
+        "flips": 231,
+        "suppressions": 45
+      },
+      {
+        "pair": "SPLZ-NGTE",
+        "engine": "zband",
+        "pnl": 11955.07946479315,
+        "pnl_oos": 2286.4862705521527,
+        "flips": 82,
+        "suppressions": 117
+      },
+      {
+        "pair": "RTTH-SPLZ",
+        "engine": "ou",
+        "pnl": -47.06306716233999,
+        "pnl_oos": 1859.4038846413016,
+        "flips": 402,
+        "suppressions": 228
+      },
+      {
+        "pair": "CCNS-NAYO",
+        "engine": "ou",
+        "pnl": 3199.953544503915,
+        "pnl_oos": 622.5878220840347,
+        "flips": 557,
+        "suppressions": 55
+      },
+      {
+        "pair": "SPLZ-ALUT",
+        "engine": "zband",
+        "pnl": 13100.680031271098,
+        "pnl_oos": 1725.708386215833,
+        "flips": 151,
+        "suppressions": 115
+      },
+      {
+        "pair": "ULXY-FCSG",
+        "engine": "zband",
+        "pnl": 11554.589749832458,
+        "pnl_oos": 2444.5208014198756,
+        "flips": 29,
+        "suppressions": 39
+      },
+      {
+        "pair": "NWIG-MHRM",
+        "engine": "zband",
+        "pnl": 11021.501356722594,
+        "pnl_oos": 1123.3474753302828,
+        "flips": 130,
+        "suppressions": 61
+      },
+      {
+        "pair": "SRTX-MHRM",
+        "engine": "zband",
+        "pnl": 8090.496060658018,
+        "pnl_oos": 1020.935481148595,
+        "flips": 36,
+        "suppressions": 44
+      },
+      {
+        "pair": "MDGI-ULXY",
+        "engine": "ou",
+        "pnl": 27053.95881561978,
+        "pnl_oos": 6219.808989670745,
+        "flips": 416,
+        "suppressions": 76
+      },
+      {
+        "pair": "SMAH-NGTE",
+        "engine": "zband",
+        "pnl": 19242.87222383604,
+        "pnl_oos": 3224.244916477705,
+        "flips": 159,
+        "suppressions": 84
+      },
+      {
+        "pair": "ANSO-MHRM",
+        "engine": "zband",
+        "pnl": 2131.5845640407356,
+        "pnl_oos": 0.0,
+        "flips": 13,
+        "suppressions": 26
+      },
+      {
+        "pair": "NGTE-ILVX",
+        "engine": "ou",
+        "pnl": -3239.691371708506,
+        "pnl_oos": 2544.9398848093792,
+        "flips": 483,
+        "suppressions": 207
+      }
+    ]
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "criterion": "standalone desired PnL; train 31-750 primary; OOS verify only",
+  "n_compared": 32,
+  "wins_train": {
+    "ou_opt_train": 4,
+    "ou_mean_train": 8,
+    "zb_train": 20
+  },
+  "sums_train_31_750": {
+    "zband": 408293.4069723883,
+    "ou_optimal": 249160.94960475143,
+    "ou_mean": 260836.01723879713,
+    "delta_opt_vs_zb": -159132.45736763685,
+    "delta_mean_vs_zb": -147457.38973359115
+  },
+  "sums_oos_750_1000_verify": {
+    "zband": 87552.76645801116,
+    "ou_optimal": 147831.13871248887,
+    "ou_mean": 145501.14469710653,
+    "delta_opt_vs_zb": 60278.37225447771,
+    "delta_mean_vs_zb": 57948.37823909537
+  },
+  "engine_ahead_standalone_train": false,
+  "pairs": [
+    {
+      "pair": "AENO-IHOZ",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 11268.935735822946,
+        "ou_optimal": 4232.8986330714215,
+        "ou_mean": 2545.2457105606854,
+        "best": "zband",
+        "delta_opt_vs_zb": -7036.037102751525,
+        "delta_mean_vs_zb": -8723.690025262262
+      },
+      "oos_750_1000_verify": {
+        "zband": 3438.1578299025987,
+        "ou_optimal": 4958.24705289645,
+        "ou_mean": 6024.839990339956,
+        "delta_opt_vs_zb": 1520.0892229938518,
+        "delta_mean_vs_zb": 2586.682160437357
+      }
+    },
+    {
+      "pair": "AETS-FCSG",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 21385.599498481577,
+        "ou_optimal": 17107.47118422756,
+        "ou_mean": 14977.791843467658,
+        "best": "zband",
+        "delta_opt_vs_zb": -4278.128314254016,
+        "delta_mean_vs_zb": -6407.807655013919
+      },
+      "oos_750_1000_verify": {
+        "zband": -726.4217623962053,
+        "ou_optimal": 4286.15768650709,
+        "ou_mean": 8543.975712815462,
+        "delta_opt_vs_zb": 5012.579448903295,
+        "delta_mean_vs_zb": 9270.397475211666
+      }
+    },
+    {
+      "pair": "AETS-ILVX",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 2429.3309033746636,
+        "ou_optimal": 9631.626920676406,
+        "ou_mean": 11312.535388026938,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 7202.296017301743,
+        "delta_mean_vs_zb": 8883.204484652273
+      },
+      "oos_750_1000_verify": {
+        "zband": 1319.4436782309042,
+        "ou_optimal": 5158.325206785889,
+        "ou_mean": 7415.5866791424005,
+        "delta_opt_vs_zb": 3838.8815285549854,
+        "delta_mean_vs_zb": 6096.1430009114965
+      }
+    },
+    {
+      "pair": "ALUT-CCNS",
+      "cohort": "stable",
+      "train_31_750": {
+        "zband": 22155.57123761092,
+        "ou_optimal": 20241.30859908403,
+        "ou_mean": 22532.505363890163,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": -1914.2626385268886,
+        "delta_mean_vs_zb": 376.9341262792441
+      },
+      "oos_750_1000_verify": {
+        "zband": 7137.369120136606,
+        "ou_optimal": 5735.030197233069,
+        "ou_mean": 6297.849891878272,
+        "delta_opt_vs_zb": -1402.3389229035374,
+        "delta_mean_vs_zb": -839.5192282583348
+      }
+    },
+    {
+      "pair": "ALUT-HTRK",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 2981.694551866037,
+        "ou_optimal": 11581.583034874373,
+        "ou_mean": 12823.940902409002,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 8599.888483008337,
+        "delta_mean_vs_zb": 9842.246350542966
+      },
+      "oos_750_1000_verify": {
+        "zband": 77.85230729868012,
+        "ou_optimal": 7017.552484032671,
+        "ou_mean": 7088.033670386527,
+        "delta_opt_vs_zb": 6939.700176733991,
+        "delta_mean_vs_zb": 7010.181363087847
+      }
+    },
+    {
+      "pair": "AMRP-DUCT",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 18197.369184034415,
+        "ou_optimal": 4544.768342721605,
+        "ou_mean": 5859.64435336927,
+        "best": "zband",
+        "delta_opt_vs_zb": -13652.60084131281,
+        "delta_mean_vs_zb": -12337.724830665145
+      },
+      "oos_750_1000_verify": {
+        "zband": 2502.166322435085,
+        "ou_optimal": 6367.85322981999,
+        "ou_mean": 6081.251950550901,
+        "delta_opt_vs_zb": 3865.6869073849048,
+        "delta_mean_vs_zb": 3579.085628115816
+      }
+    },
+    {
+      "pair": "ANSO-BENI",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 2635.6158469327665,
+        "ou_optimal": 7902.147394141854,
+        "ou_mean": 4586.255096456391,
+        "best": "ou_optimal",
+        "delta_opt_vs_zb": 5266.531547209088,
+        "delta_mean_vs_zb": 1950.6392495236241
+      },
+      "oos_750_1000_verify": {
+        "zband": -809.140273453708,
+        "ou_optimal": 2254.2054133821516,
+        "ou_mean": 3161.116308266474,
+        "delta_opt_vs_zb": 3063.34568683586,
+        "delta_mean_vs_zb": 3970.256581720182
+      }
+    },
+    {
+      "pair": "ANSO-IHOZ",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 4655.085235046191,
+        "ou_optimal": 8984.122773496276,
+        "ou_mean": 6060.618954093844,
+        "best": "ou_optimal",
+        "delta_opt_vs_zb": 4329.037538450085,
+        "delta_mean_vs_zb": 1405.533719047653
+      },
+      "oos_750_1000_verify": {
+        "zband": 1228.2902708604147,
+        "ou_optimal": 2149.455145592254,
+        "ou_mean": 1821.0132364641263,
+        "delta_opt_vs_zb": 921.1648747318395,
+        "delta_mean_vs_zb": 592.7229656037116
+      }
+    },
+    {
+      "pair": "ANSO-RCRI",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 16785.56705462658,
+        "ou_optimal": 9662.55413916493,
+        "ou_mean": 11902.886262792415,
+        "best": "zband",
+        "delta_opt_vs_zb": -7123.01291546165,
+        "delta_mean_vs_zb": -4882.680791834164
+      },
+      "oos_750_1000_verify": {
+        "zband": 5884.019179426493,
+        "ou_optimal": 6040.382051858615,
+        "ou_mean": 4855.004729189155,
+        "delta_opt_vs_zb": 156.36287243212246,
+        "delta_mean_vs_zb": -1029.0144502373378
+      }
+    },
+    {
+      "pair": "ANSO-RRES",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 14982.673698772234,
+        "ou_optimal": -73.98188970229114,
+        "ou_mean": -4525.749735487572,
+        "best": "zband",
+        "delta_opt_vs_zb": -15056.655588474525,
+        "delta_mean_vs_zb": -19508.423434259807
+      },
+      "oos_750_1000_verify": {
+        "zband": 4710.284807269778,
+        "ou_optimal": 528.0017405617045,
+        "ou_mean": 1234.9636792539698,
+        "delta_opt_vs_zb": -4182.283066708073,
+        "delta_mean_vs_zb": -3475.3211280158084
+      }
+    },
+    {
+      "pair": "ANSO-RTTH",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 13387.709516072697,
+        "ou_optimal": 18422.412193850458,
+        "ou_mean": 18556.022650435563,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 5034.702677777761,
+        "delta_mean_vs_zb": 5168.313134362867
+      },
+      "oos_750_1000_verify": {
+        "zband": 3700.847449078436,
+        "ou_optimal": 2621.4648305819646,
+        "ou_mean": 2865.0716298733587,
+        "delta_opt_vs_zb": -1079.3826184964714,
+        "delta_mean_vs_zb": -835.7758192050774
+      }
+    },
+    {
+      "pair": "CCNS-NAYO",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 18537.48929321705,
+        "ou_optimal": 1683.029236640713,
+        "ou_mean": 1342.8503243627868,
+        "best": "zband",
+        "delta_opt_vs_zb": -16854.46005657634,
+        "delta_mean_vs_zb": -17194.638968854266
+      },
+      "oos_750_1000_verify": {
+        "zband": 2365.0720361189015,
+        "ou_optimal": -1225.2924384824512,
+        "ou_mean": -474.56136541387883,
+        "delta_opt_vs_zb": -3590.3644746013524,
+        "delta_mean_vs_zb": -2839.63340153278
+      }
+    },
+    {
+      "pair": "CUBO-ULXY",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 12793.476168977162,
+        "ou_optimal": 26215.525352160497,
+        "ou_mean": 27443.374919725222,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 13422.049183183335,
+        "delta_mean_vs_zb": 14649.89875074806
+      },
+      "oos_750_1000_verify": {
+        "zband": 3559.5311842304127,
+        "ou_optimal": 7608.0391128990905,
+        "ou_mean": 9040.223379665216,
+        "delta_opt_vs_zb": 4048.507928668678,
+        "delta_mean_vs_zb": 5480.692195434804
+      }
+    },
+    {
+      "pair": "DUCT-HRND",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 18815.651964407545,
+        "ou_optimal": 23668.324465328395,
+        "ou_mean": 19948.75065874849,
+        "best": "ou_optimal",
+        "delta_opt_vs_zb": 4852.672500920849,
+        "delta_mean_vs_zb": 1133.0986943409443
+      },
+      "oos_750_1000_verify": {
+        "zband": 3642.452066393454,
+        "ou_optimal": 9763.5595929638,
+        "ou_mean": 5801.131508050224,
+        "delta_opt_vs_zb": 6121.107526570346,
+        "delta_mean_vs_zb": 2158.6794416567695
+      }
+    },
+    {
+      "pair": "ELLT-FCSG",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 7318.37186282638,
+        "ou_optimal": 6252.246264562686,
+        "ou_mean": 6004.165114427391,
+        "best": "zband",
+        "delta_opt_vs_zb": -1066.125598263694,
+        "delta_mean_vs_zb": -1314.2067483989886
+      },
+      "oos_750_1000_verify": {
+        "zband": 623.1044011263976,
+        "ou_optimal": 3335.216311456315,
+        "ou_mean": 3804.746982799115,
+        "delta_opt_vs_zb": 2712.1119103299175,
+        "delta_mean_vs_zb": 3181.6425816727174
+      }
+    },
+    {
+      "pair": "FWWG-NGTE",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 7726.662557964923,
+        "ou_optimal": 1454.438447948323,
+        "ou_mean": 2436.3472399529724,
+        "best": "zband",
+        "delta_opt_vs_zb": -6272.224110016599,
+        "delta_mean_vs_zb": -5290.31531801195
+      },
+      "oos_750_1000_verify": {
+        "zband": 4950.778757646188,
+        "ou_optimal": 10865.489207961064,
+        "ou_mean": 7243.722122031611,
+        "delta_opt_vs_zb": 5914.710450314876,
+        "delta_mean_vs_zb": 2292.9433643854236
+      }
+    },
+    {
+      "pair": "GARI-FWWG",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 11018.374983579655,
+        "ou_optimal": 11737.460525038026,
+        "ou_mean": 12082.332720669863,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 719.0855414583712,
+        "delta_mean_vs_zb": 1063.957737090208
+      },
+      "oos_750_1000_verify": {
+        "zband": 2316.564532006243,
+        "ou_optimal": 5490.442815351619,
+        "ou_mean": 6429.52924554952,
+        "delta_opt_vs_zb": 3173.878283345376,
+        "delta_mean_vs_zb": 4112.964713543277
+      }
+    },
+    {
+      "pair": "HRET-HRND",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 13494.637739020645,
+        "ou_optimal": 6405.8907518808965,
+        "ou_mean": 3693.4867913381067,
+        "best": "zband",
+        "delta_opt_vs_zb": -7088.746987139749,
+        "delta_mean_vs_zb": -9801.150947682538
+      },
+      "oos_750_1000_verify": {
+        "zband": 5997.476042163957,
+        "ou_optimal": 12708.948174626381,
+        "ou_mean": 10598.36255454613,
+        "delta_opt_vs_zb": 6711.472132462424,
+        "delta_mean_vs_zb": 4600.886512382172
+      }
+    },
+    {
+      "pair": "HRET-MDGI",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 8999.2931093668,
+        "ou_optimal": -2528.274364520746,
+        "ou_mean": -1197.6174569058094,
+        "best": "zband",
+        "delta_opt_vs_zb": -11527.567473887546,
+        "delta_mean_vs_zb": -10196.910566272609
+      },
+      "oos_750_1000_verify": {
+        "zband": 4770.165277436088,
+        "ou_optimal": 1043.9051204112195,
+        "ou_mean": 1035.0130949009397,
+        "delta_opt_vs_zb": -3726.260157024869,
+        "delta_mean_vs_zb": -3735.1521825351483
+      }
+    },
+    {
+      "pair": "HRET-MTNS",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 8061.463356210148,
+        "ou_optimal": 8743.411838817487,
+        "ou_mean": 10330.18718836503,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 681.9484826073385,
+        "delta_mean_vs_zb": 2268.723832154881
+      },
+      "oos_750_1000_verify": {
+        "zband": 1341.7744504705947,
+        "ou_optimal": 3867.385576799038,
+        "ou_mean": 3827.2493659045786,
+        "delta_opt_vs_zb": 2525.6111263284433,
+        "delta_mean_vs_zb": 2485.474915433984
+      }
+    },
+    {
+      "pair": "LSST-EAFC",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 5914.490414293487,
+        "ou_optimal": 3345.438352656552,
+        "ou_mean": 4874.360189776576,
+        "best": "zband",
+        "delta_opt_vs_zb": -2569.0520616369354,
+        "delta_mean_vs_zb": -1040.1302245169118
+      },
+      "oos_750_1000_verify": {
+        "zband": 1640.2173863108862,
+        "ou_optimal": -2483.8188611833493,
+        "ou_mean": -1424.7400516753817,
+        "delta_opt_vs_zb": -4124.036247494236,
+        "delta_mean_vs_zb": -3064.957437986268
+      }
+    },
+    {
+      "pair": "MDGI-ULXY",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 17899.139451464674,
+        "ou_optimal": 17703.566773434824,
+        "ou_mean": 17118.96831872649,
+        "best": "zband",
+        "delta_opt_vs_zb": -195.57267802985007,
+        "delta_mean_vs_zb": -780.1711327381854
+      },
+      "oos_750_1000_verify": {
+        "zband": 6.038630774374023,
+        "ou_optimal": 9253.597706655151,
+        "ou_mean": 8291.325573533062,
+        "delta_opt_vs_zb": 9247.559075880778,
+        "delta_mean_vs_zb": 8285.286942758688
+      }
+    },
+    {
+      "pair": "MSDP-EAFC",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 10641.858788421303,
+        "ou_optimal": -2426.5934113012745,
+        "ou_mean": -86.08718289637923,
+        "best": "zband",
+        "delta_opt_vs_zb": -13068.452199722578,
+        "delta_mean_vs_zb": -10727.945971317682
+      },
+      "oos_750_1000_verify": {
+        "zband": 3012.2053714607487,
+        "ou_optimal": 3626.0179559608596,
+        "ou_mean": 3436.6201525009974,
+        "delta_opt_vs_zb": 613.8125845001109,
+        "delta_mean_vs_zb": 424.4147810402487
+      }
+    },
+    {
+      "pair": "MTNS-BLBT",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 1326.4672559931803,
+        "ou_optimal": 10100.164873023825,
+        "ou_mean": 11428.188877577932,
+        "best": "ou_mean",
+        "delta_opt_vs_zb": 8773.697617030644,
+        "delta_mean_vs_zb": 10101.721621584751
+      },
+      "oos_750_1000_verify": {
+        "zband": 97.07861330448675,
+        "ou_optimal": 3523.977091392962,
+        "ou_mean": 4604.68947895529,
+        "delta_opt_vs_zb": 3426.8984780884753,
+        "delta_mean_vs_zb": 4507.610865650803
+      }
+    },
+    {
+      "pair": "NGTE-ILVX",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 18231.29901138631,
+        "ou_optimal": -7006.585533643801,
+        "ou_mean": -4603.717751953053,
+        "best": "zband",
+        "delta_opt_vs_zb": -25237.88454503011,
+        "delta_mean_vs_zb": -22835.01676333936
+      },
+      "oos_750_1000_verify": {
+        "zband": -3518.0920469133916,
+        "ou_optimal": 3921.590280956653,
+        "ou_mean": 2505.5809050442017,
+        "delta_opt_vs_zb": 7439.682327870045,
+        "delta_mean_vs_zb": 6023.672951957593
+      }
+    },
+    {
+      "pair": "RTTH-FWWG",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 22710.286955923388,
+        "ou_optimal": 16722.26783510631,
+        "ou_mean": 18857.223250224313,
+        "best": "zband",
+        "delta_opt_vs_zb": -5988.019120817076,
+        "delta_mean_vs_zb": -3853.0637056990745
+      },
+      "oos_750_1000_verify": {
+        "zband": 5175.649141964829,
+        "ou_optimal": 7188.719861688424,
+        "ou_mean": 7606.467927944065,
+        "delta_opt_vs_zb": 2013.0707197235952,
+        "delta_mean_vs_zb": 2430.818785979236
+      }
+    },
+    {
+      "pair": "RTTH-RCRI",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 18163.695332566043,
+        "ou_optimal": 41.45266072704683,
+        "ou_mean": -3835.895736764626,
+        "best": "zband",
+        "delta_opt_vs_zb": -18122.242671838998,
+        "delta_mean_vs_zb": -21999.59106933067
+      },
+      "oos_750_1000_verify": {
+        "zband": 3301.662242362623,
+        "ou_optimal": -1242.0625489131908,
+        "ou_mean": -3583.8745500502287,
+        "delta_opt_vs_zb": -4543.724791275814,
+        "delta_mean_vs_zb": -6885.536792412851
+      }
+    },
+    {
+      "pair": "RTTH-RRES",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 14360.115618560058,
+        "ou_optimal": 18904.817198754903,
+        "ou_mean": 15936.746109169651,
+        "best": "ou_optimal",
+        "delta_opt_vs_zb": 4544.7015801948455,
+        "delta_mean_vs_zb": 1576.6304906095938
+      },
+      "oos_750_1000_verify": {
+        "zband": 5950.935396828662,
+        "ou_optimal": 7148.325876213123,
+        "ou_mean": 8530.12520823588,
+        "delta_opt_vs_zb": 1197.3904793844604,
+        "delta_mean_vs_zb": 2579.1898114072183
+      }
+    },
+    {
+      "pair": "RTTH-SPLZ",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 22777.34004439835,
+        "ou_optimal": -975.7818610725855,
+        "ou_mean": 6390.751097717966,
+        "best": "zband",
+        "delta_opt_vs_zb": -23753.121905470933,
+        "delta_mean_vs_zb": -16386.588946680382
+      },
+      "oos_750_1000_verify": {
+        "zband": 2532.8313995690714,
+        "ou_optimal": 3099.1585836062686,
+        "ou_mean": 3048.40160532523,
+        "delta_opt_vs_zb": 566.3271840371972,
+        "delta_mean_vs_zb": 515.5702057561584
+      }
+    },
+    {
+      "pair": "SMAH-FWWG",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 9768.944299038993,
+        "ou_optimal": 841.7832797839179,
+        "ou_mean": 1392.505944007983,
+        "best": "zband",
+        "delta_opt_vs_zb": -8927.161019255074,
+        "delta_mean_vs_zb": -8376.438355031009
+      },
+      "oos_750_1000_verify": {
+        "zband": 4145.329443113229,
+        "ou_optimal": 4899.086807270025,
+        "ou_mean": 4998.4859355121625,
+        "delta_opt_vs_zb": 753.757364156796,
+        "delta_mean_vs_zb": 853.1564923989336
+      }
+    },
+    {
+      "pair": "SMAH-ULXY",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 15122.580595855785,
+        "ou_optimal": -7421.042093871899,
+        "ou_mean": 789.2263585326655,
+        "best": "zband",
+        "delta_opt_vs_zb": -22543.622689727683,
+        "delta_mean_vs_zb": -14333.35423732312
+      },
+      "oos_750_1000_verify": {
+        "zband": 4282.310421000377,
+        "ou_optimal": 4586.5427622400275,
+        "ou_mean": 1092.3439916458074,
+        "delta_opt_vs_zb": 304.23234123965085,
+        "delta_mean_vs_zb": -3189.9664293545693
+      }
+    },
+    {
+      "pair": "SRNA-NWIG",
+      "cohort": "improved",
+      "train_31_750": {
+        "zband": 13746.615706275586,
+        "ou_optimal": 3462.4976876906585,
+        "ou_mean": 3858.1734739792137,
+        "best": "zband",
+        "delta_opt_vs_zb": -10284.118018584928,
+        "delta_mean_vs_zb": -9888.442232296373
+      },
+      "oos_750_1000_verify": {
+        "zband": 2896.81278185397,
+        "ou_optimal": 3735.6346833639827,
+        "ou_mean": 3701.5941539414134,
+        "delta_opt_vs_zb": 838.8219015100126,
+        "delta_mean_vs_zb": 804.7813720874433
+      }
+    }
+  ]
+}

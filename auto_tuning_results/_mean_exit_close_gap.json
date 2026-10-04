@@ -1,0 +1,404 @@
+{
+  "plan": [
+    "Keep mean-exit + friend conflict layer",
+    "Sweep CONSENSUS_MARGIN / flipflat under mean",
+    "LOO-revert OU\u2192friend zband; drop damaging OU",
+    "Greedy multi-revert until OOS plateaus"
+  ],
+  "knob_sweep_oos750": {
+    "mean_m015": 941.14,
+    "mean_m010": 932.79,
+    "mean_m000": 935.33,
+    "mean_m020": 942.54,
+    "mean_m030": 917.11,
+    "mean_m025": 925.87,
+    "mean_m015_flipflat": 900.5,
+    "mean_m015_boost2": 926.6
+  },
+  "loo_base": {
+    "score": 942.54,
+    "env": {
+      "MERGED_OU_EXIT": "mean",
+      "MERGED_CONSENSUS_MARGIN": "0.20"
+    }
+  },
+  "loo_revert": [
+    {
+      "idx": 51,
+      "pair": "LSST-EAFC",
+      "score": 956.3,
+      "delta": 13.759999999999991,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 46,
+      "pair": "HRET-MTNS",
+      "score": 955.89,
+      "delta": 13.350000000000023,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 13,
+      "pair": "AETS-ILVX",
+      "score": 952.96,
+      "delta": 10.420000000000073,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 56,
+      "pair": "SMAH-FWWG",
+      "score": 951.67,
+      "delta": 9.129999999999995,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 78,
+      "pair": "RTTH-SPLZ",
+      "score": 951.47,
+      "delta": 8.930000000000064,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 74,
+      "pair": "GARI-FWWG",
+      "score": 950.96,
+      "delta": 8.420000000000073,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 59,
+      "pair": "OTCS-EELT",
+      "score": 950.48,
+      "delta": 7.940000000000055,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 21,
+      "pair": "MTNS-BLBT",
+      "score": 948.88,
+      "delta": 6.340000000000032,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 7,
+      "pair": "ELLT-FCSG",
+      "score": 948.31,
+      "delta": 5.769999999999982,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 72,
+      "pair": "RTTH-RCRI",
+      "score": 947.52,
+      "delta": 4.980000000000018,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 44,
+      "pair": "ANSO-RTTH",
+      "score": 947.38,
+      "delta": 4.840000000000032,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 23,
+      "pair": "SRNA-NWIG",
+      "score": 947.17,
+      "delta": 4.6299999999999955,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 53,
+      "pair": "FWWG-NGTE",
+      "score": 946.55,
+      "delta": 4.009999999999991,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 69,
+      "pair": "DUCT-HRND",
+      "score": 946.02,
+      "delta": 3.480000000000018,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 68,
+      "pair": "MSDP-EAFC",
+      "score": 945.64,
+      "delta": 3.1000000000000227,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 25,
+      "pair": "MSDP-ULXY",
+      "score": 945.34,
+      "delta": 2.800000000000068,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 70,
+      "pair": "LSST-RTTH",
+      "score": 944.17,
+      "delta": 1.6299999999999955,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 17,
+      "pair": "ALUT-CCNS",
+      "score": 943.52,
+      "delta": 0.9800000000000182,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 76,
+      "pair": "AMRP-DUCT",
+      "score": 942.75,
+      "delta": 0.21000000000003638,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 11,
+      "pair": "ANSO-BENI",
+      "score": 942.3,
+      "delta": -0.2400000000000091,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 39,
+      "pair": "ANSO-RCRI",
+      "score": 940.72,
+      "delta": -1.8199999999999363,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 37,
+      "pair": "HRET-HRND",
+      "score": 940.71,
+      "delta": -1.8299999999999272,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 55,
+      "pair": "HRET-MDGI",
+      "score": 940.32,
+      "delta": -2.2199999999999136,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 58,
+      "pair": "RTTH-FWWG",
+      "score": 939.13,
+      "delta": -3.409999999999968,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 87,
+      "pair": "NGTE-ILVX",
+      "score": 939.07,
+      "delta": -3.4699999999999136,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 57,
+      "pair": "SMAH-ULXY",
+      "score": 937.87,
+      "delta": -4.669999999999959,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 49,
+      "pair": "ANSO-IHOZ",
+      "score": 936.09,
+      "delta": -6.449999999999932,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 64,
+      "pair": "AENO-IHOZ",
+      "score": 935.38,
+      "delta": -7.159999999999968,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 84,
+      "pair": "MDGI-ULXY",
+      "score": 932.97,
+      "delta": -9.569999999999936,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 79,
+      "pair": "CCNS-NAYO",
+      "score": 931.02,
+      "delta": -11.519999999999982,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 22,
+      "pair": "ALUT-HTRK",
+      "score": 929.46,
+      "delta": -13.079999999999927,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 41,
+      "pair": "CUBO-ULXY",
+      "score": 928.77,
+      "delta": -13.769999999999982,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 42,
+      "pair": "ANSO-RRES",
+      "score": 924.37,
+      "delta": -18.16999999999996,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 36,
+      "pair": "RTTH-RRES",
+      "score": 914.4,
+      "delta": -28.139999999999986,
+      "reverted_to_friend": true
+    },
+    {
+      "idx": 14,
+      "pair": "AETS-FCSG",
+      "score": 900.86,
+      "delta": -41.67999999999995,
+      "reverted_to_friend": true
+    }
+  ],
+  "greedy_history": [
+    {
+      "pair": "LSST-EAFC",
+      "score": 956.3,
+      "delta": 13.759999999999991
+    },
+    {
+      "pair": "HRET-MTNS",
+      "score": 969.7,
+      "delta": 13.400000000000091
+    },
+    {
+      "pair": "AETS-ILVX",
+      "score": 980.1,
+      "delta": 10.399999999999977
+    },
+    {
+      "pair": "SMAH-FWWG",
+      "score": 989.26,
+      "delta": 9.159999999999968
+    },
+    {
+      "pair": "RTTH-SPLZ",
+      "score": 998.14,
+      "delta": 8.879999999999995
+    },
+    {
+      "pair": "GARI-FWWG",
+      "score": 1009.95,
+      "delta": 11.81000000000006
+    },
+    {
+      "pair": "OTCS-EELT",
+      "score": 1017.72,
+      "delta": 7.769999999999982
+    },
+    {
+      "pair": "MTNS-BLBT",
+      "score": 1010.77,
+      "delta": -6.9500000000000455,
+      "rejected": true
+    },
+    {
+      "pair": "ELLT-FCSG",
+      "score": 1023.36,
+      "delta": 5.639999999999986
+    },
+    {
+      "pair": "RTTH-RCRI",
+      "score": 1016.97,
+      "delta": -6.389999999999986,
+      "rejected": true
+    },
+    {
+      "pair": "ANSO-RTTH",
+      "score": 1034.86,
+      "delta": 11.499999999999886
+    },
+    {
+      "pair": "SRNA-NWIG",
+      "score": 1039.41,
+      "delta": 4.550000000000182
+    },
+    {
+      "pair": "FWWG-NGTE",
+      "score": 1036.59,
+      "delta": -2.8200000000001637,
+      "rejected": true
+    },
+    {
+      "pair": "DUCT-HRND",
+      "score": 1042.67,
+      "delta": 3.259999999999991
+    },
+    {
+      "pair": "MSDP-EAFC",
+      "score": 1048.37,
+      "delta": 5.699999999999818
+    },
+    {
+      "pair": "MSDP-ULXY",
+      "score": 1047.16,
+      "delta": -1.209999999999809,
+      "rejected": true
+    },
+    {
+      "pair": "LSST-RTTH",
+      "score": 1056.17,
+      "delta": 7.800000000000182
+    },
+    {
+      "pair": "ALUT-CCNS",
+      "score": 1057.15,
+      "delta": 0.9800000000000182
+    },
+    {
+      "pair": "AMRP-DUCT",
+      "score": 1052.82,
+      "delta": -4.330000000000155,
+      "rejected": true
+    }
+  ],
+  "reverted_pairs": [
+    "LSST-EAFC",
+    "HRET-MTNS",
+    "AETS-ILVX",
+    "SMAH-FWWG",
+    "RTTH-SPLZ",
+    "GARI-FWWG",
+    "OTCS-EELT",
+    "ELLT-FCSG",
+    "ANSO-RTTH",
+    "SRNA-NWIG",
+    "DUCT-HRND",
+    "MSDP-EAFC",
+    "LSST-RTTH",
+    "ALUT-CCNS"
+  ],
+  "best_after_revert": 1057.15,
+  "catalog_path": "auto_tuning_results/_mean_exit_best_catalog.json",
+  "final_windows": {
+    "oos750": 1057.15,
+    "train31": 830.88,
+    "val501": 929.57,
+    "oos801": 921.2
+  },
+  "n_ou_remaining": 21,
+  "friend_targets": {
+    "oos750": 974.45,
+    "train31": 926.94,
+    "val501": 1042.37
+  }
+}

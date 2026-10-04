@@ -1,0 +1,44 @@
+# OU engine vs z-band: the 31 per-pair winners
+
+> **Source:** `auto_tuning_results/_ou_winners_table.txt` in the team's working repository (relocated here for the public release).
+
+```text
+catalog pairs compared: 76; OU better: 31; worse: 45
+sum delta winners: 74,352
+sum delta losers: -136,841
+net all: -62,489
+
+| Pair | zband OOS | OU OOS | Delta | flips |
+|---|---|---|---|---|
+| MTNS-BLBT | 101 | 5,476 | +5,376 | 476 |
+| CUBO-ULXY | 3,557 | 8,912 | +5,355 | 522 |
+| AMRP-DUCT | 4,841 | 10,194 | +5,353 | 331 |
+| NGTE-ILVX | -1,636 | 3,319 | +4,955 | 754 |
+| AETS-FCSG | -472 | 4,462 | +4,934 | 513 |
+| MDGI-ULXY | -216 | 4,465 | +4,680 | 542 |
+| ANSO-BENI | -811 | 3,272 | +4,084 | 475 |
+| HRET-HRND | 5,941 | 9,809 | +3,867 | 427 |
+| AENO-IHOZ | 2,379 | 5,707 | +3,328 | 530 |
+| RTTH-RRES | 5,452 | 8,603 | +3,151 | 521 |
+| AETS-ILVX | 495 | 3,625 | +3,130 | 673 |
+| SMAH-FWWG | 5,108 | 7,956 | +2,848 | 572 |
+| ALUT-HTRK | 512 | 3,081 | +2,568 | 249 |
+| ANSO-RCRI | 2,347 | 4,829 | +2,482 | 628 |
+| RTTH-SPLZ | 1,138 | 3,551 | +2,413 | 577 |
+| RTTH-RCRI | 1,081 | 3,078 | +1,998 | 574 |
+| HRET-MDGI | 4,712 | 6,410 | +1,698 | 596 |
+| MSDP-EAFC | 1,378 | 3,005 | +1,627 | 433 |
+| ANSO-RRES | 2,857 | 4,298 | +1,441 | 455 |
+| HRET-MTNS | 1,341 | 2,466 | +1,125 | 634 |
+| FWWG-NGTE | 3,969 | 5,069 | +1,100 | 604 |
+| ELLT-FCSG | 727 | 1,820 | +1,093 | 471 |
+| SMAH-ULXY | 4,571 | 5,604 | +1,032 | 745 |
+| RTTH-FWWG | 3,061 | 4,020 | +958 | 570 |
+| ANSO-RTTH | 2,316 | 3,177 | +861 | 607 |
+| ANSO-IHOZ | 958 | 1,707 | +749 | 552 |
+| CCNS-NAYO | 1,052 | 1,696 | +644 | 635 |
+| DUCT-HRND | 1,943 | 2,570 | +628 | 394 |
+| SRNA-NWIG | 2,058 | 2,682 | +624 | 527 |
+| LSST-EAFC | 670 | 818 | +148 | 643 |
+| GARI-FWWG | 2,087 | 2,185 | +98 | 388 |
+```
